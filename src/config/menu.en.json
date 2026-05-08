@@ -2,31 +2,95 @@
   "main": [
     { "name": "Home", "url": "/" },
     { "name": "About", "url": "/about" },
-    { "name": "Services", "url": "/services" },
-    { "name": "blog", "url": "/blog" },
-    { "name": "Team", "url": "/team" },
-    { "name": "Contact", "url": "/contact" },
     {
-      "name": "Pages",
-      "url": "",
+      "name": "Services",
+      "url": "/services",
       "hasChildren": true,
       "children": [
-        { "name": "Projects", "url": "/projects" },
-        { "name": "Authors", "url": "/authors" },
-        { "name": "Terms of Service", "url": "/terms" },
-        { "name": "Privacy Policy", "url": "/privacy-policy" },
-        { "name": "Elements", "url": "/elements" },
-        { "name": "Categories", "url": "/categories" },
-        { "name": "Tags", "url": "/tags" },
-        { "name": "404 Page", "url": "/404" }
+        {
+          "name": "Fire Risk Assessment",
+          "url": "/services/fire-risk-assessment"
+        },
+        { "name": "Fire Strategy", "url": "/services/fire-strategy" },
+        {
+          "name": "Fire Door Surveying",
+          "url": "/services/fire-door-surveying"
+        },
+        {
+          "name": "Fire Door Inspection",
+          "url": "/services/fire-door-inspection"
+        },
+        { "name": "Fire Alarm Testing", "url": "/services/fire-alarm-testing" },
+        {
+          "name": "Fire Extinguisher Servicing",
+          "url": "/services/fire-extinguisher-servicing"
+        },
+        { "name": "Asbestos Surveys", "url": "/services/asbestos-surveys" },
+        {
+          "name": "Emergency Light Testing",
+          "url": "/services/emergency-light-testing"
+        }
       ]
-    }
+    },
+    {
+      "name": "Building Types",
+      "url": "/services/fire-risk-assessment",
+      "hasChildren": true,
+      "children": [
+        { "name": "Flats", "url": "/services/fire-risk-assessment/flats" },
+        {
+          "name": "High Rise Buildings",
+          "url": "/services/fire-risk-assessment/high-rise-buildings"
+        },
+        { "name": "HMO", "url": "/services/fire-risk-assessment/hmo" },
+        { "name": "Offices", "url": "/services/fire-risk-assessment/offices" },
+        {
+          "name": "Restaurants",
+          "url": "/services/fire-risk-assessment/restaurants"
+        },
+        {
+          "name": "Warehouses",
+          "url": "/services/fire-risk-assessment/warehouses"
+        },
+        { "name": "Retail", "url": "/services/fire-risk-assessment/retail" },
+        { "name": "Hotels", "url": "/services/fire-risk-assessment/hotels" },
+        {
+          "name": "Hospitals",
+          "url": "/services/fire-risk-assessment/hospitals"
+        },
+        { "name": "Schools", "url": "/services/fire-risk-assessment/schools" },
+        {
+          "name": "Care Homes",
+          "url": "/services/fire-risk-assessment/care-homes"
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "url": "/locations",
+      "hasChildren": true,
+      "children": [
+        { "name": "Manchester", "url": "/locations/manchester" },
+        { "name": "Salford", "url": "/locations/salford" },
+        { "name": "Bolton", "url": "/locations/bolton" },
+        { "name": "Wigan", "url": "/locations/wigan" },
+        { "name": "Chorley", "url": "/locations/chorley" },
+        { "name": "Leyland", "url": "/locations/leyland" },
+        { "name": "Preston", "url": "/locations/preston" }
+      ]
+    },
+    { "name": "Blog", "url": "/blog" },
+    { "name": "FAQ", "url": "/faq" },
+    { "name": "Contact", "url": "/contact" }
   ],
   "footer": [
     { "name": "About Us", "url": "/about" },
-    { "name": "Privacy Policy", "url": "/privacy-policy" },
-    { "name": "Contact Us", "url": "/contact" },
     { "name": "Services", "url": "/services" },
-    { "name": "Projects", "url": "/projects" }
+    { "name": "Locations", "url": "/locations" },
+    { "name": "Blog", "url": "/blog" },
+    { "name": "FAQ", "url": "/faq" },
+    { "name": "Contact Us", "url": "/contact" },
+    { "name": "Privacy Policy", "url": "/privacy-policy" },
+    { "name": "Terms of Service", "url": "/terms" }
   ]
 }

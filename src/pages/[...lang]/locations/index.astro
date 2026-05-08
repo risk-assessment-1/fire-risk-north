@@ -1,0 +1,76 @@
+---
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { getLangFromUrl, supportedLang } from "@/lib/utils/languageParser";
+import PageHeader from "@/partials/PageHeader.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+const lang = getLangFromUrl(Astro.url);
+
+const locations = await getSinglePage("locations", lang as string);
+---
+
+<Base
+  title="Locations We Cover"
+  meta_title="Fire Risk Assessment Locations - Fire Assessment North"
+  description="Professional fire risk assessment services across Greater Manchester and Lancashire. Covering Manchester, Salford, Bolton, Wigan, Chorley, Leyland and Preston."
+  image="/images/locations/manchester.jpg"
+>
+  <PageHeader title="Locations We Cover" />
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content text-center mb-12">
+            <p class="text-lg text-text-dark/70 dark:text-darkmode-text-dark/70">
+              Fire Assessment North provides professional fire risk assessments and fire safety services across Greater Manchester and Lancashire. Select your area below to learn more.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4">
+        {
+          locations.map((location) => {
+            const slug = location.id.split("/").pop();
+            return (
+              <div class="lg:col-4 sm:col-6 mb-4 lg:mb-0">
+                <div class="box-shadow">
+                  <div class="p-6 bg-white dark:bg-darkmode-light min-h-[200px] flex flex-col justify-between">
+                    <div>
+                      <h5>
+                        <a
+                          href={`/locations/${slug}`}
+                          class="text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary duration-200"
+                          set:html={markdownify(location.data.title)}
+                        />
+                      </h5>
+                      {location?.data?.description && (
+                        <p class="mt-2 mb-4 line-clamp-3 text-text-dark/70 dark:text-darkmode-text-dark/70">
+                          {location.data.description}
+                        </p>
+                      )}
+                    </div>
+                    <a
+                      href={`/locations/${slug}`}
+                      class="btn btn-arrow mt-4"
+                    >
+                      Read More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            );
+          })
+        }
+      </div>
+    </div>
+  </section>
+</Base>

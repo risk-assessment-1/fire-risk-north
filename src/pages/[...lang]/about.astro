@@ -5,7 +5,7 @@ import { supportedLang } from "@/lib/utils/languageParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import AboutUs from "@/partials/homepage/AboutUs.astro";
 import Service from "@/partials/homepage/ServiceSection.astro";
-import Team from "@/partials/homepage/Team.astro";
+// import Team from "@/partials/homepage/Team.astro";
 import PageHeader from "@/partials/PageHeader.astro";
 
 export function getStaticPaths() {
@@ -34,8 +34,8 @@ const {
 
 const serviceIndex = await getListPage("services", lang as string);
 const services = await getSinglePage("services", lang as string);
-const teamIndex = await getListPage("team", lang as string);
-const team = await getSinglePage("team", lang as string);
+// const teamIndex = await getListPage("team", lang as string);
+// const team = await getSinglePage("team", lang as string);
 ---
 
 <Base
@@ -91,5 +91,5 @@ const team = await getSinglePage("team", lang as string);
 
   <AboutUs about={about_section} />
   <Service serviceIndex={serviceIndex[0]} services={services} />
-  <Team teamIndex={teamIndex[0]} team={team} className="pt-0 bg-gray-white" />
+  {/* <Team teamIndex={teamIndex[0]} team={team} className="pt-0 bg-gray-white" /> */}
 </Base>
