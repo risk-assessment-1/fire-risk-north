@@ -1,0 +1,53 @@
+---
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser.astro";
+import { slugSelector, supportedLang } from "@/lib/utils/languageParser";
+import { humanize } from "@/lib/utils/textConverter";
+import PageHeader from "@/partials/PageHeader.astro";
+const { default_language } = config.settings;
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+let { lang } = Astro.params;
+if (!lang) {
+  lang = default_language;
+}
+
+const langCollection: string = lang as string;
+const categories = await getTaxonomy(langCollection, "categories");
+const allCategories = await getAllTaxonomy(langCollection, "categories");
+---
+
+<Base title={"Categories"}>
+  <PageHeader title={"Categories"} />
+  <section class="section">
+    <div class="container text-center">
+      <ul>
+        {
+          categories.map((category: string) => {
+            const count = allCategories.filter((c) => c === category).length;
+            return (
+              <li class="inline-block m-2">
+                <a
+                  href={slugSelector(`/categories/${category}`, lang)}
+                  class="btn btn-primary bg-white dark:bg-black text-text dark:text-darkmode-text font-normal border-none box-shadow duration-200 hover:bg-primary dark:hover:bg-darkmode-primary hover:text-white btn-sm mr-1"
+                >
+                  {humanize(category)}{" "}
+                  <span class="ml-2 rounded bg-body dark:bg-darkmode-body px-2 text-text-dark dark:text-darkmode-text-dark border border-primary dark:border-darkmode-primary">
+                    {count}
+                  </span>
+                </a>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </div>
+  </section>
+</Base>

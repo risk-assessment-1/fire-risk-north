@@ -1,0 +1,32 @@
+---
+import ServiceCard from "@/components/ServiceCard.astro";
+import Base from "@/layouts/Base.astro";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
+import { getLangFromUrl, supportedLang } from "@/lib/utils/languageParser";
+import PageHeader from "@/partials/PageHeader.astro";
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+const lang = getLangFromUrl(Astro.url);
+
+const serviceIndex = await getListPage("services", lang as string);
+
+if (serviceIndex[0].data.draft) {
+  return Astro.redirect("/404");
+}
+
+const services = await getSinglePage("services", lang as string);
+---
+
+<Base {...serviceIndex[0].data}>
+  <PageHeader title={serviceIndex[0].data.title} />
+
+  <section class="section">
+    <ServiceCard services={services} />
+  </section>
+</Base>
