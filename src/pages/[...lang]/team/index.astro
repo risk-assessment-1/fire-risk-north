@@ -1,0 +1,28 @@
+---
+import Base from "@/layouts/Base.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import { supportedLang } from "@/lib/utils/languageParser";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
+import Team from "@/partials/homepage/Team.astro";
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+const { lang } = Astro.params;
+const teamIndex = await getListPage("team", lang as string);
+
+if (teamIndex[0].data.draft) {
+  return Astro.redirect("/404");
+}
+
+const team = await getSinglePage("team", lang as string);
+---
+
+<Base {...teamIndex[0].data}>
+  <PageHeader title={"Team Members"} />
+  <Team teamIndex={teamIndex[0]} team={team} />
+</Base>

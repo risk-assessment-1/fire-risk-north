@@ -1,0 +1,70 @@
+/* form style */
+@utility form-input {
+  @apply mb-3 w-full shadow px-6 py-4 bg-body focus:active:outline-0;
+  border-color: transparent !important;
+  &:focus {
+    --tw-ring-color: transparent !important;
+    border-color: var(--color-primary) !important;
+  }
+  .dark & {
+    background-color: var(--color-darkmode-body) !important;
+  }
+}
+
+@utility form-label {
+  @apply mb-4 block font-secondary text-xl font-normal text-text-dark dark:text-darkmode-text-dark;
+}
+
+@utility shadow {
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+
+  .dark & {
+    box-shadow: 0px 4px 40px rgba(255, 255, 255, 0.05);
+  }
+}
+
+@utility stretched-link {
+  &::after {
+    @apply absolute bottom-0 left-0 right-0 top-0 z-10 content-[""];
+  }
+}
+
+/* hover effect */
+@utility hover-ripple {
+  transition: 0.2s ease-in;
+
+  &:hover {
+    transform: scale(0.97);
+
+    &::after {
+      animation: sonarEffect 1s ease-out 50ms;
+    }
+  }
+
+  &::after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    opacity: 0;
+    transform: scale(0.9);
+    border-radius: inherit;
+  }
+}
+
+@utility ripple-white {
+  &:hover {
+    &::after {
+      animation: sonarEffectWhite 1s ease-out 50ms;
+    }
+  }
+}
+
+@utility box-shadow {
+  box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1);
+}

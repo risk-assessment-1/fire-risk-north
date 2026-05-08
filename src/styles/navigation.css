@@ -1,0 +1,82 @@
+.header {
+  @apply bg-body dark:bg-darkmode-body py-6 shadow-sm;
+}
+
+/* navbar items */
+.navbar {
+  @apply relative flex flex-wrap items-center justify-between;
+}
+
+.navbar-brand {
+  @apply text-xl font-semibold text-text-dark;
+  image {
+    @apply max-h-full max-w-full;
+  }
+}
+
+.navbar-nav {
+  @apply text-center lg:text-left;
+}
+
+.nav-link {
+  @apply text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary block p-3 font-semibold transition lg:px-2 lg:py-4 uppercase;
+}
+
+.nav-dropdown {
+  @apply ml-0;
+}
+
+.nav-dropdown > span {
+  @apply cursor-pointer;
+}
+
+.nav-dropdown-list {
+  @apply z-10 min-w-[180px] max-w-[300px] mx-auto box-shadow bg-body dark:bg-darkmode-body p-4 lg:top-12;
+}
+
+/* Mobile: click to toggle */
+@media (max-width: 1023px) {
+  .nav-dropdown-list {
+    @apply hidden;
+  }
+
+  .nav-dropdown.active .nav-dropdown-list {
+    @apply block;
+  }
+}
+
+/* Desktop: hover to show */
+@media (min-width: 1024px) {
+  .nav-dropdown-list {
+    @apply invisible absolute block opacity-0 transition-all duration-300;
+  }
+
+  .nav-dropdown:hover .nav-dropdown-list {
+    @apply visible opacity-100;
+  }
+}
+
+.nav-dropdown-item {
+  @apply mb-3 last:mb-0;
+}
+
+.nav-dropdown-link {
+  @apply block py-1 font-semibold text-text-dark dark:text-darkmode-text-dark transition hover:text-primary dark:hover:text-darkmode-primary;
+}
+
+/* theme-switcher */
+.theme-switcher {
+  @apply inline-flex;
+
+  label {
+    @apply relative inline-block  cursor-pointer;
+  }
+
+  input {
+    @apply absolute opacity-0;
+  }
+
+  span {
+    @apply flex h-6 w-6 items-center justify-center rounded-full bg-dark dark:bg-darkmode-dark transition-all duration-300;
+  }
+}

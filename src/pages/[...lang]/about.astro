@@ -1,0 +1,95 @@
+---
+import Base from "@/layouts/Base.astro";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
+import { supportedLang } from "@/lib/utils/languageParser";
+import { markdownify } from "@/lib/utils/textConverter";
+import AboutUs from "@/partials/homepage/AboutUs.astro";
+import Service from "@/partials/homepage/ServiceSection.astro";
+import Team from "@/partials/homepage/Team.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+const { lang } = Astro.params;
+
+const about = await getListPage("about", lang as string);
+
+if (about[0].data.draft) {
+  return Astro.redirect("/404");
+}
+
+const {
+  title,
+  description,
+  meta_title,
+  image,
+  about_section,
+  philosophy_section,
+} = about[0].data;
+
+const serviceIndex = await getListPage("services", lang as string);
+const services = await getSinglePage("services", lang as string);
+const teamIndex = await getListPage("team", lang as string);
+const team = await getSinglePage("team", lang as string);
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+>
+  <PageHeader title={title} />
+
+  {
+    philosophy_section.enable && (
+      <section class="section bg-light dark:bg-darkmode-light relative">
+        <div class="container relative z-10">
+          <div class="row">
+            {philosophy_section?.items?.map(
+              (
+                item: { title: string; content: string; list: string[] },
+                i: number,
+              ) => (
+                <div class="sm:col-6 lg:col-4 mb-10 last:mb-0 lg:mb-0">
+                  <h2>
+                    <span class="text-primary dark:text-darkmode-primary">
+                      {String(i + 1).padStart(2, "0")}.
+                    </span>{" "}
+                    {item.title}
+                  </h2>
+                  <p class="my-4 text-balance">{markdownify(item.content)}</p>
+                  <ul class="list-styled style-circle">
+                    {item?.list?.map((listItem: string) => (
+                      <li class="mb-3 last:mb-0">{markdownify(listItem)}</li>
+                    ))}
+                  </ul>
+                </div>
+              ),
+            )}
+          </div>
+        </div>
+        {/* background shapes */}
+        <img
+          class="absolute left-0 bottom-0 dark:invert"
+          src="/images/backgrounds/about-page-bg.png"
+          alt="shape"
+        />
+        <img
+          class="absolute right-0 top-0 dark:invert"
+          src="/images/backgrounds/about-us-3-bg.png"
+          alt="shape"
+        />
+      </section>
+    )
+  }
+
+  <AboutUs about={about_section} />
+  <Service serviceIndex={serviceIndex[0]} services={services} />
+  <Team teamIndex={teamIndex[0]} team={team} className="pt-0 bg-gray-white" />
+</Base>

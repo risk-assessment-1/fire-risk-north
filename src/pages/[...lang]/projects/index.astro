@@ -1,0 +1,40 @@
+---
+import ProjectCard from "@/components/ProjectCard.astro";
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
+import { supportedLang } from "@/lib/utils/languageParser";
+import PageHeader from "@/partials/PageHeader.astro";
+
+const { default_language } = config.settings;
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+let { lang } = Astro.params;
+
+if (!lang) {
+  lang = default_language;
+}
+
+const projectIndex = await getListPage("projects", lang as string);
+
+if (projectIndex[0].data.draft) {
+  return Astro.redirect("/404");
+}
+
+const projects = await getSinglePage("projects", lang as string);
+---
+
+<Base {...projectIndex[0].data}>
+  <PageHeader {...projectIndex[0].data} />
+  <section class="section">
+    <div class="container">
+      <ProjectCard projectIndex={projectIndex[0]} projects={projects} />
+    </div>
+  </section>
+</Base>
