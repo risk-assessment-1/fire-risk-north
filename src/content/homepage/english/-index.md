@@ -3,92 +3,79 @@
 hero_slider:
   enable: true
   slider_item:
-    # slider item
-    - subtitle: "We are here to"
-      title: "Planning Business"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - subtitle: "Fire Risk Assessment UK"
+      title: "24-Hour Fire Risk Assessment"
+      content: "Professional fire risk assessments with same-day turnaround. Guaranteed UK compliance at the best prices."
       bg_image: "/images/slider/banner-1.jpg"
       button:
         enable: true
-        label: "more details"
-        link: "/about"
+        label: "Get a Quote"
+        link: "/contact"
 
-    # slider item
-    - subtitle: "We are here to"
-      title: "Planning Business"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - subtitle: "Fire Risk Assessment UK"
+      title: "Best Rates - Save Up To 68%"
+      content: "Professional fire risk assessments without the premium price tag. The same compliance certification for a fraction of the cost."
       bg_image: "/images/slider/banner-2.jpg"
       button:
         enable: true
-        label: "more details"
-        link: "/about"
+        label: "Get a Quote"
+        link: "/contact"
 
-    # slider item
-    - subtitle: "We are here to"
-      title: "Planning Business"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - subtitle: "Trusted by 500+ UK Businesses"
+      title: "25 Years of Excellence"
+      content: "512+ projects completed across 150+ UK areas. UKAS accredited assessors ensuring full compliance with PAS 79 and RRO 2005 regulations."
       bg_image: "/images/slider/banner-3.jpg"
       button:
         enable: true
-        label: "more details"
-        link: "/about"
+        label: "Get a Quote"
+        link: "/contact"
 
-    # slider item
-    - subtitle: "We are here to"
-      title: "Planning Business"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - subtitle: "4.9/5 - 500+ Verified Reviews"
+      title: "UK Compliance Guaranteed"
+      content: "Emergency assessments available. Same-day service for urgent requirements - because your time matters."
       bg_image: "/images/slider/banner-4.jpg"
       button:
         enable: true
-        label: "more details"
-        link: "/about"
+        label: "Get a Quote"
+        link: "/contact"
 
 ########### banner feature #####
 banner_feature:
   enable: true
-  # Max use 4 item
   feature_item:
-    # banner feature item loop
-    - name: "Business Solution"
-      icon: "FaGem"
-      content: "Lorem ipsum dolor sit amet constur adipelit sed."
+    - name: "UKAS Accredited"
+      icon: "FaShieldHalved"
+      content: "Fully accredited assessors recognised under the UK accreditation framework."
 
-    # banner feature item loop
-    - name: "Market Research"
-      icon: "FaChartBar"
-      content: "Lorem ipsum dolor sit amet constur adipelit sed."
+    - name: "PAS 79 Compliant"
+      icon: "FaFileShield"
+      content: "Reports follow the PAS 79 standard for fire risk assessment methodology."
 
-    # banner feature item loop
-    - name: "Business Strategy"
-      icon: "FaLightbulb"
-      content: "Lorem ipsum dolor sit amet constur adipelit sed."
+    - name: "ISO Certified"
+      icon: "FaCertificate"
+      content: "Quality management certified to ISO standards for consistent, reliable service."
 
-    # banner feature item loop
-    - name: "Speed Optimization"
-      icon: "FaGear"
-      content: "Lorem ipsum dolor sit amet constur adipelit sed."
+    - name: "24hr Turnaround"
+      icon: "FaClock"
+      content: "Comprehensive reports delivered within 24 hours. Same-day emergency service available."
 
 ######### funfacts ########
 funfacts:
   enable: true
   funfacts_item:
-    # fanfacts item loop
-    - name: "project done"
-      count: "50"
+    - name: "Projects Completed"
+      count: "512"
       icon: "FaBullseye"
 
-    # fanfacts item loop
     - name: "Years Experience"
       count: "25"
       icon: "FaCalendarDays"
 
-    # fanfacts item loop
-    - name: "Awards Win"
-      count: "250"
-      icon: "FaAward"
+    - name: "Areas Covered"
+      count: "150"
+      icon: "FaMapLocationDot"
 
-    # fanfacts item loop
-    - name: "Happy Coustomers"
+    - name: "Verified Reviews"
       count: "500"
       icon: "FaRegFaceSmile"
 
@@ -96,24 +83,22 @@ funfacts:
 feature:
   enable: true
   subtitle: "Why Choose Us"
-  title: "Why They Choose Bexar"
+  title: "Why They Choose Fire Assessment North"
   image: "/images/feature/feature.png"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius tempor incididunt ut labore."
+  content: "Professional fire risk assessments with same-day turnaround. Trusted by 500+ UK businesses with 25 years of expert service."
   feature_item:
-    # feature item loop
-    - name: "Creative Design"
-      icon: FaSnowflake
-      content: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia."
+    - name: "24-Hour Turnaround"
+      icon: FaBolt
+      content: "Emergency assessments available. Don't let compliance delays cost you business. Same-day service for urgent requirements."
 
-    # feature item loop
-    - name: "Pixel Perfect Coding"
-      icon: FaCode
-      content: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia."
+    - name: "Best Rates - Save Up To 68%"
+      icon: FaSterlingSign
+      content: "Professional fire risk assessments without the premium price tag. The same compliance certification for a fraction of the cost."
 
 ######## blog #######
 latest_news:
   enable: true
   show_item: 3
-  title: "Learn From Bexar"
+  title: "Learn From Fire Assessment North"
   sub_title: "Latest News"
 ---

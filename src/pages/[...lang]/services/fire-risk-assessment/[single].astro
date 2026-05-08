@@ -1,0 +1,100 @@
+---
+import ImageMod from "@/components/ImageMod.astro";
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import {
+  getLangFromUrl,
+  getTranslations,
+  supportedLang,
+} from "@/lib/utils/languageParser";
+import { markdownify, titleify } from "@/lib/utils/textConverter";
+import PageHeader from "@/partials/PageHeader.astro";
+import { render } from "astro:content";
+
+export async function getStaticPaths() {
+  const paths = await Promise.all(
+    supportedLang.map(async (lang) => {
+      const fraPages = await getSinglePage("fire-risk-assessment", lang as string);
+
+      return fraPages.map((page) => ({
+        params: {
+          lang: lang || undefined,
+          single: page.id.split("/").pop(),
+        },
+        props: {
+          page,
+        },
+      }));
+    }),
+  );
+  return paths.flat();
+}
+
+const { page } = Astro.props;
+const { lang } = Astro.params;
+const { title, meta_title, description, image } = page.data;
+const { Content } = await render(page);
+const land = getLangFromUrl(Astro.url);
+
+const allFraPages = await getSinglePage("fire-risk-assessment", land as string);
+const fraSlugs = allFraPages.map((p) => p.id.split("/").pop());
+
+const { our_services, read_more } = await getTranslations(lang as string);
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+>
+  <PageHeader title={title} />
+
+  <section class="section">
+    <div class="container">
+      <div class="row mx-auto">
+        <aside class="lg:col-4">
+          <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
+            <h5 class="mb-5">Property Types</h5>
+            <ul class="list-styled style-circle space-y-4">
+              {
+                fraSlugs.map((slug: string) => (
+                  <li class="border-b border-border pb-4">
+                    <a
+                      href={`/services/fire-risk-assessment/${slug}`}
+                      class={
+                        page.id.split("/").pop() === `${slug}`
+                          ? "text-primary dark:text-darkmode-primary"
+                          : "text-text" + " block no-underline"
+                      }
+                    >
+                      {titleify(slug)}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+        </aside>
+
+        <div class="lg:col-8">
+          {
+            image && (
+              <ImageMod
+                src={image}
+                class="mb-10 w-full"
+                width={1000}
+                height={900}
+                alt={title}
+              />
+            )
+          }
+          <div class="content">
+            <Content />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

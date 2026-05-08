@@ -1,0 +1,97 @@
+---
+import ImageMod from "@/components/ImageMod.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import {
+  getLangFromUrl,
+  getTranslations,
+  supportedLang,
+} from "@/lib/utils/languageParser";
+import { markdownify, titleify } from "@/lib/utils/textConverter";
+import PageHeader from "@/partials/PageHeader.astro";
+import { render } from "astro:content";
+
+export async function getStaticPaths() {
+  const paths = await Promise.all(
+    supportedLang.map(async (lang) => {
+      const locations = await getSinglePage("locations", lang as string);
+
+      return locations.map((location) => ({
+        params: {
+          lang: lang || undefined,
+          single: location.id.split("/").pop(),
+        },
+        props: {
+          location,
+        },
+      }));
+    }),
+  );
+  return paths.flat();
+}
+
+const { location } = Astro.props;
+const { lang } = Astro.params;
+const { title, meta_title, description, image } = location.data;
+const { Content } = await render(location);
+const land = getLangFromUrl(Astro.url);
+
+const allLocations = await getSinglePage("locations", land as string);
+const locationSlugs = allLocations.map((l) => l.id.split("/").pop());
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+>
+  <PageHeader title={title} />
+
+  <section class="section">
+    <div class="container">
+      <div class="row mx-auto">
+        <aside class="lg:col-4">
+          <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
+            <h5 class="mb-5">Our Locations</h5>
+            <ul class="list-styled style-circle space-y-4">
+              {
+                locationSlugs.map((slug: string) => (
+                  <li class="border-b border-border pb-4">
+                    <a
+                      href={`/locations/${slug}`}
+                      class={
+                        location.id.split("/").pop() === `${slug}`
+                          ? "text-primary dark:text-darkmode-primary"
+                          : "text-text" + " block no-underline"
+                      }
+                    >
+                      {titleify(slug)}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+        </aside>
+
+        <div class="lg:col-8">
+          {
+            image && (
+              <ImageMod
+                src={image}
+                class="mb-10 w-full"
+                width={1000}
+                height={900}
+                alt={title}
+              />
+            )
+          }
+          <div class="content">
+            <Content />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

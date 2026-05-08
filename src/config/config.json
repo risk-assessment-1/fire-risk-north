@@ -1,10 +1,10 @@
 {
   "site": {
-    "title": "Bexer-Astro",
+    "title": "Fire Assessment North",
     "base_url": "https://bexer-astro.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
+    "favicon": "/images/favicon.svg",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
@@ -47,7 +47,7 @@
   "navigation_button": {
     "enable": true,
     "label": "Get A Quote",
-    "link": "/contact"
+    "link": "/get-a-quote"
   },
   "google_tag_manager": {
     "enable": false,

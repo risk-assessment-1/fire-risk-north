@@ -6,13 +6,13 @@ import CallToActionLG from "@/partials/CallToActionLG.astro";
 import Testimonial from "@/partials/Testimonial.astro";
 import AboutUs from "@/partials/homepage/AboutUs.astro";
 import BannerFeature from "@/partials/homepage/BannerFeature.astro";
-import CaseStudy from "@/partials/homepage/CaseStudy.astro";
 import Feature from "@/partials/homepage/Feature.astro";
+import Locations from "@/partials/homepage/Locations.astro";
 import FunFacts from "@/partials/homepage/FunFacts.astro";
 import HeroSlider from "@/partials/homepage/HeroSlider.astro";
 import LatestNews from "@/partials/homepage/LatestNews.astro";
 import ServiceSection from "@/partials/homepage/ServiceSection.astro";
-import Team from "@/partials/homepage/Team.astro";
+// import Team from "@/partials/homepage/Team.astro";
 
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
@@ -30,10 +30,7 @@ const { hero_slider, banner_feature, funfacts, feature, latest_news } =
 const aboutIndex = await getListPage("about", lang as string);
 const serviceIndex = await getListPage("services", lang as string);
 const services = await getSinglePage("services", lang as string);
-const teamIndex = await getListPage("team", lang as string);
-const team = await getSinglePage("team", lang as string);
-const projectIndex = await getListPage("projects", lang as string);
-const projects = await getSinglePage("projects", lang as string);
+const locations = await getSinglePage("locations", lang as string);
 const posts = await getSinglePage("blog", lang as string);
 
 const testimonial = await getSinglePage(
@@ -56,12 +53,7 @@ const callToAction = await getSinglePage(
   <FunFacts funfacts={funfacts} />
   <Feature feature={feature} />
   <ServiceSection serviceIndex={serviceIndex[0]} services={services} />
-  <Team
-    teamIndex={teamIndex[0]}
-    team={team.slice(0, 3)}
-    className="pt-0 bg-gray-white"
-  />
-  <CaseStudy projectIndex={projectIndex[0]} projects={projects} />
+  <Locations locations={locations} />
   <Testimonial testimonial={testimonial[0].data} />
   <CallToActionLG callToAction={callToAction[0].data} />
   <LatestNews posts={posts} latest_news={latest_news} />

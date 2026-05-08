@@ -85,88 +85,11 @@ const blogCollection = defineCollection({
   }),
 });
 
-// projects
-const projectsCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/projects" }),
-  schema: z.object({
-    ...commonFields,
-    subtitle: z.string().optional(),
-    title: z.string(),
-    meta_title: z.string().optional(),
-    description: z.string(),
-    bg_image: z.string().optional(),
-    date: z.coerce.date().optional(),
-    button: z
-      .object({
-        enable: z.boolean(),
-        label: z.string(),
-        link: z.string(),
-      })
-      .optional(),
-    image: z.string().optional(),
-    client: z.string().optional(),
-    category: z.string().optional(),
-    status: z.string().optional(),
-  }),
-});
-
-// Author collection schema
-const authorsCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/authors" }),
-  schema: z.object({
-    ...commonFields,
-    email: z.string().optional(),
-    image: z.string().optional(),
-    designation: z.string().optional(),
-    social: z
-      .array(
-        z
-          .object({
-            name: z.string().optional(),
-            icon: z.string().optional(),
-            link: z.string().optional(),
-          })
-          .optional(),
-      )
-      .optional(),
-  }),
-});
-
 // Pages collection schema
 const pagesCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/pages" }),
   schema: z.object({
     ...commonFields,
-  }),
-});
-
-// Team collection schema
-const teamCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/team" }),
-  schema: z.object({
-    ...commonFields,
-    subtitle: z.string().optional(),
-    bg_image: z.string().optional(),
-    name: z.string().optional(),
-    designation: z.string().optional(),
-    social: z
-      .array(
-        z.object({
-          name: z.string(),
-          icon: z.string(),
-          link: z.string(),
-        }),
-      )
-      .optional(),
-    skill_title: z.string().optional(),
-    skills: z
-      .array(
-        z.object({
-          label: z.string(),
-          percentage: z.string(),
-        }),
-      )
-      .optional(),
   }),
 });
 
@@ -229,6 +152,26 @@ const serviceCollection = defineCollection({
   }),
 });
 
+// Fire Risk Assessment sub-pages collection
+const fireRiskAssessmentCollection = defineCollection({
+  loader: glob({
+    pattern: "**/*.{md,mdx}",
+    base: "src/content/fire-risk-assessment",
+  }),
+  schema: z.object({
+    ...commonFields,
+    icon: z.string().optional(),
+  }),
+});
+
+// Locations collection
+const locationsCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/locations" }),
+  schema: z.object({
+    ...commonFields,
+  }),
+});
+
 // Testimonial schema
 const testimonialCollection = defineCollection({
   loader: glob({
@@ -272,18 +215,15 @@ const callToActionSchema = defineCollection({
 });
 
 export const collections = {
-  // pages collections
   homepage: homepageCollection,
   blog: blogCollection,
-  projects: projectsCollection,
-  authors: authorsCollection,
   pages: pagesCollection,
-  team: teamCollection,
   contact: contactCollection,
   about: aboutCollection,
   services: serviceCollection,
+  "fire-risk-assessment": fireRiskAssessmentCollection,
+  locations: locationsCollection,
 
-  // sections collections
   testimonials: testimonialCollection,
   callToAction: callToActionSchema,
 };

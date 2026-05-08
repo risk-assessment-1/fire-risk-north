@@ -1,13 +1,13 @@
 /* navbar toggler */
-input#nav-toggle:checked + label #show-button {
+input#nav-toggle:checked+label #show-button {
   @apply hidden;
 }
 
-input#nav-toggle:checked + label #hide-button {
+input#nav-toggle:checked+label #hide-button {
   @apply block;
 }
 
-input#nav-toggle:checked ~ #nav-menu {
+input#nav-toggle:checked~#nav-menu {
   @apply max-lg:block;
 }
 
@@ -26,11 +26,11 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .banner-slider:hover .swiper-button-next {
-  @apply transform translate-x-[-60px];
+  @apply transform translate-x-[-30px];
 }
 
 .banner-slider:hover .swiper-button-prev {
-  @apply transform translate-x-[60px];
+  @apply transform translate-x-[30px];
 }
 
 .swiper-button-next::after,

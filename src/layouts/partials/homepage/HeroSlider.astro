@@ -34,7 +34,7 @@ let lang = getLangFromUrl(Astro.url);
                       set:html={markdownify(slider.subtitle ?? "")}
                     />
                     <h1
-                      class="mb-6 md:text-7xl uppercase font-semibold"
+                      class="mb-6 md:text-7xl uppercase font-semibold xl:max-w-[700px]"
                       set:html={markdownify(slider.title ?? "")}
                     />
                     <p
@@ -52,7 +52,7 @@ let lang = getLangFromUrl(Astro.url);
                   </div>
                 </div>
               </div>
-            ),
+            )
           )}
         </div>
 
