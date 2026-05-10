@@ -1,0 +1,103 @@
+---
+import AlertTriangleIcon from "@/assets/icons/shield-check.svg";
+import BuildingIcon from "@/assets/icons/building-2.svg";
+import DoorOpenIcon from "@/assets/icons/door-open.svg";
+import HomeIcon from "@/assets/icons/home.svg";
+import UsersIcon from "@/assets/icons/users.svg";
+import ClipboardListIcon from "@/assets/icons/clipboard-list.svg";
+import SearchIcon from "@/assets/icons/search.svg";
+import HeartPulseIcon from "@/assets/icons/heart-pulse.svg";
+import UtensilsIcon from "@/assets/icons/utensils.svg";
+import LandmarkIcon from "@/assets/icons/landmark.svg";
+import HelpCircleIcon from "@/assets/icons/help-circle.svg";
+
+export interface Props {
+  id?: string;
+  data: {
+    heading: string;
+    description?: string;
+    cards: {
+      title: string;
+      description: string;
+      assessment?: string;
+      icon?: string;
+    }[];
+  };
+}
+
+const { id = "hazards", data } = Astro.props;
+
+const iconMap: Record<string, any> = {
+  "building-2": BuildingIcon,
+  home: HomeIcon,
+  landmark: LandmarkIcon,
+  utensils: UtensilsIcon,
+  "heart-pulse": HeartPulseIcon,
+  users: UsersIcon,
+  "door-open": DoorOpenIcon,
+  "shield-check": AlertTriangleIcon,
+  "clipboard-list": ClipboardListIcon,
+  search: SearchIcon,
+  "help-circle": HelpCircleIcon,
+};
+---
+
+<section id={id} class="py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
+  <div class="container">
+    <div class="text-center mb-12">
+      <h3
+        class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-darkmode-text-dark tracking-tight"
+      >
+        {data.heading}
+      </h3>
+      {
+        data.description && (
+          <p
+            class="mt-4 text-lg text-slate-600 dark:text-darkmode-text max-w-3xl mx-auto leading-relaxed"
+          >
+            {data.description}
+          </p>
+        )
+      }
+      <div class="mt-4 mx-auto w-20 h-1 bg-orange-500 rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+      {
+        data.cards.map((card) => {
+          const IconComponent = iconMap[card.icon || ""] || null;
+
+          return (
+            <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 lg:p-8 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-shadow duration-300">
+              <div class="flex items-start gap-4 mb-4">
+                {IconComponent && (
+                  <div class="w-12 h-12 shrink-0 rounded-lg bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center text-orange-600 dark:text-orange-400">
+                    <IconComponent width={28} height={28} />
+                  </div>
+                )}
+                <h3 class="text-xl font-bold text-slate-900 dark:text-darkmode-text-dark">
+                  {card.title}
+                </h3>
+              </div>
+              <p
+                class="text-slate-600 dark:text-darkmode-text leading-relaxed mb-4"
+                set:html={card.description}
+              />
+              {card.assessment && (
+                <div class="bg-slate-50 dark:bg-darkmode-dark/50 border border-slate-200 dark:border-darkmode-border rounded-lg p-5">
+                  <p class="text-sm font-semibold text-orange-600 dark:text-orange-400 mb-2">
+                    Our Assessment:
+                  </p>
+                  <p
+                    class="text-sm text-slate-600 dark:text-darkmode-text leading-relaxed"
+                    set:html={card.assessment}
+                  />
+                </div>
+              )}
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>

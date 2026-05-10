@@ -1,0 +1,87 @@
+---
+import AlertTriangleIcon from "@/assets/icons/shield-check.svg";
+import BuildingIcon from "@/assets/icons/building-2.svg";
+import DoorOpenIcon from "@/assets/icons/door-open.svg";
+import HomeIcon from "@/assets/icons/home.svg";
+import UsersIcon from "@/assets/icons/users.svg";
+import ClipboardListIcon from "@/assets/icons/clipboard-list.svg";
+import SearchIcon from "@/assets/icons/search.svg";
+import HeartPulseIcon from "@/assets/icons/heart-pulse.svg";
+import UtensilsIcon from "@/assets/icons/utensils.svg";
+import LandmarkIcon from "@/assets/icons/landmark.svg";
+import HelpCircleIcon from "@/assets/icons/help-circle.svg";
+import ScaleIcon from "@/assets/icons/scale.svg";
+import RefreshCwIcon from "@/assets/icons/refresh-cw.svg";
+
+export interface Props {
+  data: {
+    heading: string;
+    subtitle?: string;
+    cards: {
+      title: string;
+      description: string;
+      icon?: string;
+    }[];
+  };
+}
+
+const { data } = Astro.props;
+
+const iconMap: Record<string, any> = {
+  "building-2": BuildingIcon,
+  home: HomeIcon,
+  landmark: LandmarkIcon,
+  utensils: UtensilsIcon,
+  "heart-pulse": HeartPulseIcon,
+  users: UsersIcon,
+  "door-open": DoorOpenIcon,
+  "shield-check": AlertTriangleIcon,
+  "clipboard-list": ClipboardListIcon,
+  search: SearchIcon,
+  "help-circle": HelpCircleIcon,
+  scale: ScaleIcon,
+  "refresh-cw": RefreshCwIcon,
+};
+---
+
+<section id="why-choose-us" class="py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
+  <div class="container">
+    <div class="text-center mb-12">
+      <h3 class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-darkmode-text-dark tracking-tight">
+        {data.heading}
+      </h3>
+      {
+        data.subtitle && (
+          <p class="mt-4 text-lg text-slate-600 dark:text-darkmode-text max-w-3xl mx-auto leading-relaxed">
+            {data.subtitle}
+          </p>
+        )
+      }
+      <div class="mt-4 mx-auto w-20 h-1 bg-orange-500 rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+      {
+        data.cards.map((card) => {
+          const IconComponent = iconMap[card.icon || ""] || null;
+
+          return (
+            <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 lg:p-8 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-shadow duration-300">
+              {IconComponent && (
+                <div class="w-12 h-12 rounded-lg bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center text-orange-600 dark:text-orange-400 mb-4">
+                  <IconComponent width={28} height={28} />
+                </div>
+              )}
+              <h4 class="text-lg font-bold text-slate-900 dark:text-darkmode-text-dark mb-2">
+                {card.title}
+              </h4>
+              <p class="text-slate-600 dark:text-darkmode-text text-sm leading-relaxed">
+                {card.description}
+              </p>
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>

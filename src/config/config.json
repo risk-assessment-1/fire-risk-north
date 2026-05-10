@@ -26,7 +26,7 @@
   "params": {
     "contact_form_action": "#",
     "address": "123 Main Street, New York, NY 10001",
-    "phone": "123-456-7890",
+    "phone": "020 3051 1294",
     "email": "info@bexar.com",
     "footer_content": "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit.",
     "copyright": "&copy; Designed And Developed by [Themefisher](https://themefisher.com/)",
@@ -47,7 +47,7 @@
   "navigation_button": {
     "enable": true,
     "label": "Get A Quote",
-    "link": "/get-a-quote"
+    "link": "/contact"
   },
   "google_tag_manager": {
     "enable": false,

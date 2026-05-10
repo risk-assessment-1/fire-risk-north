@@ -1,0 +1,40 @@
+---
+import { titleify } from "@/lib/utils/textConverter";
+
+export interface Props {
+  slugs: string[];
+  currentSlug?: string;
+  basePath?: string;
+  title?: string;
+}
+
+const {
+  slugs,
+  currentSlug,
+  basePath = "/services",
+  title = "Our Services",
+} = Astro.props;
+---
+
+<div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
+  <h5 class="mb-5">{title}</h5>
+  <ul class="list-styled style-circle space-y-4">
+    {
+      slugs.map((slug: string) => (
+        <li class="border-b border-border pb-4">
+          <a
+            href={`${basePath}/${slug}`}
+            class={
+              currentSlug === slug
+                ? "text-primary dark:text-darkmode-primary"
+                : "text-text" +
+                  " block no-underline hover:text-primary dark:hover:text-darkmode-primary duration-200"
+            }
+          >
+            {titleify(slug)}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</div>

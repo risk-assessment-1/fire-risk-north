@@ -1,0 +1,121 @@
+---
+import { getLangFromUrl, slugSelector } from "@/lib/utils/languageParser";
+
+export interface Props {
+  data: {
+    heading: string;
+    description?: string;
+    rows: {
+      property_type: string;
+      description: string;
+      price: string;
+      slug?: string;
+    }[];
+    factors_note?: string;
+  };
+}
+
+const { data } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+---
+
+<section id="costs" class="py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
+  <div class="container">
+    <div class="text-center mb-12">
+      <h3
+        class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-darkmode-text-dark tracking-tight"
+      >
+        {data.heading}
+      </h3>
+      {
+        data.description && (
+          <p class="mt-4 text-slate-600 dark:text-darkmode-text max-w-2xl mx-auto leading-relaxed">
+            {data.description}
+          </p>
+        )
+      }
+      <div class="mt-4 mx-auto w-20 h-1 bg-orange-500 rounded-full"></div>
+    </div>
+
+    <div class="max-w-4xl mx-auto">
+      <div
+        class="hidden md:grid grid-cols-12 gap-4 px-6 py-3 bg-slate-100 dark:bg-darkmode-light rounded-t-xl text-sm font-semibold text-slate-500 dark:text-darkmode-text uppercase tracking-wider"
+      >
+        <div class="col-span-3">Property Type</div>
+        <div class="col-span-5">Description</div>
+        <div class="col-span-2">Price Range</div>
+        <div class="col-span-2"></div>
+      </div>
+
+      {
+        data.rows.map((row, i) => (
+          <div
+            class:list={[
+              "grid grid-cols-1 md:grid-cols-12 gap-2 md:gap-4 px-6 py-5 items-center border-b border-gray-100 dark:border-darkmode-border",
+              i === 0 ? "md:rounded-t-none" : "",
+              i === data.rows.length - 1 ? "rounded-b-xl" : "",
+              i % 2 === 0
+                ? "bg-white dark:bg-darkmode-light"
+                : "bg-slate-50 dark:bg-darkmode-dark/30",
+            ]}
+          >
+            <div class="md:col-span-3">
+              <span class="font-semibold text-slate-900 dark:text-darkmode-text-dark">
+                {row.property_type}
+              </span>
+            </div>
+            <div class="md:col-span-5">
+              <span class="text-sm text-slate-500 dark:text-darkmode-text">
+                {row.description}
+              </span>
+            </div>
+            <div class="md:col-span-2">
+              <span class="font-bold text-orange-600 dark:text-orange-400">
+                {row.price}
+              </span>
+            </div>
+            <div class="md:col-span-2 md:text-right">
+              {row.slug ? (
+                <a
+                  href={slugSelector(
+                    `/services/fire-risk-assessment/${row.slug}`,
+                    lang,
+                  )}
+                  class="text-sm font-semibold text-orange-600 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 transition-colors"
+                >
+                  View &rarr;
+                </a>
+              ) : (
+                <a
+                  href="/contact"
+                  class="text-sm font-semibold text-orange-600 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 transition-colors"
+                >
+                  Get Quote &rarr;
+                </a>
+              )}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    {
+      data.factors_note && (
+        <div class="max-w-4xl mx-auto mt-6 bg-amber-50 dark:bg-amber-900/15 border border-amber-200 dark:border-amber-800/30 rounded-lg px-6 py-4">
+          <p class="text-sm text-amber-800 dark:text-amber-200/80">
+            <strong>Factors affecting cost:</strong> {data.factors_note}
+          </p>
+        </div>
+      )
+    }
+
+    <div class="text-center mt-8">
+      <a
+        href="/contact"
+        class="inline-flex items-center bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold py-3 px-8 rounded-lg shadow-xl shadow-orange-200 hover:scale-105 transition-transform"
+      >
+        Get a Free Quote
+      </a>
+    </div>
+  </div>
+</section>

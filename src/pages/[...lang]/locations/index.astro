@@ -30,8 +30,12 @@ const locations = await getSinglePage("locations", lang as string);
       <div class="row justify-center">
         <div class="lg:col-10">
           <div class="content text-center mb-12">
-            <p class="text-lg text-text-dark/70 dark:text-darkmode-text-dark/70">
-              Fire Assessment North provides professional fire risk assessments and fire safety services across Greater Manchester and Lancashire. Select your area below to learn more.
+            <p
+              class="text-lg text-text-dark/70 dark:text-darkmode-text-dark/70"
+            >
+              Fire Assessment North provides professional fire risk assessments
+              and fire safety services across Greater Manchester and Lancashire.
+              Select your area below to learn more.
             </p>
           </div>
         </div>
@@ -58,10 +62,7 @@ const locations = await getSinglePage("locations", lang as string);
                         </p>
                       )}
                     </div>
-                    <a
-                      href={`/locations/${slug}`}
-                      class="btn btn-arrow mt-4"
-                    >
+                    <a href={`/locations/${slug}`} class="btn btn-arrow mt-4">
                       Read More
                     </a>
                   </div>

@@ -1,6 +1,13 @@
 ---
 import ImageMod from "@/components/ImageMod.astro";
-import config from "@/config/config.json";
+import HeroSection from "@/components/HeroSection.astro";
+import SidebarServices from "@/components/SidebarServices.astro";
+import FiveStepsFRA from "@/components/FiveStepsFRA.astro";
+import HazardCards from "@/components/HazardCards.astro";
+import FRACosts from "@/components/FRACosts.astro";
+import FAQSection from "@/components/FAQSection.astro";
+import ComplianceHighlight from "@/components/ComplianceHighlight.astro";
+import CTASection from "@/components/CTASection.astro";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import {
@@ -8,14 +15,16 @@ import {
   getTranslations,
   supportedLang,
 } from "@/lib/utils/languageParser";
-import { markdownify, titleify } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
 import { render } from "astro:content";
 
 export async function getStaticPaths() {
   const paths = await Promise.all(
     supportedLang.map(async (lang) => {
-      const fraPages = await getSinglePage("fire-risk-assessment", lang as string);
+      const fraPages = await getSinglePage(
+        "fire-risk-assessment",
+        lang as string,
+      );
 
       return fraPages.map((page) => ({
         params: {
@@ -33,14 +42,29 @@ export async function getStaticPaths() {
 
 const { page } = Astro.props;
 const { lang } = Astro.params;
-const { title, meta_title, description, image } = page.data;
+const {
+  title,
+  meta_title,
+  description,
+  image,
+  hero,
+  compliance_highlight,
+  five_steps_fra,
+  hazard_cards,
+  fra_costs,
+  faq_section,
+} = page.data;
 const { Content } = await render(page);
 const land = getLangFromUrl(Astro.url);
 
 const allFraPages = await getSinglePage("fire-risk-assessment", land as string);
-const fraSlugs = allFraPages.map((p) => p.id.split("/").pop());
+const fraSlugs = allFraPages
+  .map((p) => p.id.split("/").pop())
+  .filter(Boolean) as string[];
 
-const { our_services, read_more } = await getTranslations(lang as string);
+const currentFraSlug = page.id.split("/").pop() || "";
+
+const { our_services } = await getTranslations(lang as string);
 ---
 
 <Base
@@ -49,38 +73,26 @@ const { our_services, read_more } = await getTranslations(lang as string);
   description={description}
   image={image}
 >
-  <PageHeader title={title} />
+  {
+    hero && hero.enable && (
+      <HeroSection
+        title={hero.title || title}
+        subtitle={hero.subtitle || ""}
+        description={hero.description || description}
+        image={hero.image || image || ""}
+        price={hero.price}
+        badges={hero.badges}
+      />
+    )
+  }
+  {!hero || !hero.enable ? <PageHeader title={title} /> : null}
 
-  <section class="section">
+  <section id="service-overview" class="section !py-0 scroll-mt-20 lg:scroll-mt-24">
     <div class="container">
       <div class="row mx-auto">
-        <aside class="lg:col-4">
-          <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
-            <h5 class="mb-5">Property Types</h5>
-            <ul class="list-styled style-circle space-y-4">
-              {
-                fraSlugs.map((slug: string) => (
-                  <li class="border-b border-border pb-4">
-                    <a
-                      href={`/services/fire-risk-assessment/${slug}`}
-                      class={
-                        page.id.split("/").pop() === `${slug}`
-                          ? "text-primary dark:text-darkmode-primary"
-                          : "text-text" + " block no-underline"
-                      }
-                    >
-                      {titleify(slug)}
-                    </a>
-                  </li>
-                ))
-              }
-            </ul>
-          </div>
-        </aside>
-
         <div class="lg:col-8">
           {
-            image && (
+            (!hero || !hero.enable) && image && (
               <ImageMod
                 src={image}
                 class="mb-10 w-full"
@@ -94,7 +106,45 @@ const { our_services, read_more } = await getTranslations(lang as string);
             <Content />
           </div>
         </div>
+
+        <aside class="lg:col-4">
+          <div class="lg:sticky lg:top-28">
+            <SidebarServices
+              slugs={fraSlugs}
+              currentSlug={currentFraSlug}
+              basePath="/services/fire-risk-assessment"
+              title="Building Types"
+            />
+          </div>
+        </aside>
       </div>
     </div>
   </section>
+
+  {
+    compliance_highlight && compliance_highlight.enable && (
+      <ComplianceHighlight data={compliance_highlight} />
+    )
+  }
+
+  {
+    five_steps_fra && five_steps_fra.enable && (
+      <FiveStepsFRA data={five_steps_fra} />
+    )
+  }
+
+  {
+    hazard_cards && hazard_cards.enable && (
+      <HazardCards data={hazard_cards} />
+    )
+  }
+
+  {fra_costs && fra_costs.enable && <FRACosts data={fra_costs} />}
+
+  {faq_section && faq_section.enable && <FAQSection data={faq_section} />}
+
+  <CTASection
+    title={`Ready to Get Your ${title}?`}
+    tag={`Professional service from BAFE-accredited engineers. 24-hour turnaround. ${hero?.price || "Contact us for pricing"}.`}
+  />
 </Base>

@@ -1,6 +1,16 @@
 ---
 import ImageMod from "@/components/ImageMod.astro";
-import config from "@/config/config.json";
+import HeroSection from "@/components/HeroSection.astro";
+import SidebarServices from "@/components/SidebarServices.astro";
+import SidebarQuickContact from "@/components/SidebarQuickContact.astro";
+import WhoNeedsFRA from "@/components/WhoNeedsFRA.astro";
+import FiveStepsFRA from "@/components/FiveStepsFRA.astro";
+import FRACosts from "@/components/FRACosts.astro";
+import LegislationTimeline from "@/components/LegislationTimeline.astro";
+import FAQSection from "@/components/FAQSection.astro";
+import CTASection from "@/components/CTASection.astro";
+import HazardCards from "@/components/HazardCards.astro";
+import TableOfContents from "@/components/TableOfContents.astro";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import {
@@ -8,11 +18,10 @@ import {
   getTranslations,
   supportedLang,
 } from "@/lib/utils/languageParser";
-import { markdownify, titleify } from "@/lib/utils/textConverter";
+import { markdownify } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
 import { render } from "astro:content";
 import { FaDownload, FaRegFilePdf } from "react-icons/fa6";
-const { contact_form_action } = config.params;
 
 export async function getStaticPaths() {
   const paths = await Promise.all(
@@ -28,14 +37,27 @@ export async function getStaticPaths() {
           service,
         },
       }));
-    }),
+    })
   );
   return paths.flat();
 }
 
 const { service } = Astro.props;
 const { lang } = Astro.params;
-const { title, meta_title, description, image, pdf } = service.data;
+const {
+  title,
+  meta_title,
+  description,
+  image,
+  pdf,
+  hero,
+  who_needs_fra,
+  five_steps_fra,
+  fra_costs,
+  legislation_timeline,
+  hazard_cards,
+  faq_section,
+} = service.data;
 const { Content } = await render(service);
 const land = getLangFromUrl(Astro.url);
 const allServices = await getSinglePage("services", land as string);
@@ -45,17 +67,24 @@ const serviceSlugs = allServices.map((service) => {
   return parts[1];
 });
 
-const {
-  send_message,
-  placeholder_name,
-  placeholder_email,
-  placeholder_subject,
-  placeholder_message,
-  placeholder_phone,
-  quick_contact,
-  download_pdf,
-  our_services,
-} = await getTranslations(lang as string);
+const currentServiceSlug = service.id.split("/")[1];
+
+const { download_pdf, our_services } = await getTranslations(lang as string);
+
+const tocItems: { label: string; href: string }[] = [];
+tocItems.push({ label: `What is ${title}?`, href: "#service-overview" });
+if (who_needs_fra?.enable)
+  tocItems.push({ label: "Who Needs This?", href: "#who-needs" });
+if (five_steps_fra?.enable)
+  tocItems.push({ label: five_steps_fra.heading, href: "#process" });
+if (hazard_cards?.enable)
+  tocItems.push({ label: hazard_cards.heading, href: "#hazards" });
+if (fra_costs?.enable)
+  tocItems.push({ label: fra_costs.heading, href: "#costs" });
+if (legislation_timeline?.enable)
+  tocItems.push({ label: legislation_timeline.heading, href: "#legislation" });
+if (faq_section?.enable)
+  tocItems.push({ label: faq_section.heading, href: "#faq" });
 ---
 
 <Base
@@ -64,115 +93,35 @@ const {
   description={description}
   image={image}
 >
-  <PageHeader title={title} />
+  {
+    hero && hero.enable && (
+      <HeroSection
+        title={hero.title || title}
+        subtitle={hero.subtitle || ""}
+        description={hero.description || description}
+        image={hero.image || image || ""}
+        price={hero.price}
+        badges={hero.badges}
+      />
+    )
+  }
+  {!hero || !hero.enable ? <PageHeader title={title} /> : null}
 
-  <section class="section">
+  <section class="section py-8!">
+    <div class="container">
+      <TableOfContents items={tocItems} />
+    </div>
+  </section>
+
+  <section
+    id="service-overview"
+    class="section py-0! scroll-mt-20 lg:scroll-mt-24"
+  >
     <div class="container">
       <div class="row mx-auto">
-        <aside class="lg:col-4">
-          <!-- service list -->
-          <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
-            <h5 class="mb-5">{our_services}</h5>
-            <ul class="list-styled style-circle space-y-4">
-              {
-                serviceSlugs.map((slug: string) => (
-                  <li class="border-b border-border pb-4">
-                    <a
-                      href={`/services/${slug}`}
-                      class={
-                        service.id.split("/")[1] === `${slug}`
-                          ? "text-primary dark:text-darkmode-primary"
-                          : "text-text" + "block no-underline"
-                      }
-                    >
-                      {titleify(slug)}
-                    </a>
-                  </li>
-                ))
-              }
-            </ul>
-          </div>
-          <!-- pdf download -->
-          {
-            pdf && pdf.enable && (
-              <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
-                <h5 class="mb-5">{download_pdf}</h5>
-                <ul class="list-unstyled relative">
-                  <li class="flex pb-3 mb-3 border-b border-border items-center">
-                    <FaRegFilePdf className="text-primary dark:text-darkmode-primary text-4xl" />
-                    <div class="ms-3">
-                      <p
-                        class="mb-0 text-text-dark/80 dark:text-darkmode-text-dark/80"
-                        set:html={markdownify(pdf.title)}
-                      />
-                      <span
-                        class="text-text-dark/80 dark:text-darkmode-text-dark/80"
-                        set:html={markdownify(pdf.size)}
-                      />
-                    </div>
-                    <a href={pdf.file} class="text-text ml-auto stretched-link">
-                      <FaDownload className="text-2xl" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            )
-          }
-          <!-- quick contact -->
-          <div
-            class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12 sticky top-28"
-          >
-            <h5 class="mb-5">{quick_contact}</h5>
-            <form action={contact_form_action}>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                class="form-input"
-                placeholder={placeholder_name}
-                required
-              />
-              <input
-                type="email"
-                name="mail"
-                id="mail"
-                class="form-input"
-                placeholder={placeholder_email}
-                required
-              />
-              <input
-                type="tel"
-                name="phone"
-                id="phone"
-                class="form-input"
-                placeholder={placeholder_phone}
-                required
-              />
-              <input
-                type="text"
-                name="subject"
-                id="subject"
-                class="form-input"
-                placeholder={placeholder_subject}
-                required
-              />
-              <textarea
-                name="message"
-                id="message"
-                class="form-input"
-                placeholder={placeholder_message}
-                rows="6"
-                required></textarea>
-              <button type="submit" value="send" class="btn btn-primary">
-                {send_message}
-              </button>
-            </form>
-          </div>
-        </aside>
-
         <div class="lg:col-8">
           {
-            image && (
+            (!hero || !hero.enable) && image && (
               <ImageMod
                 src={image}
                 class="mb-10 w-full"
@@ -186,7 +135,75 @@ const {
             <Content />
           </div>
         </div>
+
+        <aside class="lg:col-4">
+          <div class="lg:sticky lg:top-28">
+            {
+              pdf && pdf.enable && (
+                <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
+                  <h5 class="mb-5">{download_pdf}</h5>
+                  <ul class="list-unstyled relative">
+                    <li class="flex pb-3 mb-3 border-b border-border items-center">
+                      <FaRegFilePdf className="text-primary dark:text-darkmode-primary text-4xl" />
+                      <div class="ms-3">
+                        <p
+                          class="mb-0 text-text-dark/80 dark:text-darkmode-text-dark/80"
+                          set:html={markdownify(pdf.title)}
+                        />
+                        <span
+                          class="text-text-dark/80 dark:text-darkmode-text-dark/80"
+                          set:html={markdownify(pdf.size)}
+                        />
+                      </div>
+                      <a
+                        href={pdf.file}
+                        class="text-text ml-auto stretched-link"
+                      >
+                        <FaDownload className="text-2xl" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              )
+            }
+            <SidebarServices
+              slugs={serviceSlugs}
+              currentSlug={currentServiceSlug}
+              title={our_services}
+            />
+            <SidebarQuickContact />
+          </div>
+        </aside>
       </div>
     </div>
   </section>
+
+  {
+    who_needs_fra && who_needs_fra.enable && (
+      <WhoNeedsFRA data={who_needs_fra} />
+    )
+  }
+
+  {
+    five_steps_fra && five_steps_fra.enable && (
+      <FiveStepsFRA data={five_steps_fra} />
+    )
+  }
+
+  {hazard_cards && hazard_cards.enable && <HazardCards data={hazard_cards} />}
+
+  {fra_costs && fra_costs.enable && <FRACosts data={fra_costs} />}
+
+  {
+    legislation_timeline && legislation_timeline.enable && (
+      <LegislationTimeline data={legislation_timeline} />
+    )
+  }
+
+  {faq_section && faq_section.enable && <FAQSection data={faq_section} />}
+
+  <CTASection
+    title={`Ready to Get Your ${title}?`}
+    tag={`Professional service from BAFE-accredited engineers. 24-hour turnaround. ${hero?.price || "Contact us for pricing"}.`}
+  />
 </Base>

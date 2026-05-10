@@ -1,0 +1,126 @@
+---
+import BuildingIcon from "@/assets/icons/building-2.svg";
+import DoorOpenIcon from "@/assets/icons/door-open.svg";
+import HeartPulseIcon from "@/assets/icons/heart-pulse.svg";
+import HomeIcon from "@/assets/icons/home.svg";
+import LandmarkIcon from "@/assets/icons/landmark.svg";
+import ShieldCheckIcon from "@/assets/icons/shield-check.svg";
+import UsersIcon from "@/assets/icons/users.svg";
+import UtensilsIcon from "@/assets/icons/utensils.svg";
+import { getLangFromUrl, slugSelector } from "@/lib/utils/languageParser";
+
+export interface Props {
+  data: {
+    intro: string;
+    categories: {
+      title: string;
+      description: string;
+      icon: string;
+      links?: { label: string; slug: string }[];
+    }[];
+    exemptions: string;
+  };
+}
+
+const { data } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+
+const iconMap: Record<string, any> = {
+  "building-2": BuildingIcon,
+  home: HomeIcon,
+  landmark: LandmarkIcon,
+  utensils: UtensilsIcon,
+  "heart-pulse": HeartPulseIcon,
+  users: UsersIcon,
+  "door-open": DoorOpenIcon,
+};
+
+const categories = data.categories.map((cat) => ({
+  title: cat.title,
+  description: cat.description,
+  links: cat.links,
+  SvgComponent: iconMap[cat.icon] || BuildingIcon,
+}));
+---
+
+<section id="who-needs" class="py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
+  <div class="container">
+    <div class="text-center mb-12">
+      <h3
+        class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-darkmode-text-dark tracking-tight"
+      >
+        Who Needs a Fire Risk Assessment?
+      </h3>
+      <div class="mt-4 mx-auto w-20 h-1 bg-orange-500 rounded-full"></div>
+      <p
+        class="mt-6 text-lg text-slate-600 dark:text-darkmode-text max-w-3xl mx-auto leading-relaxed"
+        set:html={data.intro}
+      />
+    </div>
+
+    <p
+      class="text-center text-slate-700 dark:text-darkmode-text-dark font-semibold text-lg mb-10"
+    >
+      You Need a Fire Risk Assessment If You Have:
+    </p>
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+    >
+      {
+        categories.map((category) => {
+          const Icon = category.SvgComponent;
+          return (
+            <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-shadow duration-300 flex flex-col">
+              <div class="w-12 h-12 rounded-lg bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center mb-4 text-orange-600 dark:text-orange-400">
+                {Icon && <Icon width={28} height={28} />}
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-darkmode-text-dark mb-2">
+                {category.title}
+              </h3>
+              <p class="text-sm text-slate-500 dark:text-darkmode-text leading-relaxed mb-4 flex-grow">
+                {category.description}
+              </p>
+              {category.links && category.links.length > 0 && (
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  {category.links.map((link) => (
+                    <a
+                      href={slugSelector(
+                        `/services/fire-risk-assessment/${link.slug}`,
+                        lang,
+                      )}
+                      class="inline-flex items-center text-xs font-semibold px-3 py-1.5 rounded-full bg-orange-50 dark:bg-orange-900/20 text-orange-700 dark:text-orange-400 hover:bg-orange-100 dark:hover:bg-orange-900/40 transition-colors"
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        })
+      }
+    </div>
+
+    <div
+      class="mt-14 bg-amber-50 dark:bg-amber-900/15 border border-amber-200 dark:border-amber-800/30 rounded-xl p-8"
+    >
+      <div class="flex items-start gap-4">
+        <div
+          class="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center text-amber-600 dark:text-amber-400"
+        >
+          <ShieldCheckIcon width={20} height={20} />
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-amber-900 dark:text-amber-300 mb-2">
+            Exemptions
+          </h3>
+          <p
+            class="text-amber-800 dark:text-amber-200/80 leading-relaxed"
+            set:html={data.exemptions}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
