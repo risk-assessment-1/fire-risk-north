@@ -34,6 +34,10 @@
   @apply z-10 min-w-[180px] max-w-[300px] mx-auto box-shadow bg-body dark:bg-darkmode-body p-4 lg:top-12;
 }
 
+.nav-dropdown-list.nav-dropdown-wide {
+  @apply min-w-[220px] max-w-none;
+}
+
 /* Mobile: click to toggle */
 @media (max-width: 1023px) {
   .nav-dropdown-list {

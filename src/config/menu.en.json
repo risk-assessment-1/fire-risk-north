@@ -79,9 +79,7 @@
         { "name": "Preston", "url": "/locations/preston" }
       ]
     },
-    { "name": "Blog", "url": "/blog" },
-    { "name": "FAQ", "url": "/faq" },
-    { "name": "Contact", "url": "/contact" }
+    { "name": "Blog", "url": "/blog" }
   ],
   "footer": [
     { "name": "About Us", "url": "/about" },

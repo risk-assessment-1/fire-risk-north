@@ -21,4 +21,4 @@ Our commitment to quality, speed and value has earned us a 4.9/5 rating from ove
 - **Competitive pricing** — Save up to 68% compared to national providers
 - **Expert assessors** — UKAS accredited with 25+ years of experience
 
-[Get a free quote](/get-a-quote) and experience the Fire Assessment North difference.
+[Get a free quote](/contact) and experience the Fire Assessment North difference.

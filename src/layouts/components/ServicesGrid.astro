@@ -1,0 +1,81 @@
+---
+import ShieldCheckIcon from "@/assets/icons/shield-check.svg";
+import SearchIcon from "@/assets/icons/search.svg";
+import DoorOpenIcon from "@/assets/icons/door-open.svg";
+import UsersIcon from "@/assets/icons/users.svg";
+import LandmarkIcon from "@/assets/icons/landmark.svg";
+import HomeIcon from "@/assets/icons/home.svg";
+import ClipboardListIcon from "@/assets/icons/clipboard-list.svg";
+import HelpCircleIcon from "@/assets/icons/help-circle.svg";
+
+export interface Props {
+  data: {
+    heading: string;
+    subtitle?: string;
+    services: {
+      title: string;
+      description: string;
+      icon: string;
+      href: string;
+    }[];
+  };
+}
+
+const { data } = Astro.props;
+
+const iconMap: Record<string, any> = {
+  "shield-check": ShieldCheckIcon,
+  search: SearchIcon,
+  "door-open": DoorOpenIcon,
+  users: UsersIcon,
+  landmark: LandmarkIcon,
+  home: HomeIcon,
+  "clipboard-list": ClipboardListIcon,
+  "help-circle": HelpCircleIcon,
+};
+---
+
+<section id="our-services" class="py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
+  <div class="container">
+    <div class="text-center mb-12">
+      <h3 class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-darkmode-text-dark tracking-tight">
+        {data.heading}
+      </h3>
+      {
+        data.subtitle && (
+          <p class="mt-4 text-lg text-slate-600 dark:text-darkmode-text max-w-3xl mx-auto leading-relaxed">
+            {data.subtitle}
+          </p>
+        )
+      }
+      <div class="mt-4 mx-auto w-20 h-1 bg-orange-500 rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {
+        data.services.map((service) => {
+          const IconComponent = iconMap[service.icon] || null;
+
+          return (
+            <a
+              href={service.href}
+              class="group bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-all duration-300 hover:border-orange-200 dark:hover:border-orange-800"
+            >
+              {IconComponent && (
+                <div class="w-10 h-10 rounded-lg bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center text-orange-600 dark:text-orange-400 mb-3">
+                  <IconComponent width={24} height={24} />
+                </div>
+              )}
+              <h4 class="text-base font-bold text-slate-900 dark:text-darkmode-text-dark mb-1 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">
+                {service.title}
+              </h4>
+              <p class="text-slate-500 dark:text-darkmode-text text-sm leading-relaxed">
+                {service.description}
+              </p>
+            </a>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>

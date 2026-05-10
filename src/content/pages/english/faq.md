@@ -26,7 +26,7 @@ The time depends on the size and complexity of the premises. A typical small-to-
 
 ### What does a fire risk assessment cost?
 
-Costs vary depending on the size and type of premises. We offer competitive pricing — save up to 68% compared to national providers. [Get a free quote](/get-a-quote) for your premises.
+Costs vary depending on the size and type of premises. We offer competitive pricing — save up to 68% compared to national providers. [Get a free quote](/contact) for your premises.
 
 ### Are your assessors qualified?
 
@@ -40,4 +40,4 @@ Failure to comply with fire safety regulations can result in unlimited fines, pr
 
 Yes. We offer same-day emergency fire risk assessments for urgent requirements. [Contact us](/contact) to arrange an emergency assessment.
 
-[Get a free quote](/get-a-quote) or [contact us](/contact) for more information.
+[Get a free quote](/contact) or [contact us](/contact) for more information.
