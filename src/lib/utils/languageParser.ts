@@ -64,15 +64,16 @@ export const getTranslations = async (lang: string) => {
   return { ...menu.default, ...dictionary.default, contentDir };
 };
 
-const supportedLang = ["", ...languagesJSON.map((lang) => lang.languageCode)];
 const disabledLanguages = config.settings.disable_languages as string[];
+const activeLanguages = languagesJSON
+  .map((lang) => lang.languageCode)
+  .filter((lang) => !disabledLanguages.includes(lang));
 
-// Filter out disabled languages from supportedLang
-const filteredSupportedLang = supportedLang.filter(
-  (lang) => !disabledLanguages.includes(lang),
-);
+const supportedLang = config.settings.default_language_in_subdir
+  ? ["", ...activeLanguages]
+  : ["", ...activeLanguages.filter((lang) => lang !== default_language)];
 
-export { filteredSupportedLang as supportedLang };
+export { supportedLang };
 
 // Build locale-relative URL without using astro:i18n (client-safe)
 function buildLocaleUrl(lang: string, url: string): string {
@@ -88,31 +89,21 @@ function buildLocaleUrl(lang: string, url: string): string {
 
 export const slugSelector = (url: string, lang: string) => {
   const { default_language, default_language_in_subdir } = config.settings;
-  const { trailing_slash } = config.site;
 
   let constructedUrl;
 
-  // Determine the initial URL structure based on language
   if (url === "/") {
     constructedUrl = lang === default_language ? "/" : `/${lang}`;
   } else {
     constructedUrl = buildLocaleUrl(lang, url);
   }
 
-  // Add language path if necessary
   if (lang === default_language && default_language_in_subdir) {
     constructedUrl = `/${lang}${constructedUrl}`;
   }
 
-  // Adjust for trailing slash
-  if (trailing_slash) {
-    if (!constructedUrl.endsWith("/")) {
-      constructedUrl += "/";
-    }
-  } else {
-    if (constructedUrl.endsWith("/") && constructedUrl !== "/") {
-      constructedUrl = constructedUrl.slice(0, -1);
-    }
+  if (constructedUrl.endsWith("/") && constructedUrl !== "/") {
+    constructedUrl = constructedUrl.slice(0, -1);
   }
 
   return constructedUrl;

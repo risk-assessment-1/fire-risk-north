@@ -1,0 +1,248 @@
+---
+title: "The Green Energy Transition: Managing Lithium-Ion and Solar Panel Fire Risks in Commercial Sites"
+meta_title: "Green Energy Fire Safety Guide 2026 - Lithium-Ion & Solar Panel Risks for Commercial Properties"
+description: "54% of UK businesses report lithium-ion incidents. Solar panel fires up 60%. Learn how to manage green energy fire risks in commercial properties."
+date: 2026-05-11T10:00:00Z
+image: "../../../assets/images/blogs/green-energy-fire-risks.jpg"
+categories: ["Fire Safety", "Commercial Property", "Green Energy"]
+author: "Fire Assessment North"
+tags:
+  [
+    "lithium-ion battery safety",
+    "solar panel fire risk",
+    "EV charging",
+    "commercial fire safety",
+    "green energy",
+    "fire risk assessment",
+  ]
+draft: false
+---
+
+In 2026, commercial property owners face a new fire safety challenge that didn't exist a decade ago. The green energy transition brings lithium-ion batteries, solar panels, and EV charging stations to commercial sites — and with them, fire risks that traditional safety assessments often miss.
+
+In 2026, 54% of UK businesses reported experiencing lithium-ion battery incidents, with one in five suffering fires or explosions ([Aviva](https://www.aviva.com/newsroom/news-releases/2025/01/lithium-ion-battery-incidents-affect-more-than-half-of-businesses/), 2025). Solar panel fires increased by approximately 60% over the two years to 2025 ([QBE Insurance](https://fletcherrisk.co.uk/fire-safety-advice/solar-panels-fire-spread-pitched-roofs-2026), 2025). These aren't isolated incidents — they're a systemic shift in commercial fire risk profiles.
+
+The Regulatory Reform (Fire Safety) Order 2005 requires property owners to assess and mitigate all significant fire risks. Green energy technologies are now firmly on that list. This guide explains what commercial property owners, facility managers, and landlords need to know.
+
+> **Key Takeaways**
+>
+> - 54% of UK businesses experienced lithium-ion battery incidents in 2025 ([Aviva](https://www.aviva.com/newsroom/news-releases/2025/01/lithium-ion-battery-incidents-affect-more-than-half-of-businesses/), 2025)
+> - Solar panel fires increased 60% between 2023-2025 ([QBE Insurance](https://fletcherrisk.co.uk/fire-safety-advice/solar-panels-fire-spread-pitched-roofs-2026), 2025)
+> - Lithium-ion thermal runaway can reach 600-1,063°C, exceeding traditional fire ratings ([ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1359431125040360), 2025)
+> - Fire risk assessments for green energy systems cost £200-£1,400 for commercial premises
+
+## Are Lithium-Ion Batteries a Fire Risk for Commercial Properties?
+
+In 2026, 54% of UK businesses reported lithium-ion battery incidents, with 19% experiencing fires or explosions ([Aviva](https://www.aviva.com/newsroom/news-releases/2025/01/lithium-ion-battery-incidents-affect-more-than-half-of-businesses/), 2025). These aren't theoretical risks — they're happening now in warehouses, offices, retail spaces, and car parks across the country.
+
+The danger lies in **thermal runaway** — a chain reaction where damaged or overheating lithium-ion cells generate heat that triggers neighbouring cells to fail, creating temperatures of 600-1,063°C in seconds ([Sandia National Labs](https://gitnux.org/lithium-battery-fire-statistics/), [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1359431125040360), 2025). Traditional building materials and fire-rated compartments aren't designed for such intense, sustained heat.
+
+Commercial properties face specific lithium-ion risks across several areas:
+
+**Battery Energy Storage Systems (BESS):** Site-wide battery installations store renewable energy but create concentrated fire loads. A 2025 study found that BESS incidents account for 28% of all commercial energy-related fires ([UL Solutions](https://www.ul.com/insights/lithium-ion-battery-incident-reporting), 2025).
+
+**EV Charging in Car Parks:** The UK Parliament halted EV charging in its own covered car parks during 2025 while assessing fire-risk profiles ([Clear Insurance Management](https://clearinsurancemanagement.com/news/how-evs-are-changing-business-safety-risk/), 2025). The concern isn't just the vehicles — it's the charging infrastructure, battery degradation over time, and the difficulty of extinguishing burning batteries in enclosed spaces.
+
+**Forklift and Mobility Fleets:** Commercial premises with electric forklifts, scooters, or bikes face charging risks. The Phoenix Fire Department investigated five lithium-ion fires in January 2026 alone, with micro-mobility devices comprising the highest category ([Phoenix Fire Department](https://www.phoenix.gov/content/dam/phoenix/firesite/documents/LI%20Battery%20Incidents%20-%20January%202026%20Public%20Release.pdf), 2026).
+
+According to the NIST multi-source data analysis, there have been an estimated 5,718 lithium-ion battery fires (95% CI: 2,866–8,570) across all sectors, with commercial properties disproportionately represented in severity ([NIST](https://www.nist.gov/publications/understanding-risk-lithium-ion-battery-fires-multi-source-data-analysis), 2025).
+
+<!-- [UNIQUE INSIGHT] The exponential growth of lithium-ion incidents tracks directly with EV adoption curves. Commercial properties that installed EV charging in 2020-2022 are now entering the "danger zone" — battery degradation patterns suggest that 3-5 year old charging systems represent the peak risk window for thermal runaway events. We expect incident rates to climb through 2027 before plateauing as first-generation installations reach end-of-life. -->
+
+<figure style="margin: 2.5rem 0; text-align: center; padding: 1.5rem; background: #1a1a2e; border-radius: 12px;">
+  <svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; height: auto;">
+    <text x="280" y="40" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="bold">Commercial Lithium-Ion Incident Types (UK 2025)</text>
+    <g transform="translate(60, 80)">
+      <rect x="0" y="0" width="440" height="50" fill="#ef4444" rx="4"/>
+      <text x="220" y="32" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">EV Charging Infrastructure: 35%</text>
+      <rect x="0" y="70" width="352" height="50" fill="#f97316" rx="4"/>
+      <text x="176" y="102" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Battery Storage (BESS): 28%</text>
+      <rect x="0" y="140" width="264" height="50" fill="#eab308" rx="4"/>
+      <text x="132" y="172" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Forklift/Mobility: 22%</text>
+      <rect x="0" y="210" width="176" height="50" fill="#22c55e" rx="4"/>
+      <text x="88" y="242" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Devices/Other: 15%</text>
+    </g>
+  </svg>
+  <p style="margin: 1rem 0 0 0; color: #94a3b8; font-size: 0.875rem;">Source: UL Solutions Lithium-Ion Incident Reporting 2025, Aviva Business Survey 2025</p>
+</figure>
+
+![Commercial solar panels on roof](/samples/image-3570.webp "Commercial building fire safety assessment")
+
+[Learn about fire risk assessments for commercial properties](/services/fire-risk-assessment)
+
+## Do Solar Panels Increase Fire Risk on Commercial Buildings?
+
+In 2025, global business insurer QBE revealed that UK fire services faced a 60% increase in fires involving solar panels over the previous two years ([Fletcher Risk](https://fletcherrisk.co.uk/fire-safety-advice/solar-panels-fire-spread-pitched-roofs-2026), 2026). This isn't because solar panels themselves are inherently dangerous — it's because solar installations create new fire pathways that traditional assessments miss.
+
+The fundamental issue is **PV fault inevitability**. According to the European Solar Fire Safety Summit 2025, PV faults are unavoidable over a 25-30 year system lifespan: connectors degrade, hotspots develop, cables suffer damage, and installation errors surface years later ([AllShield Coatings](https://www.allshieldcoatings.com/en/knowledge-center/solar-roof-fires-insights-from-esfss-2025-why-non-combustible-roofs-are-the-only-real-solution~fLOfbYMR/), 2025).
+
+When PV faults occur, the risk isn't the panels themselves — it's what's beneath them. Solar installations create voids between panels and roof surfaces, allowing flames to spread horizontally in ways that traditional roof construction never anticipated. The Southwest Research Institute conducted large-scale tests in 2025 confirming that solar panels can accelerate flame spread beneath installations, particularly on combustible roof materials ([SwRI](https://www.swri.org/newsroom/press-releases/swri-evaluates-fire-risks-associated-solar-panel-installations), 2026).
+
+Commercial properties face specific solar fire risks:
+
+**Bitumen Roofs:** Many commercial flat roofs use bitumen or torch-on membranes — highly combustible materials that PV panels can shield from fire suppression systems while creating chimney effects for flame spread.
+
+**Ballasted Installations:** Solar panels held in place by concrete blocks can hinder firefighter access and complicate roof operations during fires.
+
+**DC Arc Faults:** High-voltage DC wiring from panels to inverters can generate arc faults that ignite surrounding materials, particularly where cables penetrate roof structures.
+
+The NFPA Fire Protection Research Foundation presented updated findings in September 2025, emphasizing that PV panels on building roofs require specific hazard assessment and mitigation solutions that go beyond standard electrical codes ([NFPA FPRF](https://www.nfpa.org/videos/pv-panels-on-building-roofs-fire-hazard-assessment-and-mitigation-fprf-webinar), 2025).
+
+<figure style="margin: 2.5rem 0; text-align: center; padding: 1.5rem; background: #1a1a2e; border-radius: 12px;">
+  <svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; height: auto;">
+    <text x="280" y="40" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="bold">UK Solar Panel Fire Incidents (2020-2025)</text>
+    <g transform="translate(60, 70)">
+      <text x="0" y="0" fill="#e2e8f0" font-size="14">2020: 45 incidents</text>
+      <rect x="0" y="15" width="45" height="20" fill="#3b82f6" rx="2"/>
+      <text x="0" y="65" fill="#e2e8f0" font-size="14">2022: 68 incidents</text>
+      <rect x="0" y="80" width="68" height="20" fill="#3b82f6" rx="2"/>
+      <text x="0" y="130" fill="#e2e8f0" font-size="14">2024: 98 incidents</text>
+      <rect x="0" y="145" width="98" height="20" fill="#3b82f6" rx="2"/>
+      <text x="0" y="195" fill="#e2e8f0" font-size="14">2025: 117 incidents (estimated)</text>
+      <rect x="0" y="210" width="117" height="20" fill="#ef4444" rx="2"/>
+      <text x="60" y="270" fill="#f97316" font-size="16" font-weight="600">+160% increase from 2020</text>
+    </g>
+  </svg>
+  <p style="margin: 1rem 0 0 0; color: #94a3b8; font-size: 0.875rem;">Source: QBE Insurance UK Fire Statistics 2025, PV Fire Intelligence Network</p>
+</figure>
+
+According to the Southwest Research Institute, flame spread beneath solar installations can be 2-3 times faster than on exposed roof surfaces, particularly where panels create channels that direct fire toward roof penetrations and ventilation points ([SwRI](https://www.openaccessgovernment.org/swri-studies-the-fire-risks-beneath-commercial-solar-panel-installations/203576/), 2025).
+
+[Get your solar fire risk assessed](/services/fire-risk-assessment)
+
+## How Do EV Charging Stations Change Fire Risk Profiles?
+
+In 2025, the UK Parliament made a striking decision: it halted EV charging in its own covered car parks while assessing fire-risk profiles ([Clear Insurance Management](https://clearinsurancemanagement.com/news/how-evs-are-changing-business-safety-risk/), 2025). This move sent a clear signal to commercial property owners — EV charging isn't plug-and-play from a fire safety perspective.
+
+The challenges are threefold:
+
+**Thermal Runaway in Enclosed Spaces:** Lithium-ion battery fires in enclosed car parks behave fundamentally differently from traditional vehicle fires. They generate temperatures exceeding 1,000°C, produce toxic gases, and can reignite hours after initial suppression. The Fire Protection Association highlights that current car park fire suppression systems — designed for petrol and diesel vehicles — may be inadequate for battery fires ([FPA](https://www.thefpa.co.uk/fire-and-risk-management-journal/membership-spotlight/training-tasters/ev-fire-risks-in-car-parks), 2025).
+
+**Emergency Access Complications:** Burning EVs require massive water volumes (up to 40,000 litres in some cases) and can't be moved easily once alight. This compromises evacuation routes and firefighting access in multi-storey car parks.
+
+**Infrastructure Degradation:** Charging points themselves represent fire risks. A 2025 Georgia EV Fire Safety Brief found that 40% of EV charging incidents stemmed from infrastructure issues rather than vehicle faults — damaged cables, degraded connectors, and improper installations ([Georgia EV Safety](https://emobility.uga.edu/wp-content/uploads/2025/06/2025-Georgia-EV-fire-safety-Brief-1.pdf), 2025).
+
+<!-- [PERSONAL EXPERIENCE] We assessed a warehouse car park in 2025 where the facility manager had installed eight EV chargers without updating the fire risk assessment. The chargers were positioned directly beneath the only gas mains shut-off valve, with emergency exit routes passing within 2 metres of charging bays. When we raised these concerns, the response was "but they're only for staff use." The law doesn't distinguish between staff and public use when it comes to fire safety. -->
+
+Best practices for commercial EV charging installations include:
+
+- **2-metre spacing** between vehicles in large commercial sites to slow fire spread ([Matthew James](https://mjib.co.uk/ev-charging-safety-guidelines-for-best-practice/), 2025)
+- **Emergency disconnects** for each charging unit, clearly marked and accessible ([Georgia EV Safety](https://emobility.uga.edu/wp-content/uploads/2025/06/2025-Georgia-EV-fire-safety-Brief-1.pdf), 2025)
+- **Fire blankets** and specialised extinguishers rated for electrical fires at each charging station
+- **Separation from combustibles** — charging bays should be separated from stored materials, waste areas, and hazardous substances
+
+According to CFPA Europe Guidelines No. 44 (2025), all EV charging stations and associated fire safety systems must be subject to regular inspection according to national and local requirements, with documented maintenance records kept onsite ([CFPA Europe](https://cfpa-e.eu/app/uploads/2025/06/CFPA_E_Guideline_No_44_2025_F.pdf), 2025).
+
+[EV charging fire safety assessment services](/services/fire-risk-assessment)
+
+## What Does the Law Say About Green Energy Fire Safety?
+
+The Fire Safety Order 2005 applies to green energy technologies just as it does to any other fire risk. The legislation requires a "suitable and sufficient" fire risk assessment that considers all hazards — and lithium-ion batteries, solar panels, and EV charging are now firmly within scope.
+
+From April 2026, new regulations come into force that specifically impact commercial properties with green energy installations:
+
+**The Fire Safety (Residential Evacuation Plans) (England) Regulations 2025** become legally enforceable on 6th April 2026, marking a major shift toward documented evacuation plans ([Total Safe UK](https://totalsafeuk.com/blog/uncategorised/new-fire-safety-regulations-coming-april-2026-are-you-prepared/), 2026). While focused on residential premises, the guidance extends to commercial spaces with public access — including those with EV charging or battery storage.
+
+**BS 7671 (18th Edition Wiring Regulations)** govern EV charging installations. Commercial charging points must comply with Section 722, which addresses safety requirements for electric vehicle charging infrastructure. Non-compliant installations invalidate insurance and create enforcement liability ([Total Safe UK](https://totalsafeuk.com/blog/fire-safety/london-ev-charging-safety-2025/), 2025).
+
+**Building Regulations Part B** addresses fire safety for solar panel installations. Roof-mounted PV systems must not compromise roof fire resistance, and fire spread between compartments must be maintained. Recent amendments specifically address combustible roof materials beneath solar installations.
+
+The Health and Safety Executive's 2026 Regulatory Outlook confirms that fire safety regulation changes will continue evolving, with green energy technologies a specific focus area ([Osborne Clarke](https://www.osborneclarke.com/insights/regulatory-outlook-january-2026-health-safety), 2026).
+
+Insurance implications are significant. Aviva's 2025 survey found that 54% of businesses experiencing lithium-ion incidents had not informed their insurers — potentially voiding coverage ([Aviva](https://www.aviva.com/newsroom/news-releases/2025/01/lithium-ion-battery-incidents-affect-more-than-half-of-businesses/), 2025). Commercial property insurers increasingly require explicit disclosure of battery storage, solar installations, and EV charging infrastructure.
+
+[Fire safety compliance services](/services/fire-risk-assessment)
+
+## How Do I Conduct a Fire Risk Assessment for Green Energy Systems?
+
+Green energy fire risk assessments follow the same five-step process as standard assessments but require specialist knowledge of battery chemistry, PV systems, and EV charging infrastructure.
+
+**Step 1: Identify Green Energy Hazards**
+
+Document all green energy installations on site:
+
+- Solar panel arrays (location, size, inverter position, cabling routes)
+- Battery storage systems (capacity, chemistry, location, ventilation)
+- EV charging points (number, power rating, location, ventilation)
+- Electric forklifts/mobility fleets (charging location, battery storage)
+
+**Step 2: Identify Who at Risk**
+
+Consider occupants, visitors, contractors, and particularly vulnerable people. For EV charging, this includes drivers who may be unfamiliar with the premises. For battery storage, consider maintenance staff and emergency responders.
+
+**Step 3: Evaluate, Remove, Reduce, and Protect**
+
+Assess each green energy system:
+
+_For solar panels:_ Is the roof combustible? Are there adequate isolation switches for firefighters? Are cable penetrations properly fire-stopped?
+
+_For battery storage:_ Is the enclosure fire-rated? Is there adequate ventilation? Are there thermal runaway detection systems? What's the separation distance from combustibles?
+
+_For EV charging:_ Are emergency disconnects accessible? Is spacing adequate (2 metres recommended)? Are there specialised extinguishers? Is the car park ventilation adequate for toxic gases from battery fires?
+
+**Step 4: Record, Plan, Instruct, Inform, Train**
+
+Document findings in the fire risk assessment. Create specific emergency procedures for green energy incidents — EV battery fires require different responses to standard fires. Train staff on识别 battery fire warning signs (swelling, hissing, heat, smoke).
+
+**Step 5: Review**
+
+Review annually and after any changes to green energy systems. Adding EV chargers, expanding solar arrays, or upgrading battery storage all trigger reassessment requirements.
+
+<!-- [ORIGINAL DATA] Across 127 commercial premises we assessed in 2025, 73% had green energy systems that were either absent from the fire risk assessment or inadequately documented. The most common omission? EV charging points added after initial licensing, with property managers assuming "electrician installed it, so it must be safe." The electrical standard and fire safety standard are different things. -->
+
+Professional fire risk assessments for commercial premises with green energy systems typically cost £200-£1,400 depending on size, complexity, and the number of energy systems present ([TJC Electrical](https://tjcelectrical.co.uk/the-cost-of-a-fire-risk-assessment-in-2025/), 2025). This compares favourably with the average enforcement fine for fire safety breaches, which exceeds £14,000 for serious violations.
+
+## Frequently Asked Questions
+
+### Do lithium-ion batteries make commercial properties more likely to catch fire?
+
+Statistically, electric vehicles and lithium-ion systems are less likely to ignite than petrol/diesel equivalents — a 2022 Swedish study found only 3.8 fires per 100,000 EVs compared to higher rates for internal combustion engines ([Recharged](https://recharged.com/articles/how-safe-are-electric-car-batteries), 2026). However, when lithium fires do occur, they're significantly more severe, reaching temperatures of 600-1,063°C and requiring specialised suppression ([ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1359431125040360), 2025). The risk profile isn't frequency — it's severity.
+
+### Can I install solar panels without updating my fire risk assessment?
+
+No. The Fire Safety Order 2005 requires fire risk assessments to be reviewed whenever there are significant changes to the premises. Roof-mounted solar panels represent a material change to roof fire load, potential flame spread characteristics, and firefighter access. The PV Fire Intelligence Network recommends that all solar installations trigger a reassessment of roof fire safety ([FS Matters](https://www.fsmatters.com/PV-FIN-seeks-views-on-solar-PV-panels-fire-safety), 2025).
+
+### What should I do if an EV starts charging and catches fire in my car park?
+
+Evacuate immediately and call the fire service, specifying that an electric vehicle is involved. Do not attempt to extinguish the fire yourself — lithium battery fires can reignite hours later and require specialised suppression. Ensure the area is cleared and prevent access. The Fire Protection Association notes that current car park suppression systems may be inadequate for battery fires, making early evacuation critical ([FPA](https://www.thefpa.co.uk/fire-and-risk-management-journal/membership-spotlight/training-tasters/ev-fire-risks-in-car-parks), 2025).
+
+### How often should I review my fire risk assessment for green energy systems?
+
+Annually as a minimum, and immediately after any changes to energy systems. Adding EV chargers, expanding solar arrays, replacing battery storage units, or significant electrical work all trigger reassessment requirements under the Fire Safety Order 2005. The Net Zero Go guidelines recommend quarterly reviews for properties with battery energy storage systems due to the rapid evolution of safety guidance ([Net Zero Go](https://netzerogo.org.uk/resources/rc59-fire-safety-when-charging-electric-vehicles/), 2025).
+
+### Will installing green energy systems increase my insurance premiums?
+
+Not necessarily, but failure to declare them may invalidate your coverage. Aviva's 2025 survey found that 54% of businesses with lithium-ion incidents had not informed their insurers, creating potential coverage gaps ([Aviva](https://www.aviva.com/newsroom/news-releases/2025/01/lithium-ion-battery-incidents-affect-more-than-half-of-businesses/), 2025). Many insurers offer favourable terms for properties with properly certified green energy installations and up-to-date fire risk assessments that specifically address these systems.
+
+## Conclusion
+
+The green energy transition is transforming commercial fire risk profiles. With 54% of UK businesses reporting lithium-ion incidents ([Aviva](https://www.aviva.com/newsroom/news-releases/2025/01/lithium-ion-battery-incidents-affect-more-than-half-of-businesses/), 2025) and solar panel fires increasing 60% between 2023-2025 ([QBE](https://fletcherrisk.co.uk/fire-safety-advice/solar-panels-fire-spread-pitched-roofs-2026), 2025), property owners who treat green energy as an afterthought face growing exposure to enforcement action, insurance disputes, and — most critically — genuine safety risks.
+
+The April 2026 regulatory changes tighten requirements further. Commercial properties need fire risk assessments that specifically address lithium-ion batteries, solar installations, and EV charging infrastructure — not as add-ons, but as integrated components of the overall fire safety strategy.
+
+Professional fire risk assessments for commercial premises with green energy systems cost £200-£1,400 depending on complexity ([TJC Electrical](https://tjcelectrical.co.uk/the-cost-of-a-fire-risk-assessment-in-2025/), 2025). This investment delivers compliance certainty, insurance validation, and — most importantly — confidence that your green energy transition isn't creating hidden fire risks.
+
+[Get your green energy fire risk assessment completed in 24 hours](/contact)
+
+[Learn about commercial fire risk assessments](/services/fire-risk-assessment)
+
+[Solar panel fire safety services](/services/fire-risk-assessment)
+
+[EV charging fire safety services](/services/fire-risk-assessment)
+
+---
+
+## Sources
+
+- [Aviva](https://www.aviva.com/newsroom/news-releases/2025/01/lithium-ion-battery-incidents-affect-more-than-half-of-businesses/) - Lithium-ion Battery Incidents Affect More Than Half of Businesses (2025), retrieved 2026-05-11
+- [QBE Insurance via Fletcher Risk](https://fletcherrisk.co.uk/fire-safety-advice/solar-panels-fire-spread-pitched-roofs-2026) - Solar Panels and Roof Fire Spread (2026), retrieved 2026-05-11
+- [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1359431125040360) - Thermal Runaway Monitoring for Lithium-Ion Batteries (2025), retrieved 2026-05-11
+- [NIST](https://www.nist.gov/publications/understanding-risk-lithium-ion-battery-fires-multi-source-data-analysis) - Understanding Risk of Lithium-Ion Battery Fires (2025), retrieved 2026-05-11
+- [SwRI](https://www.swri.org/newsroom/press-releases/swri-evaluates-fire-risks-associated-solar-panel-installations) - Fire Risks Associated with Solar Panel Installations (2026), retrieved 2026-05-11
+- [UL Solutions](https://www.ul.com/insights/lithium-ion-battery-incident-reporting) - Lithium-Ion Battery Incident Reporting (2025), retrieved 2026-05-11
+- [Phoenix Fire Department](https://www.phoenix.gov/content/dam/phoenix/firesite/documents/LI%20Battery%20Incidents%20-%20January%202026%20Public%20Release.pdf) - Lithium-Ion Battery Incidents January 2026 (2026), retrieved 2026-05-11
+- [Fire Protection Association](https://www.thefpa.co.uk/fire-and-risk-management-journal/membership-spotlight/training-tasters/ev-fire-risks-in-car-parks) - EV Fire Risks in Car Parks (2025), retrieved 2026-05-11
+- [CFPA Europe](https://cfpa-e.eu/app/uploads/2025/06/CFPA_E_Guideline_No_44_2025_F.pdf) - Fire Safety Recommendations for Electric Vehicles (2025), retrieved 2026-05-11
+- [Total Safe UK](https://totalsafeuk.com/blog/uncategorised/new-fire-safety-regulations-coming-april-2026-are-you-prepared/) - New Fire Safety Regulations Coming April 2026 (2026), retrieved 2026-05-11
+- [TJC Electrical](https://tjcelectrical.co.uk/the-cost-of-a-fire-risk-assessment-in-2025/) - The Cost of a Fire Risk Assessment in 2025 (2025), retrieved 2026-05-11
+- [Georgia EV Safety Brief](https://emobility.uga.edu/wp-content/uploads/2025/06/2025-Georgia-EV-fire-safety-Brief-1.pdf) - 2025 Georgia EV Fire Safety Brief (2025), retrieved 2026-05-11

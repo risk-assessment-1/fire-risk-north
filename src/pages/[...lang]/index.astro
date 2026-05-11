@@ -30,7 +30,23 @@ const { hero_slider, banner_feature, funfacts, feature, latest_news } =
 const aboutIndex = await getListPage("about", lang as string);
 const serviceIndex = await getListPage("services", lang as string);
 const services = await getSinglePage("services", lang as string);
-const locations = await getSinglePage("locations", lang as string);
+const allLocations = await getSinglePage("locations", lang as string);
+const featuredSlugs = [
+  "manchester",
+  "liverpool",
+  "preston",
+  "blackpool",
+  "bolton",
+  "blackburn",
+];
+const locations = allLocations.filter((loc) => {
+  const slug = loc.id.split("/").pop();
+  return featuredSlugs.includes(slug || "");
+});
+const otherLocations = allLocations.filter((loc) => {
+  const slug = loc.id.split("/").pop();
+  return !featuredSlugs.includes(slug || "");
+});
 const posts = await getSinglePage("blog", lang as string);
 
 const testimonial = await getSinglePage(
@@ -58,7 +74,7 @@ const callToAction = await getSinglePage(
     title="Fire Safety & Compliance Services"
     subtitle="One partner for all your property compliance needs"
   />
-  <Locations locations={locations} />
+  <Locations locations={locations} otherLocations={otherLocations} />
   <Testimonial testimonial={testimonial[0].data} />
   <CallToActionLG callToAction={callToAction[0].data} />
   <LatestNews posts={posts} latest_news={latest_news} />

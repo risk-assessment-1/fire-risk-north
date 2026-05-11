@@ -70,12 +70,12 @@
       "hasChildren": true,
       "children": [
         { "name": "Manchester", "url": "/locations/manchester" },
-        { "name": "Salford", "url": "/locations/salford" },
+        { "name": "Liverpool", "url": "/locations/liverpool" },
+        { "name": "Preston", "url": "/locations/preston" },
+        { "name": "Blackpool", "url": "/locations/blackpool" },
         { "name": "Bolton", "url": "/locations/bolton" },
-        { "name": "Wigan", "url": "/locations/wigan" },
-        { "name": "Chorley", "url": "/locations/chorley" },
-        { "name": "Leyland", "url": "/locations/leyland" },
-        { "name": "Preston", "url": "/locations/preston" }
+        { "name": "Blackburn", "url": "/locations/blackburn" },
+        { "name": "See All", "url": "/locations" }
       ]
     },
     { "name": "Blog", "url": "/blog" }
@@ -85,7 +85,6 @@
     { "name": "Services", "url": "/services" },
     { "name": "Locations", "url": "/locations" },
     { "name": "Blog", "url": "/blog" },
-    { "name": "FAQ", "url": "/faq" },
     { "name": "Contact Us", "url": "/contact" },
     { "name": "Privacy Policy", "url": "/privacy-policy" },
     { "name": "Terms of Service", "url": "/terms" }
