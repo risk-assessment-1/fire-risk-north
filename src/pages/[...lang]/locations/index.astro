@@ -64,6 +64,9 @@ const locations = await getSinglePage("locations", lang as string);
                     </div>
                     <a href={`/locations/${slug}`} class="btn btn-arrow mt-4">
                       Read More
+                      <span class="sr-only">
+                        about ${markdownify(slug || "")}
+                      </span>
                     </a>
                   </div>
                 </div>

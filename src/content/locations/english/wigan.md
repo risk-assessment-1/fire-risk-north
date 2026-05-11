@@ -119,10 +119,6 @@ services_grid:
       description: "Annual servicing and certification of all fire extinguisher types."
       icon: "shield-check"
       href: "/services/fire-extinguisher-servicing"
-    - title: "Asbestos Surveys"
-      description: "Management and refurbishment asbestos surveys for older properties."
-      icon: "search"
-      href: "/services/asbestos-surveys"
     - title: "Emergency Light Testing"
       description: "Testing and certification of emergency lighting systems to BS 5266 standards."
       icon: "shield-check"
@@ -182,7 +178,7 @@ faq_section:
     - question: "What types of Wigan properties do you assess?"
       answer: "We assess all property types across Wigan including offices in the town centre, retail units in Leigh, restaurants, hotels, care homes, schools, industrial units in Hindley and Atherton, HMOs, blocks of flats, and mixed-use buildings."
     - question: "Do you understand Wigan's former industrial building stock?"
-      answer: "Absolutely. Wigan has a rich industrial heritage with many former mining and mill buildings that have been converted for modern use. Our assessors have extensive experience with these building types and understand the unique fire safety challenges they present, including asbestos management and structural compartmentation."
+      answer: "Absolutely. Wigan has a rich industrial heritage with many former mining and mill buildings that have been converted for modern use. Our assessors have extensive experience with these building types and understand the unique fire safety challenges they present, including structural compartmentation and fire spread risks."
     - question: "What regulations must Wigan businesses comply with?"
       answer: "Wigan businesses must comply with the Regulatory Reform (Fire Safety) Order 2005, which requires a written fire risk assessment for all non-domestic premises. Additional requirements may apply under the Building Safety Act 2022 for high-rise buildings, and local licensing conditions for HMOs and licensed premises."
     - question: "Can you help with Greater Manchester Fire and Rescue enforcement notices in Wigan?"
@@ -191,7 +187,7 @@ faq_section:
 
 Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Wigan and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
 
-Wigan presents unique fire safety challenges. As a former mining and mill town, the borough has a significant stock of converted industrial buildings, former cotton mills, and Victorian-era commercial premises alongside modern residential developments in areas like Standish and Ashton-in-Makerfield. The town's industrial heritage means many properties require careful assessment of compartmentation, asbestos management, and fire spread risks. Our assessors understand the specific fire risks that Wigan's diverse property landscape presents.
+Wigan presents unique fire safety challenges. As a former mining and mill town, the borough has a significant stock of converted industrial buildings, former cotton mills, and Victorian-era commercial premises alongside modern residential developments in areas like Standish and Ashton-in-Makerfield. The town's industrial heritage means many properties require careful assessment of compartmentation, structural fire protection, and fire spread risks. Our assessors understand the specific fire risks that Wigan's diverse property landscape presents.
 
 ### Key Requirements for Wigan Properties in 2026
 

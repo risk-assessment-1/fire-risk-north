@@ -70,7 +70,7 @@ const lang = getLangFromUrl(Astro.url);
               </span>
             </div>
             <div class="md:col-span-2">
-              <span class="font-bold text-orange-600 dark:text-orange-400">
+              <span class="font-bold text-orange-700 dark:text-orange-400">
                 {row.price}
               </span>
             </div>
@@ -79,16 +79,16 @@ const lang = getLangFromUrl(Astro.url);
                 <a
                   href={slugSelector(
                     `/services/fire-risk-assessment/${row.slug}`,
-                    lang,
+                    lang
                   )}
-                  class="text-sm font-semibold text-orange-600 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 transition-colors"
+                  class="text-sm font-semibold text-orange-700 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 transition-colors"
                 >
                   View &rarr;
                 </a>
               ) : (
                 <a
                   href="/contact"
-                  class="text-sm font-semibold text-orange-600 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 transition-colors"
+                  class="text-sm font-semibold text-orange-700 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 transition-colors"
                 >
                   Get Quote &rarr;
                 </a>
