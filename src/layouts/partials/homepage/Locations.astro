@@ -43,7 +43,7 @@ const lang = getLangFromUrl(Astro.url);
             <div class="lg:col-span-2">
               <div class="box-shadow">
                 <div class="p-6 bg-white dark:bg-darkmode-light">
-                  <p>
+                  <p class="heading h5">
                     <a
                       href={slugSelector(`/locations/${slug}`, lang)}
                       class="text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary duration-200"
@@ -56,9 +56,10 @@ const lang = getLangFromUrl(Astro.url);
                   </p>
                   <a
                     href={slugSelector(`/locations/${slug}`, lang)}
-                    class="btn btn-arrow"
+                    class="pl-0 btn btn-arrow"
                   >
-                    Read More
+                    Read More{" "}
+                    <span class="sr-only">about ${titleify(slug || "")}</span>
                   </a>
                 </div>
               </div>

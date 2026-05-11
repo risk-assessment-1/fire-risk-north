@@ -10,8 +10,8 @@ const { pathname } = Astro.url;
 const groups = [
   ...new Set(
     projects.map((project: { data: { category: string } }) =>
-      project.data.category.toLocaleLowerCase(),
-    ),
+      project.data.category.toLocaleLowerCase()
+    )
   ),
 ];
 ---
@@ -79,7 +79,7 @@ const groups = [
                   class="text-primary dark:text-darkmode-primary text-base mb-2"
                   set:html={markdownify(project.data.category)}
                 />
-                <p class="text-h5text-text-dark dark:text-darkmode-text-dark  hover:text-primary duration-200">
+                <p class="text-h5 text-text-dark dark:text-darkmode-text-dark  hover:text-primary duration-200">
                   <a
                     href={slugSelector(`${project.id}`, lang)}
                     set:html={markdownify(project.data.title)}

@@ -16,7 +16,10 @@ const description = subtitle || serviceIndex?.data?.description;
           <div class="section-title">
             <span class="section-title-border bg-primary-on-dark border-center"
             ></span>
-            <p class="text-h5" set:html={markdownify(description)} />
+            <p
+              class="text-h5 text-white/80"
+              set:html={markdownify(description)}
+            />
             <h2 class="h1 text-white" set:html={markdownify(heading)} />
           </div>
         </div>
