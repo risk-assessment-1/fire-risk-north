@@ -81,33 +81,29 @@ const {
         <div class="content mb-10">
           <Content />
         </div>
-        <div class="row items-start justify-between">
-          <div class="mb-10 flex items-center lg:col-5 lg:mb-0">
-            <p class="text-h5 mr-3">{Ttags} :</p>
-            <ul>
-              {
-                tags.map((tag: string) => (
-                  <li class="inline-block">
-                    <a
-                      class="btn btn-primary bg-white dark:bg-black text-text dark:text-darkmode-text font-normal border-none box-shadow duration-200 hover:bg-primary dark:hover:bg-darkmode-primary hover:text-white btn-sm mr-1"
-                      href={slugSelector(`/tags/${slugify(tag)}`, lang)}
-                    >
-                      {humanize(tag)}
-                    </a>
-                  </li>
-                ))
-              }
-            </ul>
-          </div>
-          <div class="flex items-center lg:col-4">
-            <p class="text-h5 mr-3">{share} :</p>
-            <Share
-              className=""
-              title={title}
-              description={description}
-              slug={post.id}
-            />
-          </div>
+        <div class="mb-10 flex flex-wrap items-center gap-3 lg:mb-0">
+          <p class="text-h5">{Ttags}:</p>
+          <ul class="flex flex-wrap gap-1.5">
+            {
+              tags.map((tag: string) => (
+                <li>
+                  <a
+                    class="btn btn-primary bg-white dark:bg-black text-text dark:text-darkmode-text font-normal border-none box-shadow duration-200 hover:bg-primary dark:hover:bg-darkmode-primary hover:text-white btn-sm"
+                    href={slugSelector(`/tags/${slugify(tag)}`, lang)}
+                  >
+                    {humanize(tag)}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+          <p class="text-h5 ml-4">{share}:</p>
+          <Share
+            className=""
+            title={title}
+            description={description}
+            slug={post.id}
+          />
         </div>
       </article>
 

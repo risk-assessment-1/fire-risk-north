@@ -1,6 +1,6 @@
 ---
 enable: true
-title: "Bexar give the smart solution for your business"
+title: "Get Your Fire Risk Assessment Today"
 button:
   enable: true
   label: "get an quote"

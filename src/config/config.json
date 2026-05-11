@@ -1,9 +1,8 @@
 {
   "site": {
     "title": "Fire Assessment North",
-    "base_url": "https://fireassessmentnorth.joeyk2k-a3a.workers.dev/",
+    "base_url": "https://fireassessmentnorth.joeyk2k-a3a.workers.dev",
     "base_path": "/",
-    "trailing_slash": false,
     "favicon": "/images/favicon.svg",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",

@@ -284,13 +284,15 @@ const homepageCollection = defineCollection({
 
 const blogCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/blog" }),
-  schema: z.object({
-    ...commonFields,
-    author: z.string().default("Admin"),
-    categories: z.array(z.string()).default([]),
-    tags: z.array(z.string()).default([]),
-    draft: z.boolean().optional(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      ...commonFields,
+      image: image().optional(),
+      author: z.string().default("Admin"),
+      categories: z.array(z.string()).default([]),
+      tags: z.array(z.string()).default([]),
+      draft: z.boolean().optional(),
+    }),
 });
 
 const pagesCollection = defineCollection({
@@ -414,7 +416,7 @@ const testimonialCollection = defineCollection({
       z.object({
         name: z.string(),
         designation: z.string(),
-        avatar: z.string(),
+        avatar: z.string().optional(),
         content: z.string(),
       }),
     ),

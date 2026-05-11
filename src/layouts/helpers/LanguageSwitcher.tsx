@@ -11,17 +11,9 @@ const LanguageSwitcher = ({
 }) => {
   const { default_language, default_language_in_subdir } = config.settings;
 
-  // Function to remove trailing slash if necessary
-  const removeTrailingSlash = (path: string) => {
-    if (!config.site.trailing_slash) {
-      return path.replace(/\/$/, "");
-    }
-    return path;
-  };
+  const stripTrailingSlash = (path: string) => path.replace(/\/$/, "");
 
-  // Sort languages by weight and filter out disabled languages
   const sortedLanguages = languages
-
     .filter(
       (
         language, // @ts-ignore
@@ -40,12 +32,12 @@ const LanguageSwitcher = ({
 
           if (selectedLang === default_language) {
             if (default_language_in_subdir) {
-              newPath = `${baseUrl}/${default_language}${removeTrailingSlash(pathname.replace(`/${lang}`, ""))}`;
+              newPath = `${baseUrl}/${default_language}${stripTrailingSlash(pathname.replace(`/${lang}`, ""))}`;
             } else {
-              newPath = `${baseUrl}${removeTrailingSlash(pathname.replace(`/${lang}`, ""))}`;
+              newPath = `${baseUrl}${stripTrailingSlash(pathname.replace(`/${lang}`, ""))}`;
             }
           } else {
-            newPath = `/${selectedLang}${removeTrailingSlash(pathname.replace(`/${lang}`, ""))}`;
+            newPath = `/${selectedLang}${stripTrailingSlash(pathname.replace(`/${lang}`, ""))}`;
           }
 
           window.location.href = newPath;

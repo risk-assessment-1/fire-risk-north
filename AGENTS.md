@@ -151,7 +151,7 @@ Query helpers in `src/lib/contentParser.astro`:
 - Menu: `src/config/menu.en.json`
 - Translations: `src/i18n/en.json`
 - Language parsed from URL via `getLangFromUrl(Astro.url)`
-- URL construction: `slugSelector(url, lang)` handles locale prefixes and trailing slashes
+- URL construction: `slugSelector(url, lang)` handles locale prefixes
 
 ## Auto-Imported Shortcodes
 
@@ -160,6 +160,7 @@ Available in MDX without explicit import: `Button`, `Accordion`, `Notice`, `Vide
 ## Key Patterns
 
 - **Static output only** — no SSR or API routes
+- **No trailing slashes** — `trailingSlash: "never"` in Astro config; all internal URLs must not end with `/`. The `slugSelector()` utility strips trailing slashes automatically.
 - Deploy target: Cloudflare Workers (`wrangler.jsonc`)
 - Draft entries (`draft: true`) excluded from production via `getSinglePage` filter
 - Font loading via Astro 6 `fontProviders.google()` with CSS variables (`--font-primary`)
