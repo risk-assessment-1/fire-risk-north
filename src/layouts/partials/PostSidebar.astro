@@ -42,17 +42,19 @@ const {
               <div class="flex gap-x-4">
                 {post.data.image && (
                   <ImageMod
-                    width={85 * 2}
-                    height={85 * 2}
-                    class="w-[85px] h-[85px] object-cover"
+                    width={170}
+                    height={170}
+                    class="w-21.25 h-21.25 object-cover"
                     src={post.data.image}
                     alt={post.data.title}
+                    sizes="85px"
+                    widths={[85, 170]}
                   />
                 )}
 
                 <div>
                   <a
-                    class="flex justify-between text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary !no-underline mb-2"
+                    class="flex justify-between text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary no-underline! mb-2"
                     href={slugSelector(`${post.id}`, lang)}
                   >
                     {humanize(post.data.title)}
@@ -79,7 +81,7 @@ const {
           return (
             <li class="border-b border-border dark:border-darkmode-border pb-4">
               <a
-                class="flex justify-between hover:text-primary dark:hover:text-darkmode-primary !no-underline"
+                class="flex justify-between hover:text-primary dark:hover:text-darkmode-primary no-underline!"
                 href={slugSelector(`/categories/${category}`, lang)}
               >
                 {humanize(category as unknown as string)} <span>({count})</span>

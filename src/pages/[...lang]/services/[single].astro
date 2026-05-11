@@ -127,6 +127,8 @@ if (faq_section?.enable)
                 width={1000}
                 height={900}
                 alt={title}
+                sizes="(max-width: 768px) 90vw, (max-width: 1280px) 66vw, 1000px"
+                widths={[500, 1000]}
               />
             )
           }
@@ -170,7 +172,6 @@ if (faq_section?.enable)
               currentSlug={currentServiceSlug}
               title={our_services}
             />
-
           </div>
         </aside>
       </div>

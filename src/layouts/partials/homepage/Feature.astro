@@ -56,7 +56,8 @@ const { feature } = Astro.props;
             class="w-full"
             src={feature.image}
             alt="feature-image"
-            format="webp"
+            sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 1000px"
+            widths={[500, 1000]}
           />
         </div>
       </div>

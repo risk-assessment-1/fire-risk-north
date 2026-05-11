@@ -13,7 +13,7 @@ const { latest_news, posts } = Astro.props;
             <div class="section-title">
               <span class="section-title-border" />
               <p set:html={markdownify(latest_news.sub_title)} />
-              <h2 set:html={markdownify(latest_news.title)} class="!ml-0" />
+              <h2 set:html={markdownify(latest_news.title)} class="ml-0!" />
             </div>
           </div>
         </div>

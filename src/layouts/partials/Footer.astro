@@ -19,8 +19,9 @@ if (menu) {
 
 const { copyright, address, phone, email, footer_content, copyright_menu } =
   config.params;
-const { services, contact_info, follow_us_on } =
-  await getTranslations(lang as string);
+const { services, contact_info, follow_us_on } = await getTranslations(
+  lang as string,
+);
 ---
 
 <footer>

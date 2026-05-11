@@ -24,9 +24,10 @@ const lang = getLangFromUrl(Astro.url);
                 class="w-100 max-md:pb-20"
                 src={about.image}
                 alt="About Image"
-                format="webp"
                 width={518}
                 height={492}
+                sizes="(max-width: 768px) 90vw, (max-width: 1024px) 50vw, 518px"
+                widths={[518, 1036]}
               />
             </div>
             <div class="md:col-6">

@@ -39,7 +39,7 @@ const lgCols = stepCount > 5 ? "lg:grid-cols-6" : "lg:grid-cols-5";
 
     <div class="relative">
       <div
-        class={`hidden lg:block absolute top-[60px] ${stepCount > 5 ? "left-[8%] right-[8%]" : "left-[10%] right-[10%]"} h-0.5 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-400 dark:from-orange-600 dark:via-orange-700 dark:to-orange-600 z-0`}
+        class={`hidden lg:block absolute top-15 ${stepCount > 5 ? "left-[8%] right-[8%]" : "left-[10%] right-[10%]"} h-0.5 bg-linear-to-r from-orange-400 via-orange-500 to-orange-400 dark:from-orange-600 dark:via-orange-700 dark:to-orange-600 z-0`}
       >
       </div>
 
@@ -49,7 +49,7 @@ const lgCols = stepCount > 5 ? "lg:grid-cols-6" : "lg:grid-cols-5";
         {
           data.steps.map((step) => (
             <div class="flex flex-col items-center">
-              <div class="w-24 h-24 min-w-24 min-h-24 max-w-24 max-h-24 aspect-square bg-gradient-to-br from-[#f8714b] to-[#e15b31] rounded-full flex items-center justify-center text-white text-4xl font-bold mb-[-48px] z-20 shadow-lg border-4 border-white dark:border-darkmode-light">
+              <div class="w-24 h-24 min-w-24 min-h-24 max-w-24 max-h-24 aspect-square bg-linear-to-br from-[#f8714b] to-[#e15b31] rounded-full flex items-center justify-center text-white text-4xl font-bold -mb-12 z-20 shadow-lg border-4 border-white dark:border-darkmode-light">
                 {step.number}
               </div>
               <div class="bg-white dark:bg-darkmode-light rounded-2xl p-8 pt-16 flex flex-col items-center text-center h-full border border-gray-100 dark:border-darkmode-border">
