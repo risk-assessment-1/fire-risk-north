@@ -14,7 +14,7 @@ input#nav-toggle:checked~#nav-menu {
 /* swiper slider */
 .swiper-button-next,
 .swiper-button-prev {
-  @apply hidden max-lg:flex absolute transition-transform duration-300 ease-in-out bg-primary dark:bg-darkmode-primary opacity-60;
+  @apply hidden lg:flex absolute transition-transform duration-300 ease-in-out bg-primary dark:bg-darkmode-primary opacity-60;
 }
 
 .swiper-button-next {

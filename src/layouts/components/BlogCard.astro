@@ -48,12 +48,12 @@ const { by, on } = await getTranslations(lang as string);
           />/ {on}
           <strong>{dateFormat(date)}</strong>
         </strong>
-        <h4 class="card-title">
+        <p class="card-title">
           <a
             href={slugSelector(`/${data.id}`, lang)}
             set:html={markdownify(title)}
           />
-        </h4>
+        </p>
         <span class="section-title-border"></span>
         <p class="card-text">
           {plainify(data.body)}
