@@ -42,9 +42,9 @@ const { data } = Astro.props;
         <div class="regions-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 mb-12">
           {data.regions.map((region) => (
             <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-shadow duration-300 lg:col-span-2">
-              <h4 class="text-lg font-bold text-slate-900 dark:text-darkmode-text-dark mb-2">
+              <p class="text-lg font-bold text-slate-900 dark:text-darkmode-text-dark mb-2">
                 {region.title}
-              </h4>
+              </p>
               <p class="text-slate-600 dark:text-darkmode-text text-sm leading-relaxed">
                 {region.areas}
               </p>

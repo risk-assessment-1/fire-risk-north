@@ -20,7 +20,7 @@ const { bannerFeature } = Astro.props;
                       className="icon group-hover:text-white"
                     />
                   </div>
-                  <h4
+                  <p
                     class="mb-4 group-hover:text-white font-semibold text-h5"
                     set:html={markdownify(item.name ?? "")}
                   />
@@ -30,7 +30,7 @@ const { bannerFeature } = Astro.props;
                   />
                 </div>
               </div>
-            ),
+            )
           )}
         </div>
       </div>

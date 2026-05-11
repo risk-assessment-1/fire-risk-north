@@ -37,9 +37,9 @@ const { services, contact_info, follow_us_on } = await getTranslations(
             set:html={markdownify(footer_content)}
           />
           <!-- social links -->
-          <h4 class="text-white mb-6 mt-12 text-h5 font-semibold">
+          <p class="text-white mb-6 mt-12 text-h5 font-semibold">
             {follow_us_on}
-          </h4>
+          </p>
           <Social
             source={social.main}
             className="social-icons-topbar inline-block text-sm"
@@ -50,7 +50,7 @@ const { services, contact_info, follow_us_on } = await getTranslations(
           <div class="row">
             <!-- service list -->
             <div class="col-6 mt-5">
-              <h4 class="text-white mb-4 text-h5 font-semibold">{services}</h4>
+              <p class="text-white mb-4 text-h5 font-semibold">{services}</p>
               <ul class="list-styled">
                 {
                   footer.map((menu: any) => (
@@ -68,9 +68,9 @@ const { services, contact_info, follow_us_on } = await getTranslations(
 
             <!-- contact info -->
             <div class="col-6 mt-5">
-              <h4 class="text-white mb-4 text-h5 font-semibold">
+              <p class="text-white mb-4 text-h5 font-semibold">
                 {contact_info}
-              </h4>
+              </p>
               <ul>
                 <li class="text-light/75 mb-3">
                   <a
