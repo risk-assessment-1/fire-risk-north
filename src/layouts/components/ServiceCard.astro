@@ -55,7 +55,7 @@ const { read_more } = await getTranslations(lang as string);
                 )}
 
                 <div class="p-4 bg-white dark:bg-darkmode-light">
-                  <p>
+                  <p class="heading h5">
                     <a
                       href={slugSelector(`/${service.id}`, lang)}
                       class="text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary duration-200"
@@ -73,9 +73,7 @@ const { read_more } = await getTranslations(lang as string);
                     class="btn btn-arrow"
                   >
                     {read_more}
-                    <span class="sr-only">
-                      {plainify(service.data.title)}
-                    </span>
+                    <span class="sr-only">{plainify(service.data.title)}</span>
                   </a>
                 </div>
               </div>

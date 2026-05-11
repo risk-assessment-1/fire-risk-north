@@ -48,7 +48,7 @@ const { testimonial } = Astro.props;
                             />
                             <FaQuoteLeft className="text-primary/30 dark:text-darkmode-primary/30 absolute top-0 left-1/2 text-[100px] -translate-x-12.5" />
                             <p
-                              class="mb-2 text-h5"
+                              class="mb-2 text-h5 heading h4"
                               set:html={markdownify(t.name)}
                             />
                             <span
@@ -59,7 +59,7 @@ const { testimonial } = Astro.props;
                         </div>
                       </div>
                     </div>
-                  ),
+                  )
                 )}
               </div>
             </div>

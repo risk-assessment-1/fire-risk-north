@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  @apply bg-body dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text  dark:text-darkmode-text;
+  @apply bg-body dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
 }
 
 h1,
@@ -54,8 +54,9 @@ code {
   @apply after:border-none;
 }
 
-blockquote > p {
+blockquote>p {
   @apply relative z-20;
+
   &::before {
     content: "";
   }

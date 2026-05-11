@@ -603,7 +603,7 @@
 }
 
 .card-title {
-  @apply text-h5 font-medium hover:text-primary dark:hover:text-darkmode-primary duration-200 mb-2 mt-3;
+  @apply heading text-h5 font-medium hover:text-primary dark:hover:text-darkmode-primary duration-200 mb-2 mt-3;
 }
 
 .card-text {
