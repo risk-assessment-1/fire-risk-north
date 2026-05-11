@@ -2,7 +2,7 @@
 title: "Asbestos Surveys"
 meta_title: "Asbestos Survey Services - Fire Assessment North"
 description: "UKAS accredited asbestos surveys in compliance with the Control of Asbestos Regulations 2012. Management, refurbishment, and demolition surveys with lab results in 48-72 hours."
-image: "/images/services/asbestos-surveys.jpg"
+image: "../../../assets/images/services/asbestos-surveys.jpg"
 draft: false
 icon: "FaShieldVirus"
 hero:

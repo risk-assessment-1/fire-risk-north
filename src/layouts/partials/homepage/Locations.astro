@@ -1,6 +1,6 @@
 ---
 import { getLangFromUrl, slugSelector } from "@/lib/utils/languageParser";
-import { markdownify, titleify } from "@/lib/utils/textConverter";
+import { titleify } from "@/lib/utils/textConverter";
 import type { CollectionEntry } from "astro:content";
 
 type Props = {
@@ -33,12 +33,14 @@ const lang = getLangFromUrl(Astro.url);
   </div>
 
   <div class="container">
-    <div class="row g-4">
+    <div
+      class="locations-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6"
+    >
       {
         locations.map((location) => {
           const slug = location.id.split("/").pop();
           return (
-            <div class="lg:col-4 sm:col-6 mb-4 lg:mb-0">
+            <div class="lg:col-span-2">
               <div class="box-shadow">
                 <div class="p-6 bg-white dark:bg-darkmode-light">
                   <h5>
@@ -67,3 +69,15 @@ const lang = getLangFromUrl(Astro.url);
     </div>
   </div>
 </section>
+
+<style>
+  @media (min-width: 1024px) {
+    .locations-grid > div:last-child:nth-child(3n-2) {
+      grid-column-end: 5;
+    }
+
+    .locations-grid > div:nth-last-child(2):nth-child(3n-2) {
+      grid-column-end: 4;
+    }
+  }
+</style>

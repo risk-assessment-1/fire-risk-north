@@ -21,31 +21,32 @@ export interface Props {
 const { id, data } = Astro.props;
 ---
 
-<section
-  id={id}
-  class="py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24"
->
+<section id={id} class="py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
   <div class="container">
     <div class="text-center mb-12">
       <h3
         class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-darkmode-text-dark leading-tight mb-6"
       >
         {data.heading}
-        {data.heading_accent && (
-          <span class="text-[#f8714b]"> {data.heading_accent}</span>
-        )}
+        {
+          data.heading_accent && (
+            <span class="text-[#f8714b]"> {data.heading_accent}</span>
+          )
+        }
       </h3>
-      {data.subtitle && (
-        <p class="text-lg text-slate-600 dark:text-darkmode-text max-w-3xl mx-auto leading-relaxed">
-          {data.subtitle}
-        </p>
-      )}
+      {
+        data.subtitle && (
+          <p class="text-lg text-slate-600 dark:text-darkmode-text max-w-3xl mx-auto leading-relaxed">
+            {data.subtitle}
+          </p>
+        )
+      }
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
       {
         data.highlights.map((item) => (
-          <div class="bg-white dark:bg-darkmode-light border border-gray-200 dark:border-darkmode-border rounded-xl p-8 text-center flex flex-col justify-center min-h-[280px] shadow-sm">
+          <div class="bg-white dark:bg-darkmode-light border border-gray-200 dark:border-darkmode-border rounded-xl p-8 text-center flex flex-col justify-center min-h-[280px] shadow-sm md:[&:last-child:nth-child(3n-2)]:col-span-3 md:[&:last-child:nth-child(3n-1)]:col-span-2">
             {(item.title || item.stat) && (
               <h3
                 class:list={[

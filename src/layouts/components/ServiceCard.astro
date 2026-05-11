@@ -20,7 +20,9 @@ const { read_more } = await getTranslations(lang as string);
 ---
 
 <div class="container">
-  <div class="row g-4">
+  <div
+    class="services-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6"
+  >
     {
       services?.map((service) => {
         const slugParts = service.id.split("/");
@@ -29,7 +31,7 @@ const { read_more } = await getTranslations(lang as string);
         service.id = modifiedSlug;
 
         return (
-          <div class="lg:col-4 sm:col-6 mb-4 lg:mb-0">
+          <div class="lg:col-span-2">
             <div class="box-shadow">
               {service.data.image && (
                 <ImageMod
@@ -80,3 +82,15 @@ const { read_more } = await getTranslations(lang as string);
     }
   </div>
 </div>
+
+<style>
+  @media (min-width: 1024px) {
+    .services-grid > div:last-child:nth-child(3n-2) {
+      grid-column-end: 5;
+    }
+
+    .services-grid > div:nth-last-child(2):nth-child(3n-2) {
+      grid-column-end: 4;
+    }
+  }
+</style>

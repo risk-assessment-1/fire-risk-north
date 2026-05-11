@@ -28,8 +28,8 @@ const {
 
 <div class="lg:col-4 order-1 lg:order-2">
   <!-- Latest Post -->
-  <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
-    <h5 class="mb-5">{latest_posts}</h5>
+  <div class="bg-white dark:bg-black lg:px-8 py-10 box-shadow mb-12">
+    <p class="text-h5 mb-5">{latest_posts}</p>
     <ul class="space-y-4">
       {
         sortedPosts.map((post) => {
@@ -70,8 +70,8 @@ const {
   </div>
 
   <!-- categories -->
-  <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
-    <h5 class="mb-5">{Tcategories}</h5>
+  <div class="bg-white dark:bg-black lg:px-8 py-10 box-shadow mb-12">
+    <p class="text-h5 mb-5">{Tcategories}</p>
     <ul class="list-styled style-circle space-y-4">
       {
         categories.map((category) => {
@@ -91,8 +91,8 @@ const {
     </ul>
   </div>
   <!-- tags -->
-  <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
-    <h5 class="mb-5">{Ttags}</h5>
+  <div class="bg-white dark:bg-black lg:px-8 py-10 box-shadow mb-12">
+    <p class="text-h5 mb-5">{Ttags}</p>
     <ul class="flex flex-wrap gap-2">
       {
         tags.map((tag: string) => {

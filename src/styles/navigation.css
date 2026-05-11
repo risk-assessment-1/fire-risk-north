@@ -1,5 +1,5 @@
 .header {
-  @apply bg-body dark:bg-darkmode-body py-6 shadow-sm;
+  @apply bg-body dark:bg-darkmode-body py-2 shadow-sm;
 }
 
 /* navbar items */
@@ -9,6 +9,7 @@
 
 .navbar-brand {
   @apply text-xl font-semibold text-text-dark;
+
   image {
     @apply max-h-full max-w-full;
   }
@@ -26,7 +27,7 @@
   @apply ml-0;
 }
 
-.nav-dropdown > span {
+.nav-dropdown>span {
   @apply cursor-pointer;
 }
 
@@ -73,7 +74,7 @@
   @apply inline-flex;
 
   label {
-    @apply relative inline-block  cursor-pointer;
+    @apply relative inline-block cursor-pointer;
   }
 
   input {

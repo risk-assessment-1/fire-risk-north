@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for Flats"
 meta_title: "Fire Risk Assessment for Flats - Fire Assessment North"
 description: "Professional fire risk assessment for residential flats and apartment blocks. Compliant with Fire Safety Act 2021, Building Safety Act 2022, and BS 9792:2025. BAFE SP205 registered assessors."
-image: "/images/fire-risk-assessment/flats.jpg"
+image: "../../../assets/images/fire-risk-assessment/flats.jpg"
 draft: false
 icon: "FaBuilding"
 hero:
@@ -147,7 +147,7 @@ faq_section:
 
 Residential flats and apartment blocks require specialist fire risk assessments that address both individual dwelling safety and the fire safety of common areas shared by all residents. Under the Regulatory Reform (Fire Safety) Order 2005, the responsible person for the building must ensure that adequate fire safety measures are in place throughout the communal areas and the building structure.
 
-![Fire risk assessor inspecting communal areas in a block of flats](https://firerisk.io/wp-content/uploads/2026/01/flats-hero-scaled.png "Flats Fire Risk Assessment")
+![Fire risk assessor inspecting communal areas in a block of flats](../../../assets/images/fire-risk-assessment/flats/flats-hero-scaled.png "Flats Fire Risk Assessment")
 
 ### Serving Flats & Apartment Blocks Across the UK
 
@@ -173,7 +173,7 @@ Every flats fire risk assessment includes a comprehensive package designed to me
 - **Detailed photographic report** — BS 9792:2025 compliant with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and review scheduling
 
-![Fire door inspection being carried out in a residential block](https://firerisk.io/wp-content/uploads/2026/01/flats-hazard-fire-doors.png "Flats Fire Door Inspection")
+![Fire door inspection being carried out in a residential block](../../../assets/images/fire-risk-assessment/flats/flats-hazard-fire-doors.png "Flats Fire Door Inspection")
 
 ### Why Property Managers Choose Fire Assessment North
 
@@ -187,4 +187,4 @@ Property managers and freeholders across the UK trust us for their blocks becaus
 - **Dedicated account management** — single point of contact for multi-block portfolios
 - **Portfolio discounts** — reduced rates for multiple blocks under management
 
-![Compartmentation fire stopping inspection in a block of flats](https://firerisk.io/wp-content/uploads/2026/01/flats-hazard-compartmentation.png "Flats Compartmentation Assessment")
+![Compartmentation fire stopping inspection in a block of flats](../../../assets/images/fire-risk-assessment/flats/flats-hazard-compartmentation.png "Flats Compartmentation Assessment")

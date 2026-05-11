@@ -64,7 +64,7 @@ const fraSlugs = allFraPages
 
 const currentFraSlug = page.id.split("/").pop() || "";
 
-const { our_services } = await getTranslations(lang as string);
+await getTranslations(lang as string);
 ---
 
 <Base
@@ -87,7 +87,10 @@ const { our_services } = await getTranslations(lang as string);
   }
   {!hero || !hero.enable ? <PageHeader title={title} /> : null}
 
-  <section id="service-overview" class="section !py-0 scroll-mt-20 lg:scroll-mt-24">
+  <section
+    id="service-overview"
+    class="section py-0! scroll-mt-20 lg:scroll-mt-24 container"
+  >
     <div class="container">
       <div class="row mx-auto">
         <div class="lg:col-8">
@@ -133,11 +136,7 @@ const { our_services } = await getTranslations(lang as string);
     )
   }
 
-  {
-    hazard_cards && hazard_cards.enable && (
-      <HazardCards data={hazard_cards} />
-    )
-  }
+  {hazard_cards && hazard_cards.enable && <HazardCards data={hazard_cards} />}
 
   {fra_costs && fra_costs.enable && <FRACosts data={fra_costs} />}
 

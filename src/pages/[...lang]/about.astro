@@ -90,7 +90,12 @@ const services = await getSinglePage("services", lang as string);
   }
 
   <AboutUs about={about_section} />
-  <Service serviceIndex={serviceIndex[0]} services={services} />
+  <Service
+    serviceIndex={serviceIndex[0]}
+    services={services}
+    title="Fire Safety & Compliance Services"
+    subtitle="One partner for all your property compliance needs"
+  />
   {
     /* <Team teamIndex={teamIndex[0]} team={team} className="pt-0 bg-gray-white" /> */
   }

@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for Warehouses"
 meta_title: "Fire Risk Assessment for Warehouses - Fire Assessment North"
 description: "Professional fire risk assessment for warehouses and distribution centres. BS EN 12845 sprinkler compliance, lithium-ion battery safety, DSEAR chemical storage. BAFE SP205 registered assessors with 24-hour turnaround."
-image: "/images/fire-risk-assessment/warehouses.jpg"
+image: "../../../assets/images/fire-risk-assessment/warehouses.jpg"
 draft: false
 icon: "FaWarehouse"
 hero:
@@ -138,7 +138,7 @@ faq_section:
 
 Warehouse buildings and distribution centres require specialist fire risk assessments that address high-bay storage, forklift operations, lithium-ion battery hazards, and chemical storage risks. Under the Regulatory Reform (Fire Safety) Order 2005, the responsible person for the building must ensure that adequate fire safety measures are in place throughout the facility.
 
-![Modern UK Distribution Warehouse - Fire Risk Assessment](https://firerisk.io/wp-content/uploads/2025/11/warehouse-hero-1.png "Warehouse Fire Risk Assessment")
+![Modern UK Distribution Warehouse - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/warehouses/warehouse-hero-1.png "Warehouse Fire Risk Assessment")
 
 ### Serving Warehouses & Distribution Centres Across the UK
 
@@ -164,7 +164,7 @@ Every warehouse fire risk assessment includes a comprehensive package designed t
 - **Detailed photographic report** — compliant with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and review scheduling
 
-![Warehouse High-Bay Racking System Fire Risk](https://firerisk.io/wp-content/uploads/2025/11/warehouse-high-bay-storage.png "Warehouse High-Bay Storage Assessment")
+![Warehouse High-Bay Racking System Fire Risk](../../../assets/images/fire-risk-assessment/warehouses/warehouse-high-bay-storage.png "Warehouse High-Bay Storage Assessment")
 
 ### Why Warehouse Operators Choose Fire Assessment North
 
@@ -178,4 +178,4 @@ Warehouse operators and logistics managers across the UK trust us for their faci
 - **DSEAR expertise** — chemical storage compliance verification
 - **Lithium-ion battery specialists** — fastest-growing warehouse fire hazard expertise
 
-![Warehouse Sprinkler System Fire Suppression BS EN 12845](https://firerisk.io/wp-content/uploads/2025/11/warehouse-sprinkler-system.png "Warehouse Sprinkler System Assessment")
+![Warehouse Sprinkler System Fire Suppression BS EN 12845](../../../assets/images/fire-risk-assessment/warehouses/warehouse-sprinkler-system.png "Warehouse Sprinkler System Assessment")

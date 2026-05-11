@@ -65,13 +65,13 @@ const categories = data.categories.map((cat) => ({
     </p>
 
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+      class="categories-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-8 gap-6"
     >
       {
         categories.map((category) => {
           const Icon = category.SvgComponent;
           return (
-            <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-shadow duration-300 flex flex-col">
+            <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-shadow duration-300 flex flex-col xl:col-span-2">
               <div class="w-12 h-12 rounded-lg bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center mb-4 text-orange-600 dark:text-orange-400">
                 {Icon && <Icon width={28} height={28} />}
               </div>
@@ -124,3 +124,19 @@ const categories = data.categories.map((cat) => ({
     </div>
   </div>
 </section>
+
+<style>
+  @media (min-width: 1280px) {
+    .categories-grid > div:last-child:nth-child(4n-3) {
+      grid-column-end: 6;
+    }
+
+    .categories-grid > div:nth-last-child(2):nth-child(4n-3) {
+      grid-column-end: 5;
+    }
+
+    .categories-grid > div:nth-last-child(3):nth-child(4n-3) {
+      grid-column-end: 4;
+    }
+  }
+</style>

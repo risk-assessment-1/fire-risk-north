@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment in Manchester"
 meta_title: "Fire Risk Assessment Manchester - Fire Assessment North"
 description: "Professional fire risk assessment services in Manchester, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
-image: "/images/locations/manchester.jpg"
+image: "../../../assets/images/locations/manchester.jpg"
 draft: false
 hero:
   enable: true

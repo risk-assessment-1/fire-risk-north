@@ -19,7 +19,7 @@ if (menu) {
 
 const { copyright, address, phone, email, footer_content, copyright_menu } =
   config.params;
-const { services, contact_info, follow_us_on, subscribe_newsletter } =
+const { services, contact_info, follow_us_on } =
   await getTranslations(lang as string);
 ---
 
@@ -30,7 +30,7 @@ const { services, contact_info, follow_us_on, subscribe_newsletter } =
       <div class="row justify-between">
         <!-- footer content -->
         <div class="md:col-5 mb-5 md:mb-0">
-          <Logo src="/images/logo-alt.png" />
+          <Logo src="/images/logo.png" />
           <p
             class="text-light/75 mt-6 mb-5"
             set:html={markdownify(footer_content)}
@@ -39,7 +39,10 @@ const { services, contact_info, follow_us_on, subscribe_newsletter } =
           <h4 class="text-white mb-6 mt-12 text-h5 font-semibold">
             {follow_us_on}
           </h4>
-          <Social source={social.main} className="social-icon-alt" />
+          <Social
+            source={social.main}
+            className="social-icons-topbar inline-block text-sm"
+          />
         </div>
 
         <div class="md:col-6">
@@ -52,7 +55,7 @@ const { services, contact_info, follow_us_on, subscribe_newsletter } =
                   footer.map((menu: any) => (
                     <li class="mb-3 text-light/75">
                       <a
-                        class=" block"
+                        class="block hover:text-primary-on-dark"
                         href={`${slugSelector(menu.url, lang)}`}
                         set:html={markdownify(menu.name)}
                       />
@@ -70,41 +73,28 @@ const { services, contact_info, follow_us_on, subscribe_newsletter } =
               <ul>
                 <li class="text-light/75 mb-3">
                   <a
+                    class="hover:text-primary-on-dark"
                     target="_blank"
                     href={`https://www.google.com/maps?q=${encodeURIComponent(address)}`}
                     set:html={markdownify(address)}
                   />
                 </li>
                 <li class="text-light/75 mb-3">
-                  <a href={`tel:${phone}`} set:html={markdownify(phone)} />
+                  <a
+                    class="hover:text-primary-on-dark"
+                    href={`tel:${phone}`}
+                    set:html={markdownify(phone)}
+                  />
                 </li>
                 <li class="text-light/75 mb-3">
-                  <a href={`mailto:${email}`} set:html={markdownify(email)} />
+                  <a
+                    class="hover:text-primary-on-dark"
+                    href={`mailto:${email}`}
+                    set:html={markdownify(email)}
+                  />
                 </li>
               </ul>
             </div>
-          </div>
-
-          <!-- newsletter -->
-          <div class="col-12">
-            <h4 class="text-white mb-6 mt-12 text-h5 font-semibold">
-              {subscribe_newsletter}
-            </h4>
-            <form action="#">
-              <div class="relative w-full">
-                <input
-                  type="email"
-                  class="h-14 px-[30px] w-full bg-dark dark:bg-darkmode-light newsletter-form"
-                  id="newsletter"
-                  name="newsletter"
-                  placeholder="Enter your email"
-                  required
-                />
-                <button type="submit" class="btn btn-primary btn-subscribe">
-                  Subscribe
-                </button>
-              </div>
-            </form>
           </div>
         </div>
       </div>

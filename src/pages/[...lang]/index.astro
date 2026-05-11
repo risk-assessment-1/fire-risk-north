@@ -52,7 +52,12 @@ const callToAction = await getSinglePage(
   <AboutUs about={aboutIndex[0].data.about_section} />
   <FunFacts funfacts={funfacts} />
   <Feature feature={feature} />
-  <ServiceSection serviceIndex={serviceIndex[0]} services={services} />
+  <ServiceSection
+    serviceIndex={serviceIndex[0]}
+    services={services}
+    title="Fire Safety & Compliance Services"
+    subtitle="One partner for all your property compliance needs"
+  />
   <Locations locations={locations} />
   <Testimonial testimonial={testimonial[0].data} />
   <CallToActionLG callToAction={callToAction[0].data} />

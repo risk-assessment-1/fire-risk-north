@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for Restaurants"
 meta_title: "Fire Risk Assessment for Restaurants & Cafes - Fire Assessment North"
 description: "Professional fire risk assessment for restaurants, cafes and takeaways. Commercial kitchen safety, TR19 extraction compliance, UL 300 fire suppression. BAFE SP205 registered assessors with 24-hour turnaround."
-image: "/images/fire-risk-assessment/restaurants.jpg"
+image: "../../../assets/images/fire-risk-assessment/restaurants.jpg"
 draft: false
 icon: "FaUtensils"
 hero:
@@ -138,7 +138,7 @@ faq_section:
 
 Restaurants, cafes, and takeaways require specialist fire risk assessments that address commercial kitchen hazards, extraction system compliance, gas safety, and customer evacuation planning. Under the Regulatory Reform (Fire Safety) Order 2005 and the Licensing Act 2003, the responsible person must ensure that adequate fire safety measures are in place throughout the premises.
 
-![Modern UK Restaurant Exterior - Fire Risk Assessment](https://firerisk.io/wp-content/uploads/2025/11/restaurant-hero-1.png "Restaurant Fire Risk Assessment")
+![Modern UK Restaurant Exterior - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/restaurants/restaurant-hero-1.png "Restaurant Fire Risk Assessment")
 
 ### Serving Restaurants & Food Premises Across the UK
 
@@ -163,7 +163,7 @@ Every restaurant fire risk assessment includes a comprehensive package designed 
 - **Detailed photographic report** — licensing-compliant with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and review scheduling
 
-![Commercial Kitchen Cooking Equipment - Fire Safety](https://firerisk.io/wp-content/uploads/2025/11/restaurant-hazard-kitchen-1.png "Restaurant Kitchen Assessment")
+![Commercial Kitchen Cooking Equipment - Fire Safety](../../../assets/images/fire-risk-assessment/restaurants/restaurant-hazard-kitchen-1.png "Restaurant Kitchen Assessment")
 
 ### Why Restaurant Owners Choose Fire Assessment North
 
@@ -176,4 +176,4 @@ Restaurant owners and chefs across the UK trust us for their premises because we
 - **TR19 extraction expertise** — cleaning frequency and compliance verification
 - **Competitive pricing** — from £195, transparent fees with no hidden costs
 
-![Commercial Kitchen Fire Suppression System](https://firerisk.io/wp-content/uploads/2025/11/restaurant-hazard-extraction-1.png "Restaurant Extraction System Assessment")
+![Commercial Kitchen Fire Suppression System](../../../assets/images/fire-risk-assessment/restaurants/restaurant-hazard-extraction-1.png "Restaurant Extraction System Assessment")

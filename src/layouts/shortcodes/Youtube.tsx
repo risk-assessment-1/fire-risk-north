@@ -13,10 +13,9 @@ const Youtube = ({
     import("@justinribeiro/lite-youtube");
   }, []);
 
-  // @ts-ignore
   return (
     <lite-youtube
-      class="rounded-lg"
+      className="rounded-lg"
       videoid={id}
       videotitle={title}
       {...rest}

@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment in Leyland"
 meta_title: "Fire Risk Assessment Leyland - Fire Assessment North"
 description: "Professional fire risk assessment services in Leyland, South Ribble. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
-image: "/images/locations/leyland.jpg"
+image: "../../../assets/images/locations/leyland.jpg"
 draft: false
 hero:
   enable: true

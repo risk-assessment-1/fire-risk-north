@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for Care Homes"
 meta_title: "Fire Risk Assessment for Care Homes - Fire Assessment North"
 description: "Professional fire risk assessment for care homes. CQC compliant with PEEPs, medical oxygen safety, horizontal evacuation planning. BAFE SP205 registered assessors with 24-hour turnaround."
-image: "/images/fire-risk-assessment/care-homes.jpg"
+image: "../../../assets/images/fire-risk-assessment/care-homes.jpg"
 draft: false
 icon: "FaHeart"
 hero:
@@ -134,7 +134,7 @@ faq_section:
 
 Care homes and residential care facilities require specialist fire risk assessments that account for vulnerable residents, progressive horizontal evacuation, medical oxygen safety, and CQC compliance requirements. Under the Regulatory Reform (Fire Safety) Order 2005 and CQC fundamental standards, care home operators must demonstrate that evacuation plans are tailored to each resident's level of dependency.
 
-![UK Care Home Exterior - Professional Fire Risk Assessment Service](https://firerisk.io/wp-content/uploads/2025/11/care-home-hero.png "Care Home Fire Risk Assessment")
+![UK Care Home Exterior - Professional Fire Risk Assessment Service](../../../assets/images/fire-risk-assessment/care-homes/care-home-hero.png "Care Home Fire Risk Assessment")
 
 ### Serving Care Homes Across the UK
 
@@ -160,7 +160,7 @@ Every care home fire risk assessment includes a comprehensive package designed t
 - **Detailed photographic report** — CQC-approved with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and review scheduling
 
-![Care Home Communal Lounge with Mobility Aids](https://firerisk.io/wp-content/uploads/2025/11/care-home-hazard-lounge.png "Care Home Resident Safety Assessment")
+![Care Home Communal Lounge with Mobility Aids](../../../assets/images/fire-risk-assessment/care-homes/care-home-hazard-lounge.png "Care Home Resident Safety Assessment")
 
 ### Why Care Home Managers Choose Fire Assessment North
 
@@ -173,4 +173,4 @@ Care home managers across the UK trust us for their facilities because we unders
 - **Medical oxygen expertise** — storage, handling, and evacuation safety
 - **Portfolio discounts** — reduced rates for multi-home operators
 
-![Linked Fire Alarm System in Care Home](https://firerisk.io/wp-content/uploads/2025/11/care-home-hazard-alarm.png "Care Home Fire Detection System")
+![Linked Fire Alarm System in Care Home](../../../assets/images/fire-risk-assessment/care-homes/care-home-hazard-alarm.png "Care Home Fire Detection System")

@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for HMOs"
 meta_title: "Fire Risk Assessment for Houses in Multiple Occupation - Fire Assessment North"
 description: "Professional fire risk assessment for HMOs. BS 5839-6 alarm compliance, fire door inspection, escape route evaluation. BAFE SP205 registered assessors with 24-hour turnaround."
-image: "/images/fire-risk-assessment/hmo.jpg"
+image: "../../../assets/images/fire-risk-assessment/hmo.jpg"
 draft: false
 icon: "FaHouseUser"
 hero:
@@ -130,7 +130,7 @@ faq_section:
 
 Houses in Multiple Occupation (HMOs) carry a heightened fire risk due to the number of unrelated occupants sharing facilities and escape routes. Under the Regulatory Reform (Fire Safety) Order 2005 and Housing Act 2004, landlords and managing agents have a legal duty to ensure adequate fire safety measures are in place, and local authorities often impose additional licensing conditions requiring up-to-date fire risk assessments.
 
-![Professional UK HMO Property - Fire Risk Assessment Service](https://firerisk.io/wp-content/uploads/2025/11/hmo-hero-property.png "HMO Fire Risk Assessment")
+![Professional UK HMO Property - Fire Risk Assessment Service](../../../assets/images/fire-risk-assessment/hmo/hmo-hero-property.png "HMO Fire Risk Assessment")
 
 ### Serving HMO Landlords Across the UK
 
@@ -155,7 +155,7 @@ Every HMO fire risk assessment includes a comprehensive package designed to meet
 - **Detailed photographic report** — insurance-approved with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and review scheduling
 
-![Modern Shared Kitchen in HMO Property](https://firerisk.io/wp-content/uploads/2025/11/hmo-hazard-kitchen.png "HMO Kitchen Assessment")
+![Modern Shared Kitchen in HMO Property](../../../assets/images/fire-risk-assessment/hmo/hmo-hazard-kitchen.png "HMO Kitchen Assessment")
 
 ### Why HMO Landlords Choose Fire Assessment North
 
@@ -168,4 +168,4 @@ HMO landlords and managing agents across the UK trust us for their properties be
 - **Fixed transparent pricing** — from £250, no hidden costs
 - **Tenant safety guides** — customised fire safety information for residents
 
-![Fire Alarm and Detection System](https://firerisk.io/wp-content/uploads/2025/11/hmo-hazard-alarm.png "HMO Fire Detection System")
+![Fire Alarm and Detection System](../../../assets/images/fire-risk-assessment/hmo/hmo-hazard-alarm.png "HMO Fire Detection System")
