@@ -29,12 +29,13 @@ const { testimonial } = Astro.props;
                     <div class="swiper-slide slider-item">
                       <div class="text-center flex flex-col items-center">
                         <ImageMod
-                          class="rounded-full mb-5 w-[70px] h-[70px]"
+                          class="rounded-full mb-5 w-17.5 h-17.5"
                           src={t.avatar}
                           alt="client"
                           width={70}
                           height={70}
-                          format="webp"
+                          sizes="70px"
+                          widths={[70, 140]}
                         />
                         <div class="relative">
                           <div
@@ -45,7 +46,7 @@ const { testimonial } = Astro.props;
                               class="italic mb-6 text-text-dark dark:text-darkmode-text-light"
                               set:html={markdownify(t.content)}
                             />
-                            <FaQuoteLeft className="text-primary/30 dark:text-darkmode-primary/30 absolute top-0 left-1/2 text-[100px] -translate-x-[50px]" />
+                            <FaQuoteLeft className="text-primary/30 dark:text-darkmode-primary/30 absolute top-0 left-1/2 text-[100px] -translate-x-12.5" />
                             <h4
                               class="mb-2 text-h5"
                               set:html={markdownify(t.name)}

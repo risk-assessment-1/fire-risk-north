@@ -64,7 +64,8 @@ const groups = [
                   class="w-full object-cover"
                   width={473}
                   height={473}
-                  format="webp"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 25vw, 473px"
+                  widths={[473, 946]}
                 />
                 <div class="hover-overlay">
                   <a href={project.data.image} class="venobox">
@@ -108,7 +109,7 @@ const groups = [
         id="modal-image"
         src=""
         alt="project thumb"
-        class="max-w-[600px] object-cover"
+        class="max-w-150 object-cover"
       />
     </div>
   </div>
