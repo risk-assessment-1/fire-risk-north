@@ -38,7 +38,9 @@ const iconMap: Record<string, any> = {
 <section id="our-services" class="py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
   <div class="container">
     <div class="text-center mb-12">
-      <h3 class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-darkmode-text-dark tracking-tight">
+      <h3
+        class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-darkmode-text-dark tracking-tight"
+      >
         {data.heading}
       </h3>
       {
@@ -51,7 +53,9 @@ const iconMap: Record<string, any> = {
       <div class="mt-4 mx-auto w-20 h-1 bg-orange-500 rounded-full"></div>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div
+      class="services-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-8 gap-6"
+    >
       {
         data.services.map((service) => {
           const IconComponent = iconMap[service.icon] || null;
@@ -59,7 +63,7 @@ const iconMap: Record<string, any> = {
           return (
             <a
               href={service.href}
-              class="group bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-all duration-300 hover:border-orange-200 dark:hover:border-orange-800"
+              class="group bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-all duration-300 hover:border-orange-200 dark:hover:border-orange-800 lg:col-span-2"
             >
               {IconComponent && (
                 <div class="w-10 h-10 rounded-lg bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center text-orange-600 dark:text-orange-400 mb-3">
@@ -79,3 +83,19 @@ const iconMap: Record<string, any> = {
     </div>
   </div>
 </section>
+
+<style>
+  @media (min-width: 1024px) {
+    .services-grid > a:last-child:nth-child(4n-3) {
+      grid-column-end: 6;
+    }
+
+    .services-grid > a:nth-last-child(2):nth-child(4n-3) {
+      grid-column-end: 5;
+    }
+
+    .services-grid > a:nth-last-child(3):nth-child(4n-3) {
+      grid-column-end: 4;
+    }
+  }
+</style>

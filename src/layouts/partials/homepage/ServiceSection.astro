@@ -2,7 +2,10 @@
 import ServiceCard from "@/components/ServiceCard.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 
-const { serviceIndex, services } = Astro.props;
+const { serviceIndex, services, title, subtitle } = Astro.props;
+
+const heading = title || serviceIndex?.data?.title;
+const description = subtitle || serviceIndex?.data?.description;
 ---
 
 <section class="bg-gray-white">
@@ -11,15 +14,10 @@ const { serviceIndex, services } = Astro.props;
       <div class="row">
         <div class="col-12 text-center">
           <div class="section-title">
-            <span class="section-title-border border-center"></span>
-            <p
-              class="text-h5"
-              set:html={markdownify(serviceIndex?.data?.description)}
-            />
-            <h2
-              class="h1 text-white"
-              set:html={markdownify(serviceIndex?.data?.title)}
-            />
+            <span class="section-title-border bg-primary-on-dark border-center"
+            ></span>
+            <p class="text-h5" set:html={markdownify(description)} />
+            <h2 class="h1 text-white" set:html={markdownify(heading)} />
           </div>
         </div>
       </div>
@@ -27,6 +25,6 @@ const { serviceIndex, services } = Astro.props;
   </div>
 
   <div class="translate-y-[-200px]">
-    <ServiceCard services={services.slice(0, 3)} />
+    <ServiceCard services={services} />
   </div>
 </section>

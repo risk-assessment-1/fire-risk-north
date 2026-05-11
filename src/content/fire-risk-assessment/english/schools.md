@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for Schools"
 meta_title: "Fire Risk Assessment for Schools - Fire Assessment North"
 description: "Professional fire risk assessment for schools and educational establishments. CLEAPSS science lab compliance, Building Bulletin 100, Ofsted-ready PEEPs. BAFE SP205 registered assessors."
-image: "/images/fire-risk-assessment/schools.jpg"
+image: "../../../assets/images/fire-risk-assessment/schools.jpg"
 draft: false
 icon: "FaSchool"
 hero:
@@ -134,7 +134,7 @@ faq_section:
 
 Schools and educational establishments require specialist fire risk assessments that address supervised evacuation of young persons, science laboratory safety, assembly hall capacity, and disabled pupil PEEPs. Under the Regulatory Reform (Fire Safety) Order 2005 and Department for Education guidance, schools must maintain comprehensive fire safety documentation meeting Ofsted inspection standards.
 
-![Modern UK School Building - Fire Risk Assessment](https://firerisk.io/wp-content/uploads/2025/11/school-hero-1.png "School Fire Risk Assessment")
+![Modern UK School Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/schools/school-hero-1.png "School Fire Risk Assessment")
 
 ### Serving Schools & Educational Establishments Across the UK
 
@@ -159,7 +159,7 @@ Every school fire risk assessment includes a comprehensive package designed to m
 - **Detailed photographic report** — Ofsted-ready with risk ratings and prioritised action plan
 - **Ongoing compliance support** — termly drill schedules and review guidance
 
-![School Science Laboratory CLEAPSS Fire Safety](https://firerisk.io/wp-content/uploads/2025/11/school-science-lab-1.png "School Science Lab Assessment")
+![School Science Laboratory CLEAPSS Fire Safety](../../../assets/images/fire-risk-assessment/schools/school-science-lab-1.png "School Science Lab Assessment")
 
 ### Why Schools Choose Fire Assessment North
 
@@ -172,4 +172,4 @@ Headteachers and governors across the UK trust us for their schools because we u
 - **Multi-academy trust support** — standardised frameworks with bulk discounts of 10-15%
 - **PEEP development** — for all categories of disabled pupils
 
-![School Fire Safety Equipment Alarm Call Point](https://firerisk.io/wp-content/uploads/2025/11/school-fire-equipment-1.png "School Fire Safety Equipment")
+![School Fire Safety Equipment Alarm Call Point](../../../assets/images/fire-risk-assessment/schools/school-fire-equipment-1.png "School Fire Safety Equipment")

@@ -2,7 +2,7 @@
 title: "Fire Strategy"
 meta_title: "Fire Strategy Services - Fire Assessment North"
 description: "Expert fire strategy development for new builds, major refurbishments, and change of use projects. Building Regulations compliance with 100% approval rate."
-image: "/images/services/fire-strategy.jpg"
+image: "../../../assets/images/services/fire-strategy.jpg"
 draft: false
 icon: "FaClipboardList"
 hero:

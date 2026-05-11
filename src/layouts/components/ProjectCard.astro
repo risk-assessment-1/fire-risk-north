@@ -78,12 +78,12 @@ const groups = [
                   class="text-primary dark:text-darkmode-primary text-base mb-2"
                   set:html={markdownify(project.data.category)}
                 />
-                <h5 class="text-text-dark dark:text-darkmode-text-dark  hover:text-primary duration-200">
+                <p class="text-h5text-text-dark dark:text-darkmode-text-dark  hover:text-primary duration-200">
                   <a
                     href={slugSelector(`${project.id}`, lang)}
                     set:html={markdownify(project.data.title)}
                   />
-                </h5>
+                </p>
               </div>
             </div>
           </li>

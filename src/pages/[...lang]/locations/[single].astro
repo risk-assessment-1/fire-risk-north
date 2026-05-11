@@ -6,11 +6,11 @@ import AreasCovered from "@/components/AreasCovered.astro";
 import FiveStepsFRA from "@/components/FiveStepsFRA.astro";
 import FeatureCards from "@/components/FeatureCards.astro";
 import PropertyTypes from "@/components/PropertyTypes.astro";
-import ServicesGrid from "@/components/ServicesGrid.astro";
 import FAQSection from "@/components/FAQSection.astro";
 import CTASection from "@/components/CTASection.astro";
+import ServiceSection from "@/partials/homepage/ServiceSection.astro";
 import Base from "@/layouts/Base.astro";
-import { getSinglePage } from "@/lib/contentParser.astro";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
 import {
   getLangFromUrl,
   getTranslations,
@@ -33,7 +33,7 @@ export async function getStaticPaths() {
           location,
         },
       }));
-    }),
+    })
   );
   return paths.flat();
 }
@@ -64,6 +64,11 @@ const locationSlugs = allLocations
 const currentLocationSlug = location.id.split("/").pop() || "";
 
 const { our_locations } = await getTranslations(lang as string);
+
+const serviceIndex = await getListPage("services", lang as string);
+const services = await getSinglePage("services", lang as string);
+
+const locationName = hero?.subtitle || title.replace(/.*\sin\s/i, "");
 ---
 
 <Base
@@ -86,7 +91,10 @@ const { our_locations } = await getTranslations(lang as string);
   }
   {!hero || !hero.enable ? <PageHeader title={title} /> : null}
 
-  <section id="service-overview" class="section !py-0 scroll-mt-20 lg:scroll-mt-24">
+  <section
+    id="service-overview"
+    class="section container py-0! scroll-mt-20 lg:scroll-mt-24"
+  >
     <div class="container">
       <div class="row mx-auto">
         <div class="lg:col-8">
@@ -120,15 +128,36 @@ const { our_locations } = await getTranslations(lang as string);
     </div>
   </section>
 
-  {areas_covered && areas_covered.enable && <AreasCovered data={areas_covered} />}
+  {
+    areas_covered && areas_covered.enable && (
+      <AreasCovered data={areas_covered} />
+    )
+  }
 
-  {five_steps_fra && five_steps_fra.enable && <FiveStepsFRA data={five_steps_fra} />}
+  {
+    five_steps_fra && five_steps_fra.enable && (
+      <FiveStepsFRA data={five_steps_fra} />
+    )
+  }
 
   {features && features.enable && <FeatureCards data={features} />}
 
-  {services_grid && services_grid.enable && <ServicesGrid data={services_grid} />}
+  {
+    services_grid && services_grid.enable && (
+      <ServiceSection
+        serviceIndex={serviceIndex[0]}
+        services={services}
+        title={`Fire Safety & Compliance Services in ${locationName}`}
+        subtitle="One partner for all your property compliance needs"
+      />
+    )
+  }
 
-  {property_types && property_types.enable && <PropertyTypes data={property_types} />}
+  {
+    property_types && property_types.enable && (
+      <PropertyTypes data={property_types} />
+    )
+  }
 
   {faq_section && faq_section.enable && <FAQSection data={faq_section} />}
 

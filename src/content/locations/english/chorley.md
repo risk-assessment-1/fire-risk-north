@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment in Chorley"
 meta_title: "Fire Risk Assessment Chorley - Fire Assessment North"
 description: "Professional fire risk assessment services in Chorley, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
-image: "/images/locations/chorley.jpg"
+image: "../../../assets/images/locations/chorley.jpg"
 draft: false
 hero:
   enable: true

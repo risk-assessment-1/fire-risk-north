@@ -2,7 +2,6 @@
 import ImageMod from "@/components/ImageMod.astro";
 import HeroSection from "@/components/HeroSection.astro";
 import SidebarServices from "@/components/SidebarServices.astro";
-import SidebarQuickContact from "@/components/SidebarQuickContact.astro";
 import WhoNeedsFRA from "@/components/WhoNeedsFRA.astro";
 import FiveStepsFRA from "@/components/FiveStepsFRA.astro";
 import FRACosts from "@/components/FRACosts.astro";
@@ -37,7 +36,7 @@ export async function getStaticPaths() {
           service,
         },
       }));
-    })
+    }),
   );
   return paths.flat();
 }
@@ -140,8 +139,8 @@ if (faq_section?.enable)
           <div class="lg:sticky lg:top-28">
             {
               pdf && pdf.enable && (
-                <div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
-                  <h5 class="mb-5">{download_pdf}</h5>
+                <div class="bg-white dark:bg-black lg:px-8 py-10 box-shadow mb-12">
+                  <p class="mb-5 text-h5">{download_pdf}</p>
                   <ul class="list-unstyled relative">
                     <li class="flex pb-3 mb-3 border-b border-border items-center">
                       <FaRegFilePdf className="text-primary dark:text-darkmode-primary text-4xl" />
@@ -171,7 +170,7 @@ if (faq_section?.enable)
               currentSlug={currentServiceSlug}
               title={our_services}
             />
-            <SidebarQuickContact />
+
           </div>
         </aside>
       </div>

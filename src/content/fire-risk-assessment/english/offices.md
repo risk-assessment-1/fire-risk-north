@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for Offices"
 meta_title: "Fire Risk Assessment for Offices - Fire Assessment North"
 description: "Professional fire risk assessment for office buildings and corporate workplaces. Compliant with Fire Safety Order 2005, October 2023 amendments. BAFE SP205 registered assessors with 24-hour turnaround."
-image: "/images/fire-risk-assessment/offices.jpg"
+image: "../../../assets/images/fire-risk-assessment/offices.jpg"
 draft: false
 icon: "FaBriefcase"
 hero:
@@ -138,7 +138,7 @@ faq_section:
 
 Office buildings and corporate workplaces require specialist fire risk assessments that address modern working patterns including hot-desking, hybrid working, server room infrastructure, and lithium-ion battery risks. Under the Regulatory Reform (Fire Safety) Order 2005, the responsible person for the building must ensure that adequate fire safety measures are in place, and since October 2023, all businesses must document their fire risk assessments in writing regardless of employee numbers.
 
-![Modern UK Corporate Office Building - Fire Risk Assessment](https://firerisk.io/wp-content/uploads/2025/12/hero_office_fire_risk.png "Office Fire Risk Assessment")
+![Modern UK Corporate Office Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/offices/hero_office_fire_risk.png "Office Fire Risk Assessment")
 
 ### Serving Offices & Corporate Buildings Across the UK
 
@@ -164,7 +164,7 @@ Every office fire risk assessment includes a comprehensive package designed to m
 - **Detailed photographic report** — BS 7974 compliant with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and review scheduling
 
-![Office Electrical Equipment Overload Fire Risk](https://firerisk.io/wp-content/uploads/2025/12/electrical_equipment_overload.png "Office Electrical Equipment Assessment")
+![Office Electrical Equipment Overload Fire Risk](../../../assets/images/fire-risk-assessment/offices/electrical_equipment_overload.png "Office Electrical Equipment Assessment")
 
 ### Why Office Managers Choose Fire Assessment North
 
@@ -178,4 +178,4 @@ Facilities managers and corporate compliance officers across the UK trust us for
 - **Modern workplace specialists** — expertise in hot-desking, hybrid working, and lithium-ion risks
 - **Competitive pricing** — transparent fees with no hidden costs
 
-![Office Server Room IT Infrastructure Fire Safety](https://firerisk.io/wp-content/uploads/2025/11/office-server-room-1.png "Office Server Room Assessment")
+![Office Server Room IT Infrastructure Fire Safety](../../../assets/images/fire-risk-assessment/offices/office-server-room-1.png "Office Server Room Assessment")

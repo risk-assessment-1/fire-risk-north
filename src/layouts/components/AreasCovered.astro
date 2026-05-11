@@ -16,10 +16,15 @@ export interface Props {
 const { data } = Astro.props;
 ---
 
-<section id="areas-covered" class="py-16 lg:py-24 bg-slate-50 dark:bg-darkmode-dark/50 scroll-mt-20 lg:scroll-mt-24">
+<section
+  id="areas-covered"
+  class="py-16 lg:py-24 bg-slate-50 dark:bg-darkmode-dark/50 scroll-mt-20 lg:scroll-mt-24"
+>
   <div class="container">
     <div class="text-center mb-12">
-      <h3 class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-darkmode-text-dark tracking-tight">
+      <h3
+        class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-darkmode-text-dark tracking-tight"
+      >
         {data.heading}
       </h3>
       {
@@ -32,31 +37,63 @@ const { data } = Astro.props;
       <div class="mt-4 mx-auto w-20 h-1 bg-orange-500 rounded-full"></div>
     </div>
 
-    {data.regions && data.regions.length > 0 && (
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-        {data.regions.map((region) => (
-          <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-shadow duration-300">
-            <h4 class="text-lg font-bold text-slate-900 dark:text-darkmode-text-dark mb-2">
-              {region.title}
-            </h4>
-            <p class="text-slate-600 dark:text-darkmode-text text-sm leading-relaxed">
-              {region.areas}
-            </p>
-          </div>
-        ))}
-      </div>
-    )}
-
-    {data.locations && data.locations.length > 0 && (
-      <div>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-          {data.locations.map((loc) => (
-            <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-lg px-4 py-3 text-center text-sm font-medium text-slate-700 dark:text-darkmode-text hover:border-orange-300 dark:hover:border-orange-700 hover:text-orange-600 dark:hover:text-orange-400 transition-colors duration-200">
-              {loc.name}
+    {
+      data.regions && data.regions.length > 0 && (
+        <div class="regions-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 mb-12">
+          {data.regions.map((region) => (
+            <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-xl p-6 hover:shadow-lg hover:shadow-orange-100 dark:hover:shadow-none transition-shadow duration-300 lg:col-span-2">
+              <h4 class="text-lg font-bold text-slate-900 dark:text-darkmode-text-dark mb-2">
+                {region.title}
+              </h4>
+              <p class="text-slate-600 dark:text-darkmode-text text-sm leading-relaxed">
+                {region.areas}
+              </p>
             </div>
           ))}
         </div>
-      </div>
-    )}
+      )
+    }
+
+    <!-- {
+      data.locations && data.locations.length > 0 && (
+        <div>
+          <div class="locations-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-10 gap-3">
+            {data.locations.map((loc) => (
+              <div class="bg-white dark:bg-darkmode-light border border-gray-100 dark:border-darkmode-border rounded-lg px-4 py-3 text-center text-sm font-medium text-slate-700 dark:text-darkmode-text hover:border-orange-300 dark:hover:border-orange-700 hover:text-orange-600 dark:hover:text-orange-400 transition-colors duration-200 lg:col-span-2">
+                {loc.name}
+              </div>
+            ))}
+          </div>
+        </div>
+      )
+    } -->
   </div>
 </section>
+
+<style>
+  @media (min-width: 1024px) {
+    .regions-grid > div:last-child:nth-child(3n-2) {
+      grid-column-end: 5;
+    }
+
+    .regions-grid > div:nth-last-child(2):nth-child(3n-2) {
+      grid-column-end: 4;
+    }
+
+    .locations-grid > div:last-child:nth-child(5n-4) {
+      grid-column-end: 7;
+    }
+
+    .locations-grid > div:nth-last-child(2):nth-child(5n-4) {
+      grid-column-end: 6;
+    }
+
+    .locations-grid > div:nth-last-child(3):nth-child(5n-4) {
+      grid-column-end: 5;
+    }
+
+    .locations-grid > div:nth-last-child(4):nth-child(5n-4) {
+      grid-column-end: 4;
+    }
+  }
+</style>

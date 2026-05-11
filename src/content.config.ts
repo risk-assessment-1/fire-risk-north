@@ -339,29 +339,31 @@ const aboutCollection = defineCollection({
 
 const serviceCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/services" }),
-  schema: z.object({
-    ...commonFields,
-    subtitle: z.string().optional(),
-    bg_image: z.string().optional(),
-    draft: z.boolean().optional(),
-    icon: z.string().optional(),
-    hero: heroSchema,
-    who_needs_fra: whoNeedsFraSchema,
-    five_steps_fra: fiveStepsFraSchema,
-    fra_costs: fraCostsSchema,
-    legislation_timeline: legislationTimelineSchema,
-    faq_section: faqSectionSchema,
-    hazard_cards: hazardCardsSchema,
-    compliance_highlight: complianceHighlightSchema,
-    pdf: z
-      .object({
-        enable: z.boolean(),
-        title: z.string(),
-        file: z.string(),
-        size: z.string(),
-      })
-      .optional(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      ...commonFields,
+      image: image().optional(),
+      subtitle: z.string().optional(),
+      bg_image: z.string().optional(),
+      draft: z.boolean().optional(),
+      icon: z.string().optional(),
+      hero: heroSchema,
+      who_needs_fra: whoNeedsFraSchema,
+      five_steps_fra: fiveStepsFraSchema,
+      fra_costs: fraCostsSchema,
+      legislation_timeline: legislationTimelineSchema,
+      faq_section: faqSectionSchema,
+      hazard_cards: hazardCardsSchema,
+      compliance_highlight: complianceHighlightSchema,
+      pdf: z
+        .object({
+          enable: z.boolean(),
+          title: z.string(),
+          file: z.string(),
+          size: z.string(),
+        })
+        .optional(),
+    }),
 });
 
 const fireRiskAssessmentCollection = defineCollection({
@@ -369,30 +371,34 @@ const fireRiskAssessmentCollection = defineCollection({
     pattern: "**/*.{md,mdx}",
     base: "src/content/fire-risk-assessment",
   }),
-  schema: z.object({
-    ...commonFields,
-    icon: z.string().optional(),
-    hero: heroSchema,
-    five_steps_fra: fiveStepsFraSchema,
-    hazard_cards: hazardCardsSchema,
-    fra_costs: fraCostsSchema,
-    faq_section: faqSectionSchema,
-    compliance_highlight: complianceHighlightSchema,
-  }),
+  schema: ({ image }) =>
+    z.object({
+      ...commonFields,
+      image: image().optional(),
+      icon: z.string().optional(),
+      hero: heroSchema,
+      five_steps_fra: fiveStepsFraSchema,
+      hazard_cards: hazardCardsSchema,
+      fra_costs: fraCostsSchema,
+      faq_section: faqSectionSchema,
+      compliance_highlight: complianceHighlightSchema,
+    }),
 });
 
 const locationsCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/locations" }),
-  schema: z.object({
-    ...commonFields,
-    hero: heroSchema,
-    areas_covered: areasCoveredSchema,
-    five_steps_fra: fiveStepsFraSchema,
-    features: featureCardsSchema,
-    property_types: propertyTypesSchema,
-    services_grid: servicesGridSchema,
-    faq_section: faqSectionSchema,
-  }),
+  schema: ({ image }) =>
+    z.object({
+      ...commonFields,
+      image: image().optional(),
+      hero: heroSchema,
+      areas_covered: areasCoveredSchema,
+      five_steps_fra: fiveStepsFraSchema,
+      features: featureCardsSchema,
+      property_types: propertyTypesSchema,
+      services_grid: servicesGridSchema,
+      faq_section: faqSectionSchema,
+    }),
 });
 
 const testimonialCollection = defineCollection({

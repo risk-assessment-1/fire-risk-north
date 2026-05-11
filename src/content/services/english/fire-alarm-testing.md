@@ -2,7 +2,7 @@
 title: "Fire Alarm Testing"
 meta_title: "Fire Alarm Testing & Servicing - Fire Assessment North"
 description: "Professional fire alarm testing and servicing in accordance with BS 5839-1. BAFE registered engineers with 24-hour turnaround and compliance certificates."
-image: "/images/services/fire-alarm-testing.jpg"
+image: "../../../assets/images/services/fire-alarm-testing.jpg"
 draft: false
 icon: "FaBell"
 hero:

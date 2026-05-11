@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment in Wigan"
 meta_title: "Fire Risk Assessment Wigan - Fire Assessment North"
 description: "Professional fire risk assessment services in Wigan, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
-image: "/images/locations/wigan.jpg"
+image: "../../../assets/images/locations/wigan.jpg"
 draft: false
 hero:
   enable: true

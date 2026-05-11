@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for High-Rise Buildings"
 meta_title: "Fire Risk Assessment for High-Rise Buildings - Fire Assessment North"
 description: "Professional fire risk assessment for high-rise buildings over 18 metres. Building Safety Act 2022 compliance, EWS1 support, post-Grenfell requirements. BAFE SP205 registered assessors with 24-hour turnaround."
-image: "/images/fire-risk-assessment/high-rise-buildings.jpg"
+image: "../../../assets/images/fire-risk-assessment/high-rise-buildings.jpg"
 draft: false
 icon: "FaCity"
 hero:
@@ -138,7 +138,7 @@ faq_section:
 
 High-rise buildings over 18 metres present unique fire safety challenges that require specialist assessment. Following the Grenfell Tower fire and subsequent regulatory changes, high-rise buildings face heightened scrutiny around external wall systems, evacuation strategies, and firefighting access. The Building Safety Act 2022 introduced new requirements including building registration, Accountable Person duties, and enhanced compliance obligations.
 
-![Modern UK High-Rise Residential Tower Building - Fire Risk Assessment](https://firerisk.io/wp-content/uploads/2025/11/high-rise-hero.png "High-Rise Fire Risk Assessment")
+![Modern UK High-Rise Residential Tower Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/high-rise-buildings/high-rise-hero.png "High-Rise Fire Risk Assessment")
 
 ### Serving High-Rise Buildings Across the UK
 
@@ -163,7 +163,7 @@ Every high-rise fire risk assessment includes a comprehensive package designed t
 - **Detailed photographic report** — Building Safety Regulator ready with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and remediation scheduling
 
-![Building Service Riser Shaft Showing Vertical Fire Pathways](https://firerisk.io/wp-content/uploads/2025/11/high-rise-hazard-riser.png "High-Rise Riser Assessment")
+![Building Service Riser Shaft Showing Vertical Fire Pathways](../../../assets/images/fire-risk-assessment/high-rise-buildings/high-rise-hazard-riser.png "High-Rise Riser Assessment")
 
 ### Why Building Owners Choose Fire Assessment North
 
@@ -176,4 +176,4 @@ Building owners and Accountable Persons across the UK trust us for their high-ri
 - **Evacuation strategy expertise** — stay-put vs simultaneous evacuation assessment
 - **Competitive pricing** — transparent fees from £750
 
-![External Wall Cladding Architectural Detail Close-Up](https://firerisk.io/wp-content/uploads/2025/11/high-rise-hazard-cladding.png "High-Rise Cladding Assessment")
+![External Wall Cladding Architectural Detail Close-Up](../../../assets/images/fire-risk-assessment/high-rise-buildings/high-rise-hazard-cladding.png "High-Rise Cladding Assessment")

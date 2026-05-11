@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for Retail Premises"
 meta_title: "Fire Risk Assessment for Retail Shops - Fire Assessment North"
 description: "Professional fire risk assessment for retail shops and shopping centres. Black Friday crowd planning, seasonal display compliance, POS electrical safety. BAFE SP205 registered assessors with 24-hour turnaround."
-image: "/images/fire-risk-assessment/retail.jpg"
+image: "../../../assets/images/fire-risk-assessment/retail.jpg"
 draft: false
 icon: "FaStore"
 hero:
@@ -138,7 +138,7 @@ faq_section:
 
 Retail shops and shopping centres require specialist fire risk assessments that address customer evacuation, seasonal display compliance, POS electrical safety, and peak trading period planning. Under the Regulatory Reform (Fire Safety) Order 2005, the responsible person for the premises must ensure that adequate fire safety measures are in place to protect customers, staff, and the public.
 
-![Modern UK High Street Retail Storefront - Fire Risk Assessment](https://firerisk.io/wp-content/uploads/2025/11/retail-hero-1.png "Retail Fire Risk Assessment")
+![Modern UK High Street Retail Storefront - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/retail/retail-hero-1.png "Retail Fire Risk Assessment")
 
 ### Serving Retail Premises Across the UK
 
@@ -163,7 +163,7 @@ Every retail fire risk assessment includes a comprehensive package designed to m
 - **Detailed photographic report** — compliant with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and review scheduling
 
-![Retail Customer Congestion Peak Shopping Period Fire Risk](https://firerisk.io/wp-content/uploads/2025/11/retail-customer-congestion.png "Retail Customer Congestion Assessment")
+![Retail Customer Congestion Peak Shopping Period Fire Risk](../../../assets/images/fire-risk-assessment/retail/retail-customer-congestion.png "Retail Customer Congestion Assessment")
 
 ### Why Retail Operators Choose Fire Assessment North
 
@@ -176,4 +176,4 @@ Retail operators and store managers across the UK trust us for their premises be
 - **Shopping centre coordination** — Article 22 FSO 2005 compliance support
 - **Competitive pricing** — transparent fees with no hidden costs
 
-![Retail Seasonal Displays Merchandising Fire Safety](https://firerisk.io/wp-content/uploads/2025/11/retail-displays.png "Retail Seasonal Display Assessment")
+![Retail Seasonal Displays Merchandising Fire Safety](../../../assets/images/fire-risk-assessment/retail/retail-displays.png "Retail Seasonal Display Assessment")

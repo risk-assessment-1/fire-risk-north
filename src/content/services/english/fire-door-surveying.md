@@ -2,7 +2,7 @@
 title: "Fire Door Surveying"
 meta_title: "Fire Door Surveying Services - Fire Assessment North"
 description: "Professional fire door surveys by BM Trada Q-Mark certified surveyors. Regulation 10 compliant inspections with photographic reports and remediation plans."
-image: "/images/services/fire-door-surveying.jpg"
+image: "../../../assets/images/services/fire-door-surveying.jpg"
 draft: false
 icon: "FaDoorClosed"
 hero:

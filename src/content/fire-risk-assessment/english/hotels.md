@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for Hotels"
 meta_title: "Fire Risk Assessment for Hotels - Fire Assessment North"
 description: "Professional fire risk assessment for hotels and guest houses. Sleeping guest protection, commercial kitchen safety, FD30 fire doors, multi-language evacuation. BAFE SP205 registered assessors."
-image: "/images/fire-risk-assessment/hotels.jpg"
+image: "../../../assets/images/fire-risk-assessment/hotels.jpg"
 draft: false
 icon: "FaHotel"
 hero:
@@ -138,7 +138,7 @@ faq_section:
 
 Hotels, guest houses, and bed and breakfasts require specialist fire risk assessments that address sleeping guest safety, 24/7 operations, commercial kitchen hazards, and multi-language evacuation procedures. Under the Regulatory Reform (Fire Safety) Order 2005, hotel operators have specific duties to ensure fire detection, escape routes, and evacuation procedures protect sleeping occupants at all hours.
 
-![Modern UK Hotel Building - Fire Risk Assessment](https://firerisk.io/wp-content/uploads/2025/11/hotel-hero.png "Hotel Fire Risk Assessment")
+![Modern UK Hotel Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/hotels/hotel-hero.png "Hotel Fire Risk Assessment")
 
 ### Serving Hotels & Hospitality Across the UK
 
@@ -164,7 +164,7 @@ Every hotel fire risk assessment includes a comprehensive package designed to me
 - **Detailed photographic report** — licensing-compliant with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and review scheduling
 
-![Hotel Guest Bedroom Fire Safety](https://firerisk.io/wp-content/uploads/2025/11/hotel-bedroom.png "Hotel Bedroom Assessment")
+![Hotel Guest Bedroom Fire Safety](../../../assets/images/fire-risk-assessment/hotels/hotel-bedroom.png "Hotel Bedroom Assessment")
 
 ### Why Hotel Operators Choose Fire Assessment North
 
@@ -177,4 +177,4 @@ Hotel operators across the UK trust us for their premises because we understand 
 - **Commercial kitchen assessment** — wet chemical suppression and extraction systems
 - **Licensing-compliant documentation** — accepted by all local authorities
 
-![Hotel Corridor Fire Safety and Evacuation Routes](https://firerisk.io/wp-content/uploads/2025/11/hotel-corridor.png "Hotel Corridor Assessment")
+![Hotel Corridor Fire Safety and Evacuation Routes](../../../assets/images/fire-risk-assessment/hotels/hotel-corridor.png "Hotel Corridor Assessment")

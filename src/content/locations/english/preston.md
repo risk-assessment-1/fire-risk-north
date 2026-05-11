@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment in Preston"
 meta_title: "Fire Risk Assessment Preston - Fire Assessment North"
 description: "Professional fire risk assessment services in Preston, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
-image: "/images/locations/preston.jpg"
+image: "../../../assets/images/locations/preston.jpg"
 draft: false
 hero:
   enable: true

@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment"
 meta_title: "Fire Risk Assessment Services - Fire Assessment North"
 description: "Professional fire risk assessments compliant with the Regulatory Reform (Fire Safety) Order 2005 and PAS 79 methodology."
-image: "/images/services/fire-risk-assessment.jpg"
+image: "../../../assets/images/services/fire-risk-assessment.jpg"
 draft: false
 icon: "FaFire"
 hero:
@@ -194,7 +194,7 @@ A **fire risk assessment** is a systematic evaluation of your premises to identi
 
 The purpose of a fire risk assessment is to ensure that everyone in your building can escape safely in the event of a fire. It examines potential sources of ignition, fuel, and oxygen (the fire triangle), identifies who might be at risk, and evaluates whether existing fire safety measures are adequate.
 
-![Fire Triangle Infographic showing the three elements of fire: Heat, Fuel, and Oxygen](https://firerisk.io/wp-content/uploads/2026/01/fire-triangle-infographic.png "Fire Risk Assessment 10")
+![Fire Triangle Infographic showing the three elements of fire: Heat, Fuel, and Oxygen](../../../assets/images/services/fire-triangle-infographic.png "Fire Risk Assessment 10")
 
 ### What Does a Fire Risk Assessment Include?
 
@@ -210,7 +210,7 @@ A comprehensive fire risk assessment examines:
 - **Signage:** Fire exit signs, fire action notices, and assembly point signs
 - **Staff training:** Fire safety awareness and evacuation procedures
 
-![Professional fire risk assessor inspecting fire safety equipment in a UK commercial building](https://firerisk.io/wp-content/uploads/2026/01/fire-risk-assessor-inspection.jpg "Fire Risk Assessment 11")
+![Professional fire risk assessor inspecting fire safety equipment in a UK commercial building](../../../assets/images/services/fire-risk-assessor-inspection.jpg "Fire Risk Assessment 11")
 
 #### Key Requirements for 2026
 
@@ -231,4 +231,4 @@ Fire risk assessments are categorised into four types under PAS 79-1:
 
 For commercial premises, the type depends on complexity and risk level. Simple offices may need only a basic assessment, while industrial premises with hazardous materials require more detailed evaluation.
 
-![Fire Risk Assessment Types 1-4 comparison showing scope and requirements for each type](https://firerisk.io/wp-content/uploads/2026/01/fra-types-comparison.png "Fire Risk Assessment 12")
+![Fire Risk Assessment Types 1-4 comparison showing scope and requirements for each type](../../../assets/images/services/fra-types-comparison.png "Fire Risk Assessment 12")

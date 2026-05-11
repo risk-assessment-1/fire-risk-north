@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment in Bolton"
 meta_title: "Fire Risk Assessment Bolton - Fire Assessment North"
 description: "Professional fire risk assessment services in Bolton, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005."
-image: "/images/locations/bolton.jpg"
+image: "../../../assets/images/locations/bolton.jpg"
 draft: false
 hero:
   enable: true

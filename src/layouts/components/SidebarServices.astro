@@ -16,8 +16,10 @@ const {
 } = Astro.props;
 ---
 
-<div class="bg-white dark:bg-black px-8 py-10 box-shadow mb-12">
-  <h5 class="mb-5">{title}</h5>
+<div class="bg-white dark:bg-black lg:px-8 py-10 box-shadow mb-12">
+  <p class="font-secondary text-h3-sm md:text-h4 mb-8 uppercase text-black">
+    {title}
+  </p>
   <ul class="list-styled style-circle space-y-4">
     {
       slugs.map((slug: string) => (

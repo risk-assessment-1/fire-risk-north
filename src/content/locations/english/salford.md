@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment in Salford"
 meta_title: "Fire Risk Assessment Salford - Fire Assessment North"
 description: "Professional fire risk assessment services in Salford, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
-image: "/images/locations/salford.jpg"
+image: "../../../assets/images/locations/salford.jpg"
 draft: false
 hero:
   enable: true

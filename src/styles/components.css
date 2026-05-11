@@ -112,7 +112,7 @@
     @apply inline-block;
 
     a {
-      @apply flex h-4 w-4 items-center justify-center rounded text-center leading-9 text-white hover:text-primary dark:hover:text-darkmode-primary;
+      @apply flex h-4 w-4 items-center justify-center rounded text-center leading-9 text-white hover:text-primary-on-dark dark:hover:text-darkmode-primary;
 
       svg {
         @apply h-4 w-4;
@@ -716,6 +716,7 @@ blockquote {
   @apply prose-code:px-1 prose-code:text-primary;
   @apply prose-strong:text-text-dark dark:prose-strong:text-darkmode-text-dark;
   @apply prose-a:text-text prose-a:underline prose-a:hover:text-primary;
+  @apply prose-ul:my-4;
   @apply prose-li:text-text dark:prose-li:text-darkmode-text marker:text-primary dark:marker:text-darkmode-primary;
   @apply prose-table:relative prose-table:overflow-hidden prose-table:rounded-lg prose-table:before:absolute prose-table:before:left-0 prose-table:before:top-0 prose-table:before:h-full prose-table:before:w-full prose-table:before:rounded-[inherit] prose-table:before:border prose-table:before:border-border prose-table:before:content-[""];
   @apply prose-thead:border-border prose-thead:bg-light dark:prose-thead:bg-darkmode-light;

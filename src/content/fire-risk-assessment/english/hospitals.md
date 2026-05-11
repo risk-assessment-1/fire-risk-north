@@ -2,7 +2,7 @@
 title: "Fire Risk Assessment for Hospitals"
 meta_title: "Fire Risk Assessment for Hospitals - Fire Assessment North"
 description: "Professional fire risk assessment for hospitals and healthcare premises. HTM 05-02 compliant, progressive horizontal evacuation, medical gas safety, CQC documentation. BAFE SP205 registered assessors."
-image: "/images/fire-risk-assessment/hospitals.jpg"
+image: "../../../assets/images/fire-risk-assessment/hospitals.jpg"
 draft: false
 icon: "FaHospital"
 hero:
@@ -138,7 +138,7 @@ faq_section:
 
 Hospitals and healthcare premises require the most complex fire safety strategies of any building type due to the presence of patients who cannot self-evacuate. Healthcare fire risk assessments must follow HTM 05-01 guidance alongside the Regulatory Reform (Fire Safety) Order 2005, and must account for medical gas installations, progressive horizontal evacuation, and CQC fundamental standards.
 
-![Modern UK NHS Hospital Building - Fire Risk Assessment](https://firerisk.io/wp-content/uploads/2025/11/hospital-hero.png "Hospital Fire Risk Assessment")
+![Modern UK NHS Hospital Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/hospitals/hospital-hero.png "Hospital Fire Risk Assessment")
 
 ### Serving Hospitals & Healthcare Facilities Across the UK
 
@@ -164,7 +164,7 @@ Every hospital fire risk assessment includes a comprehensive package designed to
 - **Detailed photographic report** — CQC-compliant with risk ratings and prioritised action plan
 - **Ongoing compliance support** — guidance on implementing recommendations and review scheduling
 
-![Medical Oxygen Cylinder Storage - Hospital Fire Safety](https://firerisk.io/wp-content/uploads/2025/11/oxygen-storage.png "Hospital Medical Oxygen Assessment")
+![Medical Oxygen Cylinder Storage - Hospital Fire Safety](../../../assets/images/fire-risk-assessment/hospitals/oxygen-storage.png "Hospital Medical Oxygen Assessment")
 
 ### Why NHS Trusts Choose Fire Assessment North
 
@@ -177,4 +177,4 @@ NHS trust managers and hospital compliance officers across the UK trust us for t
 - **Clinical understanding** — pragmatic solutions that support patient care delivery
 - **Competitive pricing** — from £2,995 for comprehensive trust assessments
 
-![Hospital Corridor and Evacuation Routes](https://firerisk.io/wp-content/uploads/2025/11/hospital-corridor.png "Hospital Corridor Assessment")
+![Hospital Corridor and Evacuation Routes](../../../assets/images/fire-risk-assessment/hospitals/hospital-corridor.png "Hospital Corridor Assessment")

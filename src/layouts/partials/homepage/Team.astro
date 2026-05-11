@@ -1,11 +1,10 @@
 ---
 import PersonCard from "@/components/PersonCard.astro";
 import { markdownify } from "@/lib/utils/textConverter";
-import type { CollectionEntry } from "astro:content";
 
 type Props = {
-  teamIndex: CollectionEntry<"team">;
-  team: CollectionEntry<"team">[];
+  teamIndex: any;
+  team: any[];
   className?: string;
 };
 
@@ -29,7 +28,7 @@ const { teamIndex, team, className } = Astro.props;
     </div>
     <div class="row g-4">
       {
-        team.map((t) => {
+        team.map((t: any) => {
           const slugParts = t.id.split("/");
           slugParts[0] = "team";
           const modifiedSlug = slugParts.join("/");

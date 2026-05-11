@@ -2,7 +2,7 @@
 title: "Fire Extinguisher Servicing"
 meta_title: "Fire Extinguisher Servicing & Testing - Fire Assessment North"
 description: "Annual fire extinguisher servicing and maintenance by BAFE registered engineers in accordance with BS 5306-3. Compliance certificate included with every visit."
-image: "/images/services/fire-extinguisher-servicing.jpg"
+image: "../../../assets/images/services/fire-extinguisher-servicing.jpg"
 draft: false
 icon: "FaFireExtinguisher"
 hero:
