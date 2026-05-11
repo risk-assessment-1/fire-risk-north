@@ -10,8 +10,8 @@ const { pathname } = Astro.url;
 const groups = [
   ...new Set(
     projects.map((project: { data: { category: string } }) =>
-      project.data.category.toLocaleLowerCase()
-    )
+      project.data.category.toLocaleLowerCase(),
+    ),
   ),
 ];
 ---
