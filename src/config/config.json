@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Fire Assessment North",
-    "base_url": "https://bexer-astro.vercel.app",
+    "base_url": "https://fireassessmentnorth.joeyk2k-a3a.workers.dev/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.svg",
