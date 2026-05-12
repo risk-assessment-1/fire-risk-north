@@ -30,7 +30,7 @@ const { title, description, author, image, date, tags } = post.data;
 const langCollection: string = lang as string;
 const allCategoriesForCount = await getAllTaxonomy(
   langCollection,
-  "categories"
+  "categories",
 );
 const allCategories = await getTaxonomy(langCollection, "categories");
 const allTags = await getTaxonomy(langCollection, "tags");

@@ -1,4 +1,4 @@
-import { FaArrowRight, FaShieldHalved } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
 import React from "react";
 
 const BlogCTA = ({ label, href }: { label: string; href: string }) => {
