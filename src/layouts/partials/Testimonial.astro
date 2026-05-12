@@ -1,208 +1,137 @@
 ---
+import ImageMod from "@/components/ImageMod.astro";
 import { markdownify } from "@/lib/utils/textConverter";
+import { FaQuoteLeft } from "react-icons/fa";
 const { testimonial } = Astro.props;
-const starSvg = `<svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>`;
-
-const row1 = [
-  { text: "FireRisk.io completed our warehouse assessment within 24 hours when we were in a time crunch. Professional, thorough, and incredibly responsive. The report was clear and actionable.", name: "Zaheed Naviya", platform: "Google" },
-  { text: "Excellent service and great value for money. The assessor was knowledgeable and professional. Would highly recommend to any business needing fire safety compliance.", name: "Josef Lewis", platform: "Trustpilot" },
-  { text: "Fast turnaround and comprehensive report. Exactly what we needed for our HMO property. The team was responsive and answered all our questions promptly.", name: "Hanif Patel", platform: "Google" },
-  { text: "Professional team that delivered on all their promises. Will definitely use again for our annual reviews. Great communication throughout the process.", name: "Jackson Skier", platform: "Trustpilot" },
-  { text: "Very efficient service. Assessment was thorough and the report was easy to understand. Competitive pricing compared to other providers I contacted.", name: "Sarah Mitchell", platform: "Google" },
-];
-
-const row2 = [
-  { text: "Outstanding service from start to finish. The assessor arrived on time and was extremely thorough. Report delivered next day as promised. Highly recommend!", name: "David Chen", platform: "Trustpilot" },
-  { text: "Best pricing I found for fire risk assessments. Quality of service was exceptional and the report was comprehensive and easy to follow.", name: "Emma Thompson", platform: "Google" },
-  { text: "Used FireRisk.io for multiple properties. Consistent quality, professional service, and great value. They're now my go-to for all fire safety needs.", name: "Michael Roberts", platform: "Trustpilot" },
-  { text: "Fantastic experience. Booking was easy, assessor was knowledgeable, and the whole process was hassle-free. Would definitely recommend to others.", name: "Rachel Adams", platform: "Google" },
-  { text: "Needed emergency assessment for insurance purposes. FireRisk.io accommodated us immediately and delivered the report within hours. Absolutely brilliant service!", name: "James Wilson", platform: "Trustpilot" },
-];
 ---
 
 {
   testimonial.enable && (
-    <section class="section overflow-hidden">
-      <div class="container mb-12">
+    <section class="section bg-light dark:bg-darkmode-light bg-dots">
+      <div class="container slider-outside">
         <div class="row">
           <div class="col-12 text-center relative">
             <span class="section-title-border border-center" />
             <p class="text-h5" set:html={markdownify(testimonial.subtitle)} />
             <h2 class="h1 mb-10" set:html={markdownify(testimonial.title)} />
           </div>
+          <div class="col-10 mx-auto">
+            <div class="swiper testimonial-slider">
+              <div class="swiper-wrapper">
+                {testimonial.testimonials.map(
+                  (t: {
+                    avatar?: string;
+                    content: string;
+                    name: string;
+                    designation: string;
+                  }) => (
+                    <div class="swiper-slide slider-item">
+                      <div class="text-center flex flex-col items-center">
+                        {t.avatar && (
+                          <ImageMod
+                            class="rounded-full mb-5 w-17.5 h-17.5"
+                            src={t.avatar}
+                            alt="client"
+                            width={70}
+                            height={70}
+                            sizes="70px"
+                            widths={[70, 140]}
+                          />
+                        )}
+                        <div class="relative">
+                          <div class="text-center md:pt-4">
+                            <p
+                              class="italic mb-6 text-text-dark dark:text-darkmode-text-light"
+                              set:html={markdownify(t.content)}
+                            />
+                            <FaQuoteLeft className="text-primary/30 dark:text-darkmode-primary/30 absolute top-0 left-1/2 text-[100px] -translate-x-12.5" />
+                            <p
+                              class="mb-2 text-h5 heading h4"
+                              set:html={markdownify(t.name)}
+                            />
+                            <span
+                              class="text-primary dark:text-darkmode-primary"
+                              set:html={markdownify(t.designation)}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ),
+                )}
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="wall-of-love-container">
-        <div class="testimonial-row testimonial-row-right">
-          {row1.map((t) => (
-            <div class="testimonial-card">
-              <div class="rating" set:html={starSvg.repeat(5)} />
-              <p class="testimonial-text">"{t.text}"</p>
-              <div class="testimonial-author">
-                <div class="author-name">{t.name}</div>
-                <span class="platform-badge">{t.platform}</span>
-              </div>
-            </div>
-          ))}
-          {row1.map((t) => (
-            <div class="testimonial-card" aria-hidden="true">
-              <div class="rating" set:html={starSvg.repeat(5)} />
-              <p class="testimonial-text">"{t.text}"</p>
-              <div class="testimonial-author">
-                <div class="author-name">{t.name}</div>
-                <span class="platform-badge">{t.platform}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div class="testimonial-row testimonial-row-left">
-          {row2.map((t) => (
-            <div class="testimonial-card">
-              <div class="rating" set:html={starSvg.repeat(5)} />
-              <p class="testimonial-text">"{t.text}"</p>
-              <div class="testimonial-author">
-                <div class="author-name">{t.name}</div>
-                <span class="platform-badge">{t.platform}</span>
-              </div>
-            </div>
-          ))}
-          {row2.map((t) => (
-            <div class="testimonial-card" aria-hidden="true">
-              <div class="rating" set:html={starSvg.repeat(5)} />
-              <p class="testimonial-text">"{t.text}"</p>
-              <div class="testimonial-author">
-                <div class="author-name">{t.name}</div>
-                <span class="platform-badge">{t.platform}</span>
-              </div>
-            </div>
-          ))}
+
+        <div class="mt-10">
+          <div class="swiper-button-next" />
+          <div class="swiper-button-prev" />
         </div>
       </div>
     </section>
   )
 }
 
+<script>
+  import { Swiper } from "swiper";
+  import "swiper/css";
+  import "swiper/css/navigation";
+  import "swiper/css/pagination";
+  import { Autoplay, Navigation, Pagination } from "swiper/modules";
+
+  document.addEventListener("astro:page-load", () => {
+    new Swiper(".testimonial-slider", {
+      modules: [Autoplay, Pagination, Navigation],
+      loop: true,
+      centeredSlides: true,
+      slidesPerView: 1,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  });
+</script>
+
 <style>
-  .wall-of-love-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+  .swiper-button-next,
+  .swiper-button-prev {
+    transition:
+      transform 0.3s ease-in-out,
+      opacity 0.3s ease-in-out;
+    position: absolute;
+    opacity: 0;
   }
 
-  .testimonial-row {
-    display: flex;
-    gap: 1.5rem;
-    width: max-content;
+  .swiper-button-next {
+    transform: translateX(50px);
+    right: 160px;
   }
 
-  .testimonial-row-right {
-    animation: scroll-right 50s linear infinite;
+  .swiper-button-prev {
+    transform: translateX(-50px);
+    left: 160px;
   }
 
-  .testimonial-row-left {
-    animation: scroll-left 50s linear infinite;
+  .swiper-slide {
+    position: relative;
   }
 
-  .testimonial-row:hover {
-    animation-play-state: paused;
+  .slider-outside:hover .swiper-button-next,
+  .slider-outside:hover .swiper-button-prev {
+    opacity: 1;
   }
 
-  .testimonial-card {
-    background: var(--color-light);
-    border: 1px solid var(--color-border);
-    border-radius: 1rem;
-    padding: 1.5rem;
-    width: 340px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    transition: border-color 0.2s;
+  .slider-outside:hover .swiper-button-next {
+    transform: translateX(100px);
   }
 
-  :global(.dark) .testimonial-card {
-    background: var(--color-darkmode-light);
-    border-color: var(--color-darkmode-border);
-  }
-
-  .testimonial-card:hover {
-    border-color: var(--color-primary);
-  }
-
-  :global(.dark) .testimonial-card:hover {
-    border-color: var(--color-darkmode-primary);
-  }
-
-  .rating {
-    display: flex;
-    gap: 2px;
-    color: #facc15;
-    width: 100px;
-  }
-
-  .rating :global(svg) {
-    width: 20px;
-    height: 20px;
-    fill: currentColor;
-  }
-
-  .testimonial-text {
-    color: var(--color-text);
-    font-size: 0.9375rem;
-    line-height: 1.6;
-    flex: 1;
-    margin: 0;
-  }
-
-  :global(.dark) .testimonial-text {
-    color: var(--color-darkmode-text);
-  }
-
-  .testimonial-author {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 0.25rem;
-  }
-
-  .author-name {
-    font-weight: 600;
-    color: var(--color-text-dark);
-    font-size: 0.9375rem;
-  }
-
-  :global(.dark) .author-name {
-    color: var(--color-darkmode-text-dark);
-  }
-
-  .platform-badge {
-    font-size: 0.75rem;
-    font-weight: 500;
-    padding: 0.25rem 0.625rem;
-    border-radius: 9999px;
-    background: var(--color-primary);
-    color: white;
-  }
-
-  :global(.dark) .platform-badge {
-    background: var(--color-darkmode-primary);
-  }
-
-  @keyframes scroll-right {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-
-  @keyframes scroll-left {
-    0% {
-      transform: translateX(-50%);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  .slider-outside:hover .swiper-button-prev {
+    transform: translateX(-100px);
   }
 </style>

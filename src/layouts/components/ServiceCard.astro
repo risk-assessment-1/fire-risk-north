@@ -17,31 +17,55 @@ const { services } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 
 const { read_more } = await getTranslations(lang as string);
+
+const priorityOrder = [
+  "fire-risk-assessment",
+  "fire-alarm-testing",
+  "fire-extinguisher-servicing",
+  "fire-strategy",
+];
+
+const sortedServices = [...services].sort((a, b) => {
+  const slugA = a.id.split("/").pop()?.replace(/\.md$/, "") ?? "";
+  const slugB = b.id.split("/").pop()?.replace(/\.md$/, "") ?? "";
+  const idxA = priorityOrder.indexOf(slugA);
+  const idxB = priorityOrder.indexOf(slugB);
+  const pA = idxA === -1 ? priorityOrder.length : idxA;
+  const pB = idxB === -1 ? priorityOrder.length : idxB;
+  return pA - pB;
+});
 ---
 
 <div class="container">
   <div
-    class="services-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6"
+    class="services-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
   >
     {
-      services?.map((service) => {
+      sortedServices?.map((service, index) => {
         const slugParts = service.id.split("/");
         slugParts[0] = "services";
         const modifiedSlug = slugParts.join("/");
         service.id = modifiedSlug;
 
+        const isWide = index === 0 || index === 3;
+
         return (
-          <div class="lg:col-span-2">
+          <div class={isWide ? "lg:col-span-2" : "lg:col-span-1"}>
             <div class="box-shadow">
               {service.data.image && (
                 <ImageMod
                   src={service.data.image}
-                  class="bg-cover object-contain w-full"
+                  class={`object-cover object-top w-full h-57.5`}
                   alt={service.data.title}
-                  width={445}
+                  width={isWide ? 880 : 440}
                   height={230}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 445px"
-                  widths={[445, 890]}
+                  fit="cover"
+                  sizes={
+                    isWide
+                      ? "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 66vw"
+                      : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  }
+                  widths={isWide ? [440, 880] : [440, 880]}
                 />
               )}
               <div class="relative">
@@ -70,7 +94,7 @@ const { read_more } = await getTranslations(lang as string);
                   )}
                   <a
                     href={slugSelector(`/${service.id}`, lang)}
-                    class="btn btn-arrow"
+                    class="pl-0! btn btn-arrow"
                   >
                     {read_more}
                     <span class="sr-only">{plainify(service.data.title)}</span>
@@ -84,15 +108,3 @@ const { read_more } = await getTranslations(lang as string);
     }
   </div>
 </div>
-
-<style>
-  @media (min-width: 1024px) {
-    .services-grid > div:last-child:nth-child(3n-2) {
-      grid-column-end: 5;
-    }
-
-    .services-grid > div:nth-last-child(2):nth-child(3n-2) {
-      grid-column-end: 4;
-    }
-  }
-</style>

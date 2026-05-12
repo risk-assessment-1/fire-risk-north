@@ -46,63 +46,8 @@ const {
 >
   <PageHeader title={title} />
 
-  <!-- contact items -->
-  <section class="section pb-0">
-    <div class="container">
-      <div class="row justify-center g-5">
-        <!-- Addresses -->
-        <div class="col-10 sm:col-8 md:col-4">
-          <div
-            class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
-          >
-            <FaMapMarkerAlt
-              className="text-primary dark:text-darkmode-primary mx-auto mb-4"
-              size={56}
-            />
-
-            <p class="mb-4 text-h5">{our_address}</p>
-            <ul class="text-balance space-y-1">
-              <li>{address}</li>
-            </ul>
-          </div>
-        </div>
-        <!-- phone -->
-        <div class="col-10 sm:col-8 md:col-4">
-          <div
-            class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
-          >
-            <FaPhoneAlt
-              className="text-primary dark:text-darkmode-primary mx-auto mb-4"
-              size={56}
-            />
-            <p class="mb-4 text-h5">{phone_number}</p>
-            <ul class="text-balance">
-              <li>{phone}</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Mail -->
-        <div class="col-10 sm:col-8 md:col-4">
-          <div
-            class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
-          >
-            <FaEnvelope
-              className="text-primary dark:text-darkmode-primary mx-auto mb-4"
-              size={56}
-            />
-            <p class="mb-4 text-h5">{message_us}</p>
-            <ul class="text-balance">
-              <li>{email}</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /contact item -->
-
   <!-- contact form and map -->
-  <section class="section">
+  <section class="section pb-0">
     <div class="container">
       <div class="row justify-center g-5">
         <!-- google map -->
@@ -175,4 +120,59 @@ const {
     </div>
   </section>
   <!-- /contact form and map -->
+
+  <!-- contact items -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center g-5">
+        <!-- Addresses -->
+        <div class="col-10 sm:col-8 md:col-4">
+          <div
+            class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
+          >
+            <FaMapMarkerAlt
+              className="text-primary dark:text-darkmode-primary mx-auto mb-4"
+              size={56}
+            />
+
+            <p class="mb-4 text-h5">{our_address}</p>
+            <ul class="text-balance space-y-1">
+              <li>{address}</li>
+            </ul>
+          </div>
+        </div>
+        <!-- phone -->
+        <div class="col-10 sm:col-8 md:col-4">
+          <div
+            class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
+          >
+            <FaPhoneAlt
+              className="text-primary dark:text-darkmode-primary mx-auto mb-4"
+              size={56}
+            />
+            <p class="mb-4 text-h5">{phone_number}</p>
+            <ul class="text-balance">
+              <li>{phone}</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Mail -->
+        <div class="col-10 sm:col-8 md:col-4">
+          <div
+            class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
+          >
+            <FaEnvelope
+              className="text-primary dark:text-darkmode-primary mx-auto mb-4"
+              size={56}
+            />
+            <p class="mb-4 text-h5">{message_us}</p>
+            <ul class="text-balance">
+              <li>{email}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /contact item -->
 </Base>
