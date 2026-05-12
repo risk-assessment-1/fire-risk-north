@@ -4,6 +4,7 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 import { getLangFromUrl, supportedLang } from "@/lib/utils/languageParser";
 import PageHeader from "@/partials/PageHeader.astro";
 import { markdownify } from "@/lib/utils/textConverter";
+import manchesterImage from "@/assets/images/locations/manchester.jpg";
 
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
@@ -21,7 +22,7 @@ const locations = await getSinglePage("locations", lang as string);
   title="Locations We Cover"
   meta_title="Fire Risk Assessment Locations - Fire Assessment North"
   description="Professional fire risk assessment services across Greater Manchester and Lancashire. Covering Manchester, Salford, Bolton, Wigan, Chorley, Leyland and Preston."
-  image="/images/locations/manchester.jpg"
+  image={manchesterImage}
 >
   <PageHeader title="Locations We Cover" />
 
@@ -62,7 +63,10 @@ const locations = await getSinglePage("locations", lang as string);
                         </p>
                       )}
                     </div>
-                    <a href={`/locations/${slug}`} class="btn btn-arrow mt-4">
+                    <a
+                      href={`/locations/${slug}`}
+                      class="pl-0 btn btn-arrow mt-4"
+                    >
                       Read More
                       <span class="sr-only">
                         about ${markdownify(slug || "")}

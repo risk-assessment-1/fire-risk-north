@@ -30,7 +30,7 @@ const { title, description, author, image, date, tags } = post.data;
 const langCollection: string = lang as string;
 const allCategoriesForCount = await getAllTaxonomy(
   langCollection,
-  "categories",
+  "categories"
 );
 const allCategories = await getTaxonomy(langCollection, "categories");
 const allTags = await getTaxonomy(langCollection, "tags");
@@ -78,7 +78,7 @@ const {
         <div class="content mb-10">
           <Content />
         </div>
-        <div class="mb-10 flex flex-wrap items-center gap-3 lg:mb-0">
+        <div class="mb-10 flex flex-wrap items-center gap-3 lg:gap-8 lg:mb-0">
           <p class="text-h5">{Ttags}:</p>
           <ul class="flex flex-wrap gap-1.5">
             {
@@ -91,7 +91,7 @@ const {
               ))
             }
           </ul>
-          <p class="text-h5 ml-4">{share}:</p>
+          <p class="text-h5 heading">{share}:</p>
           <Share
             className=""
             title={title}
