@@ -5,12 +5,7 @@ import {
   getTranslations,
   slugSelector,
 } from "@/lib/utils/languageParser";
-import {
-  humanize,
-  markdownify,
-  plainify,
-  slugify,
-} from "@/lib/utils/textConverter";
+import { humanize, markdownify, plainify } from "@/lib/utils/textConverter";
 import ImageMod from "./ImageMod.astro";
 
 const { data } = Astro.props;
@@ -42,10 +37,7 @@ const { by, on } = await getTranslations(lang as string);
       <div class="card-meta">
         {by}
         <strong>
-          <a
-            href={slugSelector(`/authors/${slugify(author)}`, lang)}
-            set:html={humanize(author)}
-          />/ {on}
+          <span set:html={humanize(author)} />/ {on}
           <strong>{dateFormat(date)}</strong>
         </strong>
         <p class="card-title">

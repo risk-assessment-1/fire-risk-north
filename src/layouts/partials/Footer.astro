@@ -109,7 +109,10 @@ const { services, contact_info, follow_us_on } = await getTranslations(
     <div class="container">
       <div class="row">
         <div class="md:col-6 text-center md:text-start mb-3 md:mb-0">
-          <p class="mb-0 text-primary-on-dark text-sm" set:html={markdownify(copyright)}>
+          <p
+            class="mb-0 text-primary-on-dark text-sm"
+            set:html={markdownify(copyright)}
+          >
             <span
               class="text-primary-on-dark dark:text-darkmode-primary"
               set:html={config.site.logo_text}
