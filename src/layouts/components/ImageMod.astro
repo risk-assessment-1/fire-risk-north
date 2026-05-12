@@ -41,7 +41,7 @@ if (typeof src === "string") {
 
   !isValidPath &&
     console.error(
-      `\x1b[31mImage not found - ${src}.\x1b[0m Make sure the image is in the /public/images folder.`,
+      `\x1b[31mImage not found - ${src}.\x1b[0m Make sure the image is in the /public/images folder.`
     );
 
   if (!isValidPath) return;
@@ -58,6 +58,7 @@ if (typeof src === "string") {
   height={height}
   loading={loading}
   fit={fit ? fit : "contain"}
+  position={"top"}
   decoding={decoding}
   class={className}
   style={style}

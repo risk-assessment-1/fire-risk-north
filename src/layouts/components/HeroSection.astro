@@ -9,9 +9,18 @@ export interface Props {
   image: string | ImageMetadata;
   price?: string;
   badges?: { label: string }[];
+  secondaryHref?: string;
 }
 
-const { title, subtitle, description, image, price, badges } = Astro.props;
+const {
+  title,
+  subtitle,
+  description,
+  image,
+  price,
+  badges,
+  secondaryHref = "/contact",
+} = Astro.props;
 ---
 
 <section
@@ -87,10 +96,10 @@ const { title, subtitle, description, image, price, badges } = Astro.props;
             Get a Free Quote
           </a>
           <a
-            href="/contact"
+            href={secondaryHref}
             class="border-2 border-slate-900 dark:border-darkmode-text text-slate-900 dark:text-darkmode-text font-bold py-4 px-8 rounded-lg hover:bg-slate-50 dark:hover:bg-darkmode-light transition-colors"
           >
-            Contact Us
+            FAQ's
           </a>
         </div>
 
@@ -98,7 +107,7 @@ const { title, subtitle, description, image, price, badges } = Astro.props;
           badges && badges.length > 0 && (
             <div class="flex flex-wrap gap-6 pt-6">
               {badges.map((badge) => (
-                <div class="flex items-center text-slate-900 dark:text-darkmode-text font-semibold">
+                <div class="flex items-center text-slate-900 dark:text-darkmode-text font-semibold text-[14px]">
                   <span class="w-6 h-6 bg-emerald-400 rounded-full flex items-center justify-center mr-2">
                     <svg
                       class="w-4 h-4 text-white"
