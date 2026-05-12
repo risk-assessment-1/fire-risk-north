@@ -82,6 +82,13 @@ export default defineConfig({
       ],
     }),
     mdx(),
+    (await import("@playform/compress")).default({
+      HTML: true,
+      JavaScript: true,
+      CSS: false, // enabling this can cause issues
+      Image: false, // astro:assets handles this. Enabling this can dramatically increase build times
+      SVG: false, // astro-icon handles this
+    }),
   ],
   markdown: {
     shikiConfig: {
