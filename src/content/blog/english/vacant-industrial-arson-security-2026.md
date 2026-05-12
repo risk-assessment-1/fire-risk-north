@@ -47,7 +47,7 @@ According to the Home Office, fire and rescue services responded to over 69,000 
 
 ![Abandoned industrial warehouse exterior with dry vegetation](https://images.pexels.com/photos/30762655/abandoned-industrial-warehouse-exterior-view-30762655.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&dpr=1)
 
-*Abandoned industrial facilities are particularly vulnerable to arson due to multiple access points and accumulated combustible materials.*
+_Abandoned industrial facilities are particularly vulnerable to arson due to multiple access points and accumulated combustible materials._
 
 ## What Security Measures Most Effectively Deter Arsonists?
 
@@ -93,6 +93,7 @@ According to vacant property specialists, properties combining CCTV monitoring, 
       <text x="360" y="145" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">80%</text>
       <text x="360" y="270" text-anchor="middle" fill="#cbd5e1" font-size="11">Full Integrated System</text>
     </g>
+
   </svg>
   <figcaption style="text-align: center; color: #94a3b8; font-size: 13px; margin-top: 10px;">Source: Analysis of vacant property security outcomes, Proforce Security 2025</figcaption>
 </figure>
@@ -113,6 +114,6 @@ Fire detection is critical for vacant properties because early notification can 
 
 ![Empty industrial warehouse interior with concrete pillars](https://images.pexels.com/photo/30876482/abandoned-industrial-warehouse-interior-view-30876482.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&dpr=1)
 
-*Wireless fire detection systems can be rapidly deployed in vacant industrial buildings without requiring mains power or extensive wiring.*
+_Wireless fire detection systems can be rapidly deployed in vacant industrial buildings without requiring mains power or extensive wiring._
 
 **Monitoring and Response:** The most effective systems include 24-hour monitoring with automatic fire brigade notification. Given that Northwest Fire and Rescue Services attended over 16,900 incidents in Lancashire alone during 2023-24 — significantly above the national average ([Lancashire Fire and Rescue](https://www.lancsfirerescue.org.uk/documents/s8339/Item

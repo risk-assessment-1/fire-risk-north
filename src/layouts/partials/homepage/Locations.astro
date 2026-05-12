@@ -70,26 +70,30 @@ const lang = getLangFromUrl(Astro.url);
       }
     </div>
 
-    {otherLocations.length > 0 && (
-      <p class="mt-8 text-center text-text-dark/70 dark:text-darkmode-text-dark/70">
-        <span class="font-semibold text-text-dark dark:text-darkmode-text-dark">We also cover</span>{" "}
-        {otherLocations.map((loc, i) => {
-          const slug = loc.id.split("/").pop();
-          return (
-            <>
-              {i > 0 && (i === otherLocations.length - 1 ? " and " : ", ")}
-              <a
-                href={slugSelector(`/locations/${slug}`, lang)}
-                class="font-medium text-primary dark:text-darkmode-primary hover:underline"
-              >
-                {titleify(slug || "")}
-              </a>
-            </>
-          );
-        })}
-        <span> and surrounding areas.</span>
-      </p>
-    )}
+    {
+      otherLocations.length > 0 && (
+        <p class="mt-8 text-center text-text-dark/70 dark:text-darkmode-text-dark/70">
+          <span class="font-semibold text-text-dark dark:text-darkmode-text-dark">
+            We also cover
+          </span>{" "}
+          {otherLocations.map((loc, i) => {
+            const slug = loc.id.split("/").pop();
+            return (
+              <>
+                {i > 0 && (i === otherLocations.length - 1 ? " and " : ", ")}
+                <a
+                  href={slugSelector(`/locations/${slug}`, lang)}
+                  class="font-medium text-primary dark:text-darkmode-primary hover:underline"
+                >
+                  {titleify(slug || "")}
+                </a>
+              </>
+            );
+          })}
+          <span> and surrounding areas.</span>
+        </p>
+      )
+    }
   </div>
 </section>
 

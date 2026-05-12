@@ -80,12 +80,9 @@ const {
           const count = allCategories.filter((c) => c === category).length;
           return (
             <li class="border-b border-border dark:border-darkmode-border pb-4">
-              <a
-                class="flex justify-between hover:text-primary dark:hover:text-darkmode-primary no-underline!"
-                href={slugSelector(`/categories/${category}`, lang)}
-              >
+              <span class="flex justify-between no-underline!">
                 {humanize(category as unknown as string)} <span>({count})</span>
-              </a>
+              </span>
             </li>
           );
         })
@@ -100,12 +97,9 @@ const {
         tags.map((tag: string) => {
           return (
             <li class="inline-block">
-              <a
-                class="btn btn-primary bg-white dark:bg-darkmode-light text-text dark:text-darkmode-text font-normal border-none box-shadow duration-200 hover:bg-primary dark:hover:bg-darkmode-primary hover:text-white btn-sm hover-ripple"
-                href={slugSelector(`/tags/${tag}`, lang)}
-              >
+              <span class="btn btn-primary bg-white dark:bg-darkmode-light text-text dark:text-darkmode-text font-normal border-none box-shadow duration-200 cursor-default btn-sm hover-ripple">
                 {humanize(tag)}
-              </a>
+              </span>
             </li>
           );
         })

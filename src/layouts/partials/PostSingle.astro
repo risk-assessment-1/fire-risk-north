@@ -5,10 +5,10 @@ import config from "@/config/config.json";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
-import { getTranslations, slugSelector } from "@/lib/utils/languageParser";
+import { getTranslations } from "@/lib/utils/languageParser";
 import similarItems from "@/lib/utils/similarItems";
 import { sortByDate } from "@/lib/utils/sortFunctions";
-import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
+import { humanize, markdownify } from "@/lib/utils/textConverter";
 import { render } from "astro:content";
 import ImageMod from "../components/ImageMod.astro";
 import PostSidebar from "./PostSidebar.astro";
@@ -68,10 +68,7 @@ const {
           <li class="card-meta">
             {by}
             <strong>
-              <a
-                href={slugSelector(`/authors/${slugify(author)}`, lang)}
-                set:html={humanize(author)}
-              />/ {on}
+              <span set:html={humanize(author)} />/ {on}
               <strong>{dateFormat(date)}</strong>
             </strong>
           </li>
@@ -87,12 +84,9 @@ const {
             {
               tags.map((tag: string) => (
                 <li>
-                  <a
-                    class="btn btn-primary bg-white dark:bg-black text-text dark:text-darkmode-text font-normal border-none box-shadow duration-200 hover:bg-primary dark:hover:bg-darkmode-primary hover:text-white btn-sm"
-                    href={slugSelector(`/tags/${slugify(tag)}`, lang)}
-                  >
+                  <span class="btn btn-primary bg-white dark:bg-black text-text dark:text-darkmode-text font-normal border-none box-shadow duration-200 cursor-default btn-sm">
                     {humanize(tag)}
-                  </a>
+                  </span>
                 </li>
               ))
             }
