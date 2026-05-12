@@ -77,12 +77,11 @@ const { testimonial } = Astro.props;
   import { Swiper } from "swiper";
   import "swiper/css";
   import "swiper/css/navigation";
-  import "swiper/css/pagination";
-  import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  import { Autoplay, Navigation } from "swiper/modules";
 
   document.addEventListener("astro:page-load", () => {
     new Swiper(".testimonial-slider", {
-      modules: [Autoplay, Pagination, Navigation],
+      modules: [Autoplay, Navigation],
       loop: true,
       centeredSlides: true,
       slidesPerView: 1,
