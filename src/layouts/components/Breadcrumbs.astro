@@ -2,13 +2,14 @@
 import {
   getLangFromUrl,
   slugSelector,
+  stripHtmlExt,
   supportedLang,
 } from "@/lib/utils/languageParser";
 import { humanize } from "@/lib/utils/textConverter";
 
 const { className }: { className?: string } = Astro.props;
 
-const paths = Astro.url.pathname.split("/").filter((x) => x);
+const paths = stripHtmlExt(Astro.url.pathname).split("/").filter((x) => x);
 
 let lang = getLangFromUrl(Astro.url);
 if (supportedLang.includes(paths[0])) {
@@ -20,7 +21,7 @@ let parts = [
   {
     label: "Home",
     href: slugSelector("/", lang),
-    "aria-label": Astro.url.pathname === baseHref ? "page" : undefined,
+    "aria-label": stripHtmlExt(Astro.url.pathname) === baseHref ? "page" : undefined,
   },
 ];
 
@@ -28,9 +29,9 @@ paths.forEach((label: string, i: number) => {
   const href = slugSelector(`/${paths.slice(0, i + 1).join("/")}`, lang);
   label !== "page" &&
     parts.push({
-      label: humanize(label.replace(".html", "").replace(/[-_]/g, " ")) || "",
+      label: humanize(label.replace(/[-_]/g, " ")) || "",
       href,
-      "aria-label": Astro.url.pathname === href ? "page" : undefined,
+      "aria-label": stripHtmlExt(Astro.url.pathname) === href ? "page" : undefined,
     });
 });
 ---
