@@ -1,11 +1,11 @@
 ---
-import { getLangFromUrl, slugSelector } from "@/lib/utils/languageParser";
+import { getLangFromUrl, slugSelector, stripHtmlExt } from "@/lib/utils/languageParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import ImageMod from "./ImageMod.astro";
 const { projects } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
-const { pathname } = Astro.url;
+const pathname = stripHtmlExt(Astro.url.pathname);
 
 const groups = [
   ...new Set(

@@ -87,6 +87,9 @@ function buildLocaleUrl(lang: string, url: string): string {
   return `/${lang}${normalizedUrl === "/" ? "" : normalizedUrl}`;
 }
 
+export const stripHtmlExt = (pathname: string) =>
+  pathname === "/" ? pathname : pathname.replace(/\.html$/, "");
+
 export const slugSelector = (url: string, lang: string) => {
   const { default_language, default_language_in_subdir } = config.settings;
 

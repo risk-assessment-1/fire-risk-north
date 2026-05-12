@@ -8,6 +8,7 @@ import {
   getLangFromUrl,
   getTranslations,
   slugSelector,
+  stripHtmlExt,
 } from "@/lib/utils/languageParser";
 import { IoSearch } from "react-icons/io5";
 
@@ -17,7 +18,7 @@ const menu = await getTranslations(lang as string);
 const { navigation_button, settings } = config;
 const { default_language, top_header } = config.settings;
 const { email, phone } = config.params;
-const { pathname } = Astro.url;
+const pathname = stripHtmlExt(Astro.url.pathname);
 const { get_quote, connect_with_us, call_now } = await getTranslations(
   lang as string
 );
@@ -52,6 +53,7 @@ if (disabledLanguages.includes(lang)) {
                 <a
                   class="text-white/80 hover:text-primary-on-dark/80 inline-block text-sm lg:px-3 px-2 py-1 md:py-0 duration-200 leading-6"
                   href={`mailto:${email}`}
+                  aria-label={`Email: ${email}`}
                 >
                   {email}
                 </a>
