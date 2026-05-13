@@ -176,7 +176,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Lancaster presents unique fire safety challenges. The city combines a historic core with Georgian architecture, a major university, the seaside town of Morecambe, and rural communities along the Lune Valley. From Lancaster's conservation area with its listed buildings to the student HMOs around the university, our assessors understand the specific fire risks that Lancaster properties present.
 
-### Key Requirements for Lancaster Properties
+## Key Requirements for Lancaster Properties
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -184,6 +184,6 @@ Lancaster presents unique fire safety challenges. The city combines a historic c
 - **Heritage buildings** — specific considerations for listed buildings and conservation area properties
 - **Lancashire Fire and Rescue Service** — local enforcement authority
 
-### Serving Lancaster Businesses
+## Serving Lancaster Businesses
 
 We work with a wide range of premises across Lancaster, including offices in the city centre, retail units on Market Street, restaurants in the cultural quarter, hotels and B&Bs in Morecambe, student accommodation around the university, and industrial units along the Lune Valley. Whether you're a small business or managing a large portfolio, we can help.

@@ -192,7 +192,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Preston presents unique fire safety challenges. As the administrative centre of Lancashire and home to the University of Central Lancashire (UCLan), the city has a diverse mix of large-scale university buildings, student accommodation, historic commercial properties around Winckley Square, traditional terraced housing in Avenham and Deepdale, and modern residential developments in Cottam and Ingol. The city's ongoing regeneration adds further complexity with new-build properties sitting alongside established building stock. Our assessors understand the specific fire risks that Preston's diverse property landscape presents.
 
-### Key Requirements for Preston Properties in 2026
+## Key Requirements for Preston Properties in 2026
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -201,6 +201,6 @@ Preston presents unique fire safety challenges. As the administrative centre of 
 - **Preston City Council** — local enforcement through Lancashire Fire and Rescue Service
 - **PAS 79 methodology** — recommended best practice for fire risk assessment format
 
-### Serving Preston Businesses
+## Serving Preston Businesses
 
 We work with a wide range of premises across Preston, including offices around Winckley Square, retail units on Fishergate and in the St George's Centre, restaurants in the city centre, hotels near the train station, UCLan university buildings, care homes in Fulwood, warehouses in Ribbleton, student HMOs, and residential blocks throughout the city. Whether you're a small business or managing a large portfolio, we can help.

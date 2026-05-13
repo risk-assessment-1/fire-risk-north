@@ -132,7 +132,7 @@ Houses in Multiple Occupation (HMOs) carry a heightened fire risk due to the num
 
 ![Professional UK HMO Property - Fire Risk Assessment Service](../../../assets/images/fire-risk-assessment/hmo/hmo-hero-property.png "HMO Fire Risk Assessment")
 
-### Serving HMO Landlords Across the UK
+## Serving HMO Landlords Across the UK
 
 We work with HMO landlords, managing agents, and property investors responsible for all types of multi-occupied properties:
 
@@ -142,7 +142,7 @@ We work with HMO landlords, managing agents, and property investors responsible 
 - **Licensed HMOs** — properties requiring mandatory HMO licensing (5+ occupants)
 - **Portfolio landlords** — multiple HMO properties under management
 
-### Complete HMO Fire Safety Assessment Package
+## Complete HMO Fire Safety Assessment Package
 
 Every HMO fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and licensing standards:
 
@@ -157,7 +157,7 @@ Every HMO fire risk assessment includes a comprehensive package designed to meet
 
 ![Modern Shared Kitchen in HMO Property](../../../assets/images/fire-risk-assessment/hmo/hmo-hazard-kitchen.png "HMO Kitchen Assessment")
 
-### Why HMO Landlords Choose Fire Assessment North
+## Why HMO Landlords Choose Fire Assessment North
 
 HMO landlords and managing agents across the UK trust us for their properties because we understand the specific challenges of multi-occupied housing fire safety:
 

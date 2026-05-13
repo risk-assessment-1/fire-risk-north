@@ -140,7 +140,7 @@ High-rise buildings over 18 metres present unique fire safety challenges that re
 
 ![Modern UK High-Rise Residential Tower Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/high-rise-buildings/high-rise-hero.png "High-Rise Fire Risk Assessment")
 
-### Serving High-Rise Buildings Across the UK
+## Serving High-Rise Buildings Across the UK
 
 We work with building owners, freeholders, managing agents, and Accountable Persons responsible for all types of high-rise buildings:
 
@@ -150,7 +150,7 @@ We work with building owners, freeholders, managing agents, and Accountable Pers
 - **Converted high-rise** — older buildings with post-Grenfell compliance needs
 - **Portfolio management** — multiple high-rise buildings under management
 
-### Complete Building Safety Act 2022 Compliance Package
+## Complete Building Safety Act 2022 Compliance Package
 
 Every high-rise fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and Building Safety Regulator standards:
 
@@ -165,7 +165,7 @@ Every high-rise fire risk assessment includes a comprehensive package designed t
 
 ![Building Service Riser Shaft Showing Vertical Fire Pathways](../../../assets/images/fire-risk-assessment/high-rise-buildings/high-rise-hazard-riser.png "High-Rise Riser Assessment")
 
-### Why Building Owners Choose Fire Assessment North
+## Why Building Owners Choose Fire Assessment North
 
 Building owners and Accountable Persons across the UK trust us for their high-rise buildings because we understand the specific challenges of post-Grenfell fire safety:
 

@@ -136,7 +136,7 @@ Care homes and residential care facilities require specialist fire risk assessme
 
 ![UK Care Home Exterior - Professional Fire Risk Assessment Service](../../../assets/images/fire-risk-assessment/care-homes/care-home-hero.png "Care Home Fire Risk Assessment")
 
-### Serving Care Homes Across the UK
+## Serving Care Homes Across the UK
 
 We work with care home managers, registered managers, and compliance officers responsible for all types of care facilities:
 
@@ -146,7 +146,7 @@ We work with care home managers, registered managers, and compliance officers re
 - **Learning disability homes** — tailored PEEP development
 - **Multi-home operators** — coordinated compliance across locations
 
-### Complete CQC-Compliant Assessment Package
+## Complete CQC-Compliant Assessment Package
 
 Every care home fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and CQC inspection standards:
 
@@ -162,7 +162,7 @@ Every care home fire risk assessment includes a comprehensive package designed t
 
 ![Care Home Communal Lounge with Mobility Aids](../../../assets/images/fire-risk-assessment/care-homes/care-home-hazard-lounge.png "Care Home Resident Safety Assessment")
 
-### Why Care Home Managers Choose Fire Assessment North
+## Why Care Home Managers Choose Fire Assessment North
 
 Care home managers across the UK trust us for their facilities because we understand the specific challenges of vulnerable resident fire safety:
 

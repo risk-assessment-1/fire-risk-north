@@ -178,7 +178,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Liverpool presents unique fire safety challenges. As a major port city, Liverpool combines UNESCO World Heritage waterfront architecture, Georgian terraces, Victorian commercial buildings, and modern high-rise developments. From the converted warehouses at Albert Dock to the new developments around Liverpool Waters, our assessors understand the specific fire risks that Liverpool properties present.
 
-### Key Requirements for Liverpool Properties
+## Key Requirements for Liverpool Properties
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -187,6 +187,6 @@ Liverpool presents unique fire safety challenges. As a major port city, Liverpoo
 - **Merseyside Fire and Rescue Service** — local enforcement authority
 - **PAS 79 methodology** — recommended best practice for fire risk assessment format
 
-### Serving Liverpool Businesses
+## Serving Liverpool Businesses
 
 We work with a wide range of premises across Liverpool, including offices in the Commercial District, retail units at Liverpool ONE, restaurants on Bold Street, hotels at the Pier Head, converted warehouses at the Albert Dock, residential blocks along the waterfront, and industrial units throughout the surrounding areas. Whether you're a small business or managing a large portfolio, we can help.

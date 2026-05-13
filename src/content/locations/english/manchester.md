@@ -178,7 +178,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Manchester presents unique fire safety challenges. The city centre contains a mix of Victorian commercial buildings, converted industrial mills, modern high-rise developments, and everything in between. From the regenerated Salford Quays and MediaCityUK to the Northern Quarter's historic warehouse conversions, our assessors understand the specific fire risks that Manchester properties present.
 
-### Key Requirements for Manchester Properties in 2026
+## Key Requirements for Manchester Properties in 2026
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -187,6 +187,6 @@ Manchester presents unique fire safety challenges. The city centre contains a mi
 - **Manchester City Council** — local enforcement through Greater Manchester Fire and Rescue Service
 - **PAS 79 methodology** — recommended best practice for fire risk assessment format
 
-### Serving Manchester Businesses
+## Serving Manchester Businesses
 
 We work with a wide range of premises across Manchester, including offices in Spinningfields, retail units in the Arndale, restaurants on Deansgate, hotels around Piccadilly, converted mills in Ancoats, residential blocks in Salford Quays, and industrial units throughout the surrounding areas. Whether you're a small business or managing a large portfolio, we can help.

@@ -176,13 +176,13 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Bury combines a vibrant town centre with suburban commercial areas and picturesque rural communities. The borough includes the popular market town of Ramsbottom, the bustling suburbs of Prestwich and Whitefield, and the residential areas of Radcliffe. From Bury town centre's commercial district to the mixed-use developments across the borough, our assessors understand the specific fire risks that Bury properties present.
 
-### Key Requirements for Bury Properties
+## Key Requirements for Bury Properties
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
 - **HMO licensing** — additional fire safety requirements for licensed HMO properties under Bury Council
 - **Greater Manchester Fire and Rescue** — local enforcement authority for the Bury borough
 
-### Serving Bury Businesses
+## Serving Bury Businesses
 
 We work with a wide range of premises across Bury, including offices in the town centre, retail units at The Rock, restaurants in Ramsbottom, hotels in Prestwich, residential blocks throughout the borough, and industrial units in Radcliffe. Whether you're a small business or managing a large portfolio, we can help.

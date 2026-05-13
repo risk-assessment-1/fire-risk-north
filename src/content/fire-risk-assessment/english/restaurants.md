@@ -140,7 +140,7 @@ Restaurants, cafes, and takeaways require specialist fire risk assessments that 
 
 ![Modern UK Restaurant Exterior - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/restaurants/restaurant-hero-1.png "Restaurant Fire Risk Assessment")
 
-### Serving Restaurants & Food Premises Across the UK
+## Serving Restaurants & Food Premises Across the UK
 
 We work with restaurant owners, chefs, and licence holders responsible for all types of food establishments:
 
@@ -150,7 +150,7 @@ We work with restaurant owners, chefs, and licence holders responsible for all t
 - **Pubs & bars** — licensed premises with food service
 - **Hotel restaurants** — hospitality dining facilities
 
-### Complete Restaurant Fire Safety Assessment Package
+## Complete Restaurant Fire Safety Assessment Package
 
 Every restaurant fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and licensing standards:
 
@@ -165,7 +165,7 @@ Every restaurant fire risk assessment includes a comprehensive package designed 
 
 ![Commercial Kitchen Cooking Equipment - Fire Safety](../../../assets/images/fire-risk-assessment/restaurants/restaurant-hazard-kitchen-1.png "Restaurant Kitchen Assessment")
 
-### Why Restaurant Owners Choose Fire Assessment North
+## Why Restaurant Owners Choose Fire Assessment North
 
 Restaurant owners and chefs across the UK trust us for their premises because we understand the specific challenges of commercial kitchen fire safety:
 

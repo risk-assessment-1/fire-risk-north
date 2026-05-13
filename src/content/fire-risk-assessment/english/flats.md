@@ -149,7 +149,7 @@ Residential flats and apartment blocks require specialist fire risk assessments 
 
 ![Fire risk assessor inspecting communal areas in a block of flats](../../../assets/images/fire-risk-assessment/flats/flats-hero-scaled.png "Flats Fire Risk Assessment")
 
-### Serving Flats & Apartment Blocks Across the UK
+## Serving Flats & Apartment Blocks Across the UK
 
 We work with freeholders, managing agents, RTM companies, and landlords responsible for all types of residential blocks:
 
@@ -159,7 +159,7 @@ We work with freeholders, managing agents, RTM companies, and landlords responsi
 - **Sheltered housing** — blocks with vulnerable or elderly residents
 - **Student accommodation** — purpose-built and converted properties
 
-### Complete Fire Risk Assessment Package
+## Complete Fire Risk Assessment Package
 
 Every flats fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and best practice standards:
 
@@ -175,7 +175,7 @@ Every flats fire risk assessment includes a comprehensive package designed to me
 
 ![Fire door inspection being carried out in a residential block](../../../assets/images/fire-risk-assessment/flats/flats-hazard-fire-doors.png "Flats Fire Door Inspection")
 
-### Why Property Managers Choose Fire Assessment North
+## Why Property Managers Choose Fire Assessment North
 
 Property managers and freeholders across the UK trust us for their blocks because we understand the specific challenges of residential fire safety:
 
