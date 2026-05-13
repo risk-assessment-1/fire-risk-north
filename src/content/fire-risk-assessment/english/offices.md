@@ -140,7 +140,7 @@ Office buildings and corporate workplaces require specialist fire risk assessmen
 
 ![Modern UK Corporate Office Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/offices/hero_office_fire_risk.png "Office Fire Risk Assessment")
 
-### Serving Offices & Corporate Buildings Across the UK
+## Serving Offices & Corporate Buildings Across the UK
 
 We work with facilities managers, building owners, and corporate compliance officers responsible for all types of office environments:
 
@@ -150,7 +150,7 @@ We work with facilities managers, building owners, and corporate compliance offi
 - **Mixed-use developments** — offices above retail or with commercial tenants
 - **Business centres** — multi-occupancy office buildings
 
-### Complete Office Fire Safety Assessment Package
+## Complete Office Fire Safety Assessment Package
 
 Every office fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and best practice standards:
 
@@ -166,7 +166,7 @@ Every office fire risk assessment includes a comprehensive package designed to m
 
 ![Office Electrical Equipment Overload Fire Risk](../../../assets/images/fire-risk-assessment/offices/electrical_equipment_overload.png "Office Electrical Equipment Assessment")
 
-### Why Office Managers Choose Fire Assessment North
+## Why Office Managers Choose Fire Assessment North
 
 Facilities managers and corporate compliance officers across the UK trust us for their offices because we understand the specific challenges of modern workplace fire safety:
 

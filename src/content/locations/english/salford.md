@@ -191,7 +191,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Salford presents unique fire safety challenges. The city is home to MediaCityUK and Salford Quays, where modern high-rise apartment blocks and media studios sit alongside the historic Victorian terraces and industrial buildings of Eccles, Pendleton, and Swinton. The University of Salford campus adds further complexity with its mix of educational buildings and student accommodation. Our assessors understand the specific fire risks that Salford's diverse property landscape presents.
 
-### Key Requirements for Salford Properties in 2026
+## Key Requirements for Salford Properties in 2026
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -200,6 +200,6 @@ Salford presents unique fire safety challenges. The city is home to MediaCityUK 
 - **Salford City Council** — local enforcement through Greater Manchester Fire and Rescue Service
 - **PAS 79 methodology** — recommended best practice for fire risk assessment format
 
-### Serving Salford Businesses
+## Serving Salford Businesses
 
 We work with a wide range of premises across Salford, including media studios at MediaCityUK, apartment blocks at Salford Quays, offices in Eccles, retail units in Swinton, restaurants in Monton, care homes in Walkden, warehouses in Irlam, and residential blocks throughout the borough. Whether you're a small business or managing a large portfolio, we can help.

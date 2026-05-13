@@ -189,7 +189,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Wigan presents unique fire safety challenges. As a former mining and mill town, the borough has a significant stock of converted industrial buildings, former cotton mills, and Victorian-era commercial premises alongside modern residential developments in areas like Standish and Ashton-in-Makerfield. The town's industrial heritage means many properties require careful assessment of compartmentation, structural fire protection, and fire spread risks. Our assessors understand the specific fire risks that Wigan's diverse property landscape presents.
 
-### Key Requirements for Wigan Properties in 2026
+## Key Requirements for Wigan Properties in 2026
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -198,6 +198,6 @@ Wigan presents unique fire safety challenges. As a former mining and mill town, 
 - **Wigan Council** — local enforcement through Greater Manchester Fire and Rescue Service
 - **PAS 79 methodology** — recommended best practice for fire risk assessment format
 
-### Serving Wigan Businesses
+## Serving Wigan Businesses
 
 We work with a wide range of premises across Wigan, including offices in the town centre, retail units in Leigh, restaurants on Standishgate, hotels near the M6, converted mills in Hindley and Atherton, care homes in Pemberton, industrial units in Tyldesley, and residential blocks throughout the borough. Whether you're a small business or managing a large portfolio, we can help.

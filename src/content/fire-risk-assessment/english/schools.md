@@ -136,7 +136,7 @@ Schools and educational establishments require specialist fire risk assessments 
 
 ![Modern UK School Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/schools/school-hero-1.png "School Fire Risk Assessment")
 
-### Serving Schools & Educational Establishments Across the UK
+## Serving Schools & Educational Establishments Across the UK
 
 We work with headteachers, governors, and compliance officers responsible for all types of educational premises:
 
@@ -146,7 +146,7 @@ We work with headteachers, governors, and compliance officers responsible for al
 - **SEN schools** — enhanced PEEP requirements for special educational needs
 - **Sixth form colleges** — including vocational and laboratory facilities
 
-### Complete School Fire Safety Assessment Package
+## Complete School Fire Safety Assessment Package
 
 Every school fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and Ofsted inspection standards:
 
@@ -161,7 +161,7 @@ Every school fire risk assessment includes a comprehensive package designed to m
 
 ![School Science Laboratory CLEAPSS Fire Safety](../../../assets/images/fire-risk-assessment/schools/school-science-lab-1.png "School Science Lab Assessment")
 
-### Why Schools Choose Fire Assessment North
+## Why Schools Choose Fire Assessment North
 
 Headteachers and governors across the UK trust us for their schools because we understand the specific challenges of educational fire safety:
 

@@ -188,7 +188,7 @@ faq_section:
 
 ## What is a Fire Risk Assessment?
 
-#### Definition
+### Definition
 
 A **fire risk assessment** is a systematic evaluation of your premises to identify fire hazards, assess risks to people, and determine what fire safety measures are needed. It is a **legal requirement** under the Regulatory Reform (Fire Safety) Order 2005 for all non-domestic premises in England and Wales.
 
@@ -212,7 +212,7 @@ A comprehensive fire risk assessment examines:
 
 ![Professional fire risk assessor inspecting fire safety equipment in a UK commercial building](../../../assets/images/services/fire-risk-assessor-inspection.jpg "Fire Risk Assessment 11")
 
-#### Key Requirements for 2026
+### Key Requirements for 2026
 
 - Written fire risk assessment required for all premises with 2+ domestic units (Building Safety Act 2022)
 - Quarterly fire door checks in buildings over 11 metres

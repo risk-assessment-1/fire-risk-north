@@ -176,7 +176,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Oldham presents unique fire safety challenges rooted in its industrial heritage. The borough contains a high proportion of former textile mills and industrial buildings that have been converted into apartments, offices, and commercial spaces. These conversions require specialist assessment to address compartmentation, means of escape, and structural fire protection. From Oldham town centre to the picturesque Saddleworth villages, our assessors understand the specific fire risks that Oldham properties present.
 
-### Key Requirements for Oldham Properties
+## Key Requirements for Oldham Properties
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -184,6 +184,6 @@ Oldham presents unique fire safety challenges rooted in its industrial heritage.
 - **Industrial conversions** — specific fire safety considerations for mill and warehouse conversions
 - **Greater Manchester Fire and Rescue** — local enforcement authority for the Oldham borough
 
-### Serving Oldham Businesses
+## Serving Oldham Businesses
 
 We work with a wide range of premises across Oldham, including offices in the town centre, retail units on Yorkshire Street, restaurants in Saddleworth, converted mills in Chadderton, residential blocks throughout the borough, and industrial units in Hollinwood. Whether you're a small business or managing a large portfolio, we can help.

@@ -171,14 +171,47 @@ A **fire strategy** is a comprehensive technical document that outlines all fire
 
 ### Fire Strategy vs Fire Risk Assessment
 
-|                  | Fire Strategy                 | Fire Risk Assessment           |
-| ---------------- | ----------------------------- | ------------------------------ |
-| **Purpose**      | Building design compliance    | Operational safety evaluation  |
-| **When**         | Design/construction phase     | Operational buildings          |
-| **Focus**        | Proactive planning            | Current risk identification    |
-| **Required for** | Building Regulations approval | All non-domestic premises      |
-| **Scope**        | Comprehensive building design | Existing conditions assessment |
-| **Outcome**      | Design documentation          | Risk mitigation actions        |
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Fire Strategy</th>
+      <th>Fire Risk Assessment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Purpose</th>
+      <td>Building design compliance</td>
+      <td>Operational safety evaluation</td>
+    </tr>
+    <tr>
+      <th scope="row">When</th>
+      <td>Design/construction phase</td>
+      <td>Operational buildings</td>
+    </tr>
+    <tr>
+      <th scope="row">Focus</th>
+      <td>Proactive planning</td>
+      <td>Current risk identification</td>
+    </tr>
+    <tr>
+      <th scope="row">Required for</th>
+      <td>Building Regulations approval</td>
+      <td>All non-domestic premises</td>
+    </tr>
+    <tr>
+      <th scope="row">Scope</th>
+      <td>Comprehensive building design</td>
+      <td>Existing conditions assessment</td>
+    </tr>
+    <tr>
+      <th scope="row">Outcome</th>
+      <td>Design documentation</td>
+      <td>Risk mitigation actions</td>
+    </tr>
+  </tbody>
+</table>
 
 ### What's Included in a Fire Strategy
 

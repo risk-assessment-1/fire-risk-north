@@ -176,7 +176,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Blackpool presents unique fire safety challenges. As one of the UK's most popular seaside resorts, the town has a high concentration of hotels, guest houses, restaurants, and entertainment venues — all with specific fire safety requirements for sleeping accommodation and public assembly. From the iconic Promenade to the residential areas inland, our assessors understand the specific fire risks that Blackpool properties present.
 
-### Key Requirements for Blackpool Properties
+## Key Requirements for Blackpool Properties
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -184,6 +184,6 @@ Blackpool presents unique fire safety challenges. As one of the UK's most popula
 - **Hospitality licensing** — fire safety requirements for licensed premises and entertainment venues
 - **Lancashire Fire and Rescue Service** — local enforcement authority
 
-### Serving Blackpool Businesses
+## Serving Blackpool Businesses
 
 We work with a wide range of premises across Blackpool, including hotels along the Promenade, guest houses in South Shore, restaurants on the Golden Mile, entertainment venues near the Tower, retail units in the town centre, care homes throughout the borough, and offices across the Fylde Coast. Whether you're a small guest house or managing a large hotel, we can help.

@@ -176,13 +176,13 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Blackburn presents unique fire safety challenges rooted in its textile industry heritage. The town contains many former cotton mills and industrial buildings that have been converted into modern commercial and residential spaces. From Blackburn town centre's regeneration area to the market town of Darwen, our assessors understand the specific fire risks that Blackburn properties present.
 
-### Key Requirements for Blackburn Properties
+## Key Requirements for Blackburn Properties
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
 - **HMO licensing** — additional fire safety requirements for licensed HMO properties under Blackburn with Darwen Council
 - **Lancashire Fire and Rescue Service** — local enforcement authority
 
-### Serving Blackburn Businesses
+## Serving Blackburn Businesses
 
 We work with a wide range of premises across Blackburn, including offices in the town centre, retail units at The Mall, restaurants along King William Street, hotels in Darwen, residential blocks throughout the borough, and industrial units at Shadsworth Business Park. Whether you're a small business or managing a large portfolio, we can help.

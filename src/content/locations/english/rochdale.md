@@ -176,13 +176,13 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Rochdale presents unique fire safety challenges. The borough combines a historic town centre with industrial heritage sites, suburban commercial areas in Heywood and Middleton, and rural communities around Littleborough and Hollingworth Lake. From Rochdale town centre's regeneration area to the industrial estates of Pilsworth, our assessors understand the specific fire risks that Rochdale properties present.
 
-### Key Requirements for Rochdale Properties
+## Key Requirements for Rochdale Properties
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
 - **HMO licensing** — additional fire safety requirements for licensed HMO properties under Rochdale Council
 - **Greater Manchester Fire and Rescue** — local enforcement authority for the Rochdale borough
 
-### Serving Rochdale Businesses
+## Serving Rochdale Businesses
 
 We work with a wide range of premises across Rochdale, including offices in the town centre, retail units on Drake Street, restaurants in Littleborough, hotels in Middleton, residential blocks throughout the borough, and industrial units in Heywood. Whether you're a small business or managing a large portfolio, we can help.

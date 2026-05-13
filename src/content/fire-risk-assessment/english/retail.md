@@ -140,7 +140,7 @@ Retail shops and shopping centres require specialist fire risk assessments that 
 
 ![Modern UK High Street Retail Storefront - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/retail/retail-hero-1.png "Retail Fire Risk Assessment")
 
-### Serving Retail Premises Across the UK
+## Serving Retail Premises Across the UK
 
 We work with retail operators, store managers, and compliance officers responsible for all types of retail environments:
 
@@ -150,7 +150,7 @@ We work with retail operators, store managers, and compliance officers responsib
 - **Multi-site chains** — standardised compliance across locations
 - **Pop-up shops** — temporary retail premises
 
-### Complete Retail Fire Safety Assessment Package
+## Complete Retail Fire Safety Assessment Package
 
 Every retail fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and best practice standards:
 
@@ -165,7 +165,7 @@ Every retail fire risk assessment includes a comprehensive package designed to m
 
 ![Retail Customer Congestion Peak Shopping Period Fire Risk](../../../assets/images/fire-risk-assessment/retail/retail-customer-congestion.png "Retail Customer Congestion Assessment")
 
-### Why Retail Operators Choose Fire Assessment North
+## Why Retail Operators Choose Fire Assessment North
 
 Retail operators and store managers across the UK trust us for their premises because we understand the specific challenges of retail fire safety:
 

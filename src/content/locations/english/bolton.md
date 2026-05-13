@@ -192,7 +192,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Bolton presents unique fire safety challenges rooted in its industrial heritage. The borough contains a high proportion of former textile mills, warehouses, and industrial buildings that have been converted into apartments, offices, and commercial spaces. These conversions require specialist assessment to address compartmentation, means of escape, and structural fire protection. From Bolton town centre's commercial district to the residential areas of Horwich and Farnworth, our assessors understand the specific fire risks that Bolton properties present.
 
-### Key Requirements for Bolton Properties
+## Key Requirements for Bolton Properties
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -200,6 +200,6 @@ Bolton presents unique fire safety challenges rooted in its industrial heritage.
 - **Industrial conversions** — specific fire safety considerations for mill and warehouse conversions
 - **Greater Manchester Fire and Rescue** — local enforcement authority for the Bolton borough
 
-### Serving Bolton Businesses
+## Serving Bolton Businesses
 
 We work with a wide range of premises across Bolton, including offices in the town centre, retail units at Middlebrook, restaurants on Deansgate, converted mills in Hall i' th' Wood, residential blocks throughout the borough, and industrial units at Wingates Industrial Park. Whether you're a small business or managing a large portfolio, we can help.

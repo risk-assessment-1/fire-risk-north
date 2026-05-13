@@ -1,4 +1,5 @@
 ---
+import { Picture } from "astro:assets";
 import Base from "@/layouts/Base.astro";
 import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
 import { supportedLang } from "@/lib/utils/languageParser";
@@ -7,6 +8,8 @@ import AboutUs from "@/partials/homepage/AboutUs.astro";
 import Service from "@/partials/homepage/ServiceSection.astro";
 // import Team from "@/partials/homepage/Team.astro";
 import PageHeader from "@/partials/PageHeader.astro";
+import aboutPageBg from "@/assets/images/backgrounds/about-page-bg.png";
+import aboutUs3Bg from "@/assets/images/backgrounds/about-us-3-bg.png";
 
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
@@ -75,21 +78,21 @@ const services = await getSinglePage("services", lang as string);
           </div>
         </div>
         {/* background shapes */}
-        <img
-          class="absolute left-0 bottom-0 dark:invert"
-          src="/images/backgrounds/about-page-bg.png"
+        <Picture
+          src={aboutPageBg}
           alt=""
-          width="920"
-          height="209"
-          aria-hidden="true"
+          class="absolute left-0 bottom-0"
+          sizes="(max-width: 640px) 50vw, 920px"
+          widths={[460, 920]}
+          formats={["avif", "webp"]}
         />
-        <img
-          class="absolute right-0 top-0 dark:invert"
-          src="/images/backgrounds/about-us-3-bg.png"
+        <Picture
+          src={aboutUs3Bg}
           alt=""
-          width="290"
-          height="386"
-          aria-hidden="true"
+          class="absolute right-0 top-0"
+          sizes="(max-width: 640px) 145px, 290px"
+          widths={[145, 290, 435]}
+          formats={["avif", "webp"]}
         />
       </section>
     )

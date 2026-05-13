@@ -140,7 +140,7 @@ Warehouse buildings and distribution centres require specialist fire risk assess
 
 ![Modern UK Distribution Warehouse - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/warehouses/warehouse-hero-1.png "Warehouse Fire Risk Assessment")
 
-### Serving Warehouses & Distribution Centres Across the UK
+## Serving Warehouses & Distribution Centres Across the UK
 
 We work with warehouse operators, logistics managers, and health & safety officers responsible for all types of storage facilities:
 
@@ -150,7 +150,7 @@ We work with warehouse operators, logistics managers, and health & safety office
 - **Chemical storage** — DSEAR-compliant chemical handling facilities
 - **Multi-site logistics networks** — coordinated compliance across locations
 
-### Complete Warehouse Fire Safety Assessment Package
+## Complete Warehouse Fire Safety Assessment Package
 
 Every warehouse fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and best practice standards:
 
@@ -166,7 +166,7 @@ Every warehouse fire risk assessment includes a comprehensive package designed t
 
 ![Warehouse High-Bay Racking System Fire Risk](../../../assets/images/fire-risk-assessment/warehouses/warehouse-high-bay-storage.png "Warehouse High-Bay Storage Assessment")
 
-### Why Warehouse Operators Choose Fire Assessment North
+## Why Warehouse Operators Choose Fire Assessment North
 
 Warehouse operators and logistics managers across the UK trust us for their facilities because we understand the specific challenges of warehouse fire safety:
 

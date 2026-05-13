@@ -189,7 +189,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Leyland presents unique fire safety challenges. Known historically as the home of British Leyland motor works, the town has a significant stock of former industrial and manufacturing buildings alongside modern residential developments in areas like Buckshaw Village and Clayton-le-Woods. The mix of repurposed industrial premises, traditional terraced housing, and new-build apartment blocks across Lostock Hall, Bamber Bridge, and Walton-le-Dale requires assessors who understand both legacy construction and contemporary fire safety standards. Our assessors understand the specific fire risks that Leyland's diverse property landscape presents.
 
-### Key Requirements for Leyland Properties in 2026
+## Key Requirements for Leyland Properties in 2026
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -198,6 +198,6 @@ Leyland presents unique fire safety challenges. Known historically as the home o
 - **South Ribble Borough Council** — local enforcement through Lancashire Fire and Rescue Service
 - **PAS 79 methodology** — recommended best practice for fire risk assessment format
 
-### Serving Leyland Businesses
+## Serving Leyland Businesses
 
 We work with a wide range of premises across Leyland, including offices in the town centre, retail units on Hough Lane, restaurants and takeaways, hotels near the A6, modern apartment buildings at Buckshaw Village, care homes in Lostock Hall, former industrial premises in Farington, and residential blocks throughout South Ribble. Whether you're a small business or managing a large portfolio, we can help.

@@ -190,7 +190,7 @@ Fire Assessment North provides professional fire risk assessments to businesses 
 
 Chorley presents unique fire safety challenges. As a traditional Lancashire market town, Chorley has a mix of historic stone-built commercial properties around the town centre, modern residential developments at Buckshaw Village, and rural buildings scattered across Whittle-le-Woods, Wheelton, and the surrounding countryside. The area's blend of old and new building stock requires assessors who understand both traditional construction methods and modern fire safety standards. Our assessors understand the specific fire risks that Chorley's diverse property landscape presents.
 
-### Key Requirements for Chorley Properties in 2026
+## Key Requirements for Chorley Properties in 2026
 
 - **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
 - **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
@@ -199,6 +199,6 @@ Chorley presents unique fire safety challenges. As a traditional Lancashire mark
 - **Chorley Council** — local enforcement through Lancashire Fire and Rescue Service
 - **PAS 79 methodology** — recommended best practice for fire risk assessment format
 
-### Serving Chorley Businesses
+## Serving Chorley Businesses
 
 We work with a wide range of premises across Chorley, including offices in the town centre, retail units on Market Street, restaurants and cafes around the market, hotels near the M6, modern apartment buildings at Buckshaw Village, care homes in Adlington, industrial units in Coppull, and residential blocks throughout the area. Whether you're a small business or managing a large portfolio, we can help.

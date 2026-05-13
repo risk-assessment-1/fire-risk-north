@@ -140,7 +140,7 @@ Hotels, guest houses, and bed and breakfasts require specialist fire risk assess
 
 ![Modern UK Hotel Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/hotels/hotel-hero.png "Hotel Fire Risk Assessment")
 
-### Serving Hotels & Hospitality Across the UK
+## Serving Hotels & Hospitality Across the UK
 
 We work with hotel operators, general managers, and compliance officers responsible for all types of hospitality premises:
 
@@ -150,7 +150,7 @@ We work with hotel operators, general managers, and compliance officers responsi
 - **Spa & leisure hotels** — with swimming pools and treatment areas
 - **Multi-site hotel groups** — coordinated compliance across locations
 
-### Complete Hotel Fire Safety Assessment Package
+## Complete Hotel Fire Safety Assessment Package
 
 Every hotel fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and licensing standards:
 
@@ -166,7 +166,7 @@ Every hotel fire risk assessment includes a comprehensive package designed to me
 
 ![Hotel Guest Bedroom Fire Safety](../../../assets/images/fire-risk-assessment/hotels/hotel-bedroom.png "Hotel Bedroom Assessment")
 
-### Why Hotel Operators Choose Fire Assessment North
+## Why Hotel Operators Choose Fire Assessment North
 
 Hotel operators across the UK trust us for their premises because we understand the specific challenges of hospitality fire safety:
 

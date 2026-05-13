@@ -140,7 +140,7 @@ Hospitals and healthcare premises require the most complex fire safety strategie
 
 ![Modern UK NHS Hospital Building - Fire Risk Assessment](../../../assets/images/fire-risk-assessment/hospitals/hospital-hero.png "Hospital Fire Risk Assessment")
 
-### Serving Hospitals & Healthcare Facilities Across the UK
+## Serving Hospitals & Healthcare Facilities Across the UK
 
 We work with NHS trust managers, hospital compliance officers, and private healthcare providers responsible for all types of healthcare premises:
 
@@ -150,7 +150,7 @@ We work with NHS trust managers, hospital compliance officers, and private healt
 - **Day surgery centres** — ambulatory care and outpatient facilities
 - **Community health centres** — primary care and clinic facilities
 
-### Complete HTM-Compliant Assessment Package
+## Complete HTM-Compliant Assessment Package
 
 Every hospital fire risk assessment includes a comprehensive package designed to meet all current legislative requirements and CQC inspection standards:
 
@@ -166,7 +166,7 @@ Every hospital fire risk assessment includes a comprehensive package designed to
 
 ![Medical Oxygen Cylinder Storage - Hospital Fire Safety](../../../assets/images/fire-risk-assessment/hospitals/oxygen-storage.png "Hospital Medical Oxygen Assessment")
 
-### Why NHS Trusts Choose Fire Assessment North
+## Why NHS Trusts Choose Fire Assessment North
 
 NHS trust managers and hospital compliance officers across the UK trust us for their facilities because we understand the specific challenges of healthcare fire safety:
 
