@@ -10,7 +10,6 @@ const CONTENT_ROOT = "src/content";
 const CONTENT_DEPTH = 3;
 const BLOG_FOLDER = "blog";
 
-// get data from markdown
 const getData = (folder, groupDepth, langIndex = 0) => {
   const getPaths = languages
     .map((lang, index) => {
@@ -51,7 +50,7 @@ const getData = (folder, groupDepth, langIndex = 0) => {
             const group = "blog";
 
             return {
-              lang: languages[index].languageCode, // Set the correct language code dynamically
+              lang: languages[index].languageCode,
               group: group,
               slug: data.slug,
               frontmatter: data,
@@ -65,23 +64,64 @@ const getData = (folder, groupDepth, langIndex = 0) => {
   return getPaths.filter((page) => !page.frontmatter?.draft && page);
 };
 
+const getCollectionData = (folder, group, slugPrefix) => {
+  const items = languages
+    .map((lang, index) => {
+      const langFolder = lang.contentDir ? lang.contentDir : lang.languageCode;
+      const dir = path.join(CONTENT_ROOT, folder, langFolder);
+
+      if (!fs.existsSync(dir)) return [];
+
+      return fs
+        .readdirSync(dir)
+        .filter(
+          (filename) =>
+            !filename.startsWith("-") &&
+            (filename.endsWith(".md") || filename.endsWith(".mdx")),
+        )
+        .map((filename) => {
+          const filepath = path.join(dir, filename);
+          const file = fs.readFileSync(filepath, "utf-8");
+          const { data, content } = matter(file);
+          const nameWithoutExt = filename.replace(/\.[^/.]+$/, "");
+          const slug = `${slugPrefix}/${nameWithoutExt}`;
+
+          return {
+            lang: languages[index].languageCode,
+            group: group,
+            slug: slug,
+            frontmatter: data,
+            content: content,
+          };
+        });
+    })
+    .flat();
+
+  return items.filter((page) => !page.frontmatter?.draft && page);
+};
+
 try {
-  // create folder if it doesn't exist
   if (!fs.existsSync(JSON_FOLDER)) {
     fs.mkdirSync(JSON_FOLDER);
   }
 
-  // create json files
-  fs.writeFileSync(
-    `${JSON_FOLDER}/posts.json`,
-    JSON.stringify(getData(BLOG_FOLDER, 3)),
-  );
+  const posts = getData(BLOG_FOLDER, 3);
+  fs.writeFileSync(`${JSON_FOLDER}/posts.json`, JSON.stringify(posts));
 
-  // merge json files for search
-  const postsPath = new URL(`../${JSON_FOLDER}/posts.json`, import.meta.url);
-  const posts = JSON.parse(fs.readFileSync(postsPath, "utf8"));
-  const search = [...posts];
+  const services = getCollectionData("services", "services", "services");
+  const fraTypes = getCollectionData(
+    "fire-risk-assessment",
+    "fire-risk-assessment",
+    "services/fire-risk-assessment",
+  );
+  const locations = getCollectionData("locations", "locations", "locations");
+
+  const search = [...posts, ...services, ...fraTypes, ...locations];
   fs.writeFileSync(`${JSON_FOLDER}/search.json`, JSON.stringify(search));
+
+  console.log(
+    `Search index: ${posts.length} posts, ${services.length} services, ${fraTypes.length} FRA types, ${locations.length} locations`,
+  );
 } catch (err) {
   console.error(err);
 }

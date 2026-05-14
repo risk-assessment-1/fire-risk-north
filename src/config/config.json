@@ -23,10 +23,10 @@
     "top_header": true
   },
   "params": {
-    "contact_form_action": "#",
+    "contact_form_action": "https://submit-form.com/pC1jnEENA",
     "address": "Bartle House, Oxford Court, Manchester M2 3WQ",
     "phone": "+44 161 987 1020",
-    "email": "Enquiries@firerisknorth.com",
+    "email": "enquiries@firerisknorth.com",
     "footer_content": "At Fire Risk North, we are committed to ensuring the safety and well-being of businesses and organizations across the United Kingdom. Fire safety is a critical aspect of any premises, and we are here to help you assess and mitigate fire risks efficiently and comprehensively.",
     "copyright": "&copy; Firerisknorth",
     "copyright_menu": {
@@ -55,6 +55,6 @@
   "metadata": {
     "meta_author": "Fire Risk North",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Bexer is a SAAS theme powered by Astro"
+    "meta_description": "Professional fire risk assessments and fire safety compliance services for commercial and residential properties across the North of England. BAFE-certified, PAS 79 compliant."
   }
 }
