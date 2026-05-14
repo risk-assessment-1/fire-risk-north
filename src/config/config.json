@@ -1,14 +1,14 @@
 {
   "site": {
     "title": "Fire Assessment North",
-    "base_url": "https://fireassessmentnorth.joeyk2k-a3a.workers.dev",
+    "base_url": "https://firerisknorth.com",
     "base_path": "/",
     "favicon": "/images/favicon.svg",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "85.3",
-    "logo_text": "Bexer"
+    "logo_text": "Firerisknorth"
   },
   "settings": {
     "search": true,
@@ -24,11 +24,11 @@
   },
   "params": {
     "contact_form_action": "#",
-    "address": "123 Main Street, New York, NY 10001",
-    "phone": "020 3051 1294",
-    "email": "info@bexar.com",
-    "footer_content": "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit.",
-    "copyright": "&copy; Designed And Developed by [Themefisher](https://themefisher.com/)",
+    "address": "Bartle House, Oxford Court, Manchester M2 3WQ",
+    "phone": "+44 161 987 1020",
+    "email": "enquires@firerisknorth.com",
+    "footer_content": "At Fire Risk North, we are committed to ensuring the safety and well-being of businesses and organizations across the United Kingdom. Fire safety is a critical aspect of any premises, and we are here to help you assess and mitigate fire risks efficiently and comprehensively.",
+    "copyright": "&copy; Firerisknorth",
     "copyright_menu": {
       "enable": true,
       "menu_items": [
@@ -53,7 +53,7 @@
     "gtm_id": "GTM-XXXXXX"
   },
   "metadata": {
-    "meta_author": "themefisher",
+    "meta_author": "Fire Risk North",
     "meta_image": "/images/og-image.png",
     "meta_description": "Bexer is a SAAS theme powered by Astro"
   }

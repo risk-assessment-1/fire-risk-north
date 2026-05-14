@@ -9,7 +9,6 @@ hero:
   enable: true
   subtitle: "BS 5266 Compliance Testing"
   description: "Professional emergency lighting testing by BAFE registered engineers in accordance with BS 5266-1. Full 3-hour duration discharge testing included as standard."
-  price: "From £70"
   badges:
     - label: "BAFE Registered"
     - label: "BS 5266 Compliant"
@@ -93,21 +92,6 @@ five_steps_fra:
       title: "Certificate Issued"
       description: "BS 5266 compliance certificate issued and log book completed on-site."
       icon: "file-check"
-fra_costs:
-  enable: true
-  heading: "Emergency Light Testing Costs UK 2026"
-  description: "What you pay depends on the number of luminaires and the complexity of the building."
-  rows:
-    - property_type: "Small Premises"
-      description: "Up to 10 luminaires"
-      price: "£70 – £140"
-    - property_type: "Medium Premises"
-      description: "10 to 30 luminaires"
-      price: "£140 – £280"
-    - property_type: "Large Premises"
-      description: "30+ luminaires"
-      price: "£280 – £500+"
-  factors_note: "Annual maintenance contracts that bundle monthly spot-checks and the annual full-duration test save 15-20% compared to one-off bookings. Common replacement batteries and lamps are carried on every van, so most repairs are done in the same visit."
 legislation_timeline:
   enable: true
   heading: "Emergency Lighting Legislation & Standards 2026"

@@ -9,7 +9,6 @@ hero:
   enable: true
   subtitle: "Regulation 10 Compliant"
   description: "BM Trada Q-Mark certified fire door surveys to BS 8214. Regulation 10 compliant with full photographic reporting and prioritised remediation plans."
-  price: "From £15/door"
   badges:
     - label: "BM Trada Q-Mark"
     - label: "BAFE Registered"
@@ -84,24 +83,6 @@ five_steps_fra:
       title: "Certificate Issued"
       description: "Compliance certificate confirming the survey scope, findings, and Regulation 10 compliance status."
       icon: "file-check"
-fra_costs:
-  enable: true
-  heading: "Fire Door Surveying Costs UK 2026"
-  description: "Pricing is based on the number of doors and building size. Batch discounts available for larger properties."
-  rows:
-    - property_type: "Small Building"
-      description: "Up to 20 fire doors"
-      price: "£300 – £500"
-    - property_type: "Medium Building"
-      description: "20 to 50 fire doors"
-      price: "£500 – £1,000"
-    - property_type: "Large Building"
-      description: "50+ fire doors"
-      price: "Custom quote"
-    - property_type: "Per Door (Batch)"
-      description: "20+ doors, any quantity"
-      price: "£15 – £25/door"
-  factors_note: "Final cost depends on building access, door locations (e.g. risers, plant rooms), and whether you need a combined survey covering both fire doors and passive fire protection."
 legislation_timeline:
   enable: true
   heading: "Fire Door Surveying Legislation 2026"

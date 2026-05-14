@@ -9,7 +9,6 @@ hero:
   enable: true
   subtitle: "BS 5306 Annual Servicing"
   description: "Annual fire extinguisher servicing by BAFE registered engineers in accordance with BS 5306-3. Same-day replacement for failed units included."
-  price: "From £60"
   badges:
     - label: "BAFE Registered"
     - label: "BS 5306 Compliant"
@@ -98,21 +97,6 @@ five_steps_fra:
       title: "Certificate Issued"
       description: "BS 5306-3 compliance certificate issued for your records, accepted by insurers and fire authorities."
       icon: "file-check"
-fra_costs:
-  enable: true
-  heading: "Fire Extinguisher Servicing Costs UK 2026"
-  description: "What you pay depends on the number of extinguishers and whether any units are due for extended service."
-  rows:
-    - property_type: "Small Premises"
-      description: "1 to 5 extinguishers"
-      price: "£60 – £120"
-    - property_type: "Medium Premises"
-      description: "6 to 15 extinguishers"
-      price: "£120 – £250"
-    - property_type: "Large Premises"
-      description: "15+ extinguishers"
-      price: "£250 – £450+"
-  factors_note: "Extended services cost more due to the discharge, recharge, and parts involved. Water, foam, powder, and wet chemical extinguishers need extended service every 5 years. CO2 extinguishers every 10 years. Annual maintenance contracts typically save 15-20%."
 legislation_timeline:
   enable: true
   heading: "Fire Extinguisher Legislation & Standards 2026"

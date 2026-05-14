@@ -18,6 +18,7 @@ import {
 } from "@/lib/utils/languageParser";
 import PageHeader from "@/partials/PageHeader.astro";
 import { render } from "astro:content";
+import pricing from "@/config/pricing.json";
 
 export async function getStaticPaths() {
   const paths = await Promise.all(
@@ -70,7 +71,21 @@ const services = await getSinglePage("services", lang as string);
 
 const locationName = hero?.subtitle || title.replace(/.*\sin\s/i, "");
 
-console.log(image);
+if (pricing.locations.hero_price && hero) {
+  hero.price = pricing.locations.hero_price;
+}
+
+if (pricing.locations.hero_price && faq_section?.items) {
+  const priceFaq = faq_section.items.find(
+    (item) =>
+      item.question.toLowerCase().includes("how much") ||
+      item.question.toLowerCase().includes("cost"),
+  );
+  if (priceFaq) {
+    const locName = locationName || "this area";
+    priceFaq.answer = `Fire risk assessments in ${locName} start from ${pricing.locations.hero_price.replace("From ", "")} for smaller properties. Costs vary depending on property size, type, and complexity. Use our instant online calculator for an accurate quote tailored to your specific premises.`;
+  }
+}
 ---
 
 <Base
@@ -168,6 +183,6 @@ console.log(image);
 
   <CTASection
     title={`Ready to Get Your ${title}?`}
-    tag={`Professional service from BAFE-accredited engineers. 24-hour turnaround. ${hero?.price || "Contact us for pricing"}.`}
+    tag={`Professional service from BAFE-accredited engineers. 24-hour turnaround. ${hero?.price || pricing.locations.hero_price || "Contact us for pricing"}.`}
   />
 </Base>

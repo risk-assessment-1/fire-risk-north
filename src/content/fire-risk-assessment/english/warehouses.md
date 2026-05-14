@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "Warehouses"
   description: "Professional fire risk assessments for warehouses, distribution centres, and logistics facilities. BS EN 12845 sprinkler compliance, lithium-ion battery safety, and DSEAR chemical storage assessment. BAFE SP205 registered assessors."
-  price: "From £395 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "alert-triangle"
       description: "Lithium-ion battery storage represents the fastest-growing warehouse fire hazard with 1,200+ fires in 2024 alone, costing £158 million annually and comprising 48% of all waste fires. Thermal runaway events create self-sustaining fires that cannot be extinguished with conventional water or foam suppressants. Battery fires emit toxic gases including hydrogen fluoride, carbon monoxide, and cobalt particulates."
       assessment: "Lithium-ion battery storage location assessment ensuring minimum 3m separation from general inventory, charge state management verification (30-50% for long-term storage), Class D fire extinguisher provision specifically for metal fires, thermal runaway detection system suitability, damaged battery quarantine procedures, emergency response plan specific to lithium battery fires, and respiratory protection availability."
-fra_costs:
-  enable: true
-  heading: "How Much Does a Warehouse Fire Risk Assessment Cost?"
-  description: "Costs typically range from £395–£2,500 depending on warehouse size, storage type, and complexity of fire protection systems."
-  rows:
-    - property_type: "Small Warehouse"
-      description: "Up to 2,000 m², standard racking"
-      price: "£395 – £650"
-    - property_type: "Medium Warehouse"
-      description: "2,000–10,000 m², high-bay racking"
-      price: "£650 – £1,200"
-    - property_type: "Large Distribution Centre"
-      description: "10,000+ m², complex operations"
-      price: "£1,200 – £2,500"
-    - property_type: "Chemical Storage Facility"
-      description: "DSEAR-compliant chemical handling"
-      price: "£800 – £2,000"
-    - property_type: "Cold Storage"
-      description: "Temperature-controlled facilities"
-      price: "£650 – £1,500"
-    - property_type: "Multi-Site Portfolio"
-      description: "Multiple warehouse locations"
-      price: "£350 – £600 per site"
-  factors_note: "Costs are influenced by floor area, storage height, sprinkler system complexity, presence of chemical storage, lithium-ion battery handling, and whether DSEAR assessment is required. Multi-site portfolios benefit from 10-15% bulk discount. Insurance premium reductions of 10-60% are achievable with compliant facilities."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"

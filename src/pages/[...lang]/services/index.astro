@@ -24,7 +24,7 @@ const services = await getSinglePage("services", lang as string);
 ---
 
 <Base {...serviceIndex[0].data}>
-  <PageHeader title={serviceIndex[0].data.title} />
+  <PageHeader title={"Explore Our Services"} />
 
   <section class="section">
     <ServiceCard services={services} />

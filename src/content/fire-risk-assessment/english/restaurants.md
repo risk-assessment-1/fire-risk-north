@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "Restaurants"
   description: "Professional fire risk assessments for restaurants, cafes, and takeaways. Commercial kitchen safety, TR19 extraction compliance, gas safety certification, and licensing-compliant documentation. BAFE SP205 registered assessors."
-  price: "From £195 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -21,7 +20,7 @@ compliance_highlight:
   heading_accent: "Fire Risk Assessment"
   subtitle: "Restaurants account for 42% of all food and drink sector fires. Without a compliant assessment, you risk losing your premises licence, voiding your insurance, and endangering lives."
   highlights:
-    - stat: "£195"
+    - stat: "£150"
       description: "Starting price for restaurant fire risk assessment"
     - title: "Legal"
       description: "Requirement under FSO 2005 and Licensing Act 2003"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "wine"
       description: "Licensed premises storing spirits with high alcohol content must comply with DSEAR regulations governing flammable liquid storage. Quantities exceeding 50 litres of highly flammable liquids require fire-resisting storage cabinets with spill containment capacity. Cellar areas and bar storage rooms must not compromise escape routes or emergency exits."
       assessment: "Assessment of alcohol storage quantities and storage cabinet specifications, evaluation of cellar ventilation and fire separation, verification that storage areas do not obstruct escape routes, and recommendations for DSEAR-compliant storage arrangements."
-fra_costs:
-  enable: true
-  heading: "How Much Does a Restaurant Fire Risk Assessment Cost?"
-  description: "Costs typically range from £195–£650 depending on kitchen size, seating capacity, and building complexity."
-  rows:
-    - property_type: "Small Restaurant / Takeaway"
-      description: "Single floor, small kitchen, up to 30 covers"
-      price: "£195 – £350"
-    - property_type: "Medium Restaurant"
-      description: "1-2 floors, commercial kitchen, 30-80 covers"
-      price: "£350 – £500"
-    - property_type: "Large Restaurant"
-      description: "Multi-floor, large kitchen, 80+ covers"
-      price: "£500 – £750"
-    - property_type: "Pub / Bar with Kitchen"
-      description: "Including cellar and bar areas"
-      price: "£395 – £650"
-    - property_type: "Hotel Restaurant"
-      description: "Including guest area assessment"
-      price: "£495 – £850"
-    - property_type: "Multi-Site Chain"
-      description: "Multiple restaurant locations"
-      price: "£175 – £400 per site"
-  factors_note: "Costs are influenced by kitchen size, number of covers, presence of deep fat fryers, gas installation complexity, extraction system condition, and whether licensing-compliant documentation is required. Multi-site chains benefit from 10-15% bulk discount."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"
@@ -174,6 +149,6 @@ Restaurant owners and chefs across the UK trust us for their premises because we
 - **Commercial kitchen specialists** — we understand fryers, grills, extraction, and grease fires
 - **Licensing-compliant documentation** — accepted by all local licensing authorities
 - **TR19 extraction expertise** — cleaning frequency and compliance verification
-- **Competitive pricing** — from £195, transparent fees with no hidden costs
+- **Competitive pricing** — from £150, transparent fees with no hidden costs
 
 ![Commercial Kitchen Fire Suppression System](../../../assets/images/fire-risk-assessment/restaurants/restaurant-hazard-extraction-1.png "Restaurant Extraction System Assessment")

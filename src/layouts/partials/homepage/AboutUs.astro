@@ -37,7 +37,7 @@ const lang = getLangFromUrl(Astro.url);
                 class="h1 mb-10 mt-4 text-balance"
                 set:html={markdownify(about.title)}
               />
-              <p class="mb-5" set:html={markdownify(about.content)} />
+              <div class="mb-5 [&_p]:mb-5" set:html={markdownify(about.content, true)} />
               {about.button.enable && (
                 <a
                   class="btn btn-primary"

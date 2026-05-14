@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "Flats"
   description: "Professional fire risk assessments for blocks of flats. Compliant with Fire Safety Act 2021, Building Safety Act 2022, and the new BS 9792:2025 standard. BAFE SP205 registered assessors serving freeholders, managing agents, RTM companies, and landlords across the UK."
-  price: "From £200 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -89,33 +88,6 @@ hazard_cards:
       icon: "clipboard-list"
       description: "Residents must understand what to do in a fire emergency—yet many blocks fail to provide clear, accurate information. Regulation 9 of the Fire Safety Order requires Responsible Persons to provide comprehensible fire safety information to all residents. Many blocks still display outdated notices with incorrect evacuation advice."
       assessment: "Review of all resident fire safety communications including fire action notices, welcome packs, signage, and ongoing communications. We verify information accuracy against actual building strategy, assess accessibility for residents with additional needs, and evaluate compliance with regulatory requirements."
-fra_costs:
-  enable: true
-  heading: "How Much Does a Flats Fire Risk Assessment Cost?"
-  description: "Costs typically range from £200–£800 depending on building size, complexity, and assessment type required."
-  rows:
-    - property_type: "Small Block"
-      description: "2–6 flats, purpose-built or converted"
-      price: "£200 – £350"
-    - property_type: "Medium Block"
-      description: "7–20 flats, multiple storeys"
-      price: "£350 – £600"
-    - property_type: "Large Block"
-      description: "20+ flats, complex layout"
-      price: "£600 – £1,000"
-    - property_type: "High-Rise (18m+)"
-      description: "Buildings over 18m with additional duties"
-      price: "£750 – £1,500+"
-    - property_type: "Converted House"
-      description: "House converted into flats"
-      price: "£200 – £400"
-    - property_type: "Type 3 Assessment"
-      description: "Common areas + all flats (non-destructive)"
-      price: "£500 – £1,500+"
-    - property_type: "Type 4 Assessment"
-      description: "Destructive inspection including opening up"
-      price: "£1,000 – £3,000+"
-  factors_note: "Costs are influenced by number of flats, building height, type of assessment (Type 1–4), whether external wall assessment is needed, and turnaround requirements. Always verify BAFE SP205 registration and professional indemnity insurance."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"

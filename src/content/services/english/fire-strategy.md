@@ -9,7 +9,6 @@ hero:
   enable: true
   subtitle: "Building Regulations Compliance"
   description: "Comprehensive fire strategy development in accordance with Approved Document B and BS 9999. Expert guidance for new builds, renovations and existing buildings to ensure Building Regulations approval."
-  price: "From £2,500 + VAT"
   badges:
     - label: "100% Approval Rate"
     - label: "25+ Years Experience"
@@ -88,38 +87,6 @@ five_steps_fra:
       title: "Construction Support & Ongoing Consultation"
       description: "Continued guidance through project completion. We provide support during construction to ensure fire safety measures are implemented as designed."
       icon: "check-circle"
-fra_costs:
-  enable: true
-  heading: "Fire Strategy Costs UK 2026"
-  description: "Transparent pricing for fire strategy development. Costs vary based on project size, complexity, and building type."
-  rows:
-    - property_type: "Small Projects"
-      description: "Single dwelling conversions, small extensions"
-      price: "£2,500 – £5,000"
-    - property_type: "Residential Developments"
-      description: "Apartment blocks, student accommodation"
-      price: "£5,000 – £12,000"
-      slug: "flats"
-    - property_type: "Commercial Buildings"
-      description: "Offices, retail, mixed-use developments"
-      price: "£5,000 – £15,000"
-      slug: "offices"
-    - property_type: "Industrial Facilities"
-      description: "Warehouses, manufacturing, industrial units"
-      price: "£5,000 – £15,000"
-      slug: "warehouses"
-    - property_type: "Healthcare & Education"
-      description: "Hospitals, schools, care facilities"
-      price: "£8,000 – £20,000"
-      slug: "hospitals"
-    - property_type: "High-Rise Buildings"
-      description: "Buildings over 18m (7+ storeys)"
-      price: "£10,000 – £25,000+"
-      slug: "high-rise-buildings"
-    - property_type: "Complex/Specialist"
-      description: "Unusual designs, phased developments, listed buildings"
-      price: "£15,000+"
-  factors_note: "Costs are influenced by building size and height, design complexity, occupancy type, fire engineering requirements, and the level of building control liaison needed."
 legislation_timeline:
   enable: true
   heading: "Fire Strategy Legislation & Standards 2026"

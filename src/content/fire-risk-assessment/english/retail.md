@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "Retail"
   description: "Professional fire risk assessments for high street shops, shopping centres, and multi-site retail chains. Specialist compliance for customer congestion, seasonal displays, and POS electrical safety. BAFE SP205 registered assessors."
-  price: "From £395 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "building"
       description: "Shopping centres and multi-level department stores face compounded fire risks requiring sophisticated coordination. Multiple responsible persons across landlords, anchor tenants, and individual retailers create overlapping jurisdictions requiring formal cooperation under Article 22 Fire Safety Order 2005. Interconnected fire alarm and sprinkler systems demand coordinated maintenance and testing schedules."
       assessment: "Responsibility mapping clearly delineating landlord vs tenant fire safety obligations, coordination protocol review ensuring Article 22 FSO 2005 compliance including documented cooperation agreements, shared system integration assessment (alarms, sprinklers, emergency lighting), evacuation procedure compatibility verification ensuring tenant plans align with shopping centre procedures, and tenant compliance monitoring programs."
-fra_costs:
-  enable: true
-  heading: "How Much Does a Retail Fire Risk Assessment Cost?"
-  description: "Costs typically range from £395–£1,200 depending on shop size, number of floors, and complexity of operations."
-  rows:
-    - property_type: "Small Shop"
-      description: "Single floor, up to 280 m²"
-      price: "£395 – £550"
-    - property_type: "Medium Retail Unit"
-      description: "1-2 floors, 280–1,000 m²"
-      price: "£550 – £850"
-    - property_type: "Large Store"
-      description: "Multi-floor or department store"
-      price: "£850 – £1,500"
-    - property_type: "Shopping Centre Unit"
-      description: "Within shopping centre complex"
-      price: "£495 – £900"
-    - property_type: "Restaurant / Cafe"
-      description: "With commercial kitchen"
-      price: "£495 – £850"
-    - property_type: "Multi-Site Portfolio"
-      description: "Multiple retail locations"
-      price: "£350 – £550 per site"
-  factors_note: "Costs are influenced by floor area, number of floors, presence of commercial kitchen, customer occupancy levels, seasonal display requirements, and whether multi-site standardisation is needed. Multi-site portfolios benefit from 10-15% bulk discount."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"

@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "HMOs"
   description: "Professional fire risk assessments for Houses in Multiple Occupation. BS 5839-6 compliant alarm systems, fire door inspection, escape route evaluation, and landlord compliance documentation. BAFE SP205 registered assessors."
-  price: "From £250 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "bell"
       description: "Many older HMOs operate with outdated or insufficient fire detection systems that don't meet current BS 5839-6:2019 standards. HMOs with 3+ storeys or 5+ occupants require Grade A systems (mains-powered with central control), while smaller properties need minimum Grade D systems (interlinked mains alarms)."
       assessment: "Fire detection system audit determining required Grade (A or D) and Category (LD1, LD2, or LD3 coverage) based on property configuration. Upgrade specifications provided for non-compliant systems with supplier recommendations."
-fra_costs:
-  enable: true
-  heading: "How Much Does an HMO Fire Risk Assessment Cost?"
-  description: "Costs typically range from £250–£850 depending on property size, number of storeys, and building complexity."
-  rows:
-    - property_type: "Small HMO"
-      description: "1-2 storeys, 3-4 occupants"
-      price: "£250 – £400"
-    - property_type: "Medium HMO"
-      description: "2-3 storeys, 5-7 occupants"
-      price: "£400 – £600"
-    - property_type: "Large HMO"
-      description: "3+ storeys, 7+ occupants"
-      price: "£600 – £850"
-    - property_type: "Converted House"
-      description: "Period property converted to HMO"
-      price: "£350 – £600"
-    - property_type: "Purpose-Built"
-      description: "Modern HMO building"
-      price: "£300 – £550"
-    - property_type: "Portfolio (5+ Properties)"
-      description: "Multiple HMO properties"
-      price: "£200 – £400 per property"
-  factors_note: "Costs are influenced by number of storeys, number of occupants, property age, existing fire safety measures, and local authority requirements. Portfolios of 5+ properties benefit from bulk discount. HMO licensing applications may require additional documentation."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"
