@@ -84,6 +84,39 @@ const fraSlugs = allFraPages
   .filter(Boolean) as string[];
 
 await getTranslations(lang as string);
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: title,
+  description: description || "",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Fire Assessment North",
+    url: "https://firerisknorth.com",
+  },
+  ...(hero?.price || priceData?.hero_price
+    ? {
+        offers: {
+          "@type": "Offer",
+          price: (hero?.price || priceData?.hero_price || "").replace(
+            /[^0-9.]/g,
+            "",
+          ),
+          priceCurrency: "GBP",
+        },
+      }
+    : {}),
+  areaServed: {
+    "@type": "GeoCircle",
+    geoMidpoint: {
+      "@type": "GeoCoordinates",
+      latitude: 53.4808,
+      longitude: -2.2426,
+    },
+    geoRadius: "80000",
+  },
+};
 ---
 
 <Base
@@ -92,6 +125,11 @@ await getTranslations(lang as string);
   description={description}
   image={image}
 >
+  <script
+    is:inline
+    type="application/ld+json"
+    set:html={JSON.stringify(serviceSchema)}
+  />
   {
     hero && hero.enable && (
       <HeroSection

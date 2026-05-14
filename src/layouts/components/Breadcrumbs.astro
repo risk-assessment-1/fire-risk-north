@@ -9,6 +9,8 @@ import { humanize } from "@/lib/utils/textConverter";
 
 const { className }: { className?: string } = Astro.props;
 
+const baseUrl = "https://firerisknorth.com";
+
 const paths = stripHtmlExt(Astro.url.pathname)
   .split("/")
   .filter((x) => x);
@@ -38,9 +40,25 @@ paths.forEach((label: string, i: number) => {
         stripHtmlExt(Astro.url.pathname) === href ? "page" : undefined,
     });
 });
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: parts.map((part, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: part.label,
+    item: `${baseUrl}${part.href}`,
+  })),
+};
 ---
 
 <nav aria-label="Breadcrumb" class={className}>
+  <script
+    is:inline
+    type="application/ld+json"
+    set:html={JSON.stringify(breadcrumbSchema)}
+  />
   <ol class="inline-flex" role="list">
     {
       parts.map(({ label, ...attrs }, index) => (
