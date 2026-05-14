@@ -18,7 +18,7 @@ import SearchModal from "./helpers/SearchModal";
 
 // font families - extract font names for Font component (filter out type keys)
 const fontEntries = Object.entries(theme.fonts.font_family).filter(
-  ([key]) => !key.includes("_type"),
+  ([key]) => !key.includes("_type")
 );
 export interface Props {
   title?: string;
@@ -35,6 +35,7 @@ const { title, meta_title, description, image, noindex, canonical, lang } =
 
 const imageSrc = typeof image === "object" ? image.src : image;
 const language = lang || getLangFromUrl(Astro.url);
+const canonicalUrl = canonical || `${config.site.base_url}${stripHtmlExt(Astro.url.pathname) === "/" ? "" : stripHtmlExt(Astro.url.pathname)}`;
 ---
 
 <!doctype html>
@@ -86,7 +87,7 @@ const language = lang || getLangFromUrl(Astro.url);
     </title>
 
     <!-- canonical url -->
-    {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
+    <link rel="canonical" href={canonicalUrl} />
 
     <!-- noindex robots -->
     {noindex && <meta name="robots" content="noindex,nofollow" />}
@@ -95,7 +96,7 @@ const language = lang || getLangFromUrl(Astro.url);
     <meta
       name="description"
       content={plainify(
-        description ? description : config.metadata.meta_description,
+        description ? description : config.metadata.meta_description
       )}
     />
 
@@ -108,7 +109,7 @@ const language = lang || getLangFromUrl(Astro.url);
     <meta
       property="og:title"
       content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title,
+        meta_title ? meta_title : title ? title : config.site.title
       )}
     />
 
@@ -116,20 +117,17 @@ const language = lang || getLangFromUrl(Astro.url);
     <meta
       property="og:description"
       content={plainify(
-        description ? description : config.metadata.meta_description,
+        description ? description : config.metadata.meta_description
       )}
     />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content={`${config.site.base_url}${stripHtmlExt(Astro.url.pathname) === "/" ? "" : stripHtmlExt(Astro.url.pathname)}`}
-    />
+    <meta property="og:url" content={canonicalUrl} />
 
     <!-- twitter-title -->
     <meta
       name="twitter:title"
       content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title,
+        meta_title ? meta_title : title ? title : config.site.title
       )}
     />
 
@@ -137,7 +135,7 @@ const language = lang || getLangFromUrl(Astro.url);
     <meta
       name="twitter:description"
       content={plainify(
-        description ? description : config.metadata.meta_description,
+        description ? description : config.metadata.meta_description
       )}
     />
 
@@ -164,6 +162,7 @@ const language = lang || getLangFromUrl(Astro.url);
       set:html={JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "https://firerisknorth.com/#organization",
         name: config.site.title,
         url: config.site.base_url,
         telephone: config.params.phone,
@@ -175,6 +174,23 @@ const language = lang || getLangFromUrl(Astro.url);
           addressRegion: "Greater Manchester",
           postalCode: "M2 3WQ",
           addressCountry: "GB",
+        },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 53.4808,
+          longitude: -2.2426,
+        },
+        openingHoursSpecification: {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+          ],
+          opens: "09:00",
+          closes: "17:00",
         },
         areaServed: {
           "@type": "GeoCircle",

@@ -32,9 +32,13 @@ const {
   send_message,
   placeholder_name,
   placeholder_email,
-  placeholder_subject,
-  placeholder_message,
   placeholder_phone,
+  placeholder_service,
+  placeholder_building_type,
+  placeholder_location,
+  placeholder_message,
+  form_success,
+  form_error,
 } = await getTranslations(lang as string);
 ---
 
@@ -46,11 +50,9 @@ const {
 >
   <PageHeader title={title} />
 
-  <!-- contact form and map -->
   <section class="section pb-0">
     <div class="container">
       <div class="row justify-center g-5">
-        <!-- google map -->
         <div class="col-10 sm:col-8 md:col-5">
           <iframe
             class="w-full h-96 md:h-125"
@@ -61,12 +63,13 @@ const {
 
         <div class="col-10 sm:col-8 md:col-7">
           <h2 class="section-title">{contact_form}</h2>
-          <form action={contact_form_action} class="row">
+          <form id="contact-form" data-action={contact_form_action} data-success={form_success} data-error={form_error} class="row">
             <div class="md:col-6">
               <input
                 type="text"
                 name="name"
                 id="name"
+                required
                 class="form-input box-shadow mb-5 px-8 py-5"
                 placeholder={placeholder_name}
               />
@@ -74,15 +77,16 @@ const {
             <div class="md:col-6">
               <input
                 type="email"
-                name="mail"
-                id="mail"
+                name="email"
+                id="email"
+                required
                 class="form-input box-shadow mb-5 px-8 py-5"
                 placeholder={placeholder_email}
               />
             </div>
             <div class="md:col-6">
               <input
-                type="text"
+                type="tel"
                 name="phone"
                 id="phone"
                 class="form-input box-shadow mb-5 px-8 py-5"
@@ -90,43 +94,88 @@ const {
               />
             </div>
             <div class="md:col-6">
+              <select
+                name="service"
+                id="service"
+                class="form-input box-shadow mb-5 px-8 py-5 text-slate-500"
+              >
+                <option value="">{placeholder_service}</option>
+                <option value="Fire Risk Assessment">Fire Risk Assessment</option>
+                <option value="Fire Alarm Testing">Fire Alarm Testing</option>
+                <option value="Fire Extinguisher Servicing">Fire Extinguisher Servicing</option>
+                <option value="Emergency Light Testing">Emergency Light Testing</option>
+                <option value="Fire Door Inspection">Fire Door Inspection</option>
+                <option value="Fire Door Surveying">Fire Door Surveying</option>
+                <option value="Fire Strategy">Fire Strategy</option>
+              </select>
+            </div>
+            <div class="md:col-6">
+              <select
+                name="building_type"
+                id="building_type"
+                class="form-input box-shadow mb-5 px-8 py-5 text-slate-500"
+              >
+                <option value="">{placeholder_building_type}</option>
+                <option value="HMO">HMO</option>
+                <option value="Flats / Block of Flats">Flats / Block of Flats</option>
+                <option value="Office">Office</option>
+                <option value="Retail">Retail</option>
+                <option value="Warehouse">Warehouse</option>
+                <option value="School">School</option>
+                <option value="Hospital">Hospital</option>
+                <option value="Hotel">Hotel</option>
+                <option value="Care Home">Care Home</option>
+                <option value="High-Rise Building">High-Rise Building</option>
+                <option value="Restaurant">Restaurant</option>
+              </select>
+            </div>
+            <div class="md:col-6">
               <input
                 type="text"
-                name="subject"
-                id="subject"
+                name="location"
+                id="location"
                 class="form-input box-shadow mb-5 px-8 py-5"
-                placeholder={placeholder_subject}
+                placeholder={placeholder_location}
               />
             </div>
             <div class="col-12">
               <textarea
                 name="message"
                 id="message"
+                required
                 class="form-input box-shadow mb-5 px-8 py-5"
                 rows="6"
                 placeholder={placeholder_message}></textarea>
             </div>
             <div class="col-12">
+              <input
+                type="text"
+                name="_honey"
+                style="display:none"
+                tabindex="-1"
+                autocomplete="off"
+              />
+            </div>
+            <div class="col-12">
               <button
                 type="submit"
-                value="send"
                 class="btn btn-primary hover-ripple"
               >
                 {send_message}
               </button>
+            </div>
+            <div class="col-12">
+              <p id="form-status" class="min-h-[1lh] mt-3 text-sm font-medium hidden"></p>
             </div>
           </form>
         </div>
       </div>
     </div>
   </section>
-  <!-- /contact form and map -->
 
-  <!-- contact items -->
   <section class="section">
     <div class="container">
       <div class="row justify-center g-5">
-        <!-- Addresses -->
         <div class="col-10 sm:col-8 md:col-4">
           <div
             class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
@@ -142,7 +191,6 @@ const {
             </ul>
           </div>
         </div>
-        <!-- phone -->
         <div class="col-10 sm:col-8 md:col-4">
           <div
             class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
@@ -157,7 +205,6 @@ const {
             </ul>
           </div>
         </div>
-        <!-- Mail -->
         <div class="col-10 sm:col-8 md:col-4">
           <div
             class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
@@ -175,5 +222,62 @@ const {
       </div>
     </div>
   </section>
-  <!-- /contact item -->
 </Base>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const form = document.getElementById("contact-form") as HTMLFormElement;
+    const status = document.getElementById("form-status") as HTMLParagraphElement;
+
+    if (!form || !status) return;
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const honey = form.querySelector<HTMLInputElement>('[name="_honey"]');
+      if (honey && honey.value) return;
+
+      const btn = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+      const originalText = btn?.textContent || "";
+
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Sending...";
+      }
+
+      const data: Record<string, string> = {};
+      new FormData(form).forEach((value, key) => {
+        if (key !== "_honey" && typeof value === "string") {
+          data[key] = value;
+        }
+      });
+
+      try {
+        const res = await fetch(form.dataset.action || "", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+
+        if (res.ok) {
+          status.textContent = form.dataset.success || "Thank you! Your message has been sent successfully.";
+          status.className = "min-h-[1lh] mt-3 text-sm font-medium text-green-600 dark:text-green-400";
+          form.reset();
+        } else {
+          throw new Error(`HTTP ${res.status}`);
+        }
+      } catch {
+        status.textContent = form.dataset.error || "Something went wrong. Please try again.";
+        status.className = "min-h-[1lh] mt-3 text-sm font-medium text-red-600 dark:text-red-400";
+      }
+
+      if (btn) {
+        btn.disabled = false;
+        btn.textContent = originalText;
+      }
+    });
+  });
+</script>
