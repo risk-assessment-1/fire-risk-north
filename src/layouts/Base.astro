@@ -157,6 +157,47 @@ const language = lang || getLangFromUrl(Astro.url);
       }`}
     />
     <meta name="twitter:card" content="summary_large_image" />
+
+    <script
+      is:inline
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        name: config.site.title,
+        url: config.site.base_url,
+        telephone: config.params.phone,
+        email: config.params.email,
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Bartle House, Oxford Court",
+          addressLocality: "Manchester",
+          addressRegion: "Greater Manchester",
+          postalCode: "M2 3WQ",
+          addressCountry: "GB",
+        },
+        areaServed: {
+          "@type": "GeoCircle",
+          geoMidpoint: {
+            "@type": "GeoCoordinates",
+            latitude: 53.4808,
+            longitude: -2.2426,
+          },
+          geoRadius: "80000",
+        },
+        serviceType: [
+          "Fire Risk Assessment",
+          "Fire Alarm Testing",
+          "Fire Extinguisher Servicing",
+          "Emergency Light Testing",
+          "Fire Door Inspection",
+          "Fire Door Surveying",
+          "Fire Strategy",
+        ],
+        image: `${config.site.base_url}${config.metadata.meta_image}`,
+        priceRange: "££",
+      })}
+    />
   </head>
   <body class="overflow-x-hidden leading-5.5 relative">
     {/* google tag manager noscript */}

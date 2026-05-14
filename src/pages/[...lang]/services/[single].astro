@@ -17,7 +17,7 @@ import {
   getTranslations,
   supportedLang,
 } from "@/lib/utils/languageParser";
-import { markdownify } from "@/lib/utils/textConverter";
+import { markdownify, plainify } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
 import { render } from "astro:content";
 import { FaDownload, FaRegFilePdf } from "react-icons/fa6";
@@ -101,6 +101,39 @@ if (legislation_timeline?.enable)
   tocItems.push({ label: legislation_timeline.heading, href: "#legislation" });
 if (faq_section?.enable)
   tocItems.push({ label: faq_section.heading, href: "#faq" });
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: title,
+  description: plainify(description || ""),
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Fire Assessment North",
+    url: "https://firerisknorth.com",
+  },
+  ...(hero?.price || priceData?.hero_price
+    ? {
+        offers: {
+          "@type": "Offer",
+          price: (hero?.price || priceData?.hero_price || "").replace(
+            /[^0-9.]/g,
+            "",
+          ),
+          priceCurrency: "GBP",
+        },
+      }
+    : {}),
+  areaServed: {
+    "@type": "GeoCircle",
+    geoMidpoint: {
+      "@type": "GeoCoordinates",
+      latitude: 53.4808,
+      longitude: -2.2426,
+    },
+    geoRadius: "80000",
+  },
+};
 ---
 
 <Base
@@ -109,6 +142,11 @@ if (faq_section?.enable)
   description={description}
   image={image}
 >
+  <script
+    is:inline
+    type="application/ld+json"
+    set:html={JSON.stringify(serviceSchema)}
+  />
   {
     hero && hero.enable && (
       <HeroSection

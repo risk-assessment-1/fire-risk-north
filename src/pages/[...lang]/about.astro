@@ -69,7 +69,10 @@ const services = await getSinglePage("services", lang as string);
                   <p class="my-4 text-balance">{markdownify(item.content)}</p>
                   <ul class="list-styled style-circle">
                     {item?.list?.map((listItem: string) => (
-                      <li class="mb-3 last:mb-0" set:html={markdownify(listItem)} />
+                      <li
+                        class="mb-3 last:mb-0"
+                        set:html={markdownify(listItem)}
+                      />
                     ))}
                   </ul>
                 </div>
