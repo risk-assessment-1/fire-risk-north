@@ -17,6 +17,7 @@ import {
 } from "@/lib/utils/languageParser";
 import PageHeader from "@/partials/PageHeader.astro";
 import { render } from "astro:content";
+import pricing from "@/config/pricing.json";
 
 export async function getStaticPaths() {
   const paths = await Promise.all(
@@ -51,18 +52,36 @@ const {
   compliance_highlight,
   five_steps_fra,
   hazard_cards,
-  fra_costs,
   faq_section,
 } = page.data;
 const { Content } = await render(page);
 const land = getLangFromUrl(Astro.url);
 
+const currentFraSlug = page.id.split("/").pop() || "";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const priceData = (pricing.fra_building_types as Record<string, any>)[
+  currentFraSlug
+];
+
+if (priceData?.hero_price && hero) {
+  hero.price = priceData.hero_price;
+}
+
+const fra_costs = priceData?.costs || page.data.fra_costs;
+
+if (priceData?.faq_price_answer && faq_section?.items) {
+  const priceFaq = faq_section.items.find(
+    (item) =>
+      item.question.toLowerCase().includes("how much") ||
+      item.question.toLowerCase().includes("cost"),
+  );
+  if (priceFaq) priceFaq.answer = priceData.faq_price_answer;
+}
+
 const allFraPages = await getSinglePage("fire-risk-assessment", land as string);
 const fraSlugs = allFraPages
   .map((p) => p.id.split("/").pop())
   .filter(Boolean) as string[];
-
-const currentFraSlug = page.id.split("/").pop() || "";
 
 await getTranslations(lang as string);
 ---
@@ -147,6 +166,6 @@ await getTranslations(lang as string);
 
   <CTASection
     title={`Ready to Get Your ${title}?`}
-    tag={`Professional service from BAFE-accredited engineers. 24-hour turnaround. ${hero?.price || "Contact us for pricing"}.`}
+    tag={`Professional service from BAFE-accredited engineers. 24-hour turnaround. ${hero?.price || priceData?.hero_price || "Contact us for pricing"}.`}
   />
 </Base>

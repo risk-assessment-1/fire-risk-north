@@ -9,7 +9,6 @@ hero:
   enable: true
   subtitle: "BS 5839 Certified Testing"
   description: "Professional fire alarm testing and servicing by BAFE registered engineers in accordance with BS 5839-1. Compliance certificate included with every visit."
-  price: "From £80"
   badges:
     - label: "BAFE Registered"
     - label: "BS 5839 Compliant"
@@ -93,21 +92,6 @@ five_steps_fra:
       title: "Certificate Issued"
       description: "BS 5839 compliance certificate issued and log book completed on-site."
       icon: "file-check"
-fra_costs:
-  enable: true
-  heading: "Fire Alarm Testing Costs UK 2026"
-  description: "What you pay depends on the size of your system and the complexity of the building."
-  rows:
-    - property_type: "Small Premises"
-      description: "Up to 10 devices"
-      price: "£80 – £150"
-    - property_type: "Medium Premises"
-      description: "10 to 50 devices"
-      price: "£150 – £300"
-    - property_type: "Large Premises"
-      description: "50+ devices"
-      price: "£300 – £500+"
-  factors_note: "Several factors affect the price: the number of devices on the system, building access requirements, system age and condition, and whether any parts need replacing. Annual maintenance contracts typically save 15-20% compared to individual bookings."
 legislation_timeline:
   enable: true
   heading: "Fire Alarm Testing Legislation & Standards 2026"

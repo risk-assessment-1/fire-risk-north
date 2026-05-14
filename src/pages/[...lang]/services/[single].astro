@@ -21,6 +21,7 @@ import { markdownify } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
 import { render } from "astro:content";
 import { FaDownload, FaRegFilePdf } from "react-icons/fa6";
+import pricing from "@/config/pricing.json";
 
 export async function getStaticPaths() {
   const paths = await Promise.all(
@@ -52,7 +53,6 @@ const {
   hero,
   who_needs_fra,
   five_steps_fra,
-  fra_costs,
   legislation_timeline,
   hazard_cards,
   faq_section,
@@ -61,12 +61,29 @@ const { Content } = await render(service);
 const land = getLangFromUrl(Astro.url);
 const allServices = await getSinglePage("services", land as string);
 
-const serviceSlugs = allServices.map((service) => {
-  const parts = service.id.split("/");
+const serviceSlugs = allServices.map((s) => {
+  const parts = s.id.split("/");
   return parts[1];
 });
 
 const currentServiceSlug = service.id.split("/")[1];
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const priceData = (pricing.services as Record<string, any>)[currentServiceSlug];
+
+if (priceData?.hero_price && hero) {
+  hero.price = priceData.hero_price;
+}
+
+const fra_costs = priceData?.costs || service.data.fra_costs;
+
+if (priceData?.faq_price_answer && faq_section?.items) {
+  const priceFaq = faq_section.items.find(
+    (item) =>
+      item.question.toLowerCase().includes("how much") ||
+      item.question.toLowerCase().includes("cost"),
+  );
+  if (priceFaq) priceFaq.answer = priceData.faq_price_answer;
+}
 
 const { download_pdf, our_services } = await getTranslations(lang as string);
 
@@ -205,6 +222,6 @@ if (faq_section?.enable)
 
   <CTASection
     title={`Ready to Get Your ${title}?`}
-    tag={`Professional service from BAFE-accredited engineers. 24-hour turnaround. ${hero?.price || "Contact us for pricing"}.`}
+    tag={`Professional service from BAFE-accredited engineers. 24-hour turnaround. ${hero?.price || priceData?.hero_price || "Contact us for pricing"}.`}
   />
 </Base>

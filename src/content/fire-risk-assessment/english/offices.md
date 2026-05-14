@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "Offices"
   description: "Professional fire risk assessments for office buildings and corporate workplaces. Compliant with the Regulatory Reform (Fire Safety) Order 2005 and October 2023 amendments requiring written documentation for ALL businesses. BAFE SP205 registered assessors."
-  price: "From £395 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "battery-charging"
       description: "Lithium-ion batteries present rapidly increasing fire risks in office environments. 338 fires involving e-bikes and e-scooters occurred in 2023, with batteries burning at extreme temperatures of 700-1000°C. Thermal runaway reactions happen explosively, creating self-sustaining combustion extremely difficult to extinguish. 71% of organisations have NOT updated fire risk assessments for these risks."
       assessment: "Lithium-ion device inventory and risk evaluation, charging station safety verification, battery damage inspection protocols, managed charging procedure effectiveness, dedicated charging area location assessment away from exits, proper disposal procedure verification, staff training on warning signs including bulging, heat, and rapid discharge, and e-bike/e-scooter storage policy review."
-fra_costs:
-  enable: true
-  heading: "How Much Does an Office Fire Risk Assessment Cost?"
-  description: "Costs typically range from £395–£1,500 depending on office size, complexity, and number of employees."
-  rows:
-    - property_type: "Small Office"
-      description: "Up to 500 m², single floor"
-      price: "£395 – £550"
-    - property_type: "Medium Office"
-      description: "500–2,000 m², multiple floors"
-      price: "£550 – £900"
-    - property_type: "Large Office"
-      description: "2,000+ m², complex layout"
-      price: "£900 – £1,500"
-    - property_type: "Multi-Floor Building"
-      description: "3+ floors with shared areas"
-      price: "£750 – £1,500"
-    - property_type: "Serviced Office / Co-Working"
-      description: "Flexible workspace with hot-desking"
-      price: "£495 – £850"
-    - property_type: "Multi-Site Portfolio"
-      description: "Multiple office locations"
-      price: "£350 – £600 per site"
-  factors_note: "Costs are influenced by floor area, number of employees, server room complexity, presence of lithium-ion battery charging, and whether hot-desking arrangements require additional evaluation. Multi-site portfolios benefit from 10-15% bulk discount."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"

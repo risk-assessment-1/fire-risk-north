@@ -9,7 +9,6 @@ hero:
   enable: true
   subtitle: "BM Trada Q-Mark Certified"
   description: "BM Trada Q-Mark certified fire door inspections in accordance with BS 8214. Full photographic reporting with prioritised remedial recommendations."
-  price: "From £15/door"
   badges:
     - label: "BM Trada Q-Mark"
     - label: "Regulation 10 Compliant"
@@ -92,24 +91,6 @@ five_steps_fra:
       title: "Remedial Support"
       description: "We can arrange remedial works or provide specifications for your chosen contractor to carry out repairs."
       icon: "wrench"
-fra_costs:
-  enable: true
-  heading: "Fire Door Inspection Costs UK 2026"
-  description: "Pricing is based on the number of doors and the size of the building. The more doors, the lower the unit cost."
-  rows:
-    - property_type: "Small Building"
-      description: "Up to 20 fire doors"
-      price: "£300 – £500"
-    - property_type: "Medium Building"
-      description: "20 to 50 fire doors"
-      price: "£500 – £1,000"
-    - property_type: "Large Building"
-      description: "50 to 100 fire doors"
-      price: "£750 – £2,000"
-    - property_type: "Per Door (Batch)"
-      description: "20+ doors, any quantity"
-      price: "£15 – £25/door"
-  factors_note: "Costs are influenced by building access requirements, door locations (e.g. risers, plant rooms), and whether you need a combined survey covering both fire doors and passive fire protection."
 legislation_timeline:
   enable: true
   heading: "Fire Door Legislation & Standards 2026"

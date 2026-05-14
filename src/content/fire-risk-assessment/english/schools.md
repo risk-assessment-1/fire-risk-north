@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "Schools"
   description: "Professional fire risk assessments for schools, colleges, and educational establishments. CLEAPSS science lab compliance, Building Bulletin 100 assembly hall assessment, PEEP development, and Ofsted-ready documentation. BAFE SP205 registered assessors."
-  price: "From £495 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "accessibility"
       description: "Equality Act 2010 mandates Personal Emergency Evacuation Plans (PEEPs) for pupils who cannot evacuate using standard procedures. Failure to provide adequate evacuation equals unlawful discrimination. PEEPs required for mobility impairments, visual impairments, hearing impairments, cognitive/learning disabilities, respiratory conditions, and neurological conditions. Evacuation chairs classified as Class 1 Medical Devices requiring annual professional servicing."
       assessment: "PEEP documentation review for all disabled pupils, evacuation chair availability and annual servicing records, designated staff training verification on evacuation chair operation, refuge area specifications inspection (fire-resisting construction, 2-way communication, minimum 4m² space), and evacuation drill participation records for pupils with PEEPs."
-fra_costs:
-  enable: true
-  heading: "How Much Does a School Fire Risk Assessment Cost?"
-  description: "Costs typically range from £495–£3,000 depending on school size, number of buildings, and complexity of facilities."
-  rows:
-    - property_type: "Primary School"
-      description: "Single building, up to 300 pupils"
-      price: "£495 – £800"
-    - property_type: "Secondary School"
-      description: "Multiple buildings, 300-1,500 pupils"
-      price: "£800 – £1,500"
-    - property_type: "Large Academy"
-      description: "Complex campus, 1,500+ pupils"
-      price: "£1,500 – £3,000"
-    - property_type: "SEN School"
-      description: "Enhanced PEEP requirements"
-      price: "£650 – £1,200"
-    - property_type: "Sixth Form College"
-      description: "Including science and vocational facilities"
-      price: "£800 – £1,500"
-    - property_type: "Multi-Academy Trust"
-      description: "Multiple schools across trust"
-      price: "£400 – £800 per school"
-  factors_note: "Costs are influenced by number of pupils, number of buildings, science laboratory facilities, assembly hall complexity, after-school club provision, and whether multi-academy trust standardisation is needed. Trusts benefit from 10-15% bulk discount."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"

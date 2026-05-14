@@ -1,0 +1,729 @@
+{
+  "fra_building_types": {
+    "hmo": {
+      "hero_price": "From £245",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does an HMO Fire Risk Assessment Cost?",
+        "description": "Costs typically range from £245–£845 depending on property size, number of storeys, and building complexity.",
+        "rows": [
+          {
+            "property_type": "Small HMO",
+            "description": "1-2 storeys, 3-4 occupants",
+            "price": "£245 – £295"
+          },
+          {
+            "property_type": "Medium HMO",
+            "description": "2-3 storeys, 5-7 occupants",
+            "price": "£405 – £500"
+          },
+          {
+            "property_type": "Large HMO",
+            "description": "3+ storeys, 7+ occupants",
+            "price": "£690 – £845"
+          },
+          {
+            "property_type": "Converted House",
+            "description": "Period property converted to HMO",
+            "price": "£510 – £625"
+          },
+          {
+            "property_type": "Purpose-Built",
+            "description": "Modern HMO building",
+            "price": "£340 – £415"
+          },
+          {
+            "property_type": "Portfolio (5+ Properties)",
+            "description": "Multiple HMO properties",
+            "price": "£175 – £215 per property"
+          }
+        ],
+        "factors_note": "Costs are influenced by number of storeys, number of occupants, property age, existing fire safety measures, and local authority requirements. Portfolios of 5+ properties benefit from bulk discount. HMO licensing applications may require additional documentation."
+      },
+      "faq_price_answer": "HMO fire risk assessment costs typically range from £245–£845 depending on property size, number of storeys, occupancy levels, and building complexity. Small HMOs (1-2 storeys) start from £245. Use our instant online calculator for an accurate quote tailored to your specific premises."
+    },
+    "flats": {
+      "hero_price": "From £245",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does a Fire Risk Assessment for Flats Cost?",
+        "description": "Costs typically range from £245–£1,200 depending on building size, number of flats, and assessment type required.",
+        "rows": [
+          {
+            "property_type": "Small Block",
+            "description": "Up to 10 flats, 1-2 storeys",
+            "price": "£245 – £295"
+          },
+          {
+            "property_type": "Medium Block",
+            "description": "10-30 flats, 2-4 storeys",
+            "price": "£415 – £505"
+          },
+          {
+            "property_type": "Large Block",
+            "description": "30+ flats, 5+ storeys",
+            "price": "£700 – £850"
+          },
+          {
+            "property_type": "Very Large/Complex",
+            "description": "1000m²+, complex layout",
+            "price": "From £920"
+          },
+          {
+            "property_type": "Type 1 Assessment",
+            "description": "Common areas only",
+            "price": "£175 – £210"
+          },
+          {
+            "property_type": "Type 2/3 Assessment",
+            "description": "Sample or all flats inspected",
+            "price": "£490 – £600"
+          },
+          {
+            "property_type": "Type 4 Assessment",
+            "description": "Destructive inspection of all areas",
+            "price": "£980 – £1,200"
+          }
+        ],
+        "factors_note": "Costs are influenced by number of flats, number of storeys, building age, existing fire safety measures, and the type of assessment required (Type 1-4). Type 4 assessments involving destructive inspection are significantly more expensive. Multi-block portfolios benefit from bulk discount."
+      },
+      "faq_price_answer": "Fire risk assessment costs for blocks of flats typically range from £245–£1,200 depending on building size, number of flats, and assessment type required. Type 1 assessments (common areas only) start from £175. Type 4 destructive inspections cost from £980. Use our calculator for an instant estimate."
+    },
+    "offices": {
+      "hero_price": "From £325",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does an Office Fire Risk Assessment Cost?",
+        "description": "Costs typically range from £325–£1,135 depending on office size, complexity, and number of employees.",
+        "rows": [
+          {
+            "property_type": "Small Office",
+            "description": "Up to 150m², 1-2 floors",
+            "price": "£325 – £395"
+          },
+          {
+            "property_type": "Medium Office",
+            "description": "150-500m², 2-4 floors",
+            "price": "£550 – £665"
+          },
+          {
+            "property_type": "Large Office",
+            "description": "500m²+, 5+ floors",
+            "price": "£925 – £1,135"
+          },
+          {
+            "property_type": "Multi-Floor Office",
+            "description": "Multiple floors with sleeping risk",
+            "price": "£685 – £835"
+          },
+          {
+            "property_type": "Co-Working Space",
+            "description": "Shared workspace, open plan",
+            "price": "£620 – £760"
+          },
+          {
+            "property_type": "Multi-Site Portfolio",
+            "description": "Multiple office locations",
+            "price": "£260 – £320 per site"
+          }
+        ],
+        "factors_note": "Costs are influenced by floor area, number of employees, server room complexity, presence of lithium-ion battery charging, and whether hot-desking arrangements require additional evaluation. Multi-site portfolios benefit from 10-15% bulk discount."
+      },
+      "faq_price_answer": "Office fire risk assessment costs typically range from £325–£1,135 depending on office size, number of floors, and complexity. Small offices (up to 150m²) start from £325. Large multi-floor offices cost from £925. Use our instant calculator for an accurate quote."
+    },
+    "retail": {
+      "hero_price": "From £325",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does a Retail Fire Risk Assessment Cost?",
+        "description": "Costs typically range from £325–£1,120 depending on shop size, number of floors, and complexity of operations.",
+        "rows": [
+          {
+            "property_type": "Small Shop",
+            "description": "Up to 150m², 1-2 floors",
+            "price": "£325 – £395"
+          },
+          {
+            "property_type": "Medium Retail",
+            "description": "150-500m², 2-4 floors",
+            "price": "£540 – £660"
+          },
+          {
+            "property_type": "Large Store",
+            "description": "500m²+, 5+ floors",
+            "price": "£910 – £1,120"
+          },
+          {
+            "property_type": "Multi-Floor Retail",
+            "description": "Multiple trading floors",
+            "price": "£675 – £825"
+          },
+          {
+            "property_type": "Shopping Unit",
+            "description": "Unit within shopping centre",
+            "price": "£325 – £395"
+          },
+          {
+            "property_type": "Multi-Site Portfolio",
+            "description": "Multiple retail locations",
+            "price": "£285 – £350 per site"
+          }
+        ],
+        "factors_note": "Costs are influenced by floor area, number of floors, presence of commercial kitchen, customer occupancy levels, seasonal display requirements, and whether multi-site standardisation is needed. Multi-site portfolios benefit from 10-15% bulk discount."
+      },
+      "faq_price_answer": "Retail fire risk assessment costs typically range from £325–£1,120 depending on shop size, number of floors, and type of retail operation. Small shops start from £325. Large stores with multiple floors cost from £910. Use our calculator for an instant estimate."
+    },
+    "warehouses": {
+      "hero_price": "From £325",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does a Warehouse Fire Risk Assessment Cost?",
+        "description": "Costs typically range from £325–£1,130 depending on warehouse size, storage type, and complexity of fire protection systems.",
+        "rows": [
+          {
+            "property_type": "Small Warehouse",
+            "description": "Up to 2,000m², standard racking",
+            "price": "£325 – £395"
+          },
+          {
+            "property_type": "Medium Warehouse",
+            "description": "2,000-10,000m², high-bay racking",
+            "price": "£545 – £665"
+          },
+          {
+            "property_type": "Large Distribution Centre",
+            "description": "10,000m²+, complex operations",
+            "price": "£930 – £1,130"
+          },
+          {
+            "property_type": "Chemical Storage Facility",
+            "description": "DSEAR-compliant chemical handling",
+            "price": "£1,220 – £1,490"
+          },
+          {
+            "property_type": "Cold Storage",
+            "description": "Temperature-controlled facilities",
+            "price": "£930 – £1,130"
+          },
+          {
+            "property_type": "Multi-Site Portfolio",
+            "description": "Multiple warehouse locations",
+            "price": "£185 – £225 per site"
+          }
+        ],
+        "factors_note": "Costs are influenced by floor area, storage height, sprinkler system complexity, presence of chemical storage, lithium-ion battery handling, and whether DSEAR assessment is required. Multi-site portfolios benefit from 10-15% bulk discount. Insurance premium reductions of 10-60% are achievable with compliant facilities."
+      },
+      "faq_price_answer": "Warehouse fire risk assessment costs typically range from £325–£1,130 depending on warehouse size, storage type, and complexity of fire protection systems. Small warehouses start from £325. Chemical storage and cold storage facilities may cost more. Use our calculator for an accurate quote."
+    },
+    "schools": {
+      "hero_price": "From £675",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does a School Fire Risk Assessment Cost?",
+        "description": "Costs typically range from £675–£2,375 depending on school size, number of buildings, and complexity of facilities.",
+        "rows": [
+          {
+            "property_type": "Small School/Nursery",
+            "description": "Up to 150m², single building",
+            "price": "£675 – £835"
+          },
+          {
+            "property_type": "Medium School",
+            "description": "150-500m², multiple buildings",
+            "price": "£1,150 – £1,390"
+          },
+          {
+            "property_type": "Large Campus/Sixth Form",
+            "description": "500m²+, complex facilities",
+            "price": "£1,945 – £2,375"
+          },
+          {
+            "property_type": "Multi-Academy Trust",
+            "description": "Multiple schools across trust",
+            "price": "£635 – £770 per school"
+          },
+          {
+            "property_type": "Private School",
+            "description": "Independent school with boarding",
+            "price": "£1,430 – £1,740"
+          },
+          {
+            "property_type": "Annual Review",
+            "description": "Yearly reassessment of existing report",
+            "price": "£485 – £595"
+          }
+        ],
+        "factors_note": "Costs are influenced by number of pupils, number of buildings, science laboratory facilities, assembly hall complexity, after-school club provision, and whether multi-academy trust standardisation is needed. Trusts benefit from 10-15% bulk discount."
+      },
+      "faq_price_answer": "School fire risk assessment costs typically range from £675–£2,375 depending on school size, number of buildings, and complexity of facilities. Small schools and nurseries start from £675. Multi-academy trusts benefit from discounted per-school rates from £635."
+    },
+    "hospitals": {
+      "hero_price": "Price on Request",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does a Hospital Fire Risk Assessment Cost?",
+        "description": "Costs vary depending on facility size, complexity, and number of departments. Contact us for a detailed quote.",
+        "rows": [
+          {
+            "property_type": "Small Facility/Clinic",
+            "description": "Up to 5,000m²",
+            "price": "Price on Request"
+          },
+          {
+            "property_type": "Medium Hospital",
+            "description": "5,000-15,000m²",
+            "price": "Price on Request"
+          },
+          {
+            "property_type": "Large Hospital/NHS Trust",
+            "description": "15,000m²+",
+            "price": "Price on Request"
+          },
+          {
+            "property_type": "Specialist Facility",
+            "description": "Specialist treatment or research centre",
+            "price": "Price on Request"
+          },
+          {
+            "property_type": "Mental Health Unit",
+            "description": "Secure or specialist mental health facility",
+            "price": "Price on Request"
+          },
+          {
+            "property_type": "Annual Review",
+            "description": "Yearly reassessment",
+            "price": "Price on Request"
+          }
+        ],
+        "factors_note": "Costs are influenced by facility size, number of departments, specialist equipment (medical gases, operating theatres), patient mobility considerations, and whether PEEPs for vulnerable patients are required. NHS trust portfolios benefit from significant bulk discount."
+      },
+      "faq_price_answer": "Hospital and healthcare fire risk assessment costs vary significantly depending on facility size, complexity, and number of departments. Please contact us for a detailed quote tailored to your facility."
+    },
+    "hotels": {
+      "hero_price": "From £375",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does a Hotel Fire Risk Assessment Cost?",
+        "description": "Costs typically range from £375–£1,405 depending on hotel size, number of rooms, and complexity of operations.",
+        "rows": [
+          {
+            "property_type": "Small Hotel/B&B",
+            "description": "Up to 20 rooms",
+            "price": "£375 – £560"
+          },
+          {
+            "property_type": "Medium Hotel",
+            "description": "20-50 rooms",
+            "price": "£565 – £845"
+          },
+          {
+            "property_type": "Large Hotel",
+            "description": "50+ rooms",
+            "price": "£845 – £1,405"
+          },
+          {
+            "property_type": "Boutique Hotel",
+            "description": "Boutique or heritage property",
+            "price": "£375 – £655"
+          },
+          {
+            "property_type": "Conference Hotel",
+            "description": "Hotel with conference/event facilities",
+            "price": "£655 – £1,125"
+          },
+          {
+            "property_type": "Multi-Site Portfolio",
+            "description": "Multiple hotel locations",
+            "price": "£280 – £560 per site"
+          }
+        ],
+        "factors_note": "Costs are influenced by number of rooms, number of floors, presence of commercial kitchen, conference facilities, spa/leisure facilities, and whether disabled guest PEEPs are required. Multi-site portfolios benefit from 10-15% bulk discount."
+      },
+      "faq_price_answer": "Hotel fire risk assessment costs typically range from £375–£1,405 depending on hotel size, number of rooms, and complexity of operations. Small hotels and B&Bs start from £375. Large hotels with conference facilities cost from £655. Contact us for a detailed quote."
+    },
+    "care-homes": {
+      "hero_price": "From £275",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does a Care Home Fire Risk Assessment Cost?",
+        "description": "Costs typically range from £275–£825 depending on home size, number of residents, and complexity of care needs.",
+        "rows": [
+          {
+            "property_type": "Small Care Home",
+            "description": "Up to 10 residents",
+            "price": "£275 – £385"
+          },
+          {
+            "property_type": "Medium Care Home",
+            "description": "10-30 residents",
+            "price": "£385 – £550"
+          },
+          {
+            "property_type": "Large Facility",
+            "description": "30+ residents",
+            "price": "£550 – £825"
+          },
+          {
+            "property_type": "Nursing Home",
+            "description": "Residential nursing care",
+            "price": "£330 – £605"
+          },
+          {
+            "property_type": "Dementia Specialist",
+            "description": "Specialist dementia care unit",
+            "price": "£385 – £660"
+          },
+          {
+            "property_type": "Annual Review",
+            "description": "Yearly reassessment",
+            "price": "£220 – £385"
+          }
+        ],
+        "factors_note": "Costs are influenced by number of residents, mobility of residents, presence of specialist care units, building layout complexity, and whether CQC compliance documentation is required. Multi-home operators benefit from bulk discount."
+      },
+      "faq_price_answer": "Care home fire risk assessment costs typically range from £275–£825 depending on home size, number of residents, and complexity of care needs. Small care homes (up to 10 residents) start from £275. Contact us for a detailed quote."
+    },
+    "high-rise-buildings": {
+      "hero_price": "From £625",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does a High-Rise Fire Risk Assessment Cost?",
+        "description": "Costs typically range from £625–£3,335+ depending on building height, number of flats, and complexity of fire safety systems.",
+        "rows": [
+          {
+            "property_type": "Up to 5 Storeys",
+            "description": "Buildings under 11 metres",
+            "price": "£625 – £835"
+          },
+          {
+            "property_type": "6-10 Storeys",
+            "description": "Buildings 11-18 metres",
+            "price": "£835 – £1,250"
+          },
+          {
+            "property_type": "11-18 Storeys",
+            "description": "Buildings 18-30 metres",
+            "price": "£1,250 – £2,085"
+          },
+          {
+            "property_type": "18+ Storeys",
+            "description": "Buildings over 30 metres",
+            "price": "£2,085 – £3,335+"
+          },
+          {
+            "property_type": "Cladding/Remediation",
+            "description": "External wall assessment for remediation",
+            "price": "£2,500 – £4,165+"
+          },
+          {
+            "property_type": "Annual Review",
+            "description": "Yearly reassessment",
+            "price": "£415 – £750"
+          }
+        ],
+        "factors_note": "Costs are significantly influenced by building height, number of flats, external wall system type, presence of sprinklers, fire door condition, and whether Building Safety Act 2022 requirements apply. Buildings with non-compliant cladding require specialist assessment. Quarterly fire door checks required for buildings over 11 metres."
+      },
+      "faq_price_answer": "High-rise building fire risk assessment costs typically range from £625–£3,335+ depending on building height, number of flats, and complexity of fire safety systems. Buildings under 11 metres start from £625. Buildings over 18 metres with cladding issues may cost £2,500+. Contact us for a detailed quote."
+    },
+    "restaurants": {
+      "hero_price": "From £325",
+      "costs": {
+        "enable": true,
+        "heading": "How Much Does a Restaurant Fire Risk Assessment Cost?",
+        "description": "Costs typically range from £325–£1,735 depending on kitchen size, seating capacity, and building complexity.",
+        "rows": [
+          {
+            "property_type": "Small Restaurant/Café",
+            "description": "Up to 150m², simple kitchen",
+            "price": "£325 – £650"
+          },
+          {
+            "property_type": "Medium Restaurant",
+            "description": "150-300m², commercial kitchen",
+            "price": "£650 – £1,085"
+          },
+          {
+            "property_type": "Large Venue",
+            "description": "300m²+, complex operations",
+            "price": "£1,085 – £1,735"
+          },
+          {
+            "property_type": "Takeaway/Fast Food",
+            "description": "Small takeaway premises",
+            "price": "£325 – £540"
+          },
+          {
+            "property_type": "Pub/Bar",
+            "description": "Licensed premises with kitchen",
+            "price": "£435 – £865"
+          },
+          {
+            "property_type": "Multi-Site Chain",
+            "description": "Multiple restaurant locations",
+            "price": "£260 – £540 per site"
+          }
+        ],
+        "factors_note": "Costs are influenced by kitchen size, number of covers, presence of deep fat fryers, gas installation complexity, extraction system condition, and whether licensing-compliant documentation is required. Multi-site chains benefit from 10-15% bulk discount."
+      },
+      "faq_price_answer": "Restaurant fire risk assessment costs typically range from £325–£1,735 depending on kitchen size, seating capacity, and building complexity. Small restaurants and cafés start from £325. Premises with commercial kitchens and extraction systems cost from £650. Use our calculator for an instant estimate."
+    }
+  },
+  "services": {
+    "fire-risk-assessment": {
+      "hero_price": "From £249",
+      "costs": {
+        "enable": true,
+        "heading": "Fire Risk Assessment Costs",
+        "description": "Transparent pricing for fire risk assessments. Costs vary based on building size, complexity, and risk level.",
+        "rows": [
+          {
+            "property_type": "Small Commercial",
+            "description": "Office, shop, small business (<150m²)",
+            "price": "£325 – £700",
+            "slug": "offices"
+          },
+          {
+            "property_type": "Medium Commercial",
+            "description": "Warehouse, restaurant, larger office (150-500m²)",
+            "price": "£545 – £1,130",
+            "slug": "warehouses"
+          },
+          {
+            "property_type": "HMO Properties",
+            "description": "Houses in Multiple Occupation",
+            "price": "£245 – £500",
+            "slug": "hmo"
+          },
+          {
+            "property_type": "Block of Flats",
+            "description": "Communal areas assessment",
+            "price": "£245 – £500",
+            "slug": "flats"
+          },
+          {
+            "property_type": "Care Homes",
+            "description": "Residential care facilities",
+            "price": "£275 – £600",
+            "slug": "care-homes"
+          },
+          {
+            "property_type": "Hotels",
+            "description": "Hotels and B&Bs",
+            "price": "£375 – £900",
+            "slug": "hotels"
+          },
+          {
+            "property_type": "Schools",
+            "description": "Educational premises",
+            "price": "£675 – £1,500",
+            "slug": "schools"
+          },
+          {
+            "property_type": "High-Rise Buildings",
+            "description": "Buildings over 18m (7+ storeys)",
+            "price": "£625 – £1,500+",
+            "slug": "high-rise-buildings"
+          },
+          {
+            "property_type": "Hospitals",
+            "description": "Healthcare facilities",
+            "price": "Price on Request",
+            "slug": "hospitals"
+          }
+        ],
+        "factors_note": "Fire risk assessment costs are influenced by: building size (larger premises take longer), complexity (multiple floors, unusual layouts), risk level (high-risk activities, hazardous materials), type of assessment (Type 1-4 for residential), and location. Our cost calculator gives you an instant estimate."
+      },
+      "faq_price_answer": "Costs typically range from £245-£500 for small premises, £545-£1,130 for medium commercial buildings, and £625-£1,500+ for large or complex buildings. Hospital assessments are priced on request. Get in touch for an instant estimate."
+    },
+    "fire-alarm-testing": {
+      "hero_price": "From £80",
+      "costs": {
+        "enable": true,
+        "heading": "Fire Alarm Testing Costs",
+        "description": "Pricing based on the number of devices and the size of the building. The more devices, the lower the unit cost.",
+        "rows": [
+          {
+            "property_type": "Small Premises",
+            "description": "Up to 10 devices",
+            "price": "£80 – £150"
+          },
+          {
+            "property_type": "Medium Premises",
+            "description": "10 to 50 devices",
+            "price": "£150 – £300"
+          },
+          {
+            "property_type": "Large Premises",
+            "description": "50+ devices",
+            "price": "£300 – £500+"
+          }
+        ],
+        "factors_note": "Several factors affect the price: the number of devices on the system, building access requirements, system age and condition, and whether any parts need replacing. Annual maintenance contracts typically save 15-20% compared to individual bookings."
+      }
+    },
+    "fire-extinguisher-servicing": {
+      "hero_price": "From £60",
+      "costs": {
+        "enable": true,
+        "heading": "Fire Extinguisher Servicing Costs",
+        "description": "Pricing based on the number of extinguishers and whether any units are due for extended service.",
+        "rows": [
+          {
+            "property_type": "Small Premises",
+            "description": "1 to 5 extinguishers",
+            "price": "£60 – £120"
+          },
+          {
+            "property_type": "Medium Premises",
+            "description": "6 to 15 extinguishers",
+            "price": "£120 – £250"
+          },
+          {
+            "property_type": "Large Premises",
+            "description": "15+ extinguishers",
+            "price": "£250 – £450+"
+          }
+        ],
+        "factors_note": "Extended services cost more due to the discharge, recharge, and parts involved. Water, foam, powder, and wet chemical extinguishers need extended service every 5 years. CO2 extinguishers every 10 years. Annual maintenance contracts typically save 15-20%."
+      }
+    },
+    "emergency-light-testing": {
+      "hero_price": "From £70",
+      "costs": {
+        "enable": true,
+        "heading": "Emergency Light Testing Costs",
+        "description": "Pricing based on the number of emergency lighting fittings and the size of the building.",
+        "rows": [
+          {
+            "property_type": "Small Premises",
+            "description": "Up to 10 fittings",
+            "price": "£70 – £140"
+          },
+          {
+            "property_type": "Medium Premises",
+            "description": "10 to 30 fittings",
+            "price": "£140 – £280"
+          },
+          {
+            "property_type": "Large Premises",
+            "description": "30+ fittings",
+            "price": "£280 – £500+"
+          }
+        ],
+        "factors_note": "Costs are influenced by the number of fittings, building access (especially high-level fittings), whether any fittings need replacement, and if central battery systems are present. Annual maintenance contracts typically save 15-20%."
+      }
+    },
+    "fire-door-inspection": {
+      "hero_price": "From £15/door",
+      "costs": {
+        "enable": true,
+        "heading": "Fire Door Inspection Costs",
+        "description": "Pricing is based on the number of doors and the size of the building. The more doors, the lower the unit cost.",
+        "rows": [
+          {
+            "property_type": "Small Building",
+            "description": "Up to 20 fire doors",
+            "price": "£300 – £500"
+          },
+          {
+            "property_type": "Medium Building",
+            "description": "20 to 50 fire doors",
+            "price": "£500 – £1,000"
+          },
+          {
+            "property_type": "Large Building",
+            "description": "50+ fire doors",
+            "price": "£750 – £2,000"
+          },
+          {
+            "property_type": "Per Door (Batch)",
+            "description": "20+ doors batch inspection",
+            "price": "£15 – £25/door"
+          }
+        ],
+        "factors_note": "Final cost depends on building access, door locations (e.g. risers, plant rooms), and whether you need a combined survey covering both fire doors and passive fire protection."
+      }
+    },
+    "fire-door-surveying": {
+      "hero_price": "From £15/door",
+      "costs": {
+        "enable": true,
+        "heading": "Fire Door Survey Costs",
+        "description": "Pricing is based on the number of doors and the complexity of the building.",
+        "rows": [
+          {
+            "property_type": "Small Building",
+            "description": "Up to 20 fire doors",
+            "price": "£300 – £500"
+          },
+          {
+            "property_type": "Medium Building",
+            "description": "20 to 50 fire doors",
+            "price": "£500 – £1,000"
+          },
+          {
+            "property_type": "Large Building",
+            "description": "50+ fire doors, complex layout",
+            "price": "Custom quote"
+          },
+          {
+            "property_type": "Per Door (Batch)",
+            "description": "20+ doors batch survey",
+            "price": "£15 – £25/door"
+          }
+        ],
+        "factors_note": "Final cost depends on building access, door locations (e.g. risers, plant rooms), and whether you need a combined survey covering both fire doors and passive fire protection."
+      }
+    },
+    "fire-strategy": {
+      "hero_price": "From £2,500",
+      "costs": {
+        "enable": true,
+        "heading": "Fire Strategy Costs",
+        "description": "Costs vary based on project size and complexity.",
+        "rows": [
+          {
+            "property_type": "Small Projects",
+            "description": "Single-storey, simple layout",
+            "price": "£2,500 – £5,000"
+          },
+          {
+            "property_type": "Residential Developments",
+            "description": "Flats, apartments, HMO conversions",
+            "price": "£5,000 – £12,000"
+          },
+          {
+            "property_type": "Commercial Buildings",
+            "description": "Offices, retail, mixed-use",
+            "price": "£5,000 – £15,000"
+          },
+          {
+            "property_type": "Industrial Facilities",
+            "description": "Warehouses, manufacturing",
+            "price": "£5,000 – £15,000"
+          },
+          {
+            "property_type": "Healthcare & Education",
+            "description": "Hospitals, schools, care homes",
+            "price": "£8,000 – £20,000"
+          },
+          {
+            "property_type": "High-Rise Buildings",
+            "description": "Buildings over 18 metres",
+            "price": "£10,000 – £25,000+"
+          },
+          {
+            "property_type": "Complex/Specialist",
+            "description": "Heritage, industrial, unique risks",
+            "price": "£15,000+"
+          }
+        ],
+        "factors_note": "Costs vary based on project size and complexity. We provide detailed quotes after initial consultation and project assessment."
+      },
+      "faq_price_answer": "Costs vary based on project size and complexity. Typical ranges are £2,500-£5,000 for small projects, £5,000-£15,000 for medium projects, and £15,000+ for large or complex projects. We provide detailed quotes after initial consultation and project assessment."
+    }
+  },
+  "locations": {
+    "hero_price": "From £249"
+  }
+}

@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "Care Homes"
   description: "Professional fire risk assessments for care homes and residential care facilities. CQC compliant with PEEPs, medical oxygen safety, horizontal evacuation planning, and night staffing evaluation. BAFE SP205 registered assessors."
-  price: "From £495 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "moon"
       description: "Reduced night staffing levels present significant fire safety challenges when most residents are sleeping and least able to self-evacuate. UK regulations mandate risk-based staffing determined by resident PEEPs. At least one trained fire marshal must be on duty throughout night shifts, with adequate staffing to simultaneously implement all resident PEEPs within two-and-a-half minute evacuation timeframes."
       assessment: "Night staffing level adequacy evaluation against total resident PEEPs and dependency categories, fire marshal presence verification throughout all shifts including nights, waking staff vs sleeping-in staff configuration assessment, emergency response protocol review, evacuation drill evaluation including nighttime scenarios, and documentation review demonstrating risk-based staffing justification."
-fra_costs:
-  enable: true
-  heading: "How Much Does a Care Home Fire Risk Assessment Cost?"
-  description: "Costs typically range from £495–£2,000 depending on home size, number of residents, and complexity of care needs."
-  rows:
-    - property_type: "Small Care Home"
-      description: "Up to 10 beds, single storey"
-      price: "£495 – £750"
-    - property_type: "Medium Care Home"
-      description: "10-30 beds, multiple floors"
-      price: "£750 – £1,200"
-    - property_type: "Large Care Home"
-      description: "30+ beds, complex layout"
-      price: "£1,200 – £2,000"
-    - property_type: "Specialist Dementia Unit"
-      description: "Enhanced PEEP requirements"
-      price: "£650 – £1,200"
-    - property_type: "Nursing Home"
-      description: "Including medical gas assessment"
-      price: "£850 – £1,500"
-    - property_type: "Multi-Home Portfolio"
-      description: "Multiple care home locations"
-      price: "£400 – £800 per home"
-  factors_note: "Costs are influenced by number of beds, number of floors, resident dependency levels, presence of medical oxygen, dementia care requirements, and CQC inspection urgency. Multi-home portfolios benefit from 10-15% bulk discount."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"

@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "Hotels"
   description: "Professional fire risk assessments for hotels, guest houses, and B&Bs. Sleeping guest protection, commercial kitchen safety, FD30 fire door compliance, and multi-language evacuation procedures. BAFE SP205 registered assessors."
-  price: "From £495 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "globe"
       description: "International guests face critical communication barriers during fire emergencies, potentially not understanding evacuation announcements, fire action notices, or verbal staff instructions. Visual alarm systems, internationally recognised symbols, and multi-language safety information become essential for effective evacuation. Staff require training on assisting confused or panicked guests who cannot understand verbal instructions."
       assessment: "Multi-language fire action notice adequacy review in guest bedrooms and public areas, visual alarm system evaluation (flashing beacons for hearing-impaired guests), internationally recognised evacuation signage inspection, welcome pack fire safety information assessment, voice alarm system multi-language capability verification, and staff training evaluation on non-verbal communication techniques."
-fra_costs:
-  enable: true
-  heading: "How Much Does a Hotel Fire Risk Assessment Cost?"
-  description: "Costs typically range from £495–£3,000 depending on hotel size, number of rooms, and complexity of operations."
-  rows:
-    - property_type: "Small Hotel / B&B"
-      description: "Up to 15 rooms, no conference facilities"
-      price: "£495 – £750"
-    - property_type: "Medium Hotel"
-      description: "15-50 rooms, with restaurant"
-      price: "£750 – £1,500"
-    - property_type: "Large Hotel"
-      description: "50+ rooms, conference facilities"
-      price: "£1,500 – £3,000"
-    - property_type: "Budget / Travel Hotel"
-      description: "Chain hotel, standard layout"
-      price: "£495 – £900"
-    - property_type: "Boutique Hotel"
-      description: "Period property with unique features"
-      price: "£650 – £1,200"
-    - property_type: "Multi-Site Portfolio"
-      description: "Multiple hotel locations"
-      price: "£400 – £800 per site"
-  factors_note: "Costs are influenced by number of rooms, number of floors, presence of commercial kitchen, conference facilities, spa/leisure facilities, and whether disabled guest PEEPs are required. Multi-site portfolios benefit from 10-15% bulk discount."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"

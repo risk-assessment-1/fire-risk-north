@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "Hospitals"
   description: "Professional fire risk assessments for hospitals and healthcare premises. HTM 05-02 & HTM 05-03 compliant, progressive horizontal evacuation strategies, medical gas safety, and CQC documentation. BAFE SP205 registered assessors."
-  price: "From £2,995 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "HTM 05-02 Compliant"
@@ -21,7 +20,7 @@ compliance_highlight:
   heading_accent: "Fire Risk Assessment"
   subtitle: "Healthcare facilities face unique fire risks that demand specialised assessment. With 1,327 NHS fires annually, compliance isn't optional — it's life-critical."
   highlights:
-    - stat: "£2,995"
+    - stat: "£800"
       description: "Starting price for NHS trust assessments"
     - title: "Legal"
       description: "Requirement under RRO 2005 and CQC standards"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "shield"
       description: "Mental health facilities face heightened arson risks, with 29% of NHS fires deliberately set and approximately one-fifth of hospital fire deaths linked to psychiatric patients. Secure environments need balanced evacuation strategies — preventing absconding while enabling rapid emergency egress. Staff must manage potentially aggressive or uncooperative patients during evacuations."
       assessment: "Mental health facility specialised assessment including ignition source elimination strategies, secure but accessible evacuation route design, ligature-resistant equipment fire safety evaluation, patient observation level adequacy, staff training assessment for managing disturbed patients during evacuations, and smoke detection system enhancement."
-fra_costs:
-  enable: true
-  heading: "How Much Does a Hospital Fire Risk Assessment Cost?"
-  description: "Costs typically range from £2,995–£15,000 depending on facility size, complexity, and number of departments."
-  rows:
-    - property_type: "Community Hospital"
-      description: "Small facility, under 100 beds"
-      price: "£2,995 – £5,000"
-    - property_type: "District General Hospital"
-      description: "Medium facility, 100-400 beds"
-      price: "£5,000 – £10,000"
-    - property_type: "Major Acute Trust"
-      description: "Large facility, 400+ beds"
-      price: "£10,000 – £15,000"
-    - property_type: "Mental Health Unit"
-      description: "Including secure facility assessment"
-      price: "£3,500 – £7,000"
-    - property_type: "Private Hospital"
-      description: "Independent healthcare facility"
-      price: "£2,995 – £8,000"
-    - property_type: "Annual Review"
-      description: "Follow-up assessment for clinical areas"
-      price: "40-60% of initial fee"
-  factors_note: "Costs are influenced by bed capacity and patient occupancy, number of buildings and sites, specialised departments (ICU, operating theatres, A&E, mental health units), medical gas systems complexity, and required documentation depth for CQC compliance. Annual review costs are typically 40-60% of initial comprehensive assessments."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"
@@ -175,6 +150,6 @@ NHS trust managers and hospital compliance officers across the UK trust us for t
 - **HTM 05-02/03 specialists** — healthcare-specific expertise, not generic checklists
 - **CQC-accepted documentation** — reports recognised by inspectors without question
 - **Clinical understanding** — pragmatic solutions that support patient care delivery
-- **Competitive pricing** — from £2,995 for comprehensive trust assessments
+- **Competitive pricing** — from £800 for comprehensive trust assessments
 
 ![Hospital Corridor and Evacuation Routes](../../../assets/images/fire-risk-assessment/hospitals/hospital-corridor.png "Hospital Corridor Assessment")

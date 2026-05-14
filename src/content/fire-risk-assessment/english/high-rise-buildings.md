@@ -10,7 +10,6 @@ hero:
   title: "Fire Risk Assessment for"
   subtitle: "High-Rise Buildings"
   description: "Professional fire risk assessments for high-rise buildings over 18 metres. Building Safety Act 2022 compliance, EWS1 support, external wall assessment, and Accountable Person duties. BAFE SP205 registered assessors."
-  price: "From £750 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -85,30 +84,6 @@ hazard_cards:
       icon: "shield-check"
       description: "Effective compartmentation is fundamental to stay-put evacuation policies — each flat must function as a fire-resistant compartment. However, compartmentation commonly fails due to service penetrations, missing fire-stopping materials, compromised fire doors, or building alterations. Government data shows compartmentation deficiencies as the primary cause of vertical fire spread in high-rise incidents."
       assessment: "Intrusive compartmentation survey examining floor-to-floor and flat-to-flat fire separation, fire-stopping inspection around all service penetrations, fire door integrity assessment including FD30/FD60 ratings and self-closing devices, cavity barrier verification preventing hidden fire spread, and stay-put strategy viability assessment."
-fra_costs:
-  enable: true
-  heading: "How Much Does a High-Rise Fire Risk Assessment Cost?"
-  description: "Costs typically range from £750–£5,000+ depending on building height, number of flats, and complexity of fire safety systems."
-  rows:
-    - property_type: "Low-Rise Block (4-6 storeys)"
-      description: "Up to 30 flats"
-      price: "£750 – £1,200"
-    - property_type: "Medium-Rise (7-11 storeys)"
-      description: "30-100 flats"
-      price: "£1,200 – £2,500"
-    - property_type: "High-Rise (12-18 storeys)"
-      description: "100+ flats, Building Safety Act duties"
-      price: "£2,500 – £4,000"
-    - property_type: "Tall Building (18m+)"
-      description: "Full Accountable Person assessment"
-      price: "£3,000 – £5,000+"
-    - property_type: "External Wall Assessment"
-      description: "EWS1 / FRAEW support"
-      price: "£1,500 – £4,000"
-    - property_type: "Annual Review"
-      description: "Follow-up assessment"
-      price: "40-60% of initial fee"
-  factors_note: "Costs are influenced by building height, number of flats, external wall system type, presence of sprinklers, evacuation strategy complexity, and whether Accountable Person duties apply under the Building Safety Act 2022. Buildings requiring EWS1 forms or waking watch replacement assessments may incur additional costs."
 faq_section:
   enable: true
   heading: "Frequently Asked Questions"

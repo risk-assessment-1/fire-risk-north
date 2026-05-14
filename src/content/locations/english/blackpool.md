@@ -9,7 +9,6 @@ hero:
   title: "Fire Risk Assessment in"
   subtitle: "Blackpool"
   description: "Professional fire risk assessments across Blackpool and the Fylde Coast. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
-  price: "From £150 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -69,7 +68,7 @@ features:
       description: "Assessors who know Blackpool's hospitality sector, guest houses, hotels, and entertainment venues."
       icon: "search"
     - title: "Competitive Pricing"
-      description: "Transparent, upfront pricing with no hidden fees. Starting from just £150 + VAT."
+      description: "Transparent, upfront pricing with no hidden fees. Starting from just £249."
       icon: "scale"
     - title: "Full Regulatory Compliance"
       description: "Assessments compliant with Fire Safety Order 2005, Building Safety Act 2022, and PAS 79 methodology."
@@ -155,7 +154,7 @@ faq_section:
   description: "Common questions from Blackpool businesses and property owners about fire safety compliance."
   items:
     - question: "How much does a fire risk assessment cost in Blackpool?"
-      answer: "Fire risk assessments in Blackpool start from £150 + VAT for smaller properties. Costs vary depending on property size, type, and complexity. Hotels and guest houses may vary based on the number of rooms and floors."
+      answer: "Fire risk assessments in Blackpool start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. Hotels and guest houses may vary based on the number of rooms and floors."
     - question: "How quickly can you assess a Blackpool property?"
       answer: "We typically schedule assessments within 48-72 hours across Blackpool. For hotels and hospitality businesses, we can arrange assessments during quieter periods. Reports are delivered within 24 hours of the site visit."
     - question: "Do you specialise in hotel and guest house fire safety?"

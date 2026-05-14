@@ -9,7 +9,6 @@ hero:
   title: "Fire Risk Assessment in"
   subtitle: "Oldham"
   description: "Professional fire risk assessments across Oldham and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
-  price: "From £150 + VAT"
   badges:
     - label: "BAFE SP205 Registered"
     - label: "24-Hour Turnaround"
@@ -69,7 +68,7 @@ features:
       description: "Assessors who know Oldham's industrial heritage buildings, converted mills, and modern developments."
       icon: "search"
     - title: "Competitive Pricing"
-      description: "Transparent, upfront pricing with no hidden fees. Starting from just £150 + VAT."
+      description: "Transparent, upfront pricing with no hidden fees. Starting from just £249."
       icon: "scale"
     - title: "Full Regulatory Compliance"
       description: "Assessments compliant with Fire Safety Order 2005, Building Safety Act 2022, and PAS 79 methodology."
@@ -155,7 +154,7 @@ faq_section:
   description: "Common questions from Oldham businesses and property owners about fire safety compliance."
   items:
     - question: "How much does a fire risk assessment cost in Oldham?"
-      answer: "Fire risk assessments in Oldham start from £150 + VAT for smaller properties. Costs vary depending on property size, type, and complexity. We offer competitive pricing and transparent quotes with no hidden fees."
+      answer: "Fire risk assessments in Oldham start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. We offer competitive pricing and transparent quotes with no hidden fees."
     - question: "How quickly can you assess an Oldham property?"
       answer: "We typically schedule assessments within 48-72 hours across Oldham. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit."
     - question: "What types of Oldham properties do you assess?"
