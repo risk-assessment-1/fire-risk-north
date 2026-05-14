@@ -151,16 +151,6 @@ const SearchResult = ({
                     id="searchItem"
                     className="search-result-item"
                   >
-                    {item.frontmatter.image && (
-                      <div className="search-result-item-image">
-                        <img
-                          src={item.frontmatter.image}
-                          alt={item.frontmatter.title}
-                          width={100}
-                          height={100}
-                        />
-                      </div>
-                    )}
                     <div className="search-result-item-body">
                       <a
                         href={`${slugSelector(item.slug, lang)}`}
