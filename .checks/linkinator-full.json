@@ -1,0 +1,1166 @@
+﻿{
+  "links": [
+    {
+      "url": "https://firerisknorth.com/",
+      "status": 200,
+      "state": "OK",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/sitemap-index.xml",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/about",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-alarm-testing",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-door-surveying",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-strategy",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/restaurants",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/retail",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-extinguisher-servicing",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/hotels",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/hospitals",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/flats",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/high-rise-buildings",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/manchester",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/offices",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-door-inspection",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/blog",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/emergency-light-testing",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/schools",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/contact",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/hmo",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/bolton",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.google.com/maps?q=Bartle%20House%2C%20Oxford%20Court%2C%20Manchester%20M2%203WQ",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/liverpool",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/warehouses",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/chorley",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/bury",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/lancaster",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/care-homes",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/blackburn",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/preston",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/oldham",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/leyland",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/terms",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/wigan",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/salford",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/privacy-policy",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/blackpool",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/rochdale",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.facebook.com/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment",
+      "failureDetails": []
+    },
+    {
+      "url": "https://x.com/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-alarm-testing/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-alarm-testing",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-extinguisher-servicing/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-extinguisher-servicing",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-door-surveying/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-door-surveying",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/restaurants/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/restaurants",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/hotels/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/hotels",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-door-inspection/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-door-inspection",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/schools/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/schools",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/hospitals/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/hospitals",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-strategy/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-strategy",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/emergency-light-testing/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/emergency-light-testing",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/care-homes/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/care-homes",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/offices/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/offices",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/hmo/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/hmo",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/retail/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/retail",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/high-rise-buildings/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/high-rise-buildings",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/flats/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/flats",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/services/fire-risk-assessment/warehouses/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/services/fire-risk-assessment/warehouses",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/manchester/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/manchester",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/bolton/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/bolton",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/chorley/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/chorley",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/liverpool/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/lancaster/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/lancaster",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/bury/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/bury",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/blackburn/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/blackburn",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/preston/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/preston",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/wigan/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/wigan",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/oldham/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/oldham",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/salford/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/salford",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/blackpool/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/blackpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/rochdale/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/rochdale",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/locations/leyland/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/locations/leyland",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.6!2d-2.2426!3d53.4808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1c0b3b3b3b3%3A0x1234567890abcdef!2sBartle%20House%2C%20Oxford%20Court%2C%20Manchester%20M2%203WQ!5e0!3m2!1sen!2suk!4v1711167419704!5m2!1sen!2suk",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/contact",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.ul.com/insights/lithium-ion-battery-incident-reporting",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://fletcherrisk.co.uk/fire-safety-advice/solar-panels-fire-spread-pitched-roofs-2026",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://clearinsurancemanagement.com/news/how-evs-are-changing-business-safety-risk/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://gitnux.org/lithium-battery-fire-statistics/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.aviva.com/newsroom/news-releases/2025/01/lithium-ion-battery-incidents-affect-more-than-half-of-businesses/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.nist.gov/publications/understanding-risk-lithium-ion-battery-fires-multi-source-data-analysis",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.nfpa.org/videos/pv-panels-on-building-roofs-fire-hazard-assessment-and-mitigation-fprf-webinar",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.allshieldcoatings.com/en/knowledge-center/solar-roof-fires-insights-from-esfss-2025-why-non-combustible-roofs-are-the-only-real-solution~fLOfbYMR/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.thefpa.co.uk/fire-and-risk-management-journal/membership-spotlight/training-tasters/ev-fire-risks-in-car-parks",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.phoenix.gov/content/dam/phoenix/firesite/documents/LI%20Battery%20Incidents%20-%20January%202026%20Public%20Release.pdf",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.swri.org/newsroom/press-releases/swri-evaluates-fire-risks-associated-solar-panel-installations",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://emobility.uga.edu/wp-content/uploads/2025/06/2025-Georgia-EV-fire-safety-Brief-1.pdf",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://cfpa-e.eu/app/uploads/2025/06/CFPA_E_Guideline_No_44_2025_F.pdf",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://totalsafeuk.com/blog/uncategorised/new-fire-safety-regulations-coming-april-2026-are-you-prepared/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://recharged.com/articles/how-safe-are-electric-car-batteries",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.openaccessgovernment.org/swri-studies-the-fire-risks-beneath-commercial-solar-panel-installations/203576/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://mjib.co.uk/ev-charging-safety-guidelines-for-best-practice/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.osborneclarke.com/insights/regulatory-outlook-january-2026-health-safety",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.firemarshaltraining.co.uk/blog/fire-statistics-uk",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://tjcelectrical.co.uk/the-cost-of-a-fire-risk-assessment-in-2025/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://netzerogo.org.uk/resources/rc59-fire-safety-when-charging-electric-vehicles/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.fia.uk.com/news/england-s-latest-fire-prevention-data-highlights-support-for-vulnerable-households.html",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://totalsafeuk.com/blog/fire-safety/london-ev-charging-safety-2025/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.leeds.gov.uk/housing/information-for-landlords/houses-in-multiple-occupation",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.gov.uk/workplace-fire-safety-your-responsibilities/enforcement-appeals-and-penalties",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.firemarshaltraining.co.uk/blog/fire-safety-prosecution-statistics-uk",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.unipol.org.uk/media/n2ehh0ci/househuntingguide-2025_leeds.pdf",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.unipol.org.uk/media/t10lajvs/unipol-student-house-hunting-behaviour-survey-2025.pdf",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.legislation.gov.uk/uksi/2005/1541/contents/made",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.london-fire.gov.uk/safety/the-workplace/fire-safety-law-explained/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://liverpool.gov.uk/business/licences-and-permits/landlord-licensing/houses-in-multiple-occupancy/hmo-licence-guidance/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.fsmatters.com/PV-FIN-seeks-views-on-solar-PV-panels-fire-safety",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.legislation.gov.uk/uksi/2025/797/contents/made",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://hmochecker.co.uk/5-top-cities-for-hmo-investment-in-the-uk/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.sheffieldpartnership.nhs.uk/sites/default/files/2020-05/Fire%20Safety%20Protocol%2006%20-%20Regulatory%20Reform%20%28Fire%20Safety%29%20Order%202005%20Summary.pdf",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.firemarshaltraining.co.uk/blog/cost-of-fire-to-uk-businesses",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.firemarshaltraining.co.uk/blog/warehouse-fire-statistics-uk",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.legislation.gov.uk/uksi/2005/1541/contents",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/fire-safety-risk-assessment-means-of-escape-for-disabled-people/fire-safety-risk-assessment-means-of-escape-for-disabled-people-accessible-version",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.facebook.com/securitgroupltd/posts/122251759706141083/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.facebook.com/securitgroupltd/posts/across-the-uk-vacant-buildings-are-increasingly-becoming-a-magnet-for-criminal-a/122251759706141083/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://tetraconsulting.co.uk/residential-peeps-what-property-managers-need-to-know-tetra-consulting/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/residential-personal-emergency-evacuation-plans-residential-peeps/residential-peeps-factsheet",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/fire-safety-means-of-escape-for-disabled-people/fire-safety-means-of-escape-for-disabled-people-executive-summary",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/residential-personal-emergency-evacuation-plans-residential-peeps/residential-peeps-guidance-for-responsible-persons",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.plumplot.co.uk/North-West-criminal-damage-and-arson-crime-statistics.html",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.kent.fire-uk.org/new-safety-rules-some-residential-buildings-6-april-2026",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.gov.uk/government/statistics/fire-prevention-and-protection-england-year-ending-march-2025/fire-prevention-and-protection-statistics-england-april-2024-to-march-2025",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.propertysec.co.uk/post/cctv-footage-rules-explained-uk",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.gov.wales/fire-and-rescue-incident-statistics-april-2024-march-2025-html",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://buildings.honeywell.com/us/en/brands/our-brands/gamewell-fci/solutions/wireless",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.bedsfire.gov.uk/news/new-fire-safety-regulations-strengthen-evacuation-planning",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://mammothsecurity.com/blog/wireless-fire-alarm-system-guide",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.lancsfirerescue.org.uk/about/publications/strategic-assessment-of-risk-2025-2026",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://proforcesecurity.co.uk/blogs/vacant-property-security-risks-solutions/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://firesystems.net/2025/12/01/wireless-battery-backed-fire-detectors-smart-retrofits-for-aging-commercial-properties/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://ramtechglobal.com/wireless-temporary-fire-alarm/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://industrialproperty.loan/industrial-property-characteristics/sprinkler-systems/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://utterlycovered.com/resources/home-insurance-for-unoccupied-properties-uk-2026",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.cityfire.co.uk/news/10-ways-to-prevent-fire-in-warehouses-factories/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.plumplot.co.uk/Lancashire-criminal-damage-and-arson-crime-statistics.html",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://pinterest.com/pin/create/button/?url=https://firerisknorth.com/english/hmo-fire-safety-guide-leeds-liverpool&media=&description=Complete%20guide%20to%20HMO%20fire%20safety%20compliance%20in%20student%20cities.%2058%%20of%20properties%20fail%20inspections.%20Learn%20requirements,%20avoid%20%C2%A330k%20fines,%20protect%20tenants.",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://pinterest.com/pin/create/button/?url=https://firerisknorth.com/english/green-energy-fire-risks-commercial-sites&media=&description=54%%20of%20UK%20businesses%20report%20lithium-ion%20incidents.%20Solar%20panel%20fires%20up%2060%.%20Learn%20how%20to%20manage%20green%20energy%20fire%20risks%20in%20commercial%20properties.",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://pinterest.com/pin/create/button/?url=https://firerisknorth.com/english/april-2026-residential-evacuation-plans&media=&description=12,500%20buildings%20affected.%20Fire%20safety%20prosecutions%20up%2079%.%20Learn%20how%20to%20comply%20with%20the%20April%202026%20Residential%20PEEPs%20deadline%20for%20evacuation%20plans.",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://pinterest.com/pin/create/button/?url=https://firerisknorth.com/english/vacant-industrial-arson-security-2026&media=&description=60%20fires%20daily%20linked%20to%20vacant%20UK%20properties.%20Industrial%20premises%20face%2025%%20of%20all%20workplace%20fires.%20Learn%20security%20and%20suppression%20strategies.",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://risklogic.com/automatic-sprinklers-in-buildings",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://twitter.com/intent/tweet/?text=Fire%20Safety%20in%20Student%20Cities:%20A%20Landlord%27s%20Guide%20to%20HMO%20Compliance%20in%20Leeds%20and%20Liverpool&amp;url=https://firerisknorth.com/english/hmo-fire-safety-guide-leeds-liverpool",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.clearway.co.uk/vacant-property-cctv/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://twitter.com/intent/tweet/?text=The%20April%202026%20Deadline:%20Preparing%20Your%20Portfolio%20for%20Mandatory%20Residential%20Evacuation%20Plans&amp;url=https://firerisknorth.com/english/april-2026-residential-evacuation-plans",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://twitter.com/intent/tweet/?text=The%20Green%20Energy%20Transition:%20Managing%20Lithium-Ion%20and%20Solar%20Panel%20Fire%20Risks%20in%20Commercial%20Sites&amp;url=https://firerisknorth.com/english/green-energy-fire-risks-commercial-sites",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://facebook.com/sharer/sharer.php?u=https://firerisknorth.com/english/green-energy-fire-risks-commercial-sites",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites",
+      "failureDetails": []
+    },
+    {
+      "url": "https://facebook.com/sharer/sharer.php?u=https://firerisknorth.com/english/april-2026-residential-evacuation-plans",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://facebook.com/sharer/sharer.php?u=https://firerisknorth.com/english/hmo-fire-safety-guide-leeds-liverpool",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.thefpa.co.uk/news/idle-threat",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.cheshirefire.gov.uk/fire-protection/business-owner-landlord-or-employee/fire-safety-residential-evacuation-plans-england-regulations-2025/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.fireline.com/advantages-using-water-mist-fire-suppression-systems/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://twitter.com/intent/tweet/?text=Defeating%20the%20Arson%20Threat:%20Practical%20Security%20and%20Suppression%20for%20Vacant%20Industrial%20Buildings&amp;url=https://firerisknorth.com/english/vacant-industrial-arson-security-2026",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://facebook.com/sharer/sharer.php?u=https://firerisknorth.com/english/vacant-industrial-arson-security-2026",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/fire-safety-risk-assessment-5-step-checklist",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.gov.uk/government/statistics/fire-and-rescue-incident-statistics-year-ending-september-2025",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://primemanagementgroup.co.uk/10-essential-tips-for-securing-your-vacant-property/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.thefpa.co.uk/news/fire-safety-and-disability",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/april-2026-residential-evacuation-plans",
+      "failureDetails": []
+    },
+    {
+      "url": "https://www.deloitte.com/uk/en/about/press-room/uk-property-insurance-claims-expected-to-hit-record-high-for-2025.html",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://regentcre.com/types-of-fire-sprinkler-systems-in-warehouse-buildings/",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    },
+    {
+      "url": "https://leonguarding.co.uk/steel-security-perimeter-fencing-best-practices-for-uk-vacant-sites",
+      "status": 200,
+      "state": "OK",
+      "parent": "https://firerisknorth.com/blog/vacant-industrial-arson-security-2026",
+      "failureDetails": []
+    }
+  ],
+  "passed": true
+}
