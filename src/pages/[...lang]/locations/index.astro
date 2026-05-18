@@ -50,13 +50,13 @@ const locations = await getSinglePage("locations", lang as string);
                 <div class="box-shadow">
                   <div class="p-6 bg-white dark:bg-darkmode-light min-h-50 flex flex-col justify-between">
                     <div>
-                      <p class="heading h5">
+                      <h3 class="heading h5">
                         <a
                           href={`/locations/${slug}`}
                           class="text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary duration-200"
                           set:html={markdownify(location.data.title)}
                         />
-                      </p>
+                      </h3>
                       {location?.data?.description && (
                         <p class="mt-2 mb-4 line-clamp-3 text-text-dark/70 dark:text-darkmode-text-dark/70">
                           {location.data.description}

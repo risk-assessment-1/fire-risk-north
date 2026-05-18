@@ -36,6 +36,9 @@ const allCategories = await getTaxonomy(langCollection, "categories");
 const allTags = await getTaxonomy(langCollection, "tags");
 const sortedPosts = sortByDate(posts);
 
+const shareSlug = post.id.split("/");
+shareSlug[0] = COLLECTION_FOLDER;
+
 const {
   tags: Ttags,
   by,
@@ -96,7 +99,7 @@ const {
             className=""
             title={title}
             description={description}
-            slug={post.id}
+            slug={shareSlug.join("/")}
           />
         </div>
       </article>

@@ -27,13 +27,13 @@ const { info } = Astro.props;
         />
       </div>
     </div>
-    <p class="heading h5 text-h5 mb-2 relative inline-block">
+    <h3 class="heading h5 text-h5 mb-2 relative inline-block">
       <a
         href={slugSelector(`/${info.id}`, lang)}
         class="text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary duration-200 stretched-link"
         set:html={markdownify(info.data.title)}
       />
-    </p>
+    </h3>
     {
       info.data.designation && (
         <p set:html={markdownify(info.data.designation)} />

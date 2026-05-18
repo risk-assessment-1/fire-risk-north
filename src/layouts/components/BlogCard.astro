@@ -40,12 +40,12 @@ const { by, on } = await getTranslations(lang as string);
           <span set:html={humanize(author)} />/ {on}
           <strong>{dateFormat(date)}</strong>
         </strong>
-        <p class="card-title">
+        <h3 class="card-title">
           <a
             href={slugSelector(`/${data.id}`, lang)}
             set:html={markdownify(title)}
           />
-        </p>
+        </h3>
         <span class="section-title-border"></span>
         <p class="card-text">
           {plainify(data.body)}

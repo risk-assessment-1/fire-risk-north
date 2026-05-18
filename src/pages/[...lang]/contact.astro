@@ -63,7 +63,13 @@ const {
 
         <div class="col-10 sm:col-8 md:col-7">
           <h2 class="section-title">{contact_form}</h2>
-          <form id="contact-form" data-action={contact_form_action} data-success={form_success} data-error={form_error} class="row">
+          <form
+            id="contact-form"
+            data-action={contact_form_action}
+            data-success={form_success}
+            data-error={form_error}
+            class="row"
+          >
             <div class="md:col-6">
               <input
                 type="text"
@@ -100,11 +106,19 @@ const {
                 class="form-input box-shadow mb-5 px-8 py-5 text-slate-500"
               >
                 <option value="">{placeholder_service}</option>
-                <option value="Fire Risk Assessment">Fire Risk Assessment</option>
+                <option value="Fire Risk Assessment"
+                  >Fire Risk Assessment</option
+                >
                 <option value="Fire Alarm Testing">Fire Alarm Testing</option>
-                <option value="Fire Extinguisher Servicing">Fire Extinguisher Servicing</option>
-                <option value="Emergency Light Testing">Emergency Light Testing</option>
-                <option value="Fire Door Inspection">Fire Door Inspection</option>
+                <option value="Fire Extinguisher Servicing"
+                  >Fire Extinguisher Servicing</option
+                >
+                <option value="Emergency Light Testing"
+                  >Emergency Light Testing</option
+                >
+                <option value="Fire Door Inspection"
+                  >Fire Door Inspection</option
+                >
                 <option value="Fire Door Surveying">Fire Door Surveying</option>
                 <option value="Fire Strategy">Fire Strategy</option>
               </select>
@@ -117,7 +131,9 @@ const {
               >
                 <option value="">{placeholder_building_type}</option>
                 <option value="HMO">HMO</option>
-                <option value="Flats / Block of Flats">Flats / Block of Flats</option>
+                <option value="Flats / Block of Flats"
+                  >Flats / Block of Flats</option
+                >
                 <option value="Office">Office</option>
                 <option value="Retail">Retail</option>
                 <option value="Warehouse">Warehouse</option>
@@ -157,15 +173,16 @@ const {
               />
             </div>
             <div class="col-12">
-              <button
-                type="submit"
-                class="btn btn-primary hover-ripple"
-              >
+              <button type="submit" class="btn btn-primary hover-ripple">
                 {send_message}
               </button>
             </div>
             <div class="col-12">
-              <p id="form-status" class="min-h-[1lh] mt-3 text-sm font-medium hidden"></p>
+              <p
+                id="form-status"
+                class="min-h-lh mt-3 text-sm font-medium hidden"
+              >
+              </p>
             </div>
           </form>
         </div>
@@ -227,7 +244,9 @@ const {
 <script>
   document.addEventListener("astro:page-load", () => {
     const form = document.getElementById("contact-form") as HTMLFormElement;
-    const status = document.getElementById("form-status") as HTMLParagraphElement;
+    const status = document.getElementById(
+      "form-status",
+    ) as HTMLParagraphElement;
 
     if (!form || !status) return;
 
@@ -237,7 +256,9 @@ const {
       const honey = form.querySelector<HTMLInputElement>('[name="_honey"]');
       if (honey && honey.value) return;
 
-      const btn = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+      const btn = form.querySelector<HTMLButtonElement>(
+        'button[type="submit"]',
+      );
       const originalText = btn?.textContent || "";
 
       if (btn) {
@@ -263,15 +284,20 @@ const {
         });
 
         if (res.ok) {
-          status.textContent = form.dataset.success || "Thank you! Your message has been sent successfully.";
-          status.className = "min-h-[1lh] mt-3 text-sm font-medium text-green-600 dark:text-green-400";
+          status.textContent =
+            form.dataset.success ||
+            "Thank you! Your message has been sent successfully.";
+          status.className =
+            "min-h-[1lh] mt-3 text-sm font-medium text-green-600 dark:text-green-400";
           form.reset();
         } else {
           throw new Error(`HTTP ${res.status}`);
         }
       } catch {
-        status.textContent = form.dataset.error || "Something went wrong. Please try again.";
-        status.className = "min-h-[1lh] mt-3 text-sm font-medium text-red-600 dark:text-red-400";
+        status.textContent =
+          form.dataset.error || "Something went wrong. Please try again.";
+        status.className =
+          "min-h-[1lh] mt-3 text-sm font-medium text-red-600 dark:text-red-400";
       }
 
       if (btn) {
