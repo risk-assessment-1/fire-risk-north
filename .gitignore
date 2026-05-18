@@ -15,8 +15,6 @@ package-lock.json
 
 
 # environment variables
-.env
-.env.production
 
 # macOS-specific files
 .DS_Store
@@ -27,3 +25,4 @@ package-lock.json
 .unlighthouse
 
 null
+config.bat
