@@ -8,7 +8,7 @@ import {
   getTranslations,
   slugSelector,
 } from "@/lib/utils/languageParser";
-import { markdownify } from "@/lib/utils/textConverter";
+import { markdownify, plainify } from "@/lib/utils/textConverter";
 
 const lang = getLangFromUrl(Astro.url);
 const menu = await getTranslations(lang as string);
@@ -78,14 +78,14 @@ const { services, contact_info, follow_us_on } = await getTranslations(
                     aria-label={`Address: ${address}`}
                     target="_blank"
                     href={`https://www.google.com/maps?q=${encodeURIComponent(address)}`}
-                    set:html={markdownify(address)}
+                    set:html={plainify(address)}
                   />
                 </li>
                 <li class="text-light/75 mb-3">
                   <a
                     class="hover:text-primary-on-dark"
-                    href={`tel:${phone}`}
-                    set:html={markdownify(phone)}
+                    href={`tel:${phone.replace(/\s/g, "")}`}
+                    set:html={plainify(phone)}
                   />
                 </li>
                 <li class="text-light/75 mb-3">
@@ -93,7 +93,7 @@ const { services, contact_info, follow_us_on } = await getTranslations(
                     class="hover:text-primary-on-dark"
                     aria-label={`Email: ${email}`}
                     href={`mailto:${email}`}
-                    set:html={markdownify(email)}
+                    set:html={plainify(email)}
                   />
                 </li>
               </ul>
@@ -109,24 +109,17 @@ const { services, contact_info, follow_us_on } = await getTranslations(
     <div class="container">
       <div class="row">
         <div class="md:col-6 text-center md:text-start mb-3 md:mb-0">
-          <p
-            class="mb-0 text-primary-on-dark text-sm"
-            set:html={markdownify(copyright)}
-          >
+          <p class="mb-0 text-primary-on-dark text-sm">
             <span
               class="text-primary-on-dark dark:text-darkmode-primary"
-              set:html={config.site.logo_text}
+              set:html={markdownify(copyright)}
             />
             <span id="currentYear" class="mr-1"></span>
-            <script>
-              // astro:page-load event is fired when the page is loaded
-              document.addEventListener("astro:page-load", () => {
-                let CurrentYear = new Date().getFullYear();
-                document.querySelector("#currentYear")!.innerHTML =
-                  CurrentYear.toString();
-              });
-            </script>
           </p>
+          <script is:inline>
+            var el = document.getElementById("currentYear");
+            if (el) el.textContent = new Date().getFullYear().toString();
+          </script>
         </div>
 
         {

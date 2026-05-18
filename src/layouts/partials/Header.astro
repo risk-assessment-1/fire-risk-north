@@ -61,7 +61,7 @@ if (disabledLanguages.includes(lang)) {
               <li class="mx-0">
                 <a
                   class="text-white/80 hover:text-primary-on-dark/80 inline-block lg:px-3 px-2 py-1 md:py-0 text-sm duration-200 leading-6"
-                  href={`tel:${phone}`}
+                  href={`tel:${phone.replace(/\s/g, "")}`}
                 >
                   {call_now}:{" "}
                   <span class="text-primary-on-dark dark:text-darkmode-primary">

@@ -173,7 +173,7 @@ const SearchModal = ({ lang }: { lang: string | undefined }) => {
             id="searchInput"
             placeholder="Search..."
             className="search-wrapper-header-input"
-            type="input"
+            type="search"
             name="search"
             value={searchString}
             onChange={handleSearch}

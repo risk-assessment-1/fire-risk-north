@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /api/*
 
-Sitemap: https://fireassessmentnorth.joeyk2k-a3a.workers.dev/sitemap-index.xml
+Sitemap: https://firerisknorth.com/sitemap-index.xml
