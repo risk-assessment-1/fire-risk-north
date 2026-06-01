@@ -8,9 +8,6 @@ import config from "./src/config/config.json";
 import languagesJSON from "./src/config/language.json";
 import theme from "./src/config/theme.json";
 
-
-
-
 const { default_language } = config.settings;
 
 const supportedLang = [...languagesJSON.map((lang) => lang.languageCode)];
@@ -102,4 +99,4 @@ export default defineConfig({
       wrap: true,
     },
   },
-});                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+});
