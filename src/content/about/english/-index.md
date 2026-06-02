@@ -26,7 +26,6 @@ philosophy_section:
 
 about_section:
   enable: true
-  subtitle: "About Fire Risk North"
   title: "One Partner for All Your Property Compliance Needs"
   content: "Fire Risk North provides professional fire safety and compliance services for commercial and residential properties, operating as a standalone specialist backed by the expertise and infrastructure of the FireRisk.io network.\n\nWe deliver BAFE-registered, PAS 79 compliant assessments and UKAS-accredited reporting designed to simplify regulatory management for property owners and managing agents.\n\nBy combining the technical resources of an established national group with a responsive, client-focused approach, we ensure your assets remain protected, accountable, and fully compliant with the latest safety standards."
   bg_image: "/images/backgrounds/about-us-bg.png"

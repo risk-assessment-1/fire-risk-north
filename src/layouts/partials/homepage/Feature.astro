@@ -11,7 +11,11 @@ const { feature } = Astro.props;
     <div class="row items-center justify-center">
       <div class="lg:col-6 lg:order-1 order-2">
         <span class="section-title-border"></span>
-        <p class="text-h5" set:html={markdownify(feature.subtitle)} />
+        {
+          feature.subtitle && (
+            <p class="text-h5" set:html={markdownify(feature.subtitle)} />
+          )
+        }
         <h2
           class="h1 mb-10 mt-4 text-balance"
           set:html={markdownify(feature.title)}

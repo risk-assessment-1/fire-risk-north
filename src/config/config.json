@@ -45,7 +45,7 @@
   },
   "navigation_button": {
     "enable": true,
-    "label": "Get A Quote",
+    "label": "Get a Quote",
     "link": "/contact"
   },
   "google_tag_manager": {

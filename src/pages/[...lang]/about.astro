@@ -55,17 +55,9 @@ const services = await getSinglePage("services", lang as string);
         <div class="container relative z-10">
           <div class="row">
             {philosophy_section?.items?.map(
-              (
-                item: { title: string; content: string; list: string[] },
-                i: number,
-              ) => (
+              (item: { title: string; content: string; list: string[] }) => (
                 <div class="sm:col-6 lg:col-4 mb-10 last:mb-0 lg:mb-0">
-                  <h2>
-                    <span class="text-primary dark:text-darkmode-primary">
-                      {String(i + 1).padStart(2, "0")}.
-                    </span>{" "}
-                    {item.title}
-                  </h2>
+                  <h2>{item.title}</h2>
                   <p class="my-4 text-balance">{markdownify(item.content)}</p>
                   <ul class="list-styled style-circle">
                     {item?.list?.map((listItem: string) => (
@@ -106,7 +98,6 @@ const services = await getSinglePage("services", lang as string);
     serviceIndex={serviceIndex[0]}
     services={services}
     title="Fire Safety & Compliance Services"
-    subtitle="One partner for all your property compliance needs"
   />
   {
     /* <Team teamIndex={teamIndex[0]} team={team} className="pt-0 bg-gray-white" /> */
