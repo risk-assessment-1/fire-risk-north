@@ -5,7 +5,7 @@
     "base_path": "/",
     "favicon": "/images/favicon.svg",
     "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
+    "logoInverted": "/images/logoInverted.png",
     "logo_width": "150",
     "logo_height": "85.3",
     "logo_text": "Firerisknorth"
