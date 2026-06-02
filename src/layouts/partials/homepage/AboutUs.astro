@@ -32,7 +32,9 @@ const lang = getLangFromUrl(Astro.url);
             </div>
             <div class="md:col-6">
               <span class="section-title-border" />
-              <p class="text-h5" set:html={markdownify(about.subtitle)} />
+              {about.subtitle && (
+                <p class="text-h5" set:html={markdownify(about.subtitle)} />
+              )}
               <h2
                 class="h1 mb-10 mt-4 text-balance"
                 set:html={markdownify(about.title)}

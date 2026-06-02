@@ -227,7 +227,7 @@ const homepageCollection = defineCollection({
       enable: z.boolean().default(true),
       slider_item: z.array(
         z.object({
-          subtitle: z.string(),
+          subtitle: z.string().optional(),
           title: z.string(),
           content: z.string(),
           bg_image: z.string(),
@@ -261,7 +261,7 @@ const homepageCollection = defineCollection({
     }),
     feature: z.object({
       enable: z.boolean().default(true),
-      subtitle: z.string(),
+      subtitle: z.string().optional(),
       title: z.string(),
       image: z.string(),
       content: z.string(),
@@ -277,7 +277,7 @@ const homepageCollection = defineCollection({
       enable: z.boolean().default(true),
       show_item: z.number(),
       title: z.string(),
-      sub_title: z.string(),
+      sub_title: z.string().optional(),
     }),
   }),
 });
@@ -325,7 +325,7 @@ const aboutCollection = defineCollection({
     }),
     about_section: z.object({
       enable: z.boolean(),
-      subtitle: z.string(),
+      subtitle: z.string().optional(),
       title: z.string(),
       content: z.string(),
       bg_image: z.string(),
