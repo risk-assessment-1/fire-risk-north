@@ -25,4 +25,5 @@ package-lock.json
 .unlighthouse
 
 null
-config.bat
+
+.vscode/
