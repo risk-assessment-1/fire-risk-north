@@ -1,0 +1,50 @@
+---
+import config from "@/config/config.json";
+import ImageMod from "./ImageMod.astro";
+import { getLangFromUrl, slugSelector } from "@/lib/utils/languageParser";
+
+const { src }: { src?: string } = Astro.props;
+const {
+  logoInverted,
+  logo_width,
+  logo_height,
+  logo_text,
+  title,
+}: {
+  logo: string;
+  logoInverted: string;
+  logo_width: any;
+  logo_height: any;
+  logo_text: string;
+  title: string;
+} = config.site;
+
+const logoW = Number(logo_width.replace("px", ""));
+const logoH = Number(logo_height.replace("px", ""));
+
+let lang = getLangFromUrl(Astro.url);
+---
+
+<a href={slugSelector("/", lang)} class="navbar-brand inline-block">
+  {
+    src || logoInverted ? (
+      <ImageMod
+        src={src ? src : logoInverted}
+        class="inline-block"
+        width={logoW * 2}
+        height={logoH * 2}
+        alt={title}
+        style={{
+          height: logoH + "px",
+          width: logoW + "px",
+        }}
+        sizes={`${logoW}px`}
+        widths={[logoW, logoW * 2]}
+      />
+    ) : logo_text ? (
+      logo_text
+    ) : (
+      title
+    )
+  }
+</a>

@@ -53,15 +53,7 @@ const {
   <section class="section pb-0">
     <div class="container">
       <div class="row justify-center g-5">
-        <div class="col-10 sm:col-8 md:col-5">
-          <iframe
-            class="w-full h-96 md:h-125"
-            title="Fire Assessment North office location on Google Maps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.6!2d-2.2426!3d53.4808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1c0b3b3b3b3%3A0x1234567890abcdef!2sBartle%20House%2C%20Oxford%20Court%2C%20Manchester%20M2%203WQ!5e0!3m2!1sen!2suk!4v1711167419704!5m2!1sen!2suk"
-            loading="lazy"></iframe>
-        </div>
-
-        <div class="col-10 sm:col-8 md:col-7">
+        <div class="col-10 sm:col-8 md:col-7 bg-gray-200 p-4 md:p-6 rounded-xl">
           <h2 class="section-title">{contact_form}</h2>
           <form
             id="contact-form"
@@ -186,6 +178,13 @@ const {
             </div>
           </form>
         </div>
+        <div class="col-10 sm:col-8 md:col-5">
+          <iframe
+            class="w-full h-96 md:h-125"
+            title="Fire Assessment North office location on Google Maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.6!2d-2.2426!3d53.4808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1c0b3b3b3b3%3A0x1234567890abcdef!2sBartle%20House%2C%20Oxford%20Court%2C%20Manchester%20M2%203WQ!5e0!3m2!1sen!2suk!4v1711167419704!5m2!1sen!2suk"
+            loading="lazy"></iframe>
+        </div>
       </div>
     </div>
   </section>
@@ -194,9 +193,7 @@ const {
     <div class="container">
       <div class="row justify-center g-5">
         <div class="col-10 sm:col-8 md:col-4">
-          <div
-            class="bg-white dark:bg-black box-shadow text-center p-5 md:p-12"
-          >
+          <div class="bg-white md:min-h-60 box-shadow text-center p-5 md:p-12">
             <FaMapMarkerAlt
               className="text-primary dark:text-darkmode-primary mx-auto mb-4"
               size={56}
@@ -245,7 +242,7 @@ const {
   document.addEventListener("astro:page-load", () => {
     const form = document.getElementById("contact-form") as HTMLFormElement;
     const status = document.getElementById(
-      "form-status",
+      "form-status"
     ) as HTMLParagraphElement;
 
     if (!form || !status) return;
@@ -257,7 +254,7 @@ const {
       if (honey && honey.value) return;
 
       const btn = form.querySelector<HTMLButtonElement>(
-        'button[type="submit"]',
+        'button[type="submit"]'
       );
       const originalText = btn?.textContent || "";
 

@@ -72,7 +72,10 @@ const {
           class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-darkmode-text tracking-tight leading-tight"
         >
           {title}<br />
-          <span class="text-orange-700">{subtitle}</span>
+          <span
+            class={`${subtitle === "HMOs" ? "normal-case" : ""} text-orange-700`}
+            >{subtitle}</span
+          >
         </h1>
 
         {
