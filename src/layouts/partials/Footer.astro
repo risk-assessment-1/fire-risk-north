@@ -50,7 +50,7 @@ const { services, contact_info, follow_us_on } = await getTranslations(
           <div class="row">
             <!-- service list -->
             <div class="col-6 mt-5">
-              <p class="text-white mb-4 text-h5 font-semibold">{services}</p>
+              <p class="text-white mb-4 text-h5 font-semibold capitalize">{services}</p>
               <ul class="list-styled">
                 {
                   footer.map((menu: any) => (
@@ -68,7 +68,7 @@ const { services, contact_info, follow_us_on } = await getTranslations(
 
             <!-- contact info -->
             <div class="col-6 mt-5">
-              <p class="text-white mb-4 text-h5 font-semibold">
+              <p class="text-white mb-4 text-h5 font-semibold capitalize">
                 {contact_info}
               </p>
               <ul>

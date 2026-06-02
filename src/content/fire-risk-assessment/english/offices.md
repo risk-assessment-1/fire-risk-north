@@ -25,7 +25,7 @@ compliance_highlight:
     - title: "Oct 2023"
       description: "New mandatory documentation requirements for ALL offices"
     - stat: "71%"
-      description: "Organizations haven't updated assessments for lithium-ion battery risks"
+      description: "Organisations haven't updated assessments for lithium-ion battery risks"
   body: "<strong>Office operators face severe consequences for fire safety non-compliance.</strong> UK legislation imposes unlimited fines and up to 2 years imprisonment for serious breaches. Directors and senior managers face personal liability extending beyond corporate protection. Enforcement authorities can issue prohibition notices immediately closing premises until critical failures are rectified. <strong>October 2023 amendments now require ALL businesses to document fire risk assessments in writing, regardless of employee numbers.</strong>"
   cta:
     label: "Get Compliant Now"
