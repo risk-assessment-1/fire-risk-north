@@ -2,7 +2,7 @@
 title: "Testimonials"
 meta_title: "Client Testimonials - Fire Assessment North"
 description: "Read what our clients say about our fire risk assessment services. Trusted by 500+ UK businesses with 4.9/5 verified reviews."
-image: "/images/og-image.png"
+image: "/images/og-image.jpg"
 draft: false
 ---
 
