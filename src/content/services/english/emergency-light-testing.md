@@ -1,6 +1,6 @@
 ---
 title: "Emergency Light Testing"
-meta_title: "Emergency Lighting Testing & Maintenance - Fire Assessment North"
+meta_title: "Emergency Lighting Testing & Maintenance - Fire Assessment Nortjh"
 description: "Professional emergency lighting testing and maintenance by BAFE registered engineers in accordance with BS 5266-1. Full-duration discharge testing included."
 image: "../../../assets/images/services/emergency-light-testing.jpg"
 draft: false
