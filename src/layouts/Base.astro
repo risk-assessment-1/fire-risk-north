@@ -4,6 +4,11 @@ import TwSizeIndicator from "@/components/TwSizeIndicator.astro";
 import config from "@/config/config.json";
 import theme from "@/config/theme.json";
 import { getLangFromUrl, stripHtmlExt } from "@/lib/utils/languageParser";
+import {
+  organizationSchema,
+  professionalServiceSchema,
+  websiteSchema,
+} from "@/lib/schema";
 import { plainify } from "@/lib/utils/textConverter";
 import Footer from "@/partials/Footer.astro";
 import Header from "@/partials/Header.astro";
@@ -29,6 +34,8 @@ export interface Props {
   noindex?: boolean;
   canonical?: string;
   lang?: string;
+  schema?: object | object[];
+  disableRating?: boolean;
 }
 // distructure frontmatters
 const {
@@ -40,6 +47,8 @@ const {
   noindex,
   canonical,
   lang,
+  schema,
+  disableRating,
 } = Astro.props;
 
 const imageSrc = typeof image === "object" ? image.src : image;
@@ -47,6 +56,18 @@ const language = lang || getLangFromUrl(Astro.url);
 const canonicalUrl =
   canonical ||
   `${config.site.base_url}${stripHtmlExt(Astro.url.pathname) === "/" ? "" : stripHtmlExt(Astro.url.pathname)}`;
+
+// JSON-LD: WebSite everywhere, Organization on the homepage only,
+// ProfessionalService rating everywhere except pages that opt out
+// (location pages carry their own local targeting).
+const isHomepage = stripHtmlExt(Astro.url.pathname) === "/";
+const extraSchemas = Array.isArray(schema) ? schema : schema ? [schema] : [];
+const schemas: object[] = [
+  websiteSchema,
+  ...(isHomepage ? [organizationSchema] : []),
+  ...(!disableRating ? [professionalServiceSchema] : []),
+  ...extraSchemas,
+];
 ---
 
 <!doctype html>
@@ -184,54 +205,7 @@ const canonicalUrl =
     <script
       is:inline
       type="application/ld+json"
-      set:html={JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://firerisknorth.com/#organization",
-        name: config.site.title,
-        url: config.site.base_url,
-        telephone: config.params.phone,
-        email: config.params.email,
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "Bartle House, Oxford Court",
-          addressLocality: "Manchester",
-          addressRegion: "Greater Manchester",
-          postalCode: "M2 3WQ",
-          addressCountry: "GB",
-        },
-        geo: {
-          "@type": "GeoCoordinates",
-          latitude: 53.4808,
-          longitude: -2.2426,
-        },
-        openingHoursSpecification: {
-          "@type": "OpeningHoursSpecification",
-          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-          opens: "09:00",
-          closes: "17:00",
-        },
-        areaServed: {
-          "@type": "GeoCircle",
-          geoMidpoint: {
-            "@type": "GeoCoordinates",
-            latitude: 53.4808,
-            longitude: -2.2426,
-          },
-          geoRadius: "80000",
-        },
-        serviceType: [
-          "Fire Risk Assessment",
-          "Fire Alarm Testing",
-          "Fire Extinguisher Servicing",
-          "Emergency Light Testing",
-          "Fire Door Inspection",
-          "Fire Door Surveying",
-          "Fire Strategy",
-        ],
-        image: `${config.site.base_url}${config.metadata.meta_image}`,
-        priceRange: "££",
-      })}
+      set:html={JSON.stringify(schemas)}
     />
   </head>
   <body class="overflow-x-hidden leading-5.5 relative">

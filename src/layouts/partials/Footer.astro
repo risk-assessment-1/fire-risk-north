@@ -50,7 +50,9 @@ const { services, contact_info, follow_us_on } = await getTranslations(
           <div class="row">
             <!-- service list -->
             <div class="col-6 mt-5">
-              <p class="text-white mb-4 text-h5 font-semibold capitalize">{services}</p>
+              <p class="text-white mb-4 text-h5 font-semibold capitalize">
+                {services}
+              </p>
               <ul class="list-styled">
                 {
                   footer.map((menu: any) => (
@@ -77,7 +79,7 @@ const { services, contact_info, follow_us_on } = await getTranslations(
                     class="hover:text-primary-on-dark"
                     aria-label={`Address: ${address}`}
                     target="_blank"
-                    href={`https://www.google.com/maps?q=${encodeURIComponent(address)}`}
+                    href="https://maps.app.goo.gl/ajCT4sSjmDx4YozTA"
                     set:html={plainify(address)}
                   />
                 </li>

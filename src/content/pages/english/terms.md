@@ -1,31 +1,53 @@
 ---
-title: "Our Terms And Conditions"
+title: "Terms and Conditions"
 meta_title: ""
-description: "This is meta description"
+description: "Terms and conditions for fire risk assessment and fire safety services provided by Fire Risk North across the North West of England."
 image: ""
 draft: false
 ---
 
-## Responsibility of Contributors
+These terms and conditions govern the provision of fire safety services by Fire Risk North ("we", "us", "our") to you ("the client"). By engaging our services you agree to these terms. If you have any questions, contact us at enquiries@firerisknorth.com or +44 161 987 1020.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+## About Us
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+Fire Risk North provides fire risk assessments, fire safety consultancy and related services to commercial and residential clients across the North West of England. We are registered at Bartle House, Oxford Court, Manchester M2 3WQ. Telephone: +44 161 987 1020. Email: enquiries@firerisknorth.com.
 
-## Gathering of Personal Information
+## Quotations and Fees
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+All quotations are valid for 30 days from the date issued unless stated otherwise. Prices are quoted exclusive of VAT, which will be added where applicable. Where a price range is quoted, the final fee depends on the size, type and complexity of the premises and will be confirmed following an initial discussion or site survey.
 
-## Protection of Personal- Information
+## Payment Terms
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+Unless otherwise agreed in writing, invoices are payable within 14 days of the invoice date. For new clients we may require a deposit or full payment in advance of the site visit. Late payment may incur interest and recovery costs in accordance with the Late Payment of Commercial Debts (Interest) Act 1998.
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+## Bookings, Access and Cancellations
 
-## Privacy Policy Changes
+You are responsible for providing safe access to all relevant areas of the premises on the agreed date, including any keys, fobs or escort arrangements required. If a visit needs to be rescheduled, please give at least 48 hours' notice. Cancellations with less than 48 hours' notice may be charged a fee of up to 50% of the agreed price to cover allocated assessor time and travel.
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organisation
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+## Client Responsibilities
+
+To complete a thorough assessment, you should make available on request: existing fire risk assessments, fire safety logbooks, maintenance records for alarms and extinguishers, and floor plans where these exist. Information you provide must be accurate and complete to the best of your knowledge.
+
+## Reports and Deliverables
+
+Following the site visit we will issue a written fire risk assessment report, typically within 5 working days. The report identifies significant findings and prioritised recommendations in line with the Regulatory Reform (Fire Safety) Order 2005 and applicable guidance (including PAS 79). Our assessment is based on conditions observed at the time of the visit and information supplied to us; we cannot accept liability for conditions that arise, change or are concealed after the visit.
+
+## Intellectual Property
+
+All reports, documents and other materials we provide remain our intellectual property. You may use them for your own compliance purposes but may not reproduce, publish or resell them without our written consent.
+
+## Liability
+
+We hold appropriate professional indemnity and public liability insurance. Nothing in these terms limits or excludes our liability for death or personal injury caused by negligence, or for fraud. Subject to that, our total liability arising out of or in connection with the services is limited to the fees paid for the services concerned.
+
+## Compliance With Fire Safety Law
+
+Our assessments support your compliance obligations, but the legal duty to comply with the Regulatory Reform (Fire Safety) Order 2005 (and, where applicable, the Fire Safety Act 2021 and the Building Safety Act 2022) remains with the responsible person for the premises. Our report does not constitute legal advice.
+
+## Governing Law
+
+These terms are governed by the laws of England and Wales, and the courts of England and Wales have exclusive jurisdiction over any dispute arising from them.
+
+## Changes to These Terms
+
+We may update these terms from time to time. The version in force is the one published on this website at the date you engage our services.

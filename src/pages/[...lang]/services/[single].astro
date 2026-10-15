@@ -18,6 +18,7 @@ import {
   supportedLang,
 } from "@/lib/utils/languageParser";
 import { markdownify, plainify } from "@/lib/utils/textConverter";
+import { buildServiceSchema } from "@/lib/schema";
 import PageHeader from "@/partials/PageHeader.astro";
 import { render } from "astro:content";
 import { FaDownload, FaRegFilePdf } from "react-icons/fa6";
@@ -102,39 +103,12 @@ if (legislation_timeline?.enable)
 if (faq_section?.enable)
   tocItems.push({ label: faq_section.heading, href: "#faq" });
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  name: title,
+const serviceSchema = buildServiceSchema({
+  title,
   description: plainify(description || ""),
-  provider: {
-    "@type": "LocalBusiness",
-    "@id": "https://firerisknorth.com/#organization",
-    name: "Fire Assessment North",
-    url: "https://firerisknorth.com",
-  },
-  ...(hero?.price || priceData?.hero_price
-    ? {
-        offers: {
-          "@type": "Offer",
-          price: (hero?.price || priceData?.hero_price || "").replace(
-            /[^0-9.]/g,
-            "",
-          ),
-          priceCurrency: "GBP",
-        },
-      }
-    : {}),
-  areaServed: {
-    "@type": "GeoCircle",
-    geoMidpoint: {
-      "@type": "GeoCoordinates",
-      latitude: 53.4808,
-      longitude: -2.2426,
-    },
-    geoRadius: "80000",
-  },
-};
+  image,
+  priceData,
+});
 ---
 
 <Base
@@ -142,12 +116,8 @@ const serviceSchema = {
   meta_title={meta_title}
   description={description}
   image={image}
+  schema={serviceSchema}
 >
-  <script
-    is:inline
-    type="application/ld+json"
-    set:html={JSON.stringify(serviceSchema)}
-  />
   {
     hero && hero.enable && (
       <HeroSection
