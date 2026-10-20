@@ -1,56 +1,15 @@
 ---
-import {
-  getLangFromUrl,
-  slugSelector,
-  stripHtmlExt,
-  supportedLang,
-} from "@/lib/utils/languageParser";
-import { humanize } from "@/lib/utils/textConverter";
+import { buildBreadcrumbSchema, getBreadcrumbParts } from "@/lib/breadcrumbs";
+import config from "@/config/config.json";
+import { getLangFromUrl } from "@/lib/utils/languageParser";
 
-const { className }: { className?: string } = Astro.props;
+const { className, current }: { className?: string; current?: string } =
+  Astro.props;
 
-const baseUrl = "https://firerisknorth.com";
+const parts = getBreadcrumbParts(Astro.url.pathname, getLangFromUrl(Astro.url));
+if (current && parts.length > 1) parts[parts.length - 1].label = current.trim();
 
-const paths = stripHtmlExt(Astro.url.pathname)
-  .split("/")
-  .filter((x) => x);
-
-let lang = getLangFromUrl(Astro.url);
-if (supportedLang.includes(paths[0])) {
-  lang = paths.shift()!;
-}
-
-let baseHref = lang ? `/${lang}` : "/";
-let parts = [
-  {
-    label: "Home",
-    href: slugSelector("/", lang),
-    "aria-label":
-      stripHtmlExt(Astro.url.pathname) === baseHref ? "page" : undefined,
-  },
-];
-
-paths.forEach((label: string, i: number) => {
-  const href = slugSelector(`/${paths.slice(0, i + 1).join("/")}`, lang);
-  label !== "page" &&
-    parts.push({
-      label: humanize(label.replace(/[-_]/g, " ")) || "",
-      href,
-      "aria-label":
-        stripHtmlExt(Astro.url.pathname) === href ? "page" : undefined,
-    });
-});
-
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: parts.map((part, index) => ({
-    "@type": "ListItem",
-    position: index + 1,
-    name: part.label,
-    item: `${baseUrl}${part.href}`,
-  })),
-};
+const breadcrumbSchema = buildBreadcrumbSchema(parts, config.site.base_url);
 ---
 
 <nav aria-label="Breadcrumb" class={className}>

@@ -1,5 +1,6 @@
 ---
 import BlogCard from "@/components/BlogCard.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import Share from "@/components/Share.astro";
 import config from "@/config/config.json";
 import { getSinglePage } from "@/lib/contentParser.astro";
@@ -8,7 +9,7 @@ import dateFormat from "@/lib/utils/dateFormat";
 import { getTranslations } from "@/lib/utils/languageParser";
 import similarItems from "@/lib/utils/similarItems";
 import { sortByDate } from "@/lib/utils/sortFunctions";
-import { humanize, markdownify } from "@/lib/utils/textConverter";
+import { humanize, markdownify, plainify } from "@/lib/utils/textConverter";
 import { render } from "astro:content";
 import ImageMod from "../components/ImageMod.astro";
 import PostSidebar from "./PostSidebar.astro";
@@ -52,6 +53,10 @@ const {
   <div class="container">
     <div class="row justify-center">
       <article class="lg:col-8">
+        <Breadcrumbs
+          current={plainify(title)}
+          className="mb-6 [&_a]:text-slate-600 [&_span]:text-slate-500 dark:[&_a]:text-darkmode-text-dark dark:[&_span]:text-darkmode-text"
+        />
         {
           image && (
             <div class="mb-10">
