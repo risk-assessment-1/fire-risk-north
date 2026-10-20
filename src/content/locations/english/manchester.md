@@ -1,17 +1,17 @@
 ---
 title: "Fire Risk Assessment in Manchester"
 meta_title: "Fire Risk Assessment Manchester - Fire Assessment North"
-description: "Professional fire risk assessment services in Manchester, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
+description: "Professional fire risk assessment services in Manchester, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
 image: "../../../assets/images/locations/manchester.jpg"
 draft: false
 hero:
   enable: true
   title: "Fire Risk Assessment in"
   subtitle: "Manchester"
-  description: "Professional fire risk assessments across Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
+  description: "Professional fire risk assessments across Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "All Greater Manchester"
 areas_covered:
   enable: true
@@ -49,7 +49,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 4
       title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours."
+      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Ongoing Support"
@@ -63,8 +63,8 @@ features:
     - title: "BAFE SP205 Registered"
       description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
       icon: "shield-check"
-    - title: "24-Hour Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours of your site assessment."
+    - title: "24-Hour Report Delivery on Request"
+      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - title: "Local Manchester Knowledge"
       description: "Assessors based across Greater Manchester for faster appointments and understanding of local building stock."
@@ -158,7 +158,7 @@ faq_section:
     - question: "How much does a fire risk assessment cost in Manchester?"
       answer: "Fire risk assessments in Manchester start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. Use our instant online calculator for an accurate quote tailored to your specific premises."
     - question: "How quickly can you assess a Manchester property?"
-      answer: "We typically schedule assessments within 48-72 hours across Greater Manchester. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit."
+      answer: "We typically schedule assessments within 48-72 hours across Greater Manchester. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
     - question: "Do you cover all areas of Greater Manchester?"
       answer: "Yes, we cover all Greater Manchester boroughs including Manchester city centre, Salford, Bolton, Wigan, Stockport, Tameside, Oldham, Rochdale, Bury, and Trafford. Our local assessors are based across the region for rapid response."
     - question: "Are your Manchester assessors qualified?"
@@ -173,7 +173,7 @@ faq_section:
       answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Greater Manchester Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Manchester and Greater Manchester. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
+Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Manchester and Greater Manchester. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
 
 Manchester presents unique fire safety challenges. The city centre contains a mix of Victorian commercial buildings, converted industrial mills, modern high-rise developments, and everything in between. From the regenerated Salford Quays and MediaCityUK to the Northern Quarter's historic warehouse conversions, our assessors understand the specific fire risks that Manchester properties present.
 

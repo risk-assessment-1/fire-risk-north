@@ -3,8 +3,8 @@
 hero_slider:
   enable: true
   slider_item:
-    - title: "24-Hour Fire Risk Assessment"
-      content: "Professional fire risk assessments with same-day turnaround. Guaranteed UK compliance at the best prices."
+    - title: "24-Hour Fire Risk Assessment on Request"
+      content: "Professional fire risk assessments with same-day emergency service. Guaranteed UK compliance at the best prices."
       bg_image: "/images/slider/banner-1.webp"
       button:
         enable: true
@@ -28,7 +28,7 @@ hero_slider:
         link: "/contact"
 
     - title: "UK Compliance Guaranteed"
-      content: "Emergency assessments available. Same-day service for urgent requirements - because your time matters."
+      content: "Emergency assessments available. Same-day emergency service for urgent requirements - because your time matters."
       bg_image: "/images/slider/banner-4.webp"
       button:
         enable: true
@@ -51,9 +51,9 @@ banner_feature:
       icon: "FaCertificate"
       content: "Quality management certified to ISO standards for consistent, reliable service."
 
-    - name: "24hr Turnaround"
+    - name: "24hr Turnaround on Request"
       icon: "FaClock"
-      content: "Comprehensive reports delivered within 24 hours. Same-day emergency service available."
+      content: "Comprehensive reports delivered within 24 hours on request (may incur an additional charge). Same-day emergency service available."
 
 ######### funfacts ########
 funfacts:
@@ -80,11 +80,11 @@ feature:
   enable: true
   title: "Why They Choose Fire Assessment North"
   image: "/images/feature/feature.png"
-  content: "Professional fire risk assessments with same-day turnaround. Trusted by 500+ UK businesses with 25 years of expert service."
+  content: "Professional fire risk assessments with same-day emergency service. Trusted by 500+ UK businesses with 25 years of expert service."
   feature_item:
-    - name: "24-Hour Turnaround"
+    - name: "24-Hour Turnaround on Request"
       icon: FaBolt
-      content: "Emergency assessments available. Don't let compliance delays cost you business. Same-day service for urgent requirements."
+      content: "Emergency assessments available. Don't let compliance delays cost you business. Same-day emergency service for urgent requirements."
 
     - name: "Best Rates - Save Up To 68%"
       icon: FaSterlingSign

@@ -1,17 +1,17 @@
 ---
 title: "Fire Risk Assessment in Bury"
 meta_title: "Fire Risk Assessment Bury - Fire Assessment North"
-description: "Professional fire risk assessment services in Bury, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005."
+description: "Professional fire risk assessment services in Bury, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005."
 image: "../../../assets/images/locations/bury.jpg"
 draft: false
 hero:
   enable: true
   title: "Fire Risk Assessment in"
   subtitle: "Bury"
-  description: "Professional fire risk assessments across Bury and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
+  description: "Professional fire risk assessments across Bury and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "All Bury Borough"
 areas_covered:
   enable: true
@@ -47,7 +47,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 4
       title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours."
+      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Ongoing Support"
@@ -61,8 +61,8 @@ features:
     - title: "BAFE SP205 Registered"
       description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
       icon: "shield-check"
-    - title: "24-Hour Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours of your site assessment."
+    - title: "24-Hour Report Delivery on Request"
+      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - title: "Local Bury Knowledge"
       description: "Assessors who know Bury's mix of town centre properties, suburban commercial areas, and rural premises."
@@ -156,7 +156,7 @@ faq_section:
     - question: "How much does a fire risk assessment cost in Bury?"
       answer: "Fire risk assessments in Bury start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. We offer competitive pricing and transparent quotes with no hidden fees."
     - question: "How quickly can you assess a Bury property?"
-      answer: "We typically schedule assessments within 48-72 hours across Bury. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit."
+      answer: "We typically schedule assessments within 48-72 hours across Bury. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
     - question: "What types of Bury properties do you assess?"
       answer: "We assess all property types across Bury including offices, retail units, restaurants, hotels, care homes, schools, warehouses, HMOs, blocks of flats, and industrial units."
     - question: "Do you cover all areas within Bury?"
@@ -171,7 +171,7 @@ faq_section:
       answer: "We cover the entire Bury borough including Bury town centre, Prestwich, Radcliffe, Ramsbottom, Whitefield, Tottington, Summerseat, Ainsworth, Unsworth, and all surrounding areas."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Bury and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
+Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Bury and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
 
 Bury combines a vibrant town centre with suburban commercial areas and picturesque rural communities. The borough includes the popular market town of Ramsbottom, the bustling suburbs of Prestwich and Whitefield, and the residential areas of Radcliffe. From Bury town centre's commercial district to the mixed-use developments across the borough, our assessors understand the specific fire risks that Bury properties present.
 

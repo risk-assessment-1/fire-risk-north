@@ -86,7 +86,7 @@ five_steps_fra:
       icon: "search"
     - number: 4
       title: "Report Delivered"
-      description: "Detailed report with any faults found, battery condition, and recommendations within 24 hours."
+      description: "Detailed report with any faults found, battery condition, and recommendations within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - number: 5
       title: "Certificate Issued"

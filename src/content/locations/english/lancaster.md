@@ -1,17 +1,17 @@
 ---
 title: "Fire Risk Assessment in Lancaster"
 meta_title: "Fire Risk Assessment Lancaster - Fire Assessment North"
-description: "Professional fire risk assessment services in Lancaster, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005."
+description: "Professional fire risk assessment services in Lancaster, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005."
 image: "../../../assets/images/locations/lancaster.jpg"
 draft: false
 hero:
   enable: true
   title: "Fire Risk Assessment in"
   subtitle: "Lancaster"
-  description: "Professional fire risk assessments across Lancaster and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
+  description: "Professional fire risk assessments across Lancaster and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "All Lancaster & Lune Valley"
 areas_covered:
   enable: true
@@ -47,7 +47,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 4
       title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours."
+      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Ongoing Support"
@@ -61,8 +61,8 @@ features:
     - title: "BAFE SP205 Registered"
       description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
       icon: "shield-check"
-    - title: "24-Hour Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours of your site assessment."
+    - title: "24-Hour Report Delivery on Request"
+      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - title: "Local Lancaster Knowledge"
       description: "Assessors who know Lancaster's historic buildings, university premises, and coastal properties."
@@ -156,7 +156,7 @@ faq_section:
     - question: "How much does a fire risk assessment cost in Lancaster?"
       answer: "Fire risk assessments in Lancaster start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. We offer competitive pricing and transparent quotes with no hidden fees."
     - question: "How quickly can you assess a Lancaster property?"
-      answer: "We typically schedule assessments within 48-72 hours across Lancaster. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit."
+      answer: "We typically schedule assessments within 48-72 hours across Lancaster. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
     - question: "Do you cover Morecambe and Heysham?"
       answer: "Yes, we cover all of Lancaster and the wider district including Morecambe, Heysham, Carnforth, and the Lune Valley villages."
     - question: "Do you have experience with Lancaster's historic buildings?"
@@ -171,7 +171,7 @@ faq_section:
       answer: "We cover the entire Lancaster district including Lancaster city centre, Morecambe, Heysham, Carnforth, Caton, Halton, Galgate, Bolton-le-Sands, and all surrounding areas."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Lancaster and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
+Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Lancaster and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
 
 Lancaster presents unique fire safety challenges. The city combines a historic core with Georgian architecture, a major university, the seaside town of Morecambe, and rural communities along the Lune Valley. From Lancaster's conservation area with its listed buildings to the student HMOs around the university, our assessors understand the specific fire risks that Lancaster properties present.
 

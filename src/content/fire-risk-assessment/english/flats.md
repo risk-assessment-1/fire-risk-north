@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for blocks of flats. Compliant with Fire Safety Act 2021, Building Safety Act 2022, and the new BS 9792:2025 standard. BAFE SP205 registered assessors serving freeholders, managing agents, RTM companies, and landlords across the UK."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "BS 9792:2025 Compliant"
 compliance_highlight:
   enable: true
@@ -53,7 +53,7 @@ five_steps_fra:
       icon: "building-2"
     - number: 5
       title: "Detailed Report Delivery"
-      description: "BS 9792:2025 compliant report with risk ratings, photographic evidence, prioritised action plan, and ongoing compliance recommendations within 24 hours."
+      description: "BS 9792:2025 compliant report with risk ratings, photographic evidence, prioritised action plan, and ongoing compliance recommendations within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - number: 6
       title: "Ongoing Support"
@@ -151,7 +151,7 @@ Every flats fire risk assessment includes a comprehensive package designed to me
 
 Property managers and freeholders across the UK trust us for their blocks because we understand the specific challenges of residential fire safety:
 
-- **24-hour turnaround** on standard assessments — minimising disruption to residents
+- **24-hour turnaround on request** — minimising disruption to residents
 - **Same-day emergency** assessments available for urgent compliance issues
 - **BAFE SP205 registered** — independently audited and accredited
 - **BS 9792:2025 compliant** — following the latest British Standard methodology

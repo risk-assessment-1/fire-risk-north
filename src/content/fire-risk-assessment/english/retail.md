@@ -1,7 +1,7 @@
 ---
 title: "Fire Risk Assessment for Retail Premises"
 meta_title: "Fire Risk Assessment for Retail Shops - Fire Assessment North"
-description: "Professional fire risk assessment for retail shops and shopping centres. Black Friday crowd planning, seasonal display compliance, POS electrical safety. BAFE SP205 registered assessors with 24-hour turnaround."
+description: "Professional fire risk assessment for retail shops and shopping centres. Black Friday crowd planning, seasonal display compliance, POS electrical safety. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/retail.jpg"
 draft: false
 icon: "FaStore"
@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for high street shops, shopping centres, and multi-site retail chains. Specialist compliance for customer congestion, seasonal displays, and POS electrical safety. BAFE SP205 registered assessors."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "Multi-Site Specialists"
 compliance_highlight:
   enable: true
@@ -144,7 +144,7 @@ Every retail fire risk assessment includes a comprehensive package designed to m
 
 Retail operators and store managers across the UK trust us for their premises because we understand the specific challenges of retail fire safety:
 
-- **24-hour turnaround** on standard assessments — minimising trading disruption
+- **24-hour turnaround on request** — minimising trading disruption
 - **BAFE SP205 registered** — independently audited and accredited
 - **Multi-site specialists** — standardised frameworks with bulk discounts of 10-15%
 - **Seasonal display expertise** — Christmas, Black Friday, and promotional event planning

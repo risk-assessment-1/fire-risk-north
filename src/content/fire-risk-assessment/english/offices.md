@@ -1,7 +1,7 @@
 ---
 title: "Fire Risk Assessment for Offices"
 meta_title: "Fire Risk Assessment for Offices - Fire Assessment North"
-description: "Professional fire risk assessment for office buildings and corporate workplaces. Compliant with Fire Safety Order 2005, October 2023 amendments. BAFE SP205 registered assessors with 24-hour turnaround."
+description: "Professional fire risk assessment for office buildings and corporate workplaces. Compliant with Fire Safety Order 2005, October 2023 amendments. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/offices.jpg"
 draft: false
 icon: "FaBriefcase"
@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for office buildings and corporate workplaces. Compliant with the Regulatory Reform (Fire Safety) Order 2005 and October 2023 amendments requiring written documentation for ALL businesses. BAFE SP205 registered assessors."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "Oct 2023 Compliant"
 compliance_highlight:
   enable: true
@@ -145,7 +145,7 @@ Every office fire risk assessment includes a comprehensive package designed to m
 
 Facilities managers and corporate compliance officers across the UK trust us for their offices because we understand the specific challenges of modern workplace fire safety:
 
-- **24-hour turnaround** on standard assessments — minimising disruption to business operations
+- **24-hour turnaround on request** — minimising disruption to business operations
 - **BAFE SP205 registered** — independently audited and accredited
 - **October 2023 compliant** — following the latest mandatory documentation requirements
 - **Corporate governance ready** — board-level reporting format with director liability protection

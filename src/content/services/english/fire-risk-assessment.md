@@ -8,10 +8,10 @@ icon: "FaFire"
 hero:
   enable: true
   subtitle: "UKAS Accredited Assessors"
-  description: "Professional fire risk assessments compliant with the Regulatory Reform (Fire Safety) Order 2005. UKAS accredited assessors, 24-hour report delivery, and full PAS 79 compliance."
+  description: "Professional fire risk assessments compliant with the Regulatory Reform (Fire Safety) Order 2005. UKAS accredited assessors, 24-hour report delivery available on request, and full PAS 79 compliance."
   badges:
     - label: "UKAS Accredited"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "PAS 79 Compliant"
 who_needs_fra:
   enable: true

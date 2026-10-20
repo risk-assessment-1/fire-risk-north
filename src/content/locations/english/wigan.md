@@ -1,17 +1,17 @@
 ---
 title: "Fire Risk Assessment in Wigan"
 meta_title: "Fire Risk Assessment Wigan - Fire Assessment North"
-description: "Professional fire risk assessment services in Wigan, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
+description: "Professional fire risk assessment services in Wigan, Greater Manchester. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
 image: "../../../assets/images/locations/wigan.jpg"
 draft: false
 hero:
   enable: true
   title: "Fire Risk Assessment in"
   subtitle: "Wigan"
-  description: "Professional fire risk assessments across Wigan and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
+  description: "Professional fire risk assessments across Wigan and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "All Wigan Borough"
 areas_covered:
   enable: true
@@ -60,7 +60,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 4
       title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours."
+      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Ongoing Support"
@@ -74,8 +74,8 @@ features:
     - title: "BAFE SP205 Registered"
       description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
       icon: "shield-check"
-    - title: "24-Hour Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours of your site assessment."
+    - title: "24-Hour Report Delivery on Request"
+      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - title: "Local Wigan Knowledge"
       description: "Assessors experienced with Wigan's former mining and mill buildings, converted industrial premises, and modern residential developments across the borough."
@@ -169,7 +169,7 @@ faq_section:
     - question: "How much does a fire risk assessment cost in Wigan?"
       answer: "Fire risk assessments in Wigan start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. Use our instant online calculator for an accurate quote tailored to your specific premises."
     - question: "How quickly can you assess a Wigan property?"
-      answer: "We typically schedule assessments within 48-72 hours across the Wigan borough. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit."
+      answer: "We typically schedule assessments within 48-72 hours across the Wigan borough. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
     - question: "Do you cover all areas of Wigan?"
       answer: "Yes, we cover all of Wigan including Wigan town centre, Leigh, Ashton-in-Makerfield, Standish, Pemberton, Hindley, Atherton, Tyldesley, Orrell, and all surrounding areas. Our local assessors are based across Greater Manchester for rapid response."
     - question: "Are your Wigan assessors qualified?"
@@ -184,7 +184,7 @@ faq_section:
       answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Greater Manchester Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Wigan and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
+Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Wigan and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
 
 Wigan presents unique fire safety challenges. As a former mining and mill town, the borough has a significant stock of converted industrial buildings, former cotton mills, and Victorian-era commercial premises alongside modern residential developments in areas like Standish and Ashton-in-Makerfield. The town's industrial heritage means many properties require careful assessment of compartmentation, structural fire protection, and fire spread risks. Our assessors understand the specific fire risks that Wigan's diverse property landscape presents.
 

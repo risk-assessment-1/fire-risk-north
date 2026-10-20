@@ -30,7 +30,7 @@ To complete a thorough assessment, you should make available on request: existin
 
 ## Reports and Deliverables
 
-Following the site visit we will issue a written fire risk assessment report, typically within 5 working days. The report identifies significant findings and prioritised recommendations in line with the Regulatory Reform (Fire Safety) Order 2005 and applicable guidance (including PAS 79). Our assessment is based on conditions observed at the time of the visit and information supplied to us; we cannot accept liability for conditions that arise, change or are concealed after the visit.
+Following the site visit we will issue a written fire risk assessment report, typically within 5 working days. A 24-hour turnaround is available on request, subject to assessor availability, and may incur an additional charge. Same-day emergency attendance is available for urgent cases and may be priced separately. The report identifies significant findings and prioritised recommendations in line with the Regulatory Reform (Fire Safety) Order 2005 and applicable guidance (including PAS 79). Our assessment is based on conditions observed at the time of the visit and information supplied to us; we cannot accept liability for conditions that arise, change or are concealed after the visit.
 
 ## Intellectual Property
 

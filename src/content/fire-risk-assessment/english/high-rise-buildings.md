@@ -1,7 +1,7 @@
 ---
 title: "Fire Risk Assessment for High-Rise Buildings"
 meta_title: "Fire Risk Assessment for High-Rise Buildings - Fire Assessment North"
-description: "Professional fire risk assessment for high-rise buildings over 18 metres. Building Safety Act 2022 compliance, EWS1 support, post-Grenfell requirements. BAFE SP205 registered assessors with 24-hour turnaround."
+description: "Professional fire risk assessment for high-rise buildings over 18 metres. Building Safety Act 2022 compliance, EWS1 support, post-Grenfell requirements. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/high-rise-buildings.jpg"
 draft: false
 icon: "FaCity"
@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for high-rise buildings over 18 metres. Building Safety Act 2022 compliance, EWS1 support, external wall assessment, and Accountable Person duties. BAFE SP205 registered assessors."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "Post-Grenfell Compliant"
 compliance_highlight:
   enable: true
@@ -144,7 +144,7 @@ Every high-rise fire risk assessment includes a comprehensive package designed t
 
 Building owners and Accountable Persons across the UK trust us for their high-rise buildings because we understand the specific challenges of post-Grenfell fire safety:
 
-- **24-hour turnaround** on standard assessments — Building Safety Regulator ready
+- **24-hour turnaround on request** — Building Safety Regulator ready
 - **BAFE SP205 registered** — independently audited and accredited
 - **Post-Grenfell specialists** — Building Safety Act 2022, EWS1, external wall expertise
 - **Accountable Person guidance** — clear, actionable compliance support

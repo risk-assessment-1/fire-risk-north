@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for schools, colleges, and educational establishments. CLEAPSS science lab compliance, Building Bulletin 100 assembly hall assessment, PEEP development, and Ofsted-ready documentation. BAFE SP205 registered assessors."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "Ofsted Ready"
 compliance_highlight:
   enable: true
@@ -140,7 +140,7 @@ Every school fire risk assessment includes a comprehensive package designed to m
 
 Headteachers and governors across the UK trust us for their schools because we understand the specific challenges of educational fire safety:
 
-- **24-hour turnaround** on standard assessments — Ofsted inspection ready
+- **24-hour turnaround on request** — Ofsted inspection ready
 - **BAFE SP205 registered** — independently audited and accredited
 - **Ofsted-ready documentation** — safeguarding and leadership framework compliance
 - **CLEAPSS & Building Bulletin 100 specialists** — education-specific expertise

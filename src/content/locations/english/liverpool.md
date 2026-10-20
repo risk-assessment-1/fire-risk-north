@@ -1,17 +1,17 @@
 ---
 title: "Fire Risk Assessment in Liverpool"
 meta_title: "Fire Risk Assessment Liverpool - Fire Assessment North"
-description: "Professional fire risk assessment services in Liverpool, Merseyside. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005."
+description: "Professional fire risk assessment services in Liverpool, Merseyside. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005."
 image: "../../../assets/images/locations/liverpool.jpg"
 draft: false
 hero:
   enable: true
   title: "Fire Risk Assessment in"
   subtitle: "Liverpool"
-  description: "Professional fire risk assessments across Liverpool and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
+  description: "Professional fire risk assessments across Liverpool and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "All Liverpool & Merseyside"
 areas_covered:
   enable: true
@@ -49,7 +49,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 4
       title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours."
+      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Ongoing Support"
@@ -63,8 +63,8 @@ features:
     - title: "BAFE SP205 Registered"
       description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
       icon: "shield-check"
-    - title: "24-Hour Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours of your site assessment."
+    - title: "24-Hour Report Delivery on Request"
+      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - title: "Local Liverpool Knowledge"
       description: "Assessors who know Liverpool's diverse building stock, from Georgian terraces to modern waterfront developments."
@@ -158,7 +158,7 @@ faq_section:
     - question: "How much does a fire risk assessment cost in Liverpool?"
       answer: "Fire risk assessments in Liverpool start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. Use our instant online calculator for an accurate quote tailored to your specific premises."
     - question: "How quickly can you assess a Liverpool property?"
-      answer: "We typically schedule assessments within 48-72 hours across Liverpool and Merseyside. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit."
+      answer: "We typically schedule assessments within 48-72 hours across Liverpool and Merseyside. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
     - question: "Do you cover all areas of Liverpool?"
       answer: "Yes, we cover all Liverpool postcodes including the city centre, South Liverpool, North Liverpool, East Liverpool, the Wirral, and surrounding areas in Sefton and Knowsley."
     - question: "Are your Liverpool assessors qualified?"
@@ -173,7 +173,7 @@ faq_section:
       answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Merseyside Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Liverpool and Merseyside. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
+Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Liverpool and Merseyside. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
 
 Liverpool presents unique fire safety challenges. As a major port city, Liverpool combines UNESCO World Heritage waterfront architecture, Georgian terraces, Victorian commercial buildings, and modern high-rise developments. From the converted warehouses at Albert Dock to the new developments around Liverpool Waters, our assessors understand the specific fire risks that Liverpool properties present.
 

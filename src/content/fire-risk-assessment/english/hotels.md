@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for hotels, guest houses, and B&Bs. Sleeping guest protection, commercial kitchen safety, FD30 fire door compliance, and multi-language evacuation procedures. BAFE SP205 registered assessors."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "Licensing Compliant"
 compliance_highlight:
   enable: true
@@ -145,7 +145,7 @@ Every hotel fire risk assessment includes a comprehensive package designed to me
 
 Hotel operators across the UK trust us for their premises because we understand the specific challenges of hospitality fire safety:
 
-- **24-hour turnaround** on standard assessments — licensing deadlines met every time
+- **24-hour turnaround on request** — licensing deadlines met every time
 - **BAFE SP205 registered** — independently audited and accredited
 - **Sleeping guest specialists** — alarm audibility, FD30 doors, evacuation procedures
 - **Multi-language expertise** — international guest communication strategies

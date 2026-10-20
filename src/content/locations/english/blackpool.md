@@ -1,17 +1,17 @@
 ---
 title: "Fire Risk Assessment in Blackpool"
 meta_title: "Fire Risk Assessment Blackpool - Fire Assessment North"
-description: "Professional fire risk assessment services in Blackpool, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005."
+description: "Professional fire risk assessment services in Blackpool, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005."
 image: "../../../assets/images/locations/blackpool.jpg"
 draft: false
 hero:
   enable: true
   title: "Fire Risk Assessment in"
   subtitle: "Blackpool"
-  description: "Professional fire risk assessments across Blackpool and the Fylde Coast. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
+  description: "Professional fire risk assessments across Blackpool and the Fylde Coast. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "All Blackpool & Fylde Coast"
 areas_covered:
   enable: true
@@ -47,7 +47,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 4
       title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours."
+      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Ongoing Support"
@@ -61,8 +61,8 @@ features:
     - title: "BAFE SP205 Registered"
       description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
       icon: "shield-check"
-    - title: "24-Hour Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours of your site assessment."
+    - title: "24-Hour Report Delivery on Request"
+      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - title: "Local Blackpool Knowledge"
       description: "Assessors who know Blackpool's hospitality sector, guest houses, hotels, and entertainment venues."
@@ -156,7 +156,7 @@ faq_section:
     - question: "How much does a fire risk assessment cost in Blackpool?"
       answer: "Fire risk assessments in Blackpool start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. Hotels and guest houses may vary based on the number of rooms and floors."
     - question: "How quickly can you assess a Blackpool property?"
-      answer: "We typically schedule assessments within 48-72 hours across Blackpool. For hotels and hospitality businesses, we can arrange assessments during quieter periods. Reports are delivered within 24 hours of the site visit."
+      answer: "We typically schedule assessments within 48-72 hours across Blackpool. For hotels and hospitality businesses, we can arrange assessments during quieter periods. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
     - question: "Do you specialise in hotel and guest house fire safety?"
       answer: "Yes, Blackpool has a large hospitality sector and we have extensive experience assessing hotels, guest houses, and B&Bs. We understand the specific fire safety requirements for sleeping accommodation, including means of escape, fire detection systems, and emergency lighting."
     - question: "Do you cover the Fylde Coast?"
@@ -171,7 +171,7 @@ faq_section:
       answer: "We cover all of Blackpool including the Promenade, North Shore, South Shore, Bispham, Marton, as well as Cleveleys, Fleetwood, Lytham St Annes, and the wider Fylde Coast."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Blackpool and the Fylde Coast. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
+Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Blackpool and the Fylde Coast. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
 
 Blackpool presents unique fire safety challenges. As one of the UK's most popular seaside resorts, the town has a high concentration of hotels, guest houses, restaurants, and entertainment venues — all with specific fire safety requirements for sleeping accommodation and public assembly. From the iconic Promenade to the residential areas inland, our assessors understand the specific fire risks that Blackpool properties present.
 

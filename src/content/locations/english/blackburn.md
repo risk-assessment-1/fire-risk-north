@@ -1,17 +1,17 @@
 ---
 title: "Fire Risk Assessment in Blackburn"
 meta_title: "Fire Risk Assessment Blackburn - Fire Assessment North"
-description: "Professional fire risk assessment services in Blackburn, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005."
+description: "Professional fire risk assessment services in Blackburn, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005."
 image: "../../../assets/images/locations/blackburn.jpg"
 draft: false
 hero:
   enable: true
   title: "Fire Risk Assessment in"
   subtitle: "Blackburn"
-  description: "Professional fire risk assessments across Blackburn and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
+  description: "Professional fire risk assessments across Blackburn and the surrounding areas. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "All Blackburn & Darwen"
 areas_covered:
   enable: true
@@ -47,7 +47,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 4
       title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours."
+      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Ongoing Support"
@@ -61,8 +61,8 @@ features:
     - title: "BAFE SP205 Registered"
       description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
       icon: "shield-check"
-    - title: "24-Hour Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours of your site assessment."
+    - title: "24-Hour Report Delivery on Request"
+      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - title: "Local Blackburn Knowledge"
       description: "Assessors who know Blackburn's industrial heritage, cotton mill conversions, and modern developments."
@@ -156,7 +156,7 @@ faq_section:
     - question: "How much does a fire risk assessment cost in Blackburn?"
       answer: "Fire risk assessments in Blackburn start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. We offer competitive pricing and transparent quotes with no hidden fees."
     - question: "How quickly can you assess a Blackburn property?"
-      answer: "We typically schedule assessments within 48-72 hours across Blackburn. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit."
+      answer: "We typically schedule assessments within 48-72 hours across Blackburn. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
     - question: "What types of Blackburn properties do you assess?"
       answer: "We assess all property types across Blackburn including offices, retail units, restaurants, hotels, care homes, schools, warehouses, HMOs, blocks of flats, and industrial units."
     - question: "Do you cover Darwen as well?"
@@ -171,7 +171,7 @@ faq_section:
       answer: "We cover the entire Blackburn with Darwen borough including Blackburn town centre, Darwen, Great Harwood, Rishton, Clayton-le-Moors, Wilpshire, and all surrounding areas."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Blackburn and Darwen. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
+Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Blackburn and Darwen. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
 
 Blackburn presents unique fire safety challenges rooted in its textile industry heritage. The town contains many former cotton mills and industrial buildings that have been converted into modern commercial and residential spaces. From Blackburn town centre's regeneration area to the market town of Darwen, our assessors understand the specific fire risks that Blackburn properties present.
 

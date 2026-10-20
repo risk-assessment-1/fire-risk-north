@@ -1,17 +1,17 @@
 ---
 title: "Fire Risk Assessment in Leyland"
 meta_title: "Fire Risk Assessment Leyland - Fire Assessment North"
-description: "Professional fire risk assessment services in Leyland, South Ribble. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
+description: "Professional fire risk assessment services in Leyland, South Ribble. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
 image: "../../../assets/images/locations/leyland.jpg"
 draft: false
 hero:
   enable: true
   title: "Fire Risk Assessment in"
   subtitle: "Leyland"
-  description: "Professional fire risk assessments across Leyland and the surrounding South Ribble area. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
+  description: "Professional fire risk assessments across Leyland and the surrounding South Ribble area. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "All South Ribble"
 areas_covered:
   enable: true
@@ -60,7 +60,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 4
       title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours."
+      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Ongoing Support"
@@ -74,8 +74,8 @@ features:
     - title: "BAFE SP205 Registered"
       description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
       icon: "shield-check"
-    - title: "24-Hour Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours of your site assessment."
+    - title: "24-Hour Report Delivery on Request"
+      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - title: "Local Leyland Knowledge"
       description: "Assessors experienced with Leyland's former motor industry buildings, modern residential developments, and commercial premises across the South Ribble area."
@@ -169,7 +169,7 @@ faq_section:
     - question: "How much does a fire risk assessment cost in Leyland?"
       answer: "Fire risk assessments in Leyland start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. Use our instant online calculator for an accurate quote tailored to your specific premises."
     - question: "How quickly can you assess a Leyland property?"
-      answer: "We typically schedule assessments within 48-72 hours across Leyland and South Ribble. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit."
+      answer: "We typically schedule assessments within 48-72 hours across Leyland and South Ribble. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
     - question: "Do you cover all areas around Leyland?"
       answer: "Yes, we cover all of Leyland including the town centre, Lostock Hall, Bamber Bridge, Walton-le-Dale, Farington, Clayton-le-Woods, Penwortham, and all surrounding areas. Our local assessors are based across Lancashire for rapid response."
     - question: "Are your Leyland assessors qualified?"
@@ -184,7 +184,7 @@ faq_section:
       answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Lancashire Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Leyland and the surrounding South Ribble area. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
+Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Leyland and the surrounding South Ribble area. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
 
 Leyland presents unique fire safety challenges. Known historically as the home of British Leyland motor works, the town has a significant stock of former industrial and manufacturing buildings alongside modern residential developments in areas like Buckshaw Village and Clayton-le-Woods. The mix of repurposed industrial premises, traditional terraced housing, and new-build apartment blocks across Lostock Hall, Bamber Bridge, and Walton-le-Dale requires assessors who understand both legacy construction and contemporary fire safety standards. Our assessors understand the specific fire risks that Leyland's diverse property landscape presents.
 

@@ -1,7 +1,7 @@
 ---
 title: "Fire Risk Assessment for HMOs"
 meta_title: "Fire Risk Assessment for Houses in Multiple Occupation - Fire Assessment North"
-description: "Professional fire risk assessment for HMOs. BS 5839-6 alarm compliance, fire door inspection, escape route evaluation. BAFE SP205 registered assessors with 24-hour turnaround."
+description: "Professional fire risk assessment for HMOs. BS 5839-6 alarm compliance, fire door inspection, escape route evaluation. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/hmo.jpg"
 draft: false
 icon: "FaHouseUser"
@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for Houses in Multiple Occupation. BS 5839-6 compliant alarm systems, fire door inspection, escape route evaluation, and landlord compliance documentation. BAFE SP205 registered assessors."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "HMO Licensing Compliant"
 compliance_highlight:
   enable: true
@@ -28,7 +28,7 @@ compliance_highlight:
       description: "Average enforcement fine for HMO violations"
   body: "<strong>It's the law.</strong> Under the Regulatory Reform (Fire Safety) Order 2005 and Housing Act 2004, every HMO landlord must have a current fire risk assessment — no exceptions. Here's the reality: only 58% of HMO audits pass inspection (lowest since 2011). The other 42% face enforcement notices, fines up to £30k, and potential property closure. <strong>Where does your property stand?</strong>"
   cta:
-    label: "Get Compliant in 24 Hours"
+    label: "Get Compliant in 24 Hours on Request"
     href: "/contact"
 five_steps_fra:
   enable: true
@@ -53,7 +53,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 5
       title: "Report Delivery"
-      description: "Insurance-approved report with priority action plan delivered within 24 hours."
+      description: "Insurance-approved report with priority action plan delivered within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
 hazard_cards:
   enable: true
@@ -136,7 +136,7 @@ Every HMO fire risk assessment includes a comprehensive package designed to meet
 
 HMO landlords and managing agents across the UK trust us for their properties because we understand the specific challenges of multi-occupied housing fire safety:
 
-- **24-hour turnaround** on standard assessments — licensing deadlines met every time
+- **24-hour turnaround on request** — licensing deadlines met every time
 - **BAFE SP205 registered** — independently audited and accredited
 - **HMO licensing specialists** — documentation accepted by all local authorities
 - **Portfolio discounts** — reduced rates for landlords with 5+ properties

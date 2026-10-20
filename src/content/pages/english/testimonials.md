@@ -16,7 +16,7 @@ Our commitment to quality, speed and value has earned us a 4.9/5 rating from ove
 
 ### Why Clients Choose Us
 
-- **Fast turnaround** — 24-hour standard delivery, same-day emergency service
+- **Fast turnaround** — 24-hour delivery available on request, same-day emergency service
 - **Professional reports** — PAS 79 compliant with clear, actionable recommendations
 - **Competitive pricing** — Save up to 68% compared to national providers
 - **Expert assessors** — UKAS accredited with 25+ years of experience

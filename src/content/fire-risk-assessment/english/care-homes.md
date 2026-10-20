@@ -1,7 +1,7 @@
 ---
 title: "Fire Risk Assessment for Care Homes"
 meta_title: "Fire Risk Assessment for Care Homes - Fire Assessment North"
-description: "Professional fire risk assessment for care homes. CQC compliant with PEEPs, medical oxygen safety, horizontal evacuation planning. BAFE SP205 registered assessors with 24-hour turnaround."
+description: "Professional fire risk assessment for care homes. CQC compliant with PEEPs, medical oxygen safety, horizontal evacuation planning. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/care-homes.jpg"
 draft: false
 icon: "FaHeart"
@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for care homes and residential care facilities. CQC compliant with PEEPs, medical oxygen safety, horizontal evacuation planning, and night staffing evaluation. BAFE SP205 registered assessors."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "CQC Compliant"
 compliance_highlight:
   enable: true
@@ -53,7 +53,7 @@ five_steps_fra:
       icon: "bell"
     - number: 5
       title: "CQC-Ready Report"
-      description: "Insurance-approved documentation with PEEP templates, night staffing recommendations, and prioritised action plan delivered in 24 hours."
+      description: "Insurance-approved documentation with PEEP templates, night staffing recommendations, and prioritised action plan delivered in 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
 hazard_cards:
   enable: true
@@ -141,7 +141,7 @@ Every care home fire risk assessment includes a comprehensive package designed t
 
 Care home managers across the UK trust us for their facilities because we understand the specific challenges of vulnerable resident fire safety:
 
-- **24-hour turnaround** on standard assessments — CQC inspection ready
+- **24-hour turnaround on request** — CQC inspection ready
 - **BAFE SP205 registered** — independently audited and accredited
 - **CQC-compliant documentation** — accepted by inspectors without question
 - **PEEP specialists** — individual plans for every resident category

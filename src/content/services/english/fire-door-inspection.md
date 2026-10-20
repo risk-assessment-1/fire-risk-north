@@ -12,7 +12,7 @@ hero:
   badges:
     - label: "BM Trada Q-Mark"
     - label: "Regulation 10 Compliant"
-    - label: "24-Hour Report Turnaround"
+    - label: "24-Hour Report Turnaround on Request"
 who_needs_fra:
   enable: true
   intro: "Fire door inspections are legally required for residential buildings over 11 metres and recommended for all non-domestic premises."
@@ -85,7 +85,7 @@ five_steps_fra:
       icon: "search"
     - number: 4
       title: "Report Delivered"
-      description: "Full photographic report with pass/advisory/fail grading and prioritised remedial recommendations within 24 hours."
+      description: "Full photographic report with pass/advisory/fail grading and prioritised remedial recommendations within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - number: 5
       title: "Remedial Support"

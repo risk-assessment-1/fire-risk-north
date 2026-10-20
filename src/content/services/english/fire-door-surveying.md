@@ -77,7 +77,7 @@ five_steps_fra:
       icon: "search"
     - number: 4
       title: "Report Delivered"
-      description: "Photographic report with pass/advisory/fail grading and prioritised remediation plan within 24 hours."
+      description: "Photographic report with pass/advisory/fail grading and prioritised remediation plan within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Certificate Issued"

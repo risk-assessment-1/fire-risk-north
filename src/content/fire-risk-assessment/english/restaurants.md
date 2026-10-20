@@ -1,7 +1,7 @@
 ---
 title: "Fire Risk Assessment for Restaurants"
 meta_title: "Fire Risk Assessment for Restaurants & Cafes - Fire Assessment North"
-description: "Professional fire risk assessment for restaurants, cafes and takeaways. Commercial kitchen safety, TR19 extraction compliance, UL 300 fire suppression. BAFE SP205 registered assessors with 24-hour turnaround."
+description: "Professional fire risk assessment for restaurants, cafes and takeaways. Commercial kitchen safety, TR19 extraction compliance, UL 300 fire suppression. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/restaurants.jpg"
 draft: false
 icon: "FaUtensils"
@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for restaurants, cafes, and takeaways. Commercial kitchen safety, TR19 extraction compliance, gas safety certification, and licensing-compliant documentation. BAFE SP205 registered assessors."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "Licensing Compliant"
 compliance_highlight:
   enable: true
@@ -53,7 +53,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 5
       title: "Licensing Report"
-      description: "Insurance and licensing-approved documentation delivered within 24 hours."
+      description: "Insurance and licensing-approved documentation delivered within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
 hazard_cards:
   enable: true
@@ -144,7 +144,7 @@ Every restaurant fire risk assessment includes a comprehensive package designed 
 
 Restaurant owners and chefs across the UK trust us for their premises because we understand the specific challenges of commercial kitchen fire safety:
 
-- **24-hour turnaround** on standard assessments — licensing deadlines met every time
+- **24-hour turnaround on request** — licensing deadlines met every time
 - **BAFE SP205 registered** — independently audited and accredited
 - **Commercial kitchen specialists** — we understand fryers, grills, extraction, and grease fires
 - **Licensing-compliant documentation** — accepted by all local licensing authorities

@@ -1,17 +1,17 @@
 ---
 title: "Fire Risk Assessment in Preston"
 meta_title: "Fire Risk Assessment Preston - Fire Assessment North"
-description: "Professional fire risk assessment services in Preston, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
+description: "Professional fire risk assessment services in Preston, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
 image: "../../../assets/images/locations/preston.jpg"
 draft: false
 hero:
   enable: true
   title: "Fire Risk Assessment in"
   subtitle: "Preston"
-  description: "Professional fire risk assessments across Preston and the wider Lancashire area. BAFE SP205 registered assessors, 24-hour report delivery, and full compliance with UK fire safety legislation."
+  description: "Professional fire risk assessments across Preston and the wider Lancashire area. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "All Preston Area"
 areas_covered:
   enable: true
@@ -63,7 +63,7 @@ five_steps_fra:
       icon: "shield-check"
     - number: 4
       title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours."
+      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Ongoing Support"
@@ -77,8 +77,8 @@ features:
     - title: "BAFE SP205 Registered"
       description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
       icon: "shield-check"
-    - title: "24-Hour Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours of your site assessment."
+    - title: "24-Hour Report Delivery on Request"
+      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
       icon: "clipboard-list"
     - title: "Local Preston Knowledge"
       description: "Assessors familiar with Preston's university buildings at UCLan, city centre commercial properties, and residential areas from Fulwood to Penwortham."
@@ -172,7 +172,7 @@ faq_section:
     - question: "How much does a fire risk assessment cost in Preston?"
       answer: "Fire risk assessments in Preston start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. Use our instant online calculator for an accurate quote tailored to your specific premises."
     - question: "How quickly can you assess a Preston property?"
-      answer: "We typically schedule assessments within 48-72 hours across Preston and the wider Lancashire area. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit."
+      answer: "We typically schedule assessments within 48-72 hours across Preston and the wider Lancashire area. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
     - question: "Do you cover all areas of Preston?"
       answer: "Yes, we cover all of Preston including the city centre, Fulwood, Avenham, Ribbleton, Deepdale, Ashton-on-Ribble, Ingol, Cottam, Lea, Penwortham, and all surrounding areas. Our local assessors are based across Lancashire for rapid response."
     - question: "Are your Preston assessors qualified?"
@@ -187,7 +187,7 @@ faq_section:
       answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Lancashire Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Preston and the wider Lancashire area. Our BAFE SP205 registered assessors deliver thorough assessments with industry-leading 24-hour report turnaround.
+Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Preston and the wider Lancashire area. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
 
 Preston presents unique fire safety challenges. As the administrative centre of Lancashire and home to the University of Central Lancashire (UCLan), the city has a diverse mix of large-scale university buildings, student accommodation, historic commercial properties around Winckley Square, traditional terraced housing in Avenham and Deepdale, and modern residential developments in Cottam and Ingol. The city's ongoing regeneration adds further complexity with new-build properties sitting alongside established building stock. Our assessors understand the specific fire risks that Preston's diverse property landscape presents.
 

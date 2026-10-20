@@ -1,7 +1,7 @@
 ---
 title: "Fire Risk Assessment for Warehouses"
 meta_title: "Fire Risk Assessment for Warehouses - Fire Assessment North"
-description: "Professional fire risk assessment for warehouses and distribution centres. BS EN 12845 sprinkler compliance, lithium-ion battery safety, DSEAR chemical storage. BAFE SP205 registered assessors with 24-hour turnaround."
+description: "Professional fire risk assessment for warehouses and distribution centres. BS EN 12845 sprinkler compliance, lithium-ion battery safety, DSEAR chemical storage. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/warehouses.jpg"
 draft: false
 icon: "FaWarehouse"
@@ -12,7 +12,7 @@ hero:
   description: "Professional fire risk assessments for warehouses, distribution centres, and logistics facilities. BS EN 12845 sprinkler compliance, lithium-ion battery safety, and DSEAR chemical storage assessment. BAFE SP205 registered assessors."
   badges:
     - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround"
+    - label: "24-Hour Turnaround on Request"
     - label: "BS EN 12845 Compliant"
 compliance_highlight:
   enable: true
@@ -145,7 +145,7 @@ Every warehouse fire risk assessment includes a comprehensive package designed t
 
 Warehouse operators and logistics managers across the UK trust us for their facilities because we understand the specific challenges of warehouse fire safety:
 
-- **24-hour turnaround** on standard assessments — minimising supply chain disruption
+- **24-hour turnaround on request** — minimising supply chain disruption
 - **BAFE SP205 registered** — independently audited and accredited
 - **BS EN 12845 specialists** — expert sprinkler compliance verification
 - **Insurance premium reduction** — 10-60% discounts for compliant facilities

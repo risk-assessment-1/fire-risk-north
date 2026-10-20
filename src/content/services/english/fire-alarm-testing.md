@@ -1,7 +1,7 @@
 ---
 title: "Fire Alarm Testing"
 meta_title: "Fire Alarm Testing & Servicing - Fire Assessment North"
-description: "Professional fire alarm testing and servicing in accordance with BS 5839-1. BAFE registered engineers with 24-hour turnaround and compliance certificates."
+description: "Professional fire alarm testing and servicing in accordance with BS 5839-1. BAFE registered engineers with 24-hour turnaround available on request and compliance certificates."
 image: "../../../assets/images/services/fire-alarm-testing.jpg"
 draft: false
 icon: "FaBell"
@@ -12,7 +12,7 @@ hero:
   badges:
     - label: "BAFE Registered"
     - label: "BS 5839 Compliant"
-    - label: "24-Hour Service"
+    - label: "24-Hour Service on Request"
 who_needs_fra:
   enable: true
   intro: "Under the Regulatory Reform (Fire Safety) Order 2005, the responsible person for any non-domestic premises must ensure fire detection systems are maintained in good working order."
@@ -86,7 +86,7 @@ five_steps_fra:
       icon: "search"
     - number: 4
       title: "Report Delivered"
-      description: "Detailed report with any faults found, recommendations, and priority levels within 24 hours."
+      description: "Detailed report with any faults found, recommendations, and priority levels within 24 hours if requested."
       icon: "clipboard-list"
     - number: 5
       title: "Certificate Issued"
