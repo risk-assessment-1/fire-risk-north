@@ -1,6 +1,6 @@
 ---
 title: Fire Risk Assessments Blackpool
-meta_title: Fire Risk Assessment Blackpool | Assessors, Services & Costs
+meta_title: Fire Risk Assessments Blackpool | Assessors & Services
 description: Our fire risk assessment services in Blackpool provide a comprehensive, cost-effective review of fire hazards for HMOs, landlords, and commercial spaces.
 image: ../../../assets/images/locations/blackpool.jpg
 draft: false
@@ -276,4 +276,4 @@ When comparing quotes for your assessment, be aware that the scope of the inspec
 
 If you are looking for a fire risk assessor Blackpool landlords can book without long lead times, send the property details and we will confirm availability. The same team acts as a fire risk company Blackpool businesses call on for a straight answer, and as a fire risk consultant Blackpool property managers use to review an existing report and confirm its continuing validity. Fire risk services Blackpool wide run from the assessment through to the door, detection and lighting work it recommends.
 
-For the regional view, our [Fire Risk Assessment North West](/) page covers the wider service, and [Fire Safety Management Lancashire](/fire-risk-assessments-lancashire) sets out how the county work fits alongside it.
+For the regional view, our [Fire Risk North](/) page covers the wider service, and [Fire Safety Management Lancashire](/fire-risk-assessments-lancashire) sets out how the county work fits alongside it.

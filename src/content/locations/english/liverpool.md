@@ -278,4 +278,4 @@ The fixes are rarely dramatic. Correct doors, sealed penetrations, a bin store m
 
 A fire risk assessor Liverpool businesses book through us will say plainly whether an existing report still holds, and fire safety services Liverpool landlords ask for most often follow the assessment: door repairs, detection upgrades and emergency lighting.
 
-If you need a Fire Safety Consultant Liverpool landlords and agents can call on for a second opinion, we are glad to help. And if your portfolio stretches beyond the city, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the county side. For the wider [Fire Risk Assessment Company North West](/) service, the homepage sets out the regional picture.
+If you need a Fire Safety Consultant Liverpool landlords and agents can call on for a second opinion, we are glad to help. And if your portfolio stretches beyond the city, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the county side. For the wider [Fire Risk North](/) service, the homepage sets out the regional picture.

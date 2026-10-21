@@ -282,4 +282,4 @@ One contact handles fire safety compliance Lancashire wide, and this matters whe
 
 Anyone looking for fire safety consultants Lancashire wide can keep one team across sites rather than briefing a different firm in each district.
 
-For the regional picture, see our [Business Fire Safety Compliance North West](/) page. This sets out how the county work fits into the wider service. Local work in the centre of the county sits with [Fire Risk Services Preston](/fire-risk-assessments-preston), and the coast is covered by [Fire Risk Services Blackpool](/fire-risk-assessments-blackpool).
+For the regional picture, see our [Fire Risk North](/) page. This sets out how the county work fits into the wider service. Local work in the centre of the county sits with [Fire Risk Services Preston](/fire-risk-assessments-preston), and the coast is covered by [Fire Risk Services Blackpool](/fire-risk-assessments-blackpool).

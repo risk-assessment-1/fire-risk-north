@@ -259,4 +259,4 @@ A six-bedroom terrace with a compliant alarm system is a quick job. A fourteen-b
 
 A fire risk assessor Preston landlords can book through us will usually see several addresses on the same round, which keeps the advice consistent between them. Fire risk consultants Preston landlords compare on price usually find the differences come down to scope rather than a daily rate.
 
-If you need a Fire Risk Assessor Lancashire landlords can call on for a property in Preston, get in touch. For the wider county picture, our [Fire Safety Management Lancashire](/fire-risk-assessments-lancashire) page sets out how the work fits together, and [Fire Safety Management North West](/) covers the regional service.
+If you need a Fire Risk Assessor Lancashire landlords can call on for a property in Preston, get in touch. For the wider county picture, our [Fire Safety Management Lancashire](/fire-risk-assessments-lancashire) page sets out how the work fits together, and [Fire Risk North](/) covers the regional service.
