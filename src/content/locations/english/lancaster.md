@@ -171,18 +171,60 @@ faq_section:
       answer: "We cover the entire Lancaster district including Lancaster city centre, Morecambe, Heysham, Carnforth, Caton, Halton, Galgate, Bolton-le-Sands, and all surrounding areas."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Lancaster and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Lancaster is a city of old buildings doing new work. Georgian townhouses on the hill, warehouses along St George's Quay, the castle and the priory, and a university that fills the terraced streets around them. Morecambe adds a seaside stock of hotels and guest houses that has seen better decades.
 
-Lancaster presents unique fire safety challenges. The city combines a historic core with Georgian architecture, a major university, the seaside town of Morecambe, and rural communities along the Lune Valley. From Lancaster's conservation area with its listed buildings to the student HMOs around the university, our assessors understand the specific fire risks that Lancaster properties present.
+We assess premises across the district for landlords, agents, employers and owner-managers. Shops and offices, licensed premises, HMOs and student lets, hotels and guest houses, care homes, schools and rural conversions towards the Lune valley.
 
-## Key Requirements for Lancaster Properties
+The method holds whatever the building. Understand it, find the hazards, judge whether the existing measures would work and record what has to change.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **HMO licensing** — additional fire safety requirements for student accommodation and licensed HMO properties
-- **Heritage buildings** — specific considerations for listed buildings and conservation area properties
-- **Lancashire Fire and Rescue Service** — local enforcement authority
+## Listed Buildings, Student Terraces and the Seafront
 
-## Serving Lancaster Businesses
+Period and listed buildings bring constraints modern construction does not. Original doors, shutters and panelling that cannot simply be replaced, staircases built for a household rather than a house in multiple occupation, and walls that may or may not be load-bearing, whatever the drawings say.
 
-We work with a wide range of premises across Lancaster, including offices in the city centre, retail units on Market Street, restaurants in the cultural quarter, hotels and B&Bs in Morecambe, student accommodation around the university, and industrial units along the Lune Valley. Whether you're a small business or managing a large portfolio, we can help.
+The student terraces show the residential pattern in concentrated form. Houses built for one family now holding four or five unrelated tenants, with cellars in use, bedrooms in converted lofts and fire doors replaced over the years with whatever fitted.
+
+Morecambe's seafront adds a third pattern. Large Victorian and Edwardian buildings divided into flats or run as guest houses, often with one stair, timber floors and a long history of alterations.
+
+## Fire Risk Assessment Lancaster: What We Look At
+
+The assessor starts with the escape strategy, because in buildings of this age that is usually the weakest point. Where the stairs are, whether they are protected, how far someone has to travel and what they would meet on the way.
+
+Then detection and warning, doors and separation, lighting, extinguishers, signage and the evacuation plan. Compartmentation is checked where it can be seen and inferred where it cannot. Records are reviewed last, and in older buildings they are often thin.
+
+The conclusion is a judgement about whether the precautions match the risk, with the constraints of the building stated openly.
+
+## Common Findings in Lancaster
+
+Closers strong enough that students wedge the door. A panel in fault that nobody has logged. Original doors kept for appearance with no fire performance at all. A wall opened for a cable run. Emergency lighting that was tested once, years ago.
+
+In the period buildings the bigger issue is what cannot be seen. A staircase with no protected enclosure, a cellar in use without ventilation, a roof space divided into bedrooms with no one checking the route out below.
+
+## Why Fire Risk Assessments Matter in Lancaster
+
+The Fire Safety Order places the duty on the responsible person, which in most businesses means the employer or whoever controls the premises. Lancashire Fire and Rescue Service enforces it across the district, and Lancaster City Council applies licensing conditions to HMOs and to holiday accommodation.
+
+The district's stock makes the work slower. Listed status restricts what can be changed, so the practical answer is often a compromise that has to be recorded and defended rather than a clean solution.
+
+Insurers and lenders want a current assessment before they quote.
+
+## What the Report Records
+
+The report answers to the person who acts on it, the contractor who prices the work and the inspector who may read it later.
+
+It sets out the premises and scope, the hazards, the people at risk, an evaluation of the existing precautions, the significant findings, prioritised actions and review guidance. Where listing limits the options, the reasoning is written down so the decision can be defended later.
+
+Plain language. A recommendation nobody understands will not be carried out.
+
+## Fire Risk Assessment Lancaster Cost
+
+Pricing begins at £249 for smaller properties, with the rest quoted from the details.
+
+Size and storey count matter, and so does the age of the building, because older construction takes longer to trace. Use changes the assessment entirely, since a townhouse, an HMO, a hotel and a warehouse are not comparable jobs. Occupancy sets the risk, the condition of alarms and lighting sets the verification time, and the reporting depth sets the desk work.
+
+Compare scope rather than the headline figure. A cheap assessment that skips the difficult rooms is not a saving.
+
+The fire risk assessments Lancaster landlords and agents order most often cover student lets, guest houses and converted period buildings.
+
+If you need a fire risk assessor Lancaster landlords can book without a long lead time, send the property details and we will confirm availability. The same team works as a fire safety consultant Lancaster employers call on before a change of use, and as a fire risk assessment Lancaster agents can rely on across a portfolio.
+
+For the county view, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, and the [Fire Risk Assessment North West](/) homepage sets out how it fits together.

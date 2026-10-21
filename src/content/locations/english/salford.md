@@ -186,19 +186,62 @@ faq_section:
       answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Greater Manchester Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Salford and the wider Greater Manchester area. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Salford runs two property markets that barely touch. The Quays and MediaCity with their towers, glass and managed buildings, and the terraces of Ordsall, Weaste and Eccles that were there long before any of it.
 
-Salford presents unique fire safety challenges. The city is home to MediaCityUK and Salford Quays, where modern high-rise apartment blocks and media studios sit alongside the historic Victorian terraces and industrial buildings of Eccles, Pendleton, and Swinton. The University of Salford campus adds further complexity with its mix of educational buildings and student accommodation. Our assessors understand the specific fire risks that Salford's diverse property landscape presents.
+Our work covers both. Landlords, agents, employers and building owners across the city, from a single terraced house to a high-rise with a safety case to maintain.
 
-## Key Requirements for Salford Properties in 2026
+The method stays the same whatever the building. Understand the building, find the hazards, test whether the existing measures would work and write down what has to change.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **Quarterly fire door checks** — mandatory for buildings over 11 metres
-- **HMO licensing** — additional fire safety requirements for licensed HMO properties
-- **Salford City Council** — local enforcement through Greater Manchester Fire and Rescue Service
-- **PAS 79 methodology** — recommended best practice for fire risk assessment format
+## Towers, Terraces and the Canal Corridor
 
-## Serving Salford Businesses
+The high-rise stock attracts attention, and rightly. Tall buildings depend on compartmentation that holds, smoke control that works and management arrangements that survive staff changes and agent handovers. When any of those three slips, the risk profile of the whole building changes.
 
-We work with a wide range of premises across Salford, including media studios at MediaCityUK, apartment blocks at Salford Quays, offices in Eccles, retail units in Swinton, restaurants in Monton, care homes in Walkden, warehouses in Irlam, and residential blocks throughout the borough. Whether you're a small business or managing a large portfolio, we can help.
+The older housing carries the residential pattern in its usual form. Terraces with shared walls, cellars in use, lofts converted, houses divided between tenants and fire doors replaced over the years.
+
+The commercial and industrial buildings along the canal add large floor plates and mixed uses. A unit that was storage a decade ago may now hold a gym, a workshop and a small distribution operation under one roof.
+
+## Fire Risk Assessment Salford: What We Look At
+
+The assessor starts with the strategy, which for a tall building means the design intent as well as the physical reality. Compartmentation, smoke control, the protected stair, the evacuation plan and the arrangements for anyone who would need help to leave.
+
+For smaller buildings the order shifts. Detection and warning first, then the routes out, the doors along them, the lighting and signage, and the records that should sit behind all of it.
+
+In both cases the question is the same. Do the measures match the risk that is actually present?
+
+## Common Findings in Salford
+
+Fire doors wedged open on residential corridors. A panel in fault with nothing written beside it. A wall breached for a new cable or a satellite dish. Lighting with failed batteries. Storage left in the only escape route.
+
+In the towers the recurring issue is management. A building can be designed well and run badly, and the gap usually shows in the records, the testing regime and the state of the doors.
+
+In the terraces it is the familiar list of doors, cellars and loft conversions.
+
+## Why Fire Risk Assessments Matter in Salford
+
+The Fire Safety Order places the duty on the responsible person, and for residential buildings the Building Safety Act adds duties for higher-risk buildings, including an accountable person and a safety case.
+
+Greater Manchester Fire and Rescue Service enforces the Fire Safety Order across the city, while Salford City Council applies licensing conditions to HMOs.
+
+Insurers, lenders and managing agents all ask for a current assessment. For a tall building they usually want more than the report, including the evidence behind it.
+
+## The Report and the Safety Case
+
+The document answers to whoever acts on it, whoever prices the work and whoever inspects or reviews the safety case later.
+
+It records the premises and scope, the hazards, the people at risk, the existing precautions and how they perform, the significant findings, the actions in priority order and when to review. For higher-risk buildings the findings are laid out so they can feed straight into the safety case.
+
+Plain language throughout.
+
+## Fire Risk Assessment Salford Cost
+
+Smaller properties start at £249. The rest follows the building.
+
+Size and storey count set the time on site, and height adds to it because smoke control and compartmentation take longer to verify. Use changes the assessment entirely, since a tower, a terrace, a studio and a warehouse are not comparable. Occupancy sets the risk, the condition of the systems sets the verification time and the reporting depth sets the desk work.
+
+Compare the scope, not the headline number.
+
+Our fire risk assessments Salford managing agents order for higher-risk buildings are written to feed the safety case, not sit beside it.
+
+If you need a fire risk assessor Salford landlords can book without a long lead time, send the property details and we will confirm availability. The same team works as a fire safety consultant Salford managing agents call on for higher-risk buildings, and as a fire risk assessment Salford owners can rely on across a portfolio.
+
+The [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers the city side of Greater Manchester, and the [Fire Risk Assessment North West](/) homepage sets out the wider service.

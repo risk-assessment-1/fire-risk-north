@@ -171,17 +171,64 @@ faq_section:
       answer: "We cover the entire Rochdale borough including Rochdale town centre, Heywood, Middleton, Littleborough, Milnrow, Newhey, Smithy Bridge, Castleton, and all surrounding areas."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Rochdale and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Rochdale made cotton, then wool, then less, and the buildings stayed. Mills along the canal, terraces packed around them, a town centre rebuilt more than once and a business park on the edge that looks nothing like either.
 
-Rochdale presents unique fire safety challenges. The borough combines a historic town centre with industrial heritage sites, suburban commercial areas in Heywood and Middleton, and rural communities around Littleborough and Hollingworth Lake. From Rochdale town centre's regeneration area to the industrial estates of Pilsworth, our assessors understand the specific fire risks that Rochdale properties present.
+We work with landlords, agents, employers and owner-managers across the borough. Mill conversions, town centre shops and offices, HMOs, care homes, schools, warehouses and the industrial units around Kingsway.
 
-## Key Requirements for Rochdale Properties
+Different buildings, one method. Understand the building, find the hazards, judge whether the existing precautions would work and set out what needs to change.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **HMO licensing** — additional fire safety requirements for licensed HMO properties under Rochdale Council
-- **Greater Manchester Fire and Rescue** — local enforcement authority for the Rochdale borough
+## Canal Mills and the Kingsway Estate
 
-## Serving Rochdale Businesses
+The mills were engineered for production. Open floors, heavy timber, cast iron columns and stair towers built to move goods rather than people. Converted into flats or business units, the structure remains while the use changes, and the alterations since conversion are where the risk usually sits.
 
-We work with a wide range of premises across Rochdale, including offices in the town centre, retail units on Drake Street, restaurants in Littleborough, hotels in Middleton, residential blocks throughout the borough, and industrial units in Heywood. Whether you're a small business or managing a large portfolio, we can help.
+The terraces around the centre follow the familiar pattern. Shared walls, narrow stairs, cellars in use, lofts converted and front doors replaced over the years with whatever fitted the frame.
+
+The newer commercial stock around Kingsway and the motorway junctions brings large floor plates, high fire loads and shift patterns that mean the person who knows the building may not be on site when something happens.
+
+## Fire Risk Assessment Rochdale: What We Look At
+
+A fire risk assessment identifies ignition sources and combustibles, considers how fire and smoke would travel and judges whether the occupants could escape.
+
+The assessor reviews detection and warning, escape routes and exits, fire doors and separation, emergency lighting, extinguishers, signage and the evacuation arrangements. Records are checked where they exist, including maintenance logs, test certificates and any previous report.
+
+The conclusion is a judgement about proportionality, not a pass or fail.
+
+## Common Findings in Rochdale
+
+Doors held open on catches that no longer release. A panel sitting in fault with nothing recorded. Lighting tested once and never again. A wall opened up for a cable and left open. Storage in the only escape route.
+
+In the mills the recurring issue is the single stair serving floors never designed for sleeping. In the terraces it is the doors, the cellars in use and the lofts. In the newer units it is racking that has outgrown the sprinkler coverage.
+
+## Why Fire Risk Assessments Matter in Rochdale
+
+The Fire Safety Order places the duty on the responsible person, which in most businesses means the employer or whoever controls the premises. Greater Manchester Fire and Rescue Service enforces it across the borough, and Rochdale Council applies licensing conditions to HMOs.
+
+Growth along the motorway corridor brings uses close together. A warehouse next to a residential street is a different problem from either one alone, and the assessment is where that gets considered.
+
+Lenders and insurers ask for a current assessment before they lend or quote.
+
+## The Report and What It Says
+
+It answers to three readers. The person who has to act, the contractor who has to price the work and the inspector who may read it later.
+
+Inside are the premises and scope, the hazards, the people at risk, an evaluation of the existing precautions, the significant findings, the actions in priority order and guidance on review. Photographs where a picture explains more than a sentence could.
+
+Plain wording throughout.
+
+## Fire Risk Assessment Rochdale Cost
+
+Pricing starts at £249 for smaller premises, with everything above quoted from the details.
+
+- Floor area and storey count, because both add time on site
+- Use, since a mill, a terrace, a shop and a warehouse are assessed differently
+- Occupancy, as the number and type of people inside set the risk
+- The age of alarms and lighting, which takes longer to verify
+- Reporting depth, because a portfolio needs more detail than a single unit
+
+Compare scope rather than the total.
+
+The fire risk assessments Rochdale owners commission usually follow a purchase, a relet or a change of use.
+
+If you need a fire risk assessor Rochdale landlords can book at short notice, send the property details and we will confirm availability. The same team works as a fire safety consultant Rochdale employers call on before a change of use, and as a fire risk assessment Rochdale agents can apply across several buildings.
+
+For the city side of Greater Manchester, our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers it, and the [Fire Risk Assessment North West](/) homepage sets out the wider service.

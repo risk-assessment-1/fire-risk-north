@@ -75,11 +75,18 @@ const {
         <h1
           class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-darkmode-text tracking-tight leading-tight"
         >
-          {title}<br />
-          <span
-            class={`${subtitle === "HMOs" ? "normal-case" : ""} text-orange-700`}
-            >{subtitle}</span
-          >
+          {title}{
+            subtitle && (
+              <>
+                <br />{" "}
+                <span
+                  class={`${subtitle === "HMOs" ? "normal-case" : ""} text-orange-700`}
+                >
+                  {subtitle}
+                </span>
+              </>
+            )
+          }
         </h1>
 
         {
@@ -142,7 +149,7 @@ const {
         <div class="rounded-3xl overflow-hidden shadow-2xl">
           <ImageMod
             src={image}
-            alt={title}
+            alt={subtitle ? `${title} ${subtitle}` : title}
             width={800}
             height={450}
             fit="cover"

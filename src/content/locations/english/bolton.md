@@ -187,18 +187,64 @@ faq_section:
       answer: "We cover the entire Bolton borough including Bolton town centre, Horwich, Farnworth, Walkden, Kearsley, Westhoughton, Little Hulton, Blackrod, Breightmet, Harwood, Bromley Cross, and all surrounding areas."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Bolton and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Bolton's fire risk is built into its architecture. The town ran on cotton for a century and the mills that made it are still standing, most of them now holding people rather than machinery.
 
-Bolton presents unique fire safety challenges rooted in its industrial heritage. The borough contains a high proportion of former textile mills, warehouses, and industrial buildings that have been converted into apartments, offices, and commercial spaces. These conversions require specialist assessment to address compartmentation, means of escape, and structural fire protection. From Bolton town centre's commercial district to the residential areas of Horwich and Farnworth, our assessors understand the specific fire risks that Bolton properties present.
+Instructions reach us from across the borough. A landlord with one terrace house, an agent running twenty, an employer in a unit off the ring road, an owner-manager who has just taken on a building and wants to know what has been inherited along with the keys.
 
-## Key Requirements for Bolton Properties
+Nobody gets a template. We look at the building that is actually there, list what could burn, work out who would be in the way and set out what has to change first.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **HMO licensing** — additional fire safety requirements for licensed HMO properties under Bolton Council
-- **Industrial conversions** — specific fire safety considerations for mill and warehouse conversions
-- **Greater Manchester Fire and Rescue** — local enforcement authority for the Bolton borough
+## The Borough's Inherited Stock
 
-## Serving Bolton Businesses
+Spinning floors were designed around shafts and belts. Timber beams, cast iron columns, brick stair towers built to shift goods. When a mill becomes apartments or offices, that frame stays, and the partitions, locked doors and new services added since sit inside it.
 
-We work with a wide range of premises across Bolton, including offices in the town centre, retail units at Middlebrook, restaurants on Deansgate, converted mills in Hall i' th' Wood, residential blocks throughout the borough, and industrial units at Wingates Industrial Park. Whether you're a small business or managing a large portfolio, we can help.
+The terraces around Halliwell, Daubhill and Great Lever carry the residential version of the same problem. Shared walls, steep stairs, cellars brought into habitable use, lofts converted and doors swapped over the years for whatever fitted.
+
+Middlebrook and the industrial estates add a third pattern. Big floor plates, high fire loads, racking that has grown and staff who may never have been shown the assembly point.
+
+## Fire Risk Assessment Bolton: What We Look At
+
+The assessor walks the building rather than reading about it. Detection and warning come first, because a fire nobody hears about is a fire nobody escapes. Then the routes out, including the doors, stairs, lighting and the width of the corridor where it turns a corner.
+
+Compartmentation gets checked against the drawings where drawings exist, and against common sense where they do not. Records come last, and they often say more about the building than the survey does.
+
+The conclusion is a judgement about whether the precautions match the risk, not a list of defects.
+
+## Common Findings in Bolton
+
+Closers set so hard that staff wedge the door instead. A cable run punched through a compartment wall and never made good. Storage under the only staircase. A panel in fault that nobody has written down. Emergency lights that were tested at handover and not since.
+
+In the older terraces the usual losses are the lobby door, the second stair and the original door. Each was removed for a good reason at the time and none of them was replaced.
+
+## Why Fire Risk Assessments Matter in Bolton
+
+The duty sits with the responsible person under the Fire Safety Order, which for most businesses means the employer or whoever controls the premises. Greater Manchester Fire and Rescue Service enforces it, and Bolton Council adds licensing conditions for HMOs.
+
+Enforcement follows risk rather than postcode, but the borough gives inspectors plenty to look at. A mill conversion with a single stair or a warehouse with sleeping accommodation will always draw more attention than a modern office.
+
+Insurers now ask for a current report before they will quote, and a claim is a poor moment to find out that the last one described a different layout.
+
+## The Written Report
+
+Three readers matter. The person who has to act, the contractor who has to price the work and the inspector who may read it years from now.
+
+The document sets out the premises, the scope, the hazards, who is exposed, how the existing precautions measure up, the significant findings, the actions in priority order and a date to review. Photographs go in where a picture settles an argument faster than a description.
+
+Jargon is kept out. A finding nobody understands will not be fixed.
+
+## Fire Risk Assessment Bolton Cost
+
+Smaller properties start at £249. Above that, the quote follows the building rather than a rate card.
+
+- Floor area and storey count, because both add inspection time
+- Use, since a mill, a terrace, a warehouse and an office fail in different ways
+- Occupancy, as the number and type of people inside set the risk
+- The condition of alarms, lighting and doors, which takes longer to verify when they are old
+- Reporting depth, because a portfolio needs more detail than a single shop
+
+Compare what is included, not just the total. A cheap quote that skips the compartmentation is a smaller job, not a better price.
+
+We carry out fire risk assessments Bolton landlords, agents and employers can put in front of a licensing officer, an insurer or an inspector without a rewrite.
+
+If you need a fire risk assessor Bolton landlords can book without a long lead time, send the property details and we will confirm availability. The same team works as a fire safety consultant Bolton employers call on before a change of use, and as a fire risk assessment Bolton managing agents can rely on across a portfolio.
+
+For the wider picture, the [Fire Risk Assessment North West](/) homepage sets out the regional service, and our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers the city end of Greater Manchester.

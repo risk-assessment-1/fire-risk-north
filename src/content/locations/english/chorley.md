@@ -185,19 +185,64 @@ faq_section:
       answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Lancashire Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Chorley and the surrounding Lancashire area. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Chorley has grown faster than its centre suggests. New estates at Buckshaw Village, distribution sheds along the M61 and M6, converted farm buildings out towards the mosses, and a town centre still running on the old street pattern.
 
-Chorley presents unique fire safety challenges. As a traditional Lancashire market town, Chorley has a mix of historic stone-built commercial properties around the town centre, modern residential developments at Buckshaw Village, and rural buildings scattered across Whittle-le-Woods, Wheelton, and the surrounding countryside. The area's blend of old and new building stock requires assessors who understand both traditional construction methods and modern fire safety standards. Our assessors understand the specific fire risks that Chorley's diverse property landscape presents.
+We work for landlords, agents, employers and owner-managers across the borough. Shops and offices, warehouses, HMOs, care homes, schools, rural conversions and holiday lets.
 
-## Key Requirements for Chorley Properties in 2026
+Different buildings, one method. Understand the building, find the hazards, judge whether the existing measures would work and set out what has to change.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **Quarterly fire door checks** — mandatory for buildings over 11 metres
-- **HMO licensing** — additional fire safety requirements for licensed HMO properties
-- **Chorley Council** — local enforcement through Lancashire Fire and Rescue Service
-- **PAS 79 methodology** — recommended best practice for fire risk assessment format
+## Three Kinds of Building, Three Kinds of Risk
 
-## Serving Chorley Businesses
+The town centre holds the oldest stock. Narrow plots, premises that have been shops, stores and flats in turn, rear extensions added over the years and cellars never designed as habitable space. Every change of use leaves something behind.
 
-We work with a wide range of premises across Chorley, including offices in the town centre, retail units on Market Street, restaurants and cafes around the market, hotels near the M6, modern apartment buildings at Buckshaw Village, care homes in Adlington, industrial units in Coppull, and residential blocks throughout the area. Whether you're a small business or managing a large portfolio, we can help.
+Buckshaw and the new estates bring modern construction and a different set of assumptions. Compartmentation that should be intact, alarms that should be maintained, and a chain of landlord, agent and tenant where responsibility can quietly fall between all three.
+
+The logistics buildings along the motorway add the third pattern. Large floor plates, high fire loads, racking that grows taller each year and shifts that run through the night.
+
+## Fire Risk Assessment Chorley: What We Look At
+
+A fire risk assessment identifies ignition sources and combustibles, considers how fire and smoke would travel and judges whether the occupants could escape.
+
+The assessor reviews detection and warning, escape routes and exits, fire doors and compartmentation, emergency lighting, extinguishers, signage and the evacuation arrangements. Records are checked where they exist, including maintenance logs, test certificates and any earlier assessment.
+
+The output is a judgement about proportionality, not a checklist of defects.
+
+## Common Findings in Chorley
+
+Doors wedged open on a warm afternoon. A panel in fault with nothing written in the log. Lighting units with failed batteries and no record of the last test. Racking pushed past the line that keeps it clear of the sprinkler heads. A compartment wall opened for a cable and left that way.
+
+In the town centre the usual issue is the escape route shared between a shop and the flat above, with no clear responsibility for either. In the rural conversions it is the travel distance and the single stair.
+
+## Why Fire Risk Assessments Matter in Chorley
+
+The Fire Safety Order puts the duty on the responsible person, which in most businesses means the employer or whoever controls the premises. Lancashire Fire and Rescue Service enforces it across the borough, and Chorley Council applies licensing conditions to HMOs.
+
+Growth brings its own risk. A building is signed off against a design, then altered, subdivided or relet, and the gap between what was approved and what is in use is where the problems sit.
+
+Insurers and funders ask for a current assessment before they quote or lend.
+
+## The Report and Its Priorities
+
+The document is written for whoever has to act, whoever has to price the work and whoever may inspect later.
+
+It records the premises and scope, the hazards, the people at risk, an evaluation of the existing precautions, the significant findings, prioritised actions and review guidance. Photographs where they explain a point faster than a paragraph.
+
+Plain wording throughout. A finding nobody can act on is a finding wasted.
+
+## Fire Risk Assessment Chorley Cost
+
+Smaller premises start at £249. Everything above is priced from the building.
+
+- Floor area and storeys, because both add time on site
+- Use, since a shop, a warehouse, a terrace and a barn conversion are not comparable
+- Occupancy, which sets the risk rather than the floor plan
+- The state of alarms and lighting, which takes longer to verify when it is old
+- Reporting depth, because a portfolio needs more detail than a single unit
+
+Compare what the quote includes. A cheaper assessment that skips the difficult rooms is not a saving.
+
+Our fire risk assessments Chorley agents commission tend to cover several units at once, which keeps the findings consistent between them.
+
+If you need a fire risk assessor Chorley landlords can book at short notice, send the property details and we will confirm availability. The same team works as a fire safety consultant Chorley employers call on before a change of use, and as a fire risk assessment Chorley agents can apply across several sites.
+
+For the county picture, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, and the [Fire Risk Assessment North West](/) homepage explains how it fits together.

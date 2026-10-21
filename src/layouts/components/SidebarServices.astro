@@ -5,6 +5,7 @@ export interface Props {
   slugs: string[];
   currentSlug?: string;
   basePath?: string;
+  hrefs?: Record<string, string>;
   title?: string;
 }
 
@@ -12,6 +13,7 @@ const {
   slugs,
   currentSlug,
   basePath = "/services",
+  hrefs = {},
   title = "Our Services",
 } = Astro.props;
 ---
@@ -25,7 +27,7 @@ const {
       slugs.map((slug: string) => (
         <li class="border-b border-border pb-4">
           <a
-            href={`${basePath}/${slug}`}
+            href={hrefs[slug] ?? `${basePath}/${slug}`}
             class={
               currentSlug === slug
                 ? "text-primary dark:text-darkmode-primary"

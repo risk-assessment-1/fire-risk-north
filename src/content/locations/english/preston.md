@@ -1,205 +1,262 @@
 ---
-title: "Fire Risk Assessment in Preston"
-meta_title: "Fire Risk Assessment Preston - Fire Assessment North"
-description: "Professional fire risk assessment services in Preston, Lancashire. BAFE SP205 registered assessors, 24-hour report delivery available on request. Compliant with Fire Safety Order 2005 and Building Safety Act 2022."
-image: "../../../assets/images/locations/preston.jpg"
+title: Fire Risk Assessments Preston
+meta_title: Fire Risk Assessments Preston | Fire Safety Consultants
+description: We offer fire risk assessment services in Preston to identify potential fire hazards for HMOs, landlords, and commercial spaces by qualified consultants.
+image: ../../../assets/images/locations/preston.jpg
 draft: false
 hero:
   enable: true
-  title: "Fire Risk Assessment in"
-  subtitle: "Preston"
-  description: "Professional fire risk assessments across Preston and the wider Lancashire area. BAFE SP205 registered assessors, 24-hour report delivery available on request, and full compliance with UK fire safety legislation."
+  title: Fire Risk Assessments
+  subtitle: Preston
+  description: Fire risk assessments for Preston landlords, student HMOs and commercial premises. Qualified consultants, clear findings and reports you can act on.
   badges:
-    - label: "BAFE SP205 Registered"
-    - label: "24-Hour Turnaround on Request"
-    - label: "All Preston Area"
+    - label: BAFE SP205 Registered
+    - label: HMO & Commercial Specialists
+    - label: Preston & Central Lancashire
 areas_covered:
   enable: true
-  heading: "Areas We Cover Across Preston"
-  description: "Fire risk assessments available throughout Preston and the wider Lancashire area with rapid response times."
+  heading: Areas We Cover Across Preston
+  description: Fire risk assessments across Preston and central Lancashire.
   regions:
-    - title: "Preston City Centre"
-      areas: "City centre, Winckley Square, Ringway, Friargate, Fishergate, Avenham"
-    - title: "North Preston"
-      areas: "Fulwood, Ingol, Cottam, Lea, Tanterton, Sherwood"
-    - title: "South & Ribble"
-      areas: "Penwortham, Walton-le-Dale, Bamber Bridge, Lostock Hall, Hutton"
-    - title: "East Preston"
-      areas: "Ribbleton, Deepdale, Ashton-on-Ribble, Brookfield, Greyfriars"
+    - title: City Centre
+      areas: Fishergate, Winckley Square, Avenham, Miller Park
+    - title: Fulwood & North
+      areas: Fulwood, Cadley, Ingol, Cottam, Barton
+    - title: Ribbleton & East
+      areas: Ribbleton, Deepdale, Fishwick, Ribbleton Hall
+    - title: South & Riversway
+      areas: Ashton, Riversway, Penwortham, Lostock Hall, Bamber Bridge
   locations:
-    - name: "Preston city centre"
-    - name: "Fulwood"
-    - name: "Avenham"
-    - name: "Ribbleton"
-    - name: "Deepdale"
-    - name: "Ashton-on-Ribble"
-    - name: "Ingol"
-    - name: "Cottam"
-    - name: "Lea"
-    - name: "Penwortham"
-    - name: "Winckley Square"
-    - name: "Fishergate"
-    - name: "Friargate"
-    - name: "Hutton"
-    - name: "Tanterton"
-    - name: "Brookfield"
-    - name: "Greyfriars"
+    - name: Preston City Centre
+    - name: Fulwood
+    - name: Ribbleton
+    - name: Deepdale
+    - name: Ashton
+    - name: Ingol
+    - name: Cottam
+    - name: Penwortham
+    - name: Lostock Hall
+    - name: Bamber Bridge
+    - name: Leyland
+    - name: Chorley
+    - name: Longridge
+    - name: Garstang
 five_steps_fra:
   enable: true
-  heading: "How Our Preston Fire Risk Assessment Works"
-  description: "From initial enquiry to comprehensive report in as little as 48 hours."
+  heading: How Our Preston Fire Risk Assessment Works
+  description: Booked around tenancy changeovers where that helps.
   steps:
     - number: 1
-      title: "Get Your Quote"
-      description: "Use our instant calculator or call for a tailored quote for your Preston property."
-      icon: "clipboard-list"
+      title: Get Your Quote
+      description: Property type, floors, lettable rooms and occupancy is enough to scope a Preston assessment and give you a firm price.
+      icon: clipboard-list
     - number: 2
-      title: "Book Assessment"
-      description: "Choose a convenient time. Appointments available within 48-72 hours."
-      icon: "search"
+      title: Book the Assessment
+      description: We schedule around changeover dates so remedial work can follow without disturbing tenants.
+      icon: search
     - number: 3
-      title: "Site Visit"
-      description: "Our BAFE assessor conducts a thorough on-site evaluation of your premises."
-      icon: "shield-check"
+      title: Site Visit
+      description: The assessor looks at communal areas, fire doors, escape routes, detection, ignition sources, loft and cellar spaces, and the records that back them up.
+      icon: shield-check
     - number: 4
-      title: "Report Delivery"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours if requested."
-      icon: "clipboard-list"
+      title: Report Delivery
+      description: A prioritised written report, with the precautions reviewed and the scope set out, within 24 hours on request.
+      icon: clipboard-list
     - number: 5
-      title: "Ongoing Support"
-      description: "We help implement recommendations and offer annual reviews."
-      icon: "refresh-cw"
+      title: Review and Support
+      description: We answer follow-up questions and review the assessment after a conversion, licensing change or remedial work.
+      icon: refresh-cw
 features:
   enable: true
-  heading: "Why Preston Businesses Choose Fire Assessment North"
-  subtitle: "Deep local expertise combined with outstanding service"
+  heading: Why Preston Landlords Choose Fire Assessment North
+  subtitle: Terraces, HMOs and student lets assessed by people who know the local stock
   cards:
-    - title: "BAFE SP205 Registered"
-      description: "All assessors meet the highest industry competency standards, verified by UKAS-accredited certification."
-      icon: "shield-check"
-    - title: "24-Hour Report Delivery on Request"
-      description: "Receive your comprehensive, legally-compliant report within 24 hours on request (may incur an additional charge)."
-      icon: "clipboard-list"
-    - title: "Local Preston Knowledge"
-      description: "Assessors familiar with Preston's university buildings at UCLan, city centre commercial properties, and residential areas from Fulwood to Penwortham."
-      icon: "search"
-    - title: "Competitive Pricing"
-      description: "Transparent, upfront pricing with no hidden fees. Starting from just £249."
-      icon: "scale"
-    - title: "Full Regulatory Compliance"
-      description: "Assessments compliant with Fire Safety Order 2005, Building Safety Act 2022, and PAS 79 methodology."
-      icon: "landmark"
-    - title: "Ongoing Support"
-      description: "We help implement recommendations, provide annual reviews, and support you through enforcement action."
-      icon: "refresh-cw"
+    - title: BAFE SP205 Registered
+      description: Assessors whose competence is checked against a recognised scheme, verified through UKAS-accredited certification.
+      icon: shield-check
+    - title: 24-Hour Report Delivery on Request
+      description: A written report within 24 hours when you need it urgently (may incur an additional charge).
+      icon: clipboard-list
+    - title: Preston Housing Knowledge
+      description: Experience of Victorian terraces, student HMOs and the licensing conditions Preston City Council applies.
+      icon: search
+    - title: Competitive Pricing
+      description: Transparent quotes with no hidden fees. Assessments start at £249 for smaller properties.
+      icon: scale
+    - title: Full Regulatory Compliance
+      description: Assessments against the Fire Safety Order 2005, Building Safety Act 2022 and PAS 79, with enforcement by Lancashire Fire and Rescue Service.
+      icon: landmark
+    - title: Ongoing Support
+      description: Support through licensing renewals, remedial work, the annual review and the records Preston City Council expects.
+      icon: refresh-cw
 services_grid:
   enable: true
-  heading: "Complete Fire Safety Services in Preston"
-  subtitle: "Beyond fire risk assessments, we provide a full range of fire safety services across Preston."
+  heading: Complete Fire Safety Services in Preston
+  subtitle: Assessments, equipment checks and inspections for landlords and employers.
   services:
-    - title: "Fire Risk Assessment"
-      description: "Comprehensive FRA compliant with Fire Safety Order 2005 and PAS 79 methodology."
-      icon: "search"
-      href: "/services/fire-risk-assessment"
-    - title: "Fire Strategy"
-      description: "Detailed fire strategy documents for complex buildings and new developments."
-      icon: "clipboard-list"
-      href: "/services/fire-strategy"
-    - title: "Fire Door Inspection"
-      description: "Quarterly and annual fire door inspections meeting current regulations."
-      icon: "door-open"
-      href: "/services/fire-door-inspection"
-    - title: "Fire Door Surveying"
-      description: "Comprehensive fire door surveys for new installations and remediation."
-      icon: "door-open"
-      href: "/services/fire-door-surveying"
-    - title: "Fire Alarm Testing"
-      description: "Regular testing and maintenance of fire alarm systems to BS 5839 standards."
-      icon: "shield-check"
-      href: "/services/fire-alarm-testing"
-    - title: "Fire Extinguisher Servicing"
-      description: "Annual servicing and certification of all fire extinguisher types."
-      icon: "shield-check"
-      href: "/services/fire-extinguisher-servicing"
-    - title: "Emergency Light Testing"
-      description: "Testing and certification of emergency lighting systems to BS 5266 standards."
-      icon: "shield-check"
-      href: "/services/emergency-light-testing"
+    - title: Fire Risk Assessment
+      description: Comprehensive FRA compliant with Fire Safety Order 2005 and PAS 79 methodology.
+      icon: search
+      href: /services/fire-risk-assessment
+    - title: Fire Strategy
+      description: Detailed fire strategy documents for complex buildings and new developments.
+      icon: clipboard-list
+      href: /services/fire-strategy
+    - title: Fire Door Inspection
+      description: Quarterly and annual fire door inspections meeting current regulations.
+      icon: door-open
+      href: /services/fire-door-inspection
+    - title: Fire Door Surveying
+      description: Comprehensive fire door surveys for new installations and remediation.
+      icon: door-open
+      href: /services/fire-door-surveying
+    - title: Fire Alarm Testing
+      description: Regular testing and maintenance of fire alarm systems to BS 5839 standards.
+      icon: shield-check
+      href: /services/fire-alarm-testing
+    - title: Fire Extinguisher Servicing
+      description: Annual servicing and certification of all fire extinguisher types.
+      icon: shield-check
+      href: /services/fire-extinguisher-servicing
+    - title: Emergency Light Testing
+      description: Testing and certification of emergency lighting systems to BS 5266 standards.
+      icon: shield-check
+      href: /services/emergency-light-testing
 property_types:
   enable: true
-  heading: "Fire Risk Assessments for All Preston Property Types"
-  subtitle: "Specialist assessments tailored to your property type"
+  heading: Fire Risk Assessments for Preston Property Types
+  subtitle: The scope follows the building, not a standard checklist.
   types:
-    - title: "Flats & Apartments"
-      description: "Communal area assessments for residential blocks and apartment buildings"
-      icon: "building-2"
-      href: "/services/fire-risk-assessment/flats"
-    - title: "HMO Properties"
-      description: "Licensing-compliant assessments for Houses in Multiple Occupation"
-      icon: "home"
-      href: "/services/fire-risk-assessment/hmo"
-    - title: "Offices"
-      description: "Commercial office assessments from small units to corporate headquarters"
-      icon: "landmark"
-      href: "/services/fire-risk-assessment/offices"
-    - title: "Retail Premises"
-      description: "Shops, shopping centres, and retail units across Preston"
-      icon: "building-2"
-      href: "/services/fire-risk-assessment/retail"
-    - title: "Restaurants & Cafes"
-      description: "Commercial kitchen safety and extraction compliance"
-      icon: "utensils"
-      href: "/services/fire-risk-assessment/restaurants"
-    - title: "Hotels & B&Bs"
-      description: "Hospitality fire safety for sleeping accommodation"
-      icon: "building-2"
-      href: "/services/fire-risk-assessment/hotels"
-    - title: "Care Homes"
-      description: "Specialist assessments for vulnerable residents with PEEPs"
-      icon: "heart-pulse"
-      href: "/services/fire-risk-assessment/care-homes"
-    - title: "Warehouses"
-      description: "Industrial and storage facility fire risk assessments"
-      icon: "building-2"
-      href: "/services/fire-risk-assessment/warehouses"
-  cta_label: "View All Property Types"
-  cta_href: "/services/fire-risk-assessment"
+    - title: HMO Properties
+      description: Student houses, shared terraces and licensed HMOs
+      icon: home
+      href: /services/fire-risk-assessment/hmo
+    - title: Flats & Apartments
+      description: Converted villas, purpose-built blocks and newer developments
+      icon: building-2
+      href: /services/fire-risk-assessment/flats
+    - title: Offices
+      description: Offices in the city centre and business parks
+      icon: landmark
+      href: /services/fire-risk-assessment/offices
+    - title: Retail Premises
+      description: High street shops and retail units
+      icon: building-2
+      href: /services/fire-risk-assessment/retail
+    - title: Restaurants & Cafes
+      description: Cafes, restaurants and takeaways with commercial kitchens
+      icon: utensils
+      href: /services/fire-risk-assessment/restaurants
+    - title: Care Homes
+      description: Care homes and supported housing where evacuation needs planning
+      icon: heart-pulse
+      href: /services/fire-risk-assessment/care-homes
+    - title: Warehouses
+      description: Storage and light industrial units around the Ribble and M6 corridor
+      icon: building-2
+      href: /services/fire-risk-assessment/warehouses
+    - title: Hotels & B&Bs
+      description: Hotels, guest houses and serviced accommodation
+      icon: building-2
+      href: /services/fire-risk-assessment/hotels
+  cta_label: View All Property Types
+  cta_href: /services/fire-risk-assessment
 faq_section:
   enable: true
-  heading: "Preston Fire Risk Assessment FAQs"
-  description: "Common questions from Preston businesses and property owners about fire safety compliance."
+  heading: Preston Fire Risk Assessment FAQs
+  description: Practical answers for landlords, agents and employers in Preston.
   items:
-    - question: "How much does a fire risk assessment cost in Preston?"
-      answer: "Fire risk assessments in Preston start from £249 for smaller properties. Costs vary depending on property size, type, and complexity. Use our instant online calculator for an accurate quote tailored to your specific premises."
-    - question: "How quickly can you assess a Preston property?"
-      answer: "We typically schedule assessments within 48-72 hours across Preston and the wider Lancashire area. For commercial properties requiring minimal disruption, we can arrange out-of-hours appointments. Reports are delivered within 24 hours of the site visit when requested (may incur an additional charge)."
-    - question: "Do you cover all areas of Preston?"
-      answer: "Yes, we cover all of Preston including the city centre, Fulwood, Avenham, Ribbleton, Deepdale, Ashton-on-Ribble, Ingol, Cottam, Lea, Penwortham, and all surrounding areas. Our local assessors are based across Lancashire for rapid response."
-    - question: "Are your Preston assessors qualified?"
-      answer: "All our assessors are BAFE SP205 registered, meeting the highest industry competency standards verified by UKAS-accredited certification. They have extensive experience with Preston's diverse building stock, from university buildings at UCLan to city centre commercial premises and suburban residential properties."
-    - question: "What types of Preston properties do you assess?"
-      answer: "We assess all property types across Preston including offices in the city centre, retail units on Fishergate, restaurants, hotels, care homes, UCLan university buildings, warehouses in Ribbleton, HMOs, blocks of flats, and mixed-use buildings."
-    - question: "Do you understand Preston's mix of university, commercial, and residential buildings?"
-      answer: "Absolutely. As the administrative centre of Lancashire and home to UCLan, Preston has a diverse property landscape including university campus buildings, student accommodation, historic commercial premises around Winckley Square, and residential areas from Fulwood to Penwortham. Our assessors have extensive experience with all these building types."
-    - question: "What regulations must Preston businesses comply with?"
-      answer: "Preston businesses must comply with the Regulatory Reform (Fire Safety) Order 2005, which requires a written fire risk assessment for all non-domestic premises. Additional requirements may apply under the Building Safety Act 2022 for high-rise buildings, and local licensing conditions for HMOs and licensed premises."
-    - question: "Can you help with Lancashire Fire and Rescue enforcement notices in Preston?"
-      answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Lancashire Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
+    - question: Who is responsible for fire safety in a rented Preston property?
+      answer:
+        For the communal areas of a rented building, the landlord or whoever manages the premises. For a house let to a single household, the occupier usually controls the domestic parts, but licensing
+        conditions and the arrangement of the tenancy can change who is responsible for what.
+    - question: What is covered during the assessment?
+      answer:
+        Fire hazards and ignition sources, people at risk, alarms and detection, escape routes, fire doors, emergency lighting, extinguishers, signage, evacuation arrangements and fire safety management.
+        For HMOs the focus sits on the shared routes, the flat entrance doors and the way tenants use communal kitchens. The scope is agreed beforehand, so communal areas, lettable rooms, plant and records
+        are clear before anyone arrives on site.
+    - question: How much does a fire risk assessment in Preston cost?
+      answer: From £249 for smaller properties. The price reflects the size, the number of floors, the number of lettable rooms and the condition of the existing fire precautions.
+    - question: How long does an assessment take?
+      answer: A three-storey terrace converted into bedsits is often done within a couple of hours. Larger blocks and commercial buildings take longer. The report usually follows within a few working days.
+    - question: Will you help implement the actions?
+      answer:
+        We can arrange fire door inspection, alarm testing, emergency lighting testing and extinguisher servicing. Building works, such as upgrading doors or adding compartmentation, are carried out
+        by contractors, and we can set out what the specification needs to achieve.
+    - question: What documentation do we get?
+      answer:
+        A written report with the premises details, the scope, the hazards found, the people at risk, an evaluation of existing measures, significant findings, recommended actions and review guidance.
+        Each finding carries a priority, and the wording is plain enough for a contractor to price the work without a second visit.
+    - question: What does the assessor actually do on the day?
+      answer: A site visit and a document review. The assessor inspects the building, checks the physical measures and reads whatever records exist, then evaluates the findings and writes them up.
+    - question: How often should a Preston landlord update the assessment?
+      answer:
+        Whenever the building or its occupancy changes, and on a cycle that matches the risk. An annual review is common for HMOs and blocks of flats. A change of tenant mix, a refurbishment or a new
+        extension should prompt a fresh assessment.
+    - question: Does a Preston rental property need a fire risk assessment?
+      answer:
+        Yes, for premises covered by the Fire Safety Order, which includes the common parts of residential buildings and all non-domestic premises. HMO licensing also requires one in most local authority
+        areas.
+    - question: When should a Preston landlord review the assessment?
+      answer: At least annually for most residential landlords, and immediately after any material change. Fires, near misses and enforcement visits are all reasons to revisit it sooner.
+    - question: Can you work with letting agents and portfolio landlords?
+      answer: Yes. We assess individual properties and whole portfolios, and we keep the reporting consistent so actions can be tracked across multiple addresses.
+    - question: Can a landlord carry out the assessment themselves?
+      answer:
+        Someone with the competence to assess the property. A simple flat conversion may be within reach of an experienced landlord who has had training. Purpose-built blocks and larger HMOs should
+        be assessed professionally.
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Preston and the wider Lancashire area. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Preston has a housing problem that shows up in its fire risk assessments. A large student population, a dense belt of Victorian terraces around the university and a rental market that has converted family homes into shared housing over several decades. Some of those conversions were done well. Plenty were not.
 
-Preston presents unique fire safety challenges. As the administrative centre of Lancashire and home to the University of Central Lancashire (UCLan), the city has a diverse mix of large-scale university buildings, student accommodation, historic commercial properties around Winckley Square, traditional terraced housing in Avenham and Deepdale, and modern residential developments in Cottam and Ingol. The city's ongoing regeneration adds further complexity with new-build properties sitting alongside established building stock. Our assessors understand the specific fire risks that Preston's diverse property landscape presents.
+We assess rented property, commercial premises and public buildings across Preston and central Lancashire. The work starts with the building as it exists, not as the plans say it should be.
 
-## Key Requirements for Preston Properties in 2026
+That distinction matters here. Fire doors that were fitted in 2008 may have been replaced with ordinary doors since. A loft conversion may have eaten the headroom on a staircase. A kitchen may have moved. An assessment that works from the original drawings will miss all of it.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **Quarterly fire door checks** — mandatory for buildings over 11 metres
-- **HMO licensing** — additional fire safety requirements for licensed HMO properties
-- **Preston City Council** — local enforcement through Lancashire Fire and Rescue Service
-- **PAS 79 methodology** — recommended best practice for fire risk assessment format
+## Fire Risk Assessment Preston: What the Assessment Does
 
-## Serving Preston Businesses
+A fire risk assessment records how a building would behave in a fire and whether the people inside could get out safely. It identifies hazards, evaluates the existing precautions and sets out what needs to change.
 
-We work with a wide range of premises across Preston, including offices around Winckley Square, retail units on Fishergate and in the St George's Centre, restaurants in the city centre, hotels near the train station, UCLan university buildings, care homes in Fulwood, warehouses in Ribbleton, student HMOs, and residential blocks throughout the city. Whether you're a small business or managing a large portfolio, we can help.
+Fire Risk Assessments Preston landlords commission usually focus on the shared parts of a building. Stairs, landings, communal kitchens, hallways, bin areas and the doors that separate them. Those are the elements a tenant cannot control and a landlord is expected to manage.
+
+For commercial premises the scope widens. Kitchens, storage, electrical installations, plant, workshops and the way staff are trained.
+
+## Why It Matters
+
+The Fire Safety Order applies to the common parts of residential buildings and to all non-domestic premises. Lancashire Fire and Rescue Service enforces it locally, and Preston City Council's licensing team applies its own conditions to HMOs.
+
+Those two regimes overlap in ways that catch landlords out. A property can satisfy the council's licensing inspection and still have a fire safety problem that the Fire Safety Order addresses. Licensing checks tend to be a snapshot. A fire risk assessment looks at how the building performs when it is full.
+
+There is a practical benefit too. A clear action list lets you plan spending across the year rather than reacting to a tenant complaint or an enforcement letter. Fire safety risk assessments Preston landlords commission should draw that line clearly, because passing a licensing visit does not prove the building would perform in a fire.
+
+## Common Problems in Preston Terraces
+
+Preston's Victorian stock produces the same problems again and again. A loft conversion that took the headroom out of a protected stair. A kitchen moved from the back of the house into the middle, with no thought about where smoke would travel. Cellar rooms turned into bedrooms with no alternative way out. Original panelled doors swapped for fire doors during a cosmetic refit, or the other way around.
+
+Some of that work passes a licensing inspection, because the inspection looks at the property on the day. It does not model how the building behaves with twelve people asleep inside it.
+
+An assessment records each finding with a priority attached. Immediate risks get dealt with first. Items needing a contractor get quoted. Cosmetic improvements go on a rolling programme so the spend is spread across the year.
+
+## Working With Letting Agents and Portfolio Landlords
+
+Letting agents often hold the assessment history for a dozen addresses and no clear picture of which ones are overdue. We can start from your list and work through it property by property, producing reports on a consistent template.
+
+That consistency pays off at renewal time. A fire safety management Preston wide programme, run on one format, makes it obvious which buildings need money this year and which can wait.
+
+If you would rather test the water first, a fire safety consultant Preston landlords already use can review your existing reports and tell you where the gaps are before you commit to a full round of visits.
+
+## Regulations We Assess Against
+
+Most Preston premises sit under the Regulatory Reform (Fire Safety) Order 2005. HMOs also fall under the Housing Act 2004 and the local licensing regime, which brings the Housing Health and Safety Rating System into play. Newer residential buildings above the height threshold come under the Building Safety Act 2022.
+
+We also work to PAS 79 methodology, which gives the assessment a consistent structure and makes the report easier for an enforcing officer to follow.
+
+## Cost and What Shapes It
+
+Fire Risk Assessment Preston pricing starts at £249. The variables are predictable. Floor area and the number of storeys. The number of lettable rooms in an HMO. Occupancy. The type and condition of the existing fire precautions. How much documentation exists and how much needs to be created.
+
+A six-bedroom terrace with a compliant alarm system is a quick job. A fourteen-bedroom HMO with a mixed alarm system and doors of three different vintages is not. We quote on the details because the details are the job. Our fire risk services Preston wide run from the assessment through to the door and detection work that follows.
+
+A fire risk assessor Preston landlords can book through us will usually see several addresses on the same round, which keeps the advice consistent between them. Fire risk consultants Preston landlords compare on price usually find the differences come down to scope rather than a daily rate.
+
+If you need a Fire Risk Assessor Lancashire landlords can call on for a property in Preston, get in touch. For the wider county picture, our [Fire Safety Management Lancashire](/fire-risk-assessments-lancashire) page sets out how the work fits together, and [Fire Safety Management North West](/) covers the regional service.

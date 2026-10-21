@@ -69,12 +69,13 @@
       "url": "/locations",
       "hasChildren": true,
       "children": [
-        { "name": "Manchester", "url": "/locations/manchester" },
-        { "name": "Liverpool", "url": "/locations/liverpool" },
-        { "name": "Preston", "url": "/locations/preston" },
-        { "name": "Blackpool", "url": "/locations/blackpool" },
-        { "name": "Bolton", "url": "/locations/bolton" },
-        { "name": "Blackburn", "url": "/locations/blackburn" },
+        { "name": "Lancashire", "url": "/fire-risk-assessments-lancashire" },
+        { "name": "Manchester", "url": "/fire-risk-assessments-manchester" },
+        { "name": "Liverpool", "url": "/fire-risk-assessments-liverpool" },
+        { "name": "Preston", "url": "/fire-risk-assessments-preston" },
+        { "name": "Blackpool", "url": "/fire-risk-assessments-blackpool" },
+        { "name": "Bolton", "url": "/fire-risk-assessments-bolton" },
+        { "name": "Blackburn", "url": "/fire-risk-assessments-blackburn" },
         { "name": "See All", "url": "/locations" }
       ]
     },

@@ -4,6 +4,7 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 import { getLangFromUrl, supportedLang } from "@/lib/utils/languageParser";
 import PageHeader from "@/partials/PageHeader.astro";
 import { markdownify } from "@/lib/utils/textConverter";
+import { locationPath } from "@/lib/utils/locationUrl";
 import manchesterImage from "@/assets/images/locations/manchester.jpg";
 
 export function getStaticPaths() {
@@ -52,7 +53,7 @@ const locations = await getSinglePage("locations", lang as string);
                     <div>
                       <h3 class="heading h5">
                         <a
-                          href={`/locations/${slug}`}
+                          href={locationPath(slug || "")}
                           class="text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary duration-200"
                           set:html={markdownify(location.data.title)}
                         />
@@ -64,7 +65,7 @@ const locations = await getSinglePage("locations", lang as string);
                       )}
                     </div>
                     <a
-                      href={`/locations/${slug}`}
+                      href={locationPath(slug || "")}
                       class="pl-0 btn btn-arrow mt-4"
                     >
                       Read More

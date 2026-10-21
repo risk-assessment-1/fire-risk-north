@@ -184,19 +184,64 @@ faq_section:
       answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Greater Manchester Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Wigan and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Wigan grew on cotton, coal and canals, and the town still carries all three. Mills, terraces, the canal corridor and a centre that has been reshaped without losing its street pattern.
 
-Wigan presents unique fire safety challenges. As a former mining and mill town, the borough has a significant stock of converted industrial buildings, former cotton mills, and Victorian-era commercial premises alongside modern residential developments in areas like Standish and Ashton-in-Makerfield. The town's industrial heritage means many properties require careful assessment of compartmentation, structural fire protection, and fire spread risks. Our assessors understand the specific fire risks that Wigan's diverse property landscape presents.
+Landlords, agents, employers and owner-managers across the borough bring us buildings that have usually changed use at least once. Mill conversions, town centre shops, pubs and restaurants, HMOs, care homes, schools, warehouses and the units around the M6 and M58.
 
-## Key Requirements for Wigan Properties in 2026
+Each one is read on its own terms. What could burn, where the smoke would go, who would struggle to get out and what needs to change first.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **Quarterly fire door checks** — mandatory for buildings over 11 metres
-- **HMO licensing** — additional fire safety requirements for licensed HMO properties
-- **Wigan Council** — local enforcement through Greater Manchester Fire and Rescue Service
-- **PAS 79 methodology** — recommended best practice for fire risk assessment format
+## Mills, Terraces and Licensed Premises
 
-## Serving Wigan Businesses
+The mills were built for machinery. Open floors, timber, cast iron columns and stair towers designed for goods. Converted into flats or business units, the structure stays and the alterations since are where the risk usually sits.
 
-We work with a wide range of premises across Wigan, including offices in the town centre, retail units in Leigh, restaurants on Standishgate, hotels near the M6, converted mills in Hindley and Atherton, care homes in Pemberton, industrial units in Tyldesley, and residential blocks throughout the borough. Whether you're a small business or managing a large portfolio, we can help.
+The terraces around the centre follow the pattern. Shared walls, narrow stairs, cellars in use, lofts converted and doors replaced over the years. Where a house is divided between tenants, the separation between rooms matters more than anything visible from the street.
+
+The pubs and restaurants add their own list. Cellars used for storage, kitchens with extraction ducts, function rooms above the bar and a single stair serving all of it.
+
+## Fire Risk Assessment Wigan: What We Look At
+
+A fire risk assessment identifies ignition sources and combustibles, considers how fire and smoke would travel and judges whether the occupants could escape.
+
+The assessor works through detection and warning, the escape routes and exits, fire doors and separation, emergency lighting, extinguishers, signage and the evacuation plan. Records are reviewed where they exist, from maintenance logs and test certificates to the last report.
+
+The output is a judgement about whether the precautions are proportionate.
+
+## Common Findings in Wigan
+
+Doors wedged open in mill corridors. A panel showing a fault with no record behind it. Lighting that was tested once and forgotten. A wall broken through for a cable. Cellars used for storage with the only stair above them.
+
+In the pubs the recurring issue is the function room above the bar, served by the same stair as the cellar and the kitchen. In the mills it is the single stair. In the terraces it is the doors.
+
+## Why Fire Risk Assessments Matter in Wigan
+
+The Fire Safety Order places the duty on the responsible person, which in most businesses means the employer or whoever controls the premises. Greater Manchester Fire and Rescue Service enforces it across the borough, and Wigan Council applies licensing conditions to HMOs and to licensed premises.
+
+There is enough in the borough's stock to keep inspectors busy, and enforcement follows risk rather than postcode.
+
+Insurers want a current report before they will quote. A claim is a poor moment to find out that the last one described a layout that has since changed.
+
+## The Report and Its Findings
+
+The report answers to whoever acts on it, whoever prices the work and whoever inspects the building later.
+
+The content runs from the premises and scope through the hazards, the people at risk, an evaluation of the precautions, the significant findings and the prioritised actions, ending with review guidance. Photographs are included where a picture does the work.
+
+Plain language throughout.
+
+## Fire Risk Assessment Wigan Cost
+
+Smaller premises begin at £249, with everything above quoted from the details.
+
+- Floor area and storey count, because both add inspection time
+- Use, since a mill, a terrace, a pub and a warehouse fail in different ways
+- Occupancy, as the number and type of people inside set the risk
+- The condition of alarms and lighting, which takes longer to verify when old
+- Reporting depth, because a portfolio needs more than a single unit
+
+Compare what is included, not just the total.
+
+We produce fire risk assessments Wigan licensees and landlords can use for licensing hearings, insurance renewals and enforcement visits.
+
+If you need a fire risk assessor Wigan landlords can book at short notice, send the property details and we will confirm availability. The same team works as a fire safety consultant Wigan employers call on before a change of use, and as a fire risk assessment Wigan agents can apply across several buildings.
+
+Our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers the city end of Greater Manchester, and the [Fire Risk Assessment North West](/) homepage sets out the regional service.

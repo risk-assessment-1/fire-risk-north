@@ -171,17 +171,63 @@ faq_section:
       answer: "We cover the entire Blackburn with Darwen borough including Blackburn town centre, Darwen, Great Harwood, Rishton, Clayton-le-Moors, Wilpshire, and all surrounding areas."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Blackburn and Darwen. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Blackburn's mills still line the Blakewater, and the town built around them has never quite stopped using them. Cloth gave way to pallets, and the buildings took on whatever came next.
 
-Blackburn presents unique fire safety challenges rooted in its textile industry heritage. The town contains many former cotton mills and industrial buildings that have been converted into modern commercial and residential spaces. From Blackburn town centre's regeneration area to the market town of Darwen, our assessors understand the specific fire risks that Blackburn properties present.
+We take work from landlords, letting agents, employers and shopkeepers across Blackburn with Darwen. Town centre retail and restaurants, mill conversions, HMOs, takeaway premises, care homes, schools and the logistics units along the M65.
 
-## Key Requirements for Blackburn Properties
+Each building gets read on its own terms. What could ignite, where the smoke would go, who would struggle to get out and what has to change first.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **HMO licensing** — additional fire safety requirements for licensed HMO properties under Blackburn with Darwen Council
-- **Lancashire Fire and Rescue Service** — local enforcement authority
+## Mills, Terraces and the Town Centre
 
-## Serving Blackburn Businesses
+Mills were engineered for production. Open floors, heavy timber, cast iron columns and stair towers built to move goods. Converted into flats or small business units, the structure remains and the alterations made since conversion are usually where the trouble sits. A partition for an office, a doorway widened for deliveries, a wall quietly breached for a new cable.
 
-We work with a wide range of premises across Blackburn, including offices in the town centre, retail units at The Mall, restaurants along King William Street, hotels in Darwen, residential blocks throughout the borough, and industrial units at Shadsworth Business Park. Whether you're a small business or managing a large portfolio, we can help.
+The terraces around Mill Hill and Audley compress the residential issues into a small area. Shared walls, narrow stairs, cellars in use, lofts converted and front doors that no longer match the frame. Where a house is let to several tenants, the separation between rooms matters more than anything visible from the street.
+
+The town centre adds a third pattern. Restaurants and takeaways with cooking equipment, extraction ducts, gas supplies and staff who change often. Retail units with storage above the shop and one rear exit.
+
+## Fire Risk Assessment Blackburn: What We Look At
+
+- Ignition sources and the fuels sitting around them
+- The route a fire would take through voids, ducts and openings
+- Whether the alarm would be heard in every room, including the ones staff do not use
+- Escape routes, door hardware and the direction a door actually opens
+- Lighting, signage and where people are expected to gather
+- The records behind all of it, from test certificates to the last assessment
+
+Where the building has been altered, the assessor compares what is there now with what was approved. That gap is often the finding that matters.
+
+## Common Findings in Blackburn
+
+Grease in an extraction duct above a fryer, cleaned less often than the cooking load demands. Fire doors propped because the kitchen runs hot. A wall breached for a cable and left open. Emergency lighting installed once and tested rarely. A single stair serving floors that were never designed for sleeping.
+
+In the terraces it is usually the doors, replaced one at a time, and the cellars brought into use without anyone thinking about the route out above them.
+
+## Why Fire Risk Assessments Matter in Blackburn
+
+The Fire Safety Order puts the duty on the responsible person, and in most businesses that means the employer or whoever controls the premises. Lancashire Fire and Rescue Service enforces it across the borough, while Blackburn with Darwen Council applies licensing conditions to HMOs and to some food premises.
+
+A fire in a converted mill or a terraced HMO tends to involve more than one household and more than one business. The assessment is the point where those separate interests get considered together.
+
+Lenders and insurers increasingly want a current report before they lend or quote. One written for the previous use will not do.
+
+## Reading the Report
+
+The report answers to whoever acts on it, whoever prices the work and whoever inspects the building later.
+
+It covers the premises and what was agreed, the hazards and who is exposed, how the existing measures perform, the findings that matter, the actions in order of priority and when to review. Photographs carry the detail that prose makes heavy.
+
+The language stays plain. A recommendation nobody can follow is a recommendation nobody implements.
+
+## Fire Risk Assessment Blackburn Cost
+
+The starting figure is £249 for smaller premises, with everything above that priced from the details.
+
+Floor area, storey count, the number of separate units, occupancy and the state of the existing systems all move the number. So does the depth of reporting, because a portfolio needs more than a single shop.
+
+Compare scope as well as price. A quote that excludes the compartmentation survey is not a cheaper assessment, it is a narrower one.
+
+Our fire risk assessments Blackburn businesses order usually follow a change of use, a new lease or an enforcement letter.
+
+If you need a fire risk assessor Blackburn landlords can book at short notice, send the details and we will confirm availability. The same team acts as a fire safety consultant Blackburn businesses use before a change of use, and as a fire risk assessment Blackburn managing agents can apply across several buildings.
+
+For the county side, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, while the [Fire Risk Assessment North West](/) homepage sets out how it all fits together.

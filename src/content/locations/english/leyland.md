@@ -184,19 +184,66 @@ faq_section:
       answer: "Yes, we regularly help businesses respond to fire safety enforcement notices from Lancashire Fire and Rescue Service. We can conduct urgent assessments, provide compliant documentation, and help you implement required remedial actions within enforcement deadlines."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Leyland and the surrounding South Ribble area. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Leyland built trucks for the best part of a century, and it still looks like a town that makes things. Engineering works, warehouses and industrial units off the bypass, with the terraces that grew alongside them.
 
-Leyland presents unique fire safety challenges. Known historically as the home of British Leyland motor works, the town has a significant stock of former industrial and manufacturing buildings alongside modern residential developments in areas like Buckshaw Village and Clayton-le-Woods. The mix of repurposed industrial premises, traditional terraced housing, and new-build apartment blocks across Lostock Hall, Bamber Bridge, and Walton-le-Dale requires assessors who understand both legacy construction and contemporary fire safety standards. Our assessors understand the specific fire risks that Leyland's diverse property landscape presents.
+Landlords, letting agents, employers and owner-managers across Leyland and the wider South Ribble area come to us with buildings that have usually been altered at least once. Workshops turned into storage, storage turned into small units, houses extended and lofts converted.
 
-## Key Requirements for Leyland Properties in 2026
+The approach does not vary with the postcode. Read the building as it is used, find the hazards, judge whether the existing measures would work and record what has to change.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **Quarterly fire door checks** — mandatory for buildings over 11 metres
-- **HMO licensing** — additional fire safety requirements for licensed HMO properties
-- **South Ribble Borough Council** — local enforcement through Lancashire Fire and Rescue Service
-- **PAS 79 methodology** — recommended best practice for fire risk assessment format
+## Engineering Works and the Streets Around Them
 
-## Serving Leyland Businesses
+The industrial heritage left buildings designed around machinery. Steel frames, high bays, overhead cranes and floors built to carry more than the current use puts on them. Now workshops, storage or light manufacturing, each change of use bringing a new fire load with it.
 
-We work with a wide range of premises across Leyland, including offices in the town centre, retail units on Hough Lane, restaurants and takeaways, hotels near the A6, modern apartment buildings at Buckshaw Village, care homes in Lostock Hall, former industrial premises in Farington, and residential blocks throughout South Ribble. Whether you're a small business or managing a large portfolio, we can help.
+The town centre and surrounding streets hold the residential pattern. Terraces and semis, many with converted lofts and rear extensions, some divided between tenants.
+
+The newer estates bring modern construction and its own assumptions. Compartmentation meant to hold, alarms meant to be maintained, and a chain of landlord, agent and tenant where responsibility can fall between all three.
+
+## Fire Risk Assessment Leyland: What We Look At
+
+The assessor walks the premises rather than reviewing a file. Detection and warning first, then the routes out, the doors along them, the lighting, the signage and where people are expected to gather.
+
+Compartmentation is checked where it can be seen and questioned where it cannot. High-risk areas get particular attention, including kitchens, plant rooms and anywhere fuel is stored.
+
+Records come last, and they often tell a different story from the building.
+
+## Common Findings in Leyland
+
+A door wedged open to let a forklift through. A panel in fault with nothing in the log. Lighting that was tested at handover and never again. Storage stacked on a mezzanine that also happens to be the only way out. A wall opened for a cable and left that way.
+
+In the older industrial units the recurring issue is the mezzanine. Put up years ago to gain floor space, it changes the escape strategy, the fire load and the travel distances, usually without anyone revisiting the assessment.
+
+In the housing stock it is the doors and the loft conversions.
+
+## Why Fire Risk Assessments Matter in Leyland
+
+The Fire Safety Order places the duty on the responsible person, which in most businesses means the employer or whoever controls the premises. Lancashire Fire and Rescue Service enforces it across South Ribble, and South Ribble Borough Council applies licensing conditions to HMOs.
+
+The area's mix of small industrial units and residential streets means a fire can involve both. A workshop fire next door to a terrace is a different problem from either one alone, and the assessment is where that gets considered.
+
+Insurers ask for a current report before they quote.
+
+## What the Written Report Contains
+
+Three audiences are served at once. The responsible person who has to act, the contractor who has to price the work and the inspector who may read it later.
+
+The report covers the premises and the scope, the hazards, the people at risk, an evaluation of the existing precautions, the significant findings, the actions in priority order and guidance on review. Photographs where they save a paragraph.
+
+The wording stays plain, because a finding nobody understands will not be fixed.
+
+## Fire Risk Assessment Leyland Cost
+
+Smaller properties start at £249, with the rest quoted from the details.
+
+- Floor area and storey count, because both add inspection time
+- Use, since a workshop, a warehouse, a terrace and a shop fail in different ways
+- Occupancy, as the number and type of people inside set the risk
+- The state of alarms and lighting, which takes longer to verify when it is old
+- Reporting depth, because a portfolio needs more than a single unit
+
+Compare the scope, not just the total.
+
+We deliver fire risk assessments Leyland employers use as the basis for a maintenance plan rather than a document that sits in a drawer.
+
+If you need a fire risk assessor Leyland landlords can book at short notice, send the property details and we will confirm availability. The same team works as a fire safety consultant Leyland employers call on before a change of use, and as a fire risk assessment Leyland agents can apply across several sites.
+
+For the county side, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, and the [Fire Risk Assessment North West](/) homepage sets out how everything fits together.

@@ -3,8 +3,8 @@
 hero_slider:
   enable: true
   slider_item:
-    - title: "24-Hour Fire Risk Assessment on Request"
-      content: "Professional fire risk assessments with same-day emergency service. Guaranteed UK compliance at the best prices."
+    - title: "Fire Risk Assessments North West"
+      content: "Fire Risk Assessment North West landlords and employers can book with BAFE SP205 registered assessors. Written reports within 24 hours on request."
       bg_image: "/images/slider/banner-1.webp"
       button:
         enable: true
@@ -12,7 +12,7 @@ hero_slider:
         link: "/contact"
 
     - title: "Best Rates - Save Up To 68%"
-      content: "Professional fire risk assessments without the premium price tag. The same compliance certification for a fraction of the cost."
+      content: "Fire risk assessment North West rates without the premium price tag. Same accredited process, same report, lower cost."
       bg_image: "/images/slider/banner-2.webp"
       button:
         enable: true
@@ -20,7 +20,7 @@ hero_slider:
         link: "/contact"
 
     - title: "25 Years of Excellence"
-      content: "512+ projects completed across 150+ UK areas. UKAS accredited assessors ensuring full compliance with PAS 79 and RRO 2005 regulations."
+      content: "512+ projects completed across 150+ UK areas. Fire risk services North West wide, delivered by UKAS accredited assessors working to PAS 79."
       bg_image: "/images/slider/banner-3.webp"
       button:
         enable: true
@@ -28,7 +28,7 @@ hero_slider:
         link: "/contact"
 
     - title: "UK Compliance Guaranteed"
-      content: "Emergency assessments available. Same-day emergency service for urgent requirements - because your time matters."
+      content: "Fire Risk Assessments North West wide, with emergency assessments and same-day service for urgent requirements. Business fire safety compliance North West handled by one team."
       bg_image: "/images/slider/banner-4.webp"
       button:
         enable: true
@@ -41,19 +41,19 @@ banner_feature:
   feature_item:
     - name: "UKAS Accredited"
       icon: "FaShieldHalved"
-      content: "Fully accredited assessors recognised under the UK accreditation framework."
+      content: "An accredited fire risk assessment company North West property owners can check against the UK accreditation framework."
 
     - name: "PAS 79 Compliant"
       icon: "FaFileShield"
-      content: "Reports follow the PAS 79 standard for fire risk assessment methodology."
+      content: "Reports follow the PAS 79 standard, with fire safety management North West clients can act on without a second opinion."
 
     - name: "ISO Certified"
       icon: "FaCertificate"
-      content: "Quality management certified to ISO standards for consistent, reliable service."
+      content: "Quality management certified to ISO standards, and a fire safety consultant North West teams can call on after the report."
 
     - name: "24hr Turnaround on Request"
       icon: "FaClock"
-      content: "Comprehensive reports delivered within 24 hours on request (may incur an additional charge). Same-day emergency service available."
+      content: "Fire risk assessment Northwest reports within 24 hours on request (may incur an additional charge). Same-day emergency service across the region."
 
 ######### funfacts ########
 funfacts:
@@ -80,7 +80,7 @@ feature:
   enable: true
   title: "Why They Choose Fire Assessment North"
   image: "/images/feature/feature.png"
-  content: "Professional fire risk assessments with same-day emergency service. Trusted by 500+ UK businesses with 25 years of expert service."
+  content: "Fire Assessment North is a fire risk assessment company North West landlords, employers and managing agents rely on. Clear recommendations, fire safety management and 24-hour reports on request."
   feature_item:
     - name: "24-Hour Turnaround on Request"
       icon: FaBolt
@@ -88,7 +88,7 @@ feature:
 
     - name: "Best Rates - Save Up To 68%"
       icon: FaSterlingSign
-      content: "Professional fire risk assessments without the premium price tag. The same compliance certification for a fraction of the cost."
+      content: "Fire risk assessment North West pricing without the premium price tag. The same compliance certification for a fraction of the cost."
 
 ######## blog #######
 latest_news:

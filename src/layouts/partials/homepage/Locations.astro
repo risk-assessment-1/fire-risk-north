@@ -1,6 +1,7 @@
 ---
 import { getLangFromUrl, slugSelector } from "@/lib/utils/languageParser";
 import { titleify } from "@/lib/utils/textConverter";
+import { locationPath } from "@/lib/utils/locationUrl";
 import type { CollectionEntry } from "astro:content";
 
 type Props = {
@@ -45,7 +46,7 @@ const lang = getLangFromUrl(Astro.url);
                 <div class="p-6 bg-white dark:bg-darkmode-light">
                   <h3 class="heading h5">
                     <a
-                      href={slugSelector(`/locations/${slug}`, lang)}
+                      href={slugSelector(locationPath(slug || ""), lang)}
                       class="text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary duration-200"
                     >
                       {titleify(slug || "")}
@@ -55,7 +56,7 @@ const lang = getLangFromUrl(Astro.url);
                     {location.data.description}
                   </p>
                   <a
-                    href={slugSelector(`/locations/${slug}`, lang)}
+                    href={slugSelector(locationPath(slug || ""), lang)}
                     class="pl-0 btn btn-arrow"
                   >
                     Read More{" "}
@@ -81,7 +82,7 @@ const lang = getLangFromUrl(Astro.url);
               <>
                 {i > 0 && (i === otherLocations.length - 1 ? " and " : ", ")}
                 <a
-                  href={slugSelector(`/locations/${slug}`, lang)}
+                  href={slugSelector(locationPath(slug || ""), lang)}
                   class="font-medium text-primary dark:text-darkmode-primary hover:underline"
                 >
                   {titleify(slug || "")}

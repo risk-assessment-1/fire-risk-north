@@ -1,0 +1,178 @@
+---
+import ImageMod from "@/components/ImageMod.astro";
+import HeroSection from "@/components/HeroSection.astro";
+import SidebarServices from "@/components/SidebarServices.astro";
+import AreasCovered from "@/components/AreasCovered.astro";
+import FiveStepsFRA from "@/components/FiveStepsFRA.astro";
+import FeatureCards from "@/components/FeatureCards.astro";
+import PropertyTypes from "@/components/PropertyTypes.astro";
+import FAQSection from "@/components/FAQSection.astro";
+import CTASection from "@/components/CTASection.astro";
+import ServiceSection from "@/partials/homepage/ServiceSection.astro";
+import Base from "@/layouts/Base.astro";
+import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
+import {
+  getLangFromUrl,
+  getTranslations,
+  slugSelector,
+} from "@/lib/utils/languageParser";
+import PageHeader from "@/partials/PageHeader.astro";
+import { render, type CollectionEntry } from "astro:content";
+import pricing from "@/config/pricing.json";
+import { locationPath } from "@/lib/utils/locationUrl";
+
+export interface Props {
+  location: CollectionEntry<"locations">;
+}
+
+const { location } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const {
+  title,
+  meta_title,
+  description,
+  image,
+  hero,
+  areas_covered,
+  five_steps_fra,
+  features,
+  property_types,
+  services_grid,
+  faq_section,
+} = location.data;
+const { Content } = await render(location);
+
+const allLocations = await getSinglePage("locations", lang);
+const locationSlugs = allLocations
+  .map((l) => l.id.split("/").pop())
+  .filter(Boolean) as string[];
+
+const locationHrefs = Object.fromEntries(
+  locationSlugs.map((slug) => [slug, slugSelector(locationPath(slug), lang)]),
+);
+
+const currentLocationSlug = location.id.split("/").pop() || "";
+
+const { our_locations } = await getTranslations(lang);
+
+const serviceIndex = await getListPage("services", lang);
+const services = await getSinglePage("services", lang);
+
+const locationName = hero?.subtitle || title.replace(/.*\sin\s/i, "");
+
+if (pricing.locations.hero_price && hero) {
+  hero.price = pricing.locations.hero_price;
+}
+
+if (pricing.locations.hero_price && faq_section?.items) {
+  const priceFaq = faq_section.items.find(
+    (item) =>
+      item.question.toLowerCase().includes("how much") ||
+      item.question.toLowerCase().includes("cost"),
+  );
+  if (priceFaq) {
+    const locName = locationName || "this area";
+    priceFaq.answer = `Fire risk assessments in ${locName} start from ${pricing.locations.hero_price.replace("From ", "")} for smaller properties. Costs vary depending on property size, type, and complexity. Use our instant online calculator for an accurate quote tailored to your specific premises.`;
+  }
+}
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+  disableRating
+>
+  {
+    hero && hero.enable && (
+      <HeroSection
+        title={hero.title || title}
+        subtitle={hero.subtitle || ""}
+        description={hero.description || description}
+        image={hero.image || image || ""}
+        price={hero.price}
+        badges={hero.badges}
+        secondaryHref="#faq"
+      />
+    )
+  }
+  {!hero || !hero.enable ? <PageHeader title={title} /> : null}
+
+  <section
+    id="service-overview"
+    class="section container py-0! scroll-mt-20 lg:scroll-mt-24"
+  >
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="lg:col-8">
+          {
+            (!hero || !hero.enable) && image && (
+              <ImageMod
+                src={image}
+                class="mb-10 w-full"
+                width={1000}
+                height={900}
+                alt={title}
+                sizes="(max-width: 768px) 90vw, (max-width: 1024px) 60vw, 859px"
+                widths={[430, 859, 1280]}
+              />
+            )
+          }
+          <div class="content">
+            <Content />
+          </div>
+        </div>
+
+        <aside class="lg:col-4">
+          <div class="lg:sticky lg:top-28">
+            <SidebarServices
+              slugs={locationSlugs}
+              currentSlug={currentLocationSlug}
+              hrefs={locationHrefs}
+              title={our_locations}
+            />
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  {
+    areas_covered && areas_covered.enable && (
+      <AreasCovered data={areas_covered} />
+    )
+  }
+
+  {
+    five_steps_fra && five_steps_fra.enable && (
+      <FiveStepsFRA data={five_steps_fra} />
+    )
+  }
+
+  {features && features.enable && <FeatureCards data={features} />}
+
+  {
+    services_grid && services_grid.enable && (
+      <ServiceSection
+        serviceIndex={serviceIndex[0]}
+        services={services}
+        title={`Fire Safety & Compliance Services in ${locationName}`}
+        subtitle="One partner for all your property compliance needs"
+      />
+    )
+  }
+
+  {
+    property_types && property_types.enable && (
+      <PropertyTypes data={property_types} />
+    )
+  }
+
+  {faq_section && faq_section.enable && <FAQSection data={faq_section} />}
+
+  <CTASection
+    title={`Ready to Get Your ${title}?`}
+    tag={`Professional service from BAFE-accredited engineers. Fast standard reports (5 working days). 24-hour turnaround available on request, may incur an additional charge. ${hero?.price || pricing.locations.hero_price || "Contact us for pricing"}.`}
+  />
+</Base>

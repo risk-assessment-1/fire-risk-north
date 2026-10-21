@@ -1,0 +1,34 @@
+---
+import LocationDetail from "@/layouts/LocationDetail.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { supportedLang } from "@/lib/utils/languageParser";
+import { isRootLocation } from "@/lib/utils/locationUrl";
+
+export async function getStaticPaths() {
+  const paths = await Promise.all(
+    supportedLang.map(async (lang) => {
+      const locations = await getSinglePage("locations", lang as string);
+
+      return locations
+        .filter((location) => {
+          const slug = location.id.split("/").pop();
+          return slug ? isRootLocation(slug) : false;
+        })
+        .map((location) => ({
+          params: {
+            lang: lang || undefined,
+            city: location.id.split("/").pop(),
+          },
+          props: {
+            location,
+          },
+        }));
+    }),
+  );
+  return paths.flat();
+}
+
+const { location } = Astro.props;
+---
+
+<LocationDetail location={location} />

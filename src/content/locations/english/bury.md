@@ -171,17 +171,60 @@ faq_section:
       answer: "We cover the entire Bury borough including Bury town centre, Prestwich, Radcliffe, Ramsbottom, Whitefield, Tottington, Summerseat, Ainsworth, Unsworth, and all surrounding areas."
 ---
 
-Fire Assessment North provides professional fire risk assessments to businesses and property owners throughout Bury and the surrounding areas. Our BAFE SP205 registered assessors deliver thorough assessments, with 24-hour report turnaround available on request.
+Bury made paper and cloth, and the town that grew around those works still has the same tight shape. Terraces, mill buildings, a market at the centre and the tram running through the middle.
 
-Bury combines a vibrant town centre with suburban commercial areas and picturesque rural communities. The borough includes the popular market town of Ramsbottom, the bustling suburbs of Prestwich and Whitefield, and the residential areas of Radcliffe. From Bury town centre's commercial district to the mixed-use developments across the borough, our assessors understand the specific fire risks that Bury properties present.
+Our instructions come from landlords, agents, employers and owner-managers across the borough. Shops and offices in the centre, mill conversions in Radcliffe and Ramsbottom, HMOs, care homes, schools, warehouses on the industrial estates and the pubs and restaurants that serve them.
 
-## Key Requirements for Bury Properties
+The method is simple to describe. Read the building as it is used today, find the hazards, test whether the existing measures would work and record what needs to change.
 
-- **Fire Safety Order 2005** — written fire risk assessments mandatory for all non-domestic premises
-- **Building Safety Act 2022** — enhanced requirements for high-rise residential buildings over 18 metres
-- **HMO licensing** — additional fire safety requirements for licensed HMO properties under Bury Council
-- **Greater Manchester Fire and Rescue** — local enforcement authority for the Bury borough
+## Paper Mills, Terraces and Northern Villages
 
-## Serving Bury Businesses
+Paper mills and textile works were built for process. Open floors, timber, cast iron columns and stair towers designed to move materials. Converted into flats or business units, the structure stays and the changes made since are often where the risk hides.
 
-We work with a wide range of premises across Bury, including offices in the town centre, retail units at The Rock, restaurants in Ramsbottom, hotels in Prestwich, residential blocks throughout the borough, and industrial units in Radcliffe. Whether you're a small business or managing a large portfolio, we can help.
+The terraces around the centre and out towards Whitefield and Prestwich follow a familiar pattern. Shared walls, narrow stairs, cellars in habitable use, lofts converted and doors replaced over the years with whatever fitted.
+
+Ramsbottom and the northern villages add smaller, older buildings. Stone cottages, converted barns, pubs with cellars and low ceilings where smoke would fill an escape route before anyone had time to use it.
+
+## Fire Risk Assessment Bury: What We Look At
+
+The assessor starts with how the building is managed, because management is usually where the failures begin. Who holds the keys, who tests the alarm, who signs the log and who notices when a door stops closing.
+
+Then the physical survey. Detection, escape routes, doors, compartmentation, lighting, extinguishers, signage and the plan for getting people out. Records are checked against what is actually installed.
+
+The output is a view on whether the precautions are enough. Not a pass or fail, a judgement with reasons.
+
+## Common Findings in Bury
+
+Magnetic catches that no longer hold a door open safely, or release it at all. A panel in fault with no entry in the log. A wall opened for a cable run and not made good. Storage in the only escape route from a cellar bar. Emergency lights that have outlived their batteries.
+
+In the converted mills the recurring issue is the single stair, serving floors that were never designed for sleeping. In the terraces it is the doors and the lobby that went during a kitchen refit.
+
+## Why Fire Risk Assessments Matter in Bury
+
+The Fire Safety Order places the duty on the responsible person, which for most businesses means the employer or whoever controls the premises. Greater Manchester Fire and Rescue Service enforces it across the borough, and Bury Council applies licensing conditions to HMOs.
+
+The borough's stock gives inspectors plenty to look at. A mill conversion with one stair, a terrace split into bedsits or a pub with a cellar used as a function room will draw more attention than a modern office.
+
+A current report is also what insurers ask for before they quote. A claim is the wrong moment to learn that the last one described a layout that no longer exists.
+
+## What the Assessment Produces
+
+The document serves the person who has to act on it, the contractor who prices the work and the inspector who may read it later.
+
+Inside are the premises and the agreed scope, the hazards, the people at risk, an evaluation of the precautions, the significant findings, the actions in priority order and guidance on review. Photographs where they earn their place.
+
+Plain wording throughout. A finding nobody understands is a finding nobody fixes.
+
+## Fire Risk Assessment Bury Cost
+
+Smaller properties begin at £249. The rest is quoted from the building.
+
+Size and storey count set the time on site, and a mill conversion takes longer than a shop of the same floor area because there is more to trace. Use changes everything, since a pub, a terrace and a warehouse fail in different ways. Occupancy sets the risk, the age of the alarms and lighting sets the verification time, and the reporting depth sets the desk work.
+
+Scope matters more than the total. A cheaper quote for a narrower inspection is not a saving.
+
+We provide fire risk assessments Bury landlords need for licensing, insurance and the occasional difficult conversation with a tenant.
+
+If you need a fire risk assessor Bury landlords can book without a long wait, send the property details and we will confirm availability. The same team works as a fire safety consultant Bury employers call on before a change of use, and as a fire risk assessment Bury agents can rely on across a portfolio.
+
+For the city side of Greater Manchester, our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers it, and the [Fire Risk Assessment North West](/) homepage sets out the regional service.
