@@ -159,7 +159,7 @@ export function buildServiceSchema(opts: {
     provider: organizationRef,
     areaServed: {
       "@type": "AdministrativeArea",
-      name: "North West England, United Kingdom",
+      name: "England, United Kingdom",
     },
     availableChannel: {
       "@type": "ServiceChannel",

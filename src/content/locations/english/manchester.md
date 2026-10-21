@@ -287,4 +287,4 @@ We start at £249 for smaller properties and quote the rest on the details. If y
 
 A fire risk assessor Manchester employers bring in before a fit-out will usually save more than the fee because the problems are designed out rather than discovered later.
 
-If your interests extend across the region, our [Fire Safety Consultant Liverpool](/fire-risk-assessments-liverpool) page covers the other side of the North West.
+If your interests extend across the region, our [Fire Safety Consultant Liverpool](/fire-risk-assessments-liverpool) page covers the other side of the North.
