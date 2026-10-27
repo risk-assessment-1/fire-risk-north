@@ -64,7 +64,7 @@ export const websiteSchema = {
   alternateName: ALTERNATE_NAME,
   description: config.params.footer_content,
   inLanguage: "en-GB",
-  publisher: organizationRef,
+  publisher: { "@id": ORG_ID },
 };
 
 export const organizationSchema = {

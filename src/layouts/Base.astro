@@ -202,11 +202,15 @@ const schemas: object[] = [
         plainify(meta_title ? meta_title : title ? title : config.site.title)}
     />
 
-    <script
-      is:inline
-      type="application/ld+json"
-      set:html={JSON.stringify(schemas)}
-    />
+    {
+      schemas.map((schema) => (
+        <script
+          is:inline
+          type="application/ld+json"
+          set:html={JSON.stringify(schema)}
+        />
+      ))
+    }
   </head>
   <body class="overflow-x-hidden leading-5.5 relative">
     {/* google tag manager noscript */}
