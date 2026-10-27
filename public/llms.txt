@@ -1,0 +1,69 @@
+# Fire Assessment North
+
+> Fire Assessment North provides BAFE SP205 registered fire risk assessments and fire safety compliance services for commercial and residential properties across the North of England.
+
+Qualified, UKAS-accredited assessors delivering PAS 79 compliant fire risk assessments, fire strategy reports, fire door inspection and surveying, fire alarm testing, emergency light testing and fire extinguisher servicing. Written reports available within 24 hours on request. Serving Manchester, Liverpool, Lancashire, Preston and surrounding areas.
+
+## Services
+
+- [Fire Risk Assessment](https://firerisknorth.com/services/fire-risk-assessment): PAS 79 compliant fire risk assessments under the Regulatory Reform (Fire Safety) Order 2005, with UKAS accredited assessors.
+- [Fire Strategy](https://firerisknorth.com/services/fire-strategy): Fire strategy development for new builds, major refurbishments and change of use projects, meeting Building Regulations.
+- [Fire Door Inspection](https://firerisknorth.com/services/fire-door-inspection): Fire door inspections by BM Trada Q-Mark certified surveyors in accordance with BS 8214 and Regulation 10.
+- [Fire Door Surveying](https://firerisknorth.com/services/fire-door-surveying): Regulation 10 compliant fire door surveys with photographic reports and remediation plans.
+- [Fire Alarm Testing](https://firerisknorth.com/services/fire-alarm-testing): Fire alarm testing and servicing to BS 5839-1 by BAFE registered engineers, with compliance certificates.
+- [Emergency Light Testing](https://firerisknorth.com/services/emergency-light-testing): Emergency lighting testing and maintenance to BS 5266-1, including full-duration discharge testing.
+- [Fire Extinguisher Servicing](https://firerisknorth.com/services/fire-extinguisher-servicing): Annual fire extinguisher servicing to BS 5306-3 by BAFE registered engineers, certificate included.
+
+## Fire Risk Assessments by Building Type
+
+- [HMOs](https://firerisknorth.com/services/fire-risk-assessment/hmo): BS 5839-6 alarm compliance, fire door inspection and escape route evaluation for houses in multiple occupation.
+- [Flats](https://firerisknorth.com/services/fire-risk-assessment/flats): Residential flats and apartment blocks assessed against the Fire Safety Act 2021, Building Safety Act 2022 and BS 9792:2025.
+- [High-Rise Buildings](https://firerisknorth.com/services/fire-risk-assessment/high-rise-buildings): Buildings over 18 metres, covering Building Safety Act 2022 compliance, EWS1 support and post-Grenfell requirements.
+- [Care Homes](https://firerisknorth.com/services/fire-risk-assessment/care-homes): CQC compliant assessments including PEEPs, medical oxygen safety and horizontal evacuation planning.
+- [Hospitals](https://firerisknorth.com/services/fire-risk-assessment/hospitals): HTM 05-02 compliant assessments for healthcare premises, covering progressive horizontal evacuation and medical gas safety.
+- [Hotels](https://firerisknorth.com/services/fire-risk-assessment/hotels): Sleeping guest protection, commercial kitchen safety, FD30 fire doors and multi-language evacuation planning.
+- [Offices](https://firerisknorth.com/services/fire-risk-assessment/offices): Office buildings and corporate workplaces under the Fire Safety Order 2005 and the October 2023 amendments.
+- [Restaurants](https://firerisknorth.com/services/fire-risk-assessment/restaurants): Commercial kitchen safety, TR19 extraction compliance and UL 300 fire suppression for restaurants, cafes and takeaways.
+- [Retail](https://firerisknorth.com/services/fire-risk-assessment/retail): Retail shops and shopping centres, including crowd planning, seasonal display compliance and electrical safety.
+- [Schools](https://firerisknorth.com/services/fire-risk-assessment/schools): Schools and educational establishments, covering CLEAPSS science lab compliance, Building Bulletin 100 and Ofsted-ready PEEPs.
+- [Warehouses](https://firerisknorth.com/services/fire-risk-assessment/warehouses): Warehouses and distribution centres, including BS EN 12845 sprinkler compliance, lithium-ion battery safety and DSEAR chemical storage.
+
+## Locations
+
+- [Manchester](https://firerisknorth.com/fire-risk-assessments-manchester): Fire risk assessments for Manchester offices, residential blocks, converted mills and industrial sites.
+- [Liverpool](https://firerisknorth.com/fire-risk-assessments-liverpool): Cost-effective fire risk assessments for Liverpool commercial and residential property.
+- [Lancashire](https://firerisknorth.com/fire-risk-assessments-lancashire): Fire risk assessments across Lancashire, identifying hazards and risks to occupants and higher-risk buildings.
+- [Preston](https://firerisknorth.com/fire-risk-assessments-preston): Fire risk assessments in Preston for HMOs, landlords and commercial spaces.
+- [Blackpool](https://firerisknorth.com/fire-risk-assessments-blackpool): Fire risk assessments in Blackpool for HMOs, landlords and commercial premises.
+- [Bolton](https://firerisknorth.com/fire-risk-assessments-bolton): Fire risk assessments in Bolton for mills, terraced conversions and HMOs.
+- [Blackburn](https://firerisknorth.com/fire-risk-assessments-blackburn): Fire risk assessments in Blackburn for mills, terraced streets and town centre commercial property.
+- [Bury](https://firerisknorth.com/fire-risk-assessments-bury): Fire risk assessments in Bury for mills, terraces and village commercial property.
+- [Chorley](https://firerisknorth.com/fire-risk-assessments-chorley): Fire risk assessments in Chorley for terraces, HMOs, shops and rural conversions.
+- [Lancaster](https://firerisknorth.com/fire-risk-assessments-lancaster): Fire risk assessments in Lancaster for listed buildings, student terraces and the seafront.
+- [Leyland](https://firerisknorth.com/fire-risk-assessments-leyland): Fire risk assessments in Leyland for engineering works, terraced streets and retail units.
+- [Oldham](https://firerisknorth.com/fire-risk-assessments-oldham): Fire risk assessments in Oldham for hillside mills, terraced conversions and HMOs.
+- [Rochdale](https://firerisknorth.com/fire-risk-assessments-rochdale): Fire risk assessments in Rochdale for canal mills, terraces and estate commercial units.
+- [Salford](https://firerisknorth.com/fire-risk-assessments-salford): Fire risk assessments in Salford for towers, terraces, canal-side conversions and HMOs.
+- [Wigan](https://firerisknorth.com/fire-risk-assessments-wigan): Fire risk assessments in Wigan for mills, terraced streets and licensed premises.
+
+## Blog
+
+- [The April 2026 Deadline: Preparing Your Portfolio for Mandatory Residential Evacuation Plans](https://firerisknorth.com/blog/april-2026-residential-evacuation-plans): What the April 2026 Residential PEEPs deadline means for property portfolios, with 12,500 buildings affected.
+- [The Green Energy Transition: Managing Lithium-Ion and Solar Panel Fire Risks in Commercial Sites](https://firerisknorth.com/blog/green-energy-fire-risks-commercial-sites): Managing lithium-ion and solar panel fire risks, with 54% of UK businesses reporting battery incidents.
+- [Fire Safety in Student Cities: A Landlord's Guide to HMO Compliance in Leeds and Liverpool](https://firerisknorth.com/blog/hmo-fire-safety-guide-leeds-liverpool): HMO fire safety compliance requirements in student cities, and how to avoid fines when 58% of properties fail inspection.
+- [Defeating the Arson Threat: Practical Security and Suppression for Vacant Industrial Buildings](https://firerisknorth.com/blog/vacant-industrial-arson-security-2026): Security and suppression strategies for vacant industrial property, which accounts for 25% of all workplace fires.
+
+## Company
+
+- [About](https://firerisknorth.com/about): Who Fire Assessment North are and how assessments are delivered.
+- [Contact](https://firerisknorth.com/contact): Get in touch to book a fire risk assessment or fire safety service.
+- [Testimonials](https://firerisknorth.com/testimonials): Client reviews of fire risk assessment services.
+- [Privacy Policy](https://firerisknorth.com/privacy-policy): How personal data is collected, used and protected under UK GDPR.
+- [Terms and Conditions](https://firerisknorth.com/terms): Terms for fire risk assessment and fire safety services.
+
+## Optional
+
+- [Sitemap](https://firerisknorth.com/sitemap-index.xml): Full XML sitemap of all pages.
+- [All services](https://firerisknorth.com/services): Complete list of fire safety services.
+- [All locations](https://firerisknorth.com/locations): Areas covered across the North of England.
+- [Blog](https://firerisknorth.com/blog): Fire safety guidance and compliance updates.
