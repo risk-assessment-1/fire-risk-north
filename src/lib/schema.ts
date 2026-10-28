@@ -1,10 +1,9 @@
 import type { ImageMetadata } from "astro";
 import config from "@/config/config.json";
 
-// Brand naming is pending a decision (firerisknorth-issues.md).
-// config.site.title ("Fire Assessment North") is the single source of truth;
-// ALTERNATE_NAME is the only other place a brand name is declared, so the
-// eventual swap is a one-line change here.
+// Schema values follow firerisknorth-issues.md (Documents/FireRisk):
+// Website/Organization are named "Fire Risk North" with "Fire Assessment North"
+// as the alternate name; config.site.title stays the site-wide brand fallback.
 const BASE_URL = config.site.base_url;
 const SITE_NAME = config.site.title;
 const ALTERNATE_NAME = "Fire Risk North";
@@ -59,50 +58,73 @@ export const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${BASE_URL}/#website`,
-  url: BASE_URL,
-  name: SITE_NAME,
-  alternateName: ALTERNATE_NAME,
+  url: `${BASE_URL}/`,
+  name: ALTERNATE_NAME,
+  alternateName: SITE_NAME,
   description: config.params.footer_content,
   inLanguage: "en-GB",
-  publisher: { "@id": ORG_ID },
 };
 
 export const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": ORG_ID,
-  name: SITE_NAME,
-  alternateName: ALTERNATE_NAME,
-  url: BASE_URL,
-  logo: `${BASE_URL}${config.site.logo}`,
-  telephone: config.params.phone,
-  email: config.params.email,
-  address: postalAddress,
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: config.params.phone,
-    email: config.params.email,
-    contactType: "customer service",
-    availableLanguage: "en-GB",
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "09:00",
-        closes: "17:00",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": ORG_ID,
+      name: ALTERNATE_NAME,
+      url: `${BASE_URL}/`,
+      logo: `${BASE_URL}${config.site.logo}`,
+      telephone: config.params.phone,
+      email: config.params.email,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Bartle House, Oxford Court, City Centre, 9 Oxford Ct",
+        addressLocality: "Manchester",
+        postalCode: "M2 3WQ",
+        addressCountry: "GB",
       },
-    ],
-  },
-  hasCertification: [
-    { name: "UKAS Accredited", issuer: "UKAS" },
-    { name: "PAS 79 Compliant", issuer: "BSI" },
-    { name: "ISO Certified", issuer: "ISO" },
-  ].map((cert) => ({
-    "@type": "Certification",
-    name: cert.name,
-    issuedBy: { "@type": "Organization", name: cert.issuer },
-    certificationStatus: "https://schema.org/CertificationActive",
-  })),
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: config.params.phone,
+        email: config.params.email,
+        contactType: "customer support",
+        hoursAvailable: {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday",
+          ],
+          opens: "09:00",
+          closes: "17:00",
+        },
+      },
+      hasCertification: [
+        {
+          "@type": "Certification",
+          name: "UKAS Accredited",
+          certificationStatus: "https://schema.org/CertificationActive",
+          issuedBy: {
+            "@type": "Organization",
+            name: "United Kingdom Accreditation Service",
+            url: "https://www.ukas.com/",
+          },
+        },
+        {
+          "@type": "Certification",
+          name: "PAS 79 Compliant",
+          certificationStatus: "https://schema.org/CertificationActive",
+        },
+        {
+          "@type": "Certification",
+          name: "ISO Certified",
+          certificationStatus: "https://schema.org/CertificationActive",
+        },
+      ],
+    },
+  ],
 };
 
 export const professionalServiceSchema = {
