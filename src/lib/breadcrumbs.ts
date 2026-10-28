@@ -50,6 +50,7 @@ export function getBreadcrumbParts(pathname: string, lang: string): Crumb[] {
 
 export function buildBreadcrumbSchema(parts: Crumb[], baseUrl: string) {
   return {
+    "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: parts.map((part, index) => ({
       "@type": "ListItem",
