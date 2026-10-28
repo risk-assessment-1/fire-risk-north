@@ -1,6 +1,6 @@
-# Fire Assessment North
+# Fire Risk North
 
-> Fire Assessment North provides BAFE SP205 registered fire risk assessments and fire safety compliance services for commercial and residential properties across the North of England.
+> Fire Risk North provides BAFE SP205 registered fire risk assessments and fire safety compliance services for commercial and residential properties across the North of England.
 
 Qualified, UKAS-accredited assessors delivering PAS 79 compliant fire risk assessments, fire strategy reports, fire door inspection and surveying, fire alarm testing, emergency light testing and fire extinguisher servicing. Written reports available within 24 hours on request. Serving Manchester, Liverpool, Lancashire, Preston and surrounding areas.
 
@@ -55,7 +55,7 @@ Qualified, UKAS-accredited assessors delivering PAS 79 compliant fire risk asses
 
 ## Company
 
-- [About](https://firerisknorth.com/about): Who Fire Assessment North are and how assessments are delivered.
+- [About](https://firerisknorth.com/about): Who Fire Risk North are and how assessments are delivered.
 - [Contact](https://firerisknorth.com/contact): Get in touch to book a fire risk assessment or fire safety service.
 - [Testimonials](https://firerisknorth.com/testimonials): Client reviews of fire risk assessment services.
 - [Privacy Policy](https://firerisknorth.com/privacy-policy): How personal data is collected, used and protected under UK GDPR.
