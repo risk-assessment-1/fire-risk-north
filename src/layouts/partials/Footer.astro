@@ -1,8 +1,8 @@
 ---
 import LogoInverted from "@/components/LogoInverted.astro";
-import Social from "@/components/Social.astro";
+// import Social from "@/components/Social.astro";
 import config from "@/config/config.json";
-import social from "@/config/social.json";
+// import social from "@/config/social.json";
 import {
   getLangFromUrl,
   getTranslations,
@@ -19,9 +19,7 @@ if (menu) {
 
 const { copyright, address, phone, email, footer_content, copyright_menu } =
   config.params;
-const { services, contact_info, follow_us_on } = await getTranslations(
-  lang as string,
-);
+const { services, contact_info } = await getTranslations(lang as string);
 ---
 
 <footer>
@@ -36,14 +34,16 @@ const { services, contact_info, follow_us_on } = await getTranslations(
             class="text-light/75 mt-6 mb-5"
             set:html={markdownify(footer_content)}
           />
-          <!-- social links -->
+          {
+            /* <!-- social links (temporarily disabled) -->
           <p class="text-white mb-6 mt-12 text-h5 font-semibold">
             {follow_us_on}
           </p>
           <Social
             source={social.main}
             className="social-icons-topbar inline-block text-sm"
-          />
+          /> */
+          }
         </div>
 
         <div class="md:col-6">
