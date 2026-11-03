@@ -2,7 +2,6 @@
 import Base from "@/layouts/Base.astro";
 import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
 import { supportedLang } from "@/lib/utils/languageParser";
-import CallToActionLG from "@/partials/CallToActionLG.astro";
 import Testimonial from "@/partials/Testimonial.astro";
 import AboutUs from "@/partials/homepage/AboutUs.astro";
 import BannerFeature from "@/partials/homepage/BannerFeature.astro";
@@ -63,12 +62,6 @@ const testimonial = await getSinglePage(
   lang as string,
   "testimonial",
 );
-
-const callToAction = await getSinglePage(
-  "callToAction",
-  lang as string,
-  "call-to-action",
-);
 ---
 
 <Base
@@ -87,13 +80,37 @@ const callToAction = await getSinglePage(
   />
   <Locations locations={locations} otherLocations={otherLocations} />
   <Testimonial testimonial={testimonial[0].data} />
-  <CallToActionLG callToAction={callToAction[0].data} />
   <section class="section">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-10">
           <div class="content">
             <HomeContent />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section pt-0">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            <h2>Book Your Fire Risk Assessment Today</h2>
+            <p>
+              If you need a fire risk assessment company North West businesses
+              recommend, send us the property details — type, location, floors
+              and occupancy — and we will confirm the earliest suitable slot and
+              the expected reporting timescale. Urgent fire risk assessment
+              North West requests, including those tied to an enforcement notice
+              or a licence deadline, can often be accommodated, with 24-hour
+              report delivery on request.
+            </p>
+            <p>
+              One call keeps the whole picture covered: the assessment, the
+              remedial work it recommends and the annual review that keeps you
+              compliant year after year.
+            </p>
           </div>
         </div>
       </div>

@@ -175,15 +175,3 @@ It is written so that three audiences can use it: the responsible person who has
 Fire Risk North is an accredited fire risk assessment company North West clients book because the paperwork holds up under scrutiny. BAFE SP205 registration, UKAS-accredited certification and PAS 79 methodology sit behind every report we issue.
 
 Beyond the assessment itself, our fire risk services North West wide cover everything the report recommends: fire alarm testing, emergency light testing, fire door inspection and surveying, fire extinguisher servicing and fire strategy support. For clients who need ongoing help, our fire safety management North West programme runs the review cycle, the record keeping and the prioritisation so nothing sits in a drawer. And where a second opinion is needed, a fire safety consultant North West clients can call on will review an existing report and say plainly whether it still holds — for a mill conversion in Fire Risk Assessment Northwest towns or a city centre office block alike.
-
-## Areas We Cover Across the North West
-
-We assess premises across the whole region. In Greater Manchester, see our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page for city centre offices, Trafford Park warehouses and converted mills. Across Merseyside, our [Fire Safety Assessment Liverpool](/fire-risk-assessments-liverpool) page covers dockside conversions, student accommodation and the communal areas of residential blocks.
-
-Further north we cover Preston, Blackpool and the Fylde Coast, Lancaster, Blackburn, Bolton, Burnley and the wider Lancashire mill towns, along with Cheshire and Cumbria by arrangement. Where a portfolio stretches across several districts, one team keeps the reporting consistent.
-
-## Book Your Fire Risk Assessment Today
-
-If you need a fire risk assessment company North West businesses recommend, send us the property details — type, location, floors and occupancy — and we will confirm the earliest suitable slot and the expected reporting timescale. Urgent fire risk assessment North West requests, including those tied to an enforcement notice or a licence deadline, can often be accommodated, with 24-hour report delivery on request.
-
-One call keeps the whole picture covered: the assessment, the remedial work it recommends and the annual review that keeps you compliant year after year.
