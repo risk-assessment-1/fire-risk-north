@@ -12,6 +12,8 @@ import FunFacts from "@/partials/homepage/FunFacts.astro";
 import HeroSlider from "@/partials/homepage/HeroSlider.astro";
 import LatestNews from "@/partials/homepage/LatestNews.astro";
 import ServiceSection from "@/partials/homepage/ServiceSection.astro";
+import FAQSection from "@/components/FAQSection.astro";
+import { render } from "astro:content";
 // import Team from "@/partials/homepage/Team.astro";
 
 export function getStaticPaths() {
@@ -24,8 +26,9 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 const homepage = await getListPage("homepage", lang as string);
 
-const { hero_slider, banner_feature, funfacts, feature, latest_news } =
+const { hero_slider, banner_feature, funfacts, feature, latest_news, faq_section } =
   homepage[0].data;
+const { Content: HomeContent } = await render(homepage[0]);
 
 const aboutIndex = await getListPage("about", lang as string);
 const serviceIndex = await getListPage("services", lang as string);
@@ -63,8 +66,8 @@ const callToAction = await getSinglePage(
 ---
 
 <Base
-  title="Fire Risk North | Fire Safety Management Company"
-  description="Our comprehensive fire risk assessments across the North identify potential fire hazards, helping businesses & property landlords maintain compliance."
+  title="Fire Risk Assessments North West | Fire Safety Management Company"
+  description="Our comprehensive fire risk assessments across the North West identify potential fire hazards, helping businesses & property landlords maintain compliance."
 >
   <HeroSlider heroSlider={hero_slider} />
   <BannerFeature bannerFeature={banner_feature} />
@@ -79,5 +82,7 @@ const callToAction = await getSinglePage(
   <Locations locations={locations} otherLocations={otherLocations} />
   <Testimonial testimonial={testimonial[0].data} />
   <CallToActionLG callToAction={callToAction[0].data} />
+  <HomeContent />
+  {faq_section && faq_section.enable && <FAQSection data={faq_section} />}
   <LatestNews posts={posts} latest_news={latest_news} />
 </Base>

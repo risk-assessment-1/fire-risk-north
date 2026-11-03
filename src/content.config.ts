@@ -279,6 +279,7 @@ const homepageCollection = defineCollection({
       title: z.string(),
       sub_title: z.string().optional(),
     }),
+    faq_section: faqSectionSchema.optional(),
   }),
 });
 
