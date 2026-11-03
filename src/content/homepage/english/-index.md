@@ -79,7 +79,7 @@ funfacts:
 feature:
   enable: true
   title: "Why Are Fire Risk Assessments North West Wide So Important?"
-  image: "/images/about/about-us.png"
+  image: "/images/feature/assessor-inspection.jpg"
   content: "Under the Regulatory Reform (Fire Safety) Order 2005 and the wider fire safety regulations, the responsible person must hold a suitable and sufficient assessment and keep it under review."
   feature_item:
     - name: "Enforced by Five Fire and Rescue Services"
@@ -104,7 +104,7 @@ process:
     - name: "Book the assessment"
       content: "Book at a time that suits your operation, including out of hours for hospitality and retail clients."
     - name: "Site visit"
-      content: "The assessor completes a full fire safety inspection of the premises: fire alarm and detection, fire doors and compartmentation, emergency lighting, fire escapes and emergency exits, fire safety equipment including each fire extinguisher, signage, the fire evacuation plan and the fire safety procedures in daily use."
+      content: "The assessor completes a full fire safety inspection on site: alarms, fire doors, emergency lighting, escape routes, extinguishers, signage and evacuation procedures."
     - name: "Report delivery"
       content: "You receive a written fire risk assessment report with prioritised actions within 24 hours on request."
     - name: "Review and support"
@@ -147,19 +147,3 @@ faq_section:
     - question: Do you provide other fire safety services?
       answer: Beyond the assessment we cover fire alarm testing, emergency light testing, fire door inspection and surveying, fire extinguisher servicing and fire strategy work, so one team can keep a building compliant end to end.
 ---
-
-Looking for a fire risk assessment company in the North West? Fire Risk North delivers the fire risk assessment North West landlords and employers are legally required to hold, tailored to each property's individual safety requirements. Every fire risk assessment inspection is carried out on site by BAFE SP205 registered assessors working to PAS 79 methodology, with written reports delivered within 24 hours on request.
-
-This page explains what a fire risk assessment involves, why it matters for premises across the region and how to book your fire risk assessment North West wide, whether you manage a single shop in Preston or a portfolio spread from Carlisle to Chester.
-
-## What You Receive in Your Fire Risk Assessment Report
-
-The report is the core of your fire safety documentation. It records the premises and the scope of the assessment, the hazards identified and the people at risk, the evaluation of the existing precautions, the significant findings and recommendations with a clear sense of priority.
-
-It is written so that three audiences can use it: the responsible person who has to act on it, the contractor who has to price the work and the enforcing officer or insurer who may one day read it. Recommendations are costed and sequenced rather than left as a list of warnings, which means the report doubles as a planning tool for the year ahead.
-
-## Why Choose Fire Risk North?
-
-Fire Risk North is an accredited fire risk assessment company North West clients book because the paperwork holds up under scrutiny. BAFE SP205 registration, UKAS-accredited certification and PAS 79 methodology sit behind every report we issue.
-
-Beyond the assessment itself, our fire risk services North West wide cover everything the report recommends: fire alarm testing, emergency light testing, fire door inspection and surveying, fire extinguisher servicing and fire strategy support. For clients who need ongoing help, our fire safety management North West programme runs the review cycle, the record keeping and the prioritisation so nothing sits in a drawer. And where a second opinion is needed, a fire safety consultant North West clients can call on will review an existing report and say plainly whether it still holds — for a mill conversion in Fire Risk Assessment Northwest towns or a city centre office block alike.

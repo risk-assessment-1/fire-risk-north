@@ -17,7 +17,6 @@ import LatestNews from "@/partials/homepage/LatestNews.astro";
 import FiveStepsFRA from "@/layouts/components/FiveStepsFRA.astro";
 import ServiceSection from "@/partials/homepage/ServiceSection.astro";
 import FAQSection from "@/components/FAQSection.astro";
-import { render } from "astro:content";
 // import Team from "@/partials/homepage/Team.astro";
 
 export function getStaticPaths() {
@@ -39,7 +38,6 @@ const {
   faq_section,
   process,
 } = homepage[0].data;
-const { Content: HomeContent } = await render(homepage[0]);
 
 const aboutIndex = await getListPage("about", lang as string);
 const serviceIndex = await getListPage("services", lang as string);
@@ -86,17 +84,6 @@ const testimonial = await getSinglePage(
   />
   <Locations locations={locations} otherLocations={otherLocations} />
   <Testimonial testimonial={testimonial[0].data} />
-  <section class="section">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-10">
-          <div class="content">
-            <HomeContent />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   {
     process && process.enable && (
       <FiveStepsFRA
@@ -124,17 +111,16 @@ const testimonial = await getSinglePage(
           </h2>
           <p class="text-white/80 relative mb-4">
             If you need a fire risk assessment company North West businesses
-            recommend, send us the property details — type, location, floors and
-            occupancy — and we will confirm the earliest suitable slot and the
+            recommend, send us the property basics: type, location, floors and
+            occupancy, and we will confirm the earliest suitable slot and the
             expected reporting timescale. Urgent fire risk assessment North West
-            requests, including those tied to an enforcement notice or a licence
-            deadline, can often be accommodated, with 24-hour report delivery on
-            request.
+            requests, enforcement notices and licence deadlines included, get
+            moved up the queue where we can. 24-hour report delivery on request.
           </p>
           <p class="text-white/80 relative mb-12">
-            One call keeps the whole picture covered: the assessment, the
-            remedial work it recommends and the annual review that keeps you
-            compliant year after year.
+            One call keeps the whole picture covered. The assessment, any
+            remedial work it flags, and the annual review that keeps you
+            compliant year after year, all handled by one team.
           </p>
           <a
             href={slugSelector("/contact", getLangFromUrl(Astro.url))}
