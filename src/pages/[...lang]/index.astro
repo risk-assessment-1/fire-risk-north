@@ -1,7 +1,11 @@
 ---
 import Base from "@/layouts/Base.astro";
 import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
-import { supportedLang } from "@/lib/utils/languageParser";
+import {
+  getLangFromUrl,
+  slugSelector,
+  supportedLang,
+} from "@/lib/utils/languageParser";
 import Testimonial from "@/partials/Testimonial.astro";
 import AboutUs from "@/partials/homepage/AboutUs.astro";
 import BannerFeature from "@/partials/homepage/BannerFeature.astro";
@@ -91,27 +95,35 @@ const testimonial = await getSinglePage(
       </div>
     </div>
   </section>
-  <section class="section pt-0">
+  <section
+    class="section overlay-secondary bg-fixed bg-[url('/images/backgrounds/cta-lg.jpg')]"
+  >
     <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-10">
-          <div class="content">
-            <h2>Book Your Fire Risk Assessment Today</h2>
-            <p>
-              If you need a fire risk assessment company North West businesses
-              recommend, send us the property details — type, location, floors
-              and occupancy — and we will confirm the earliest suitable slot and
-              the expected reporting timescale. Urgent fire risk assessment
-              North West requests, including those tied to an enforcement notice
-              or a licence deadline, can often be accommodated, with 24-hour
-              report delivery on request.
-            </p>
-            <p>
-              One call keeps the whole picture covered: the assessment, the
-              remedial work it recommends and the annual review that keeps you
-              compliant year after year.
-            </p>
-          </div>
+      <div class="row">
+        <div class="lg:col-7 md:col-10 col-11 text-center mx-auto">
+          <h2 class="h1 text-white relative mb-8">
+            Book Your Fire Risk Assessment Today
+          </h2>
+          <p class="text-white/80 mb-4">
+            If you need a fire risk assessment company North West businesses
+            recommend, send us the property details — type, location, floors and
+            occupancy — and we will confirm the earliest suitable slot and the
+            expected reporting timescale. Urgent fire risk assessment North West
+            requests, including those tied to an enforcement notice or a licence
+            deadline, can often be accommodated, with 24-hour report delivery on
+            request.
+          </p>
+          <p class="text-white/80 mb-12">
+            One call keeps the whole picture covered: the assessment, the
+            remedial work it recommends and the annual review that keeps you
+            compliant year after year.
+          </p>
+          <a
+            href={slugSelector("/contact", getLangFromUrl(Astro.url))}
+            class="btn btn-primary hover-ripple"
+          >
+            Get a Quote
+          </a>
         </div>
       </div>
     </div>
