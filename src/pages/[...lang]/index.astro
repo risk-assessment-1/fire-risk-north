@@ -26,8 +26,14 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 const homepage = await getListPage("homepage", lang as string);
 
-const { hero_slider, banner_feature, funfacts, feature, latest_news, faq_section } =
-  homepage[0].data;
+const {
+  hero_slider,
+  banner_feature,
+  funfacts,
+  feature,
+  latest_news,
+  faq_section,
+} = homepage[0].data;
 const { Content: HomeContent } = await render(homepage[0]);
 
 const aboutIndex = await getListPage("about", lang as string);
@@ -82,7 +88,17 @@ const callToAction = await getSinglePage(
   <Locations locations={locations} otherLocations={otherLocations} />
   <Testimonial testimonial={testimonial[0].data} />
   <CallToActionLG callToAction={callToAction[0].data} />
-  <HomeContent />
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            <HomeContent />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   {faq_section && faq_section.enable && <FAQSection data={faq_section} />}
   <LatestNews posts={posts} latest_news={latest_news} />
 </Base>
