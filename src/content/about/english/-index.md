@@ -26,12 +26,23 @@ philosophy_section:
 
 about_section:
   enable: true
-  title: "One Partner for All Your Property Compliance Needs"
-  content: "Fire Risk North provides professional fire safety and compliance services for commercial and residential properties, operating as a standalone specialist backed by the expertise and infrastructure of the FireRisk.io network.\n\nWe deliver BAFE-registered, PAS 79 compliant assessments and UKAS-accredited reporting designed to simplify regulatory management for property owners and managing agents.\n\nBy combining the technical resources of an established national group with a responsive, client-focused approach, we ensure your assets remain protected, accountable, and fully compliant with the latest safety standards."
+  title: "What Is a Fire Risk Assessment?"
+  content: |-
+    A fire risk assessment is a recorded fire risk evaluation of a building and the way it is used. It identifies the hazards, establishes who is at risk, weighs whether the existing precautions are adequate and sets out what needs to change.
+
+    The assessment follows five recognised steps:
+
+    - Identify the hazards, from obvious ignition sources to the less obvious ones such as stored stock blocking an escape route.
+    - Identify the people at risk, including residents, guests, staff, contractors and anyone who would need help to evacuate.
+    - Evaluate the existing measures, from the fire alarm and fire doors through to emergency lighting and extinguishers.
+    - Record the significant findings and prioritise the actions.
+    - Review the assessment whenever the building, its use or its occupants change.
+
+    A building fire risk assessment focuses on the structure itself: construction, layout, compartmentation and the routes people would take to get out. A property fire risk assessment adds the way the premises are actually used, because a mill converted into flats behaves differently from the same mill still in industrial use. Every fire risk assessment survey we carry out starts with the building as it stands today, not as the plans say it should be.
   bg_image: "/images/backgrounds/about-us-bg.png"
   image: "/images/about/about-us.png"
   button:
-    enable: true
+    enable: false
     label: "Our Services"
     link: "/services"
 ---

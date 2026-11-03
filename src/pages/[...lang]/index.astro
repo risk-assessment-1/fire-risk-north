@@ -14,7 +14,7 @@ import Locations from "@/partials/homepage/Locations.astro";
 import FunFacts from "@/partials/homepage/FunFacts.astro";
 import HeroSlider from "@/partials/homepage/HeroSlider.astro";
 import LatestNews from "@/partials/homepage/LatestNews.astro";
-import ProcessSection from "@/partials/homepage/ProcessSection.astro";
+import FiveStepsFRA from "@/layouts/components/FiveStepsFRA.astro";
 import ServiceSection from "@/partials/homepage/ServiceSection.astro";
 import FAQSection from "@/components/FAQSection.astro";
 import { render } from "astro:content";
@@ -97,7 +97,22 @@ const testimonial = await getSinglePage(
       </div>
     </div>
   </section>
-  {process && process.enable && <ProcessSection process={process} />}
+  {
+    process && process.enable && (
+      <FiveStepsFRA
+        data={{
+          heading: process.title,
+          description: process.description,
+          steps: process.steps.map((s, i) => ({
+            number: i + 1,
+            title: s.name,
+            description: s.content,
+            icon: "",
+          })),
+        }}
+      />
+    )
+  }
   <section
     class="section overlay-secondary bg-fixed bg-[url('/images/backgrounds/cta-lg.jpg')]"
   >

@@ -152,20 +152,6 @@ Looking for a fire risk assessment company in the North West? Fire Risk North de
 
 This page explains what a fire risk assessment involves, why it matters for premises across the region and how to book your fire risk assessment North West wide, whether you manage a single shop in Preston or a portfolio spread from Carlisle to Chester.
 
-## What Is a Fire Risk Assessment?
-
-A fire risk assessment is a recorded fire risk evaluation of a building and the way it is used. It identifies the hazards, establishes who is at risk, weighs whether the existing precautions are adequate and sets out what needs to change.
-
-The assessment follows five recognised steps:
-
-- Identify the hazards, from obvious ignition sources to the less obvious ones such as stored stock blocking an escape route.
-- Identify the people at risk, including residents, guests, staff, contractors and anyone who would need help to evacuate.
-- Evaluate the existing measures, from the fire alarm and fire doors through to emergency lighting and extinguishers.
-- Record the significant findings and prioritise the actions.
-- Review the assessment whenever the building, its use or its occupants change.
-
-A building fire risk assessment focuses on the structure itself: construction, layout, compartmentation and the routes people would take to get out. A property fire risk assessment adds the way the premises are actually used, because a mill converted into flats behaves differently from the same mill still in industrial use. Every fire risk assessment survey we carry out starts with the building as it stands today, not as the plans say it should be.
-
 ## What You Receive in Your Fire Risk Assessment Report
 
 The report is the core of your fire safety documentation. It records the premises and the scope of the assessment, the hazards identified and the people at risk, the evaluation of the existing precautions, the significant findings and recommendations with a clear sense of priority.
