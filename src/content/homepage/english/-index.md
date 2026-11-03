@@ -78,17 +78,31 @@ funfacts:
 ########## feature ##########
 feature:
   enable: true
-  title: "Why They Choose Fire Assessment North"
+  title: "Why Are Fire Risk Assessments North West Wide So Important?"
   image: "/images/feature/feature.png"
-  content: "Fire Assessment North is a fire risk assessment company that landlords in the North, employers and managing agents rely on. Clear recommendations, fire safety management and 24-hour reports on request."
-  feature_item:
-    - name: "24-Hour Turnaround on Request"
-      icon: FaBolt
-      content: "Emergency assessments available. Don't let compliance delays cost you business. Same-day emergency service for urgent requirements."
+  content: |-
+    Under the Regulatory Reform (Fire Safety) Order 2005 and the wider fire safety regulations, the responsible person must hold a suitable and sufficient assessment and keep it under review. Business fire safety compliance North West wide is enforced by five fire and rescue services, from Greater Manchester and Merseyside through Lancashire, Cumbria and Cheshire, and enforcement activity has tightened in recent years.
 
-    - name: "Best Rates - Save Up To 68%"
-      icon: FaSterlingSign
-      content: "Fire Risk North pricing without the premium price tag. The same compliance certification for a fraction of the cost."
+    The region's building stock makes that duty real rather than theoretical. Converted mills, high-rise residential towers, coastal hotels, terraced HMOs around the universities and vast out-of-town warehouses all carry distinct fire risks. A commercial fire risk assessment for a Trafford Park distribution hub looks nothing like one for a Blackpool guest house, even though the legal duty is the same.
+
+    Getting it wrong has consequences: unlimited fines, enforcement or prohibition notices, invalidated insurance and, in serious cases, imprisonment. Getting it right produces a prioritised action plan you can budget against and a record that stands up to an inspection, an insurance renewal or a fire safety audit.
+  feature_item: []
+
+process:
+  enable: true
+  title: "Our Fire Risk Assessment Process"
+  description: "Our process is deliberately simple."
+  steps:
+    - name: "Get your quote"
+      content: "Tell us the property type, location, floors and occupancy, and we scope the assessment accordingly."
+    - name: "Book the assessment"
+      content: "Book at a time that suits your operation, including out of hours for hospitality and retail clients."
+    - name: "Site visit"
+      content: "The assessor completes a full fire safety inspection of the premises: fire alarm and detection, fire doors and compartmentation, emergency lighting, fire escapes and emergency exits, fire safety equipment including each fire extinguisher, signage, the fire evacuation plan and the fire safety procedures in daily use."
+    - name: "Report delivery"
+      content: "You receive a written fire risk assessment report with prioritised actions within 24 hours on request."
+    - name: "Review and support"
+      content: "We answer questions on the findings and set the next review so the assessment never silently goes out of date."
 
 ######## blog #######
 latest_news:
@@ -145,24 +159,6 @@ The assessment follows five recognised steps:
 - Review the assessment whenever the building, its use or its occupants change.
 
 A building fire risk assessment focuses on the structure itself: construction, layout, compartmentation and the routes people would take to get out. A property fire risk assessment adds the way the premises are actually used, because a mill converted into flats behaves differently from the same mill still in industrial use. Every fire risk assessment survey we carry out starts with the building as it stands today, not as the plans say it should be.
-
-## Why Are Fire Risk Assessments North West Wide So Important?
-
-Under the Regulatory Reform (Fire Safety) Order 2005 and the wider fire safety regulations, the responsible person must hold a suitable and sufficient assessment and keep it under review. Business fire safety compliance North West wide is enforced by five fire and rescue services, from Greater Manchester and Merseyside through Lancashire, Cumbria and Cheshire, and enforcement activity has tightened in recent years.
-
-The region's building stock makes that duty real rather than theoretical. Converted mills, high-rise residential towers, coastal hotels, terraced HMOs around the universities and vast out-of-town warehouses all carry distinct fire risks. A commercial fire risk assessment for a Trafford Park distribution hub looks nothing like one for a Blackpool guest house, even though the legal duty is the same.
-
-Getting it wrong has consequences: unlimited fines, enforcement or prohibition notices, invalidated insurance and, in serious cases, imprisonment. Getting it right produces a prioritised action plan you can budget against and a record that stands up to an inspection, an insurance renewal or a fire safety audit.
-
-## Our Fire Risk Assessment Process
-
-Our process is deliberately simple.
-
-1. Get your quote. Tell us the property type, location, floors and occupancy, and we scope the assessment accordingly.
-2. Book the assessment at a time that suits your operation, including out of hours for hospitality and retail clients.
-3. Site visit. The assessor completes a full fire safety inspection of the premises: fire alarm and detection, fire doors and compartmentation, emergency lighting, fire escapes and emergency exits, fire safety equipment including each fire extinguisher, signage, the fire evacuation plan and the fire safety procedures in daily use.
-4. Report delivery. You receive a written fire risk assessment report with prioritised actions within 24 hours on request.
-5. Review and support. We answer questions on the findings and set the next review so the assessment never silently goes out of date.
 
 ## What You Receive in Your Fire Risk Assessment Report
 
