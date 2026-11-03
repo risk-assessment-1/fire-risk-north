@@ -178,7 +178,7 @@ Beyond the assessment itself, our fire risk services North West wide cover every
 
 ## Areas We Cover Across the North West
 
-We assess premises across the whole region. In Greater Manchester, see our [Fire Risk Assessment Manchester](/locations/manchester) page for city centre offices, Trafford Park warehouses and converted mills. Across Merseyside, our [Fire Safety Assessment Liverpool](/locations/liverpool) page covers dockside conversions, student accommodation and the communal areas of residential blocks.
+We assess premises across the whole region. In Greater Manchester, see our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page for city centre offices, Trafford Park warehouses and converted mills. Across Merseyside, our [Fire Safety Assessment Liverpool](/fire-risk-assessments-liverpool) page covers dockside conversions, student accommodation and the communal areas of residential blocks.
 
 Further north we cover Preston, Blackpool and the Fylde Coast, Lancaster, Blackburn, Bolton, Burnley and the wider Lancashire mill towns, along with Cheshire and Cumbria by arrangement. Where a portfolio stretches across several districts, one team keeps the reporting consistent.
 
