@@ -79,7 +79,7 @@ funfacts:
 feature:
   enable: true
   title: "Why Are Fire Risk Assessments North West Wide So Important?"
-  image: "/images/feature/assessor-inspection.jpg"
+  image: "/images/feature/extinguisher-check.jpg"
   content: "Under the Regulatory Reform (Fire Safety) Order 2005 and the wider fire safety regulations, the responsible person must hold a suitable and sufficient assessment and keep it under review."
   feature_item:
     - name: "Enforced by Five Fire and Rescue Services"
