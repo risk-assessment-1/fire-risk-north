@@ -80,13 +80,19 @@ feature:
   enable: true
   title: "Why Are Fire Risk Assessments North West Wide So Important?"
   image: "/images/feature/feature.png"
-  content: |-
-    Under the Regulatory Reform (Fire Safety) Order 2005 and the wider fire safety regulations, the responsible person must hold a suitable and sufficient assessment and keep it under review. Business fire safety compliance North West wide is enforced by five fire and rescue services, from Greater Manchester and Merseyside through Lancashire, Cumbria and Cheshire, and enforcement activity has tightened in recent years.
+  content: "Under the Regulatory Reform (Fire Safety) Order 2005 and the wider fire safety regulations, the responsible person must hold a suitable and sufficient assessment and keep it under review."
+  feature_item:
+    - name: "Enforced by Five Fire and Rescue Services"
+      icon: "FaShieldHalved"
+      content: "Business fire safety compliance North West wide is enforced by five fire and rescue services, from Greater Manchester and Merseyside through Lancashire, Cumbria and Cheshire, and enforcement activity has tightened in recent years."
 
-    The region's building stock makes that duty real rather than theoretical. Converted mills, high-rise residential towers, coastal hotels, terraced HMOs around the universities and vast out-of-town warehouses all carry distinct fire risks. A commercial fire risk assessment for a Trafford Park distribution hub looks nothing like one for a Blackpool guest house, even though the legal duty is the same.
+    - name: "A Region of Distinct Fire Risks"
+      icon: "FaBuilding"
+      content: "The region's building stock makes that duty real rather than theoretical. Converted mills, high-rise residential towers, coastal hotels, terraced HMOs around the universities and vast out-of-town warehouses all carry distinct fire risks. A commercial fire risk assessment for a Trafford Park distribution hub looks nothing like one for a Blackpool guest house, even though the legal duty is the same."
 
-    Getting it wrong has consequences: unlimited fines, enforcement or prohibition notices, invalidated insurance and, in serious cases, imprisonment. Getting it right produces a prioritised action plan you can budget against and a record that stands up to an inspection, an insurance renewal or a fire safety audit.
-  feature_item: []
+    - name: "Getting It Wrong vs Getting It Right"
+      icon: "FaFileShield"
+      content: "Getting it wrong has consequences: unlimited fines, enforcement or prohibition notices, invalidated insurance and, in serious cases, imprisonment. Getting it right produces a prioritised action plan you can budget against and a record that stands up to an inspection, an insurance renewal or a fire safety audit."
 
 process:
   enable: true
