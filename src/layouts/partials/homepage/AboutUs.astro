@@ -25,9 +25,9 @@ const lang = getLangFromUrl(Astro.url);
                 src={about.image}
                 alt="About Image"
                 width={518}
-                height={492}
+                height={680}
                 sizes="(max-width: 768px) 90vw, (max-width: 1024px) 38vw, 537px"
-                widths={[350, 537, 806]}
+                widths={[350, 518, 806]}
               />
             </div>
             <div class="md:col-6">
@@ -40,7 +40,7 @@ const lang = getLangFromUrl(Astro.url);
                 set:html={markdownify(about.title)}
               />
               <div
-                class="mb-5 [&_p]:mb-5"
+                class="mb-5 [&_p]:mb-5 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:mb-2"
                 set:html={markdownify(about.content, true)}
               />
               {about.button.enable && (
