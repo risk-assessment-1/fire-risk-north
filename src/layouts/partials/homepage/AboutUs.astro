@@ -21,14 +21,14 @@ const lang = getLangFromUrl(Astro.url);
             >
               {/* about us image  */}
               <ImageMod
-                class="w-full max-md:pb-20"
+                class="w-full max-w-xl max-md:pb-20"
                 src={about.image}
                 alt="About Image"
-                width={525}
-                height={700}
+                width={576}
+                height={576}
                 fit="cover"
                 sizes="(max-width: 768px) 90vw, (max-width: 1024px) 38vw, 537px"
-                widths={[350, 525, 806]}
+                widths={[350, 576, 700]}
               />
             </div>
             <div class="md:col-6">
