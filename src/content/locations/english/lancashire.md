@@ -76,7 +76,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Lancashire Businesses Choose Fire Assessment North
+  heading: Why Lancashire Businesses Choose Risk Assessment North
   subtitle: Mills, farms and coastal hospitality, each with their own fire risk profile
   cards:
     - title: BAFE SP205 Registered
@@ -218,17 +218,17 @@ faq_section:
 
 Lancashire is not one property market. Burnley's terraces, Lancaster's Georgian streets, the mill towns of the Calder and the Ribble valleys, the coastal strip from Blackpool up to Morecambe and the rural conversions scattered between them all present different fire safety problems. It is impossible to apply a single template, and any assessor who attempts will have failed to understand the county.
 
-We assess premises across Lancashire for landlords, managing agents, employers and owner-managers. This includes town centre shops, mills converted into apartments, rural barn conversions, holiday lets, care homes, schools, warehouses and the ordinary high street businesses that make up most of the county's commercial floor space.
+Risk Assessment North assesses premises across Lancashire for landlords, managing agents, employers and owner-managers. This includes town centre shops, mills converted into apartments, rural barn conversions, holiday lets, care homes, schools, warehouses and the ordinary high street businesses that make up most of the county's commercial floor space. Each commercial fire risk assessment is scoped to the premises in front of us.
 
-Our approach is systematic: understand the building, find the hazards, judge whether the existing measures would work and write down what needs to change in an order that makes sense.
+Our approach is systematic: every property fire risk assessment starts with understanding the building, finding the hazards, judging whether the existing measures would work and writing down what needs to change in an order that makes sense.
 
 ## Why Fire Risk Assessments Matter Across Lancashire
 
-The legal duty belongs to the responsible person, and in most cases that is the employer. Lancashire Fire and Rescue Service enforces the Fire Safety Order throughout the county, and its inspection activity follows risk rather than postcode.
+The legal duty belongs to the responsible person, and in most cases that is the employer. Lancashire Fire and Rescue Service enforces the Fire Safety Order and the fire safety regulations around it throughout the county, and its inspection activity follows risk rather than postcode.
 
 This matters because Lancashire building stock has a lot of inherited risk. A mill converted in the nineties may have compartmentation that satisfied the rules of the time and nothing since. A farm building turned into holiday accommodation may never have been assessed at all. A terrace split into five flats may have had four different owners and five different approaches to fire doors.
 
-These will not show up until someone looks. An assessment is the process of looking properly and writing down what is found. A fire risk assessment Lancashire landlords and employers can rely on begins with the building as it stands today, not the version that was signed off at conversion.
+These will not show up until someone looks. An assessment is the process of looking properly and writing down what is found. A fire risk assessment Lancashire landlords and employers can rely on begins with a proper on-site inspection and fire risk assessment survey of the building as it stands today, not the version that was signed off at conversion.
 
 ## Lancashire in Focus: Fire Safety, Risk and Compliance
 
@@ -240,15 +240,15 @@ The rural property adds another layer of considerations. Long travel distances t
 
 Then there is the coastal strip, where seasonal occupancy swings hard and a lot of property is older than the regulations that now govern it.
 
-Compliance across all of that depends upon three things working together: a competent assessment, a management regime that keeps the measures in place and a review process that catches change before it becomes a problem.
+Compliance across all of that depends upon three things working together: a competent assessment, a management regime that keeps the measures in place and a review process that catches change before it becomes a problem — and it is exactly what a fire safety audit will test.
 
 ## Fire Risk Assessment Lancashire: What We Look At
 
-A fire risk assessment identifies ignition sources and combustibles, considers how fire and smoke would travel and evaluates whether the people inside could escape.
+A fire risk assessment inspection identifies ignition sources and combustibles, a wider fire safety inspection considers how fire and smoke would travel, and together they evaluate whether the people inside could escape.
 
-The assessor reviews detection and warning, escape routes and exits, fire doors and separation, emergency lighting, extinguishers, signage and evacuation arrangements. Records are checked where they exist, including maintenance logs, test certificates and any previous assessment.
+The assessor reviews detection and warning, fire escapes and emergency exits, fire doors and separation, emergency lighting, fire safety equipment, signage, the fire evacuation plan and the escape routes that serve it. Records are checked where they exist, including maintenance logs, test certificates and any previous assessment.
 
-The output is a judgement: are the existing measures proportionate to the risk, and if not, what has to change and how urgently?
+The output of the fire risk evaluation is a judgement: are the existing measures proportionate to the risk, and if not, what has to change and how urgently?
 
 ## Common Findings Across Lancashire
 
@@ -256,11 +256,11 @@ Certain problems recur across the county. Doors held open with wedges or extingu
 
 In older buildings the bigger issue is what has been removed. A second stair taken out to gain a bathroom. A lobby door lost in a refurbishment. Original shutters painted over until they no longer close.
 
-None of this is deliberate, it is accumulated while the building is in use and invisible until someone walks the escape route with a torch and a checklist. Fire safety risk assessments Lancashire wide rarely find just one problem, and the ones that matter are usually structural rather than cosmetic.
+None of this is deliberate, it is accumulated while the building is in use and invisible until someone walks the escape route with a torch and a checklist. Fire safety risk assessments Lancashire wide rarely find just one problem, and the ones that matter are usually structural rather than cosmetic — most trace back to fire safety documentation and procedures that slipped out of date.
 
 ## Building Control Fire Risk Assessment Lancashire
 
-Building control involvement is usually at the point of construction, conversion or change of use. A building control fire risk assessment is a different exercise from the operational assessment that follows occupation, but the two must align.
+Building control involvement is usually at the point of construction, conversion or change of use. A building control fire risk assessment is a different exercise from the operational building fire risk assessment that follows occupation, but the two must align.
 
 Where a scheme is converting a mill, subdividing a house or changing a shop into flats, the fire strategy agreed at building control sets out the baseline. The operational assessment then tests whether the building as built and as used still matches that baseline. Very often it does not because something has been changed in between.
 
@@ -268,9 +268,9 @@ We can review both, and we can tell you where the building has drifted from what
 
 ## Fire Safety Management After the Report
 
-The report is but the start of the work. Someone has to own the actions, book the contractors, keep the records and check the measures still work six months later. On a single site it is usually a facilities manager. Across a portfolio it needs a system.
+The fire risk assessment report is but the start of the work. Someone has to own the actions, book the contractors, keep the records and check the measures still work six months later. On a single site it is usually a facilities manager. Across a portfolio it needs a system.
 
-Our fire safety management Lancashire support covers the review cycle, the record keeping and the prioritisation, so that findings do not sit in a drawer until the next inspection. The fire safety management services Lancashire landlords and agents ask for most often are the scheduled annual review and the pre-inspection audit.
+Our fire safety management Lancashire support covers the review cycle, the fire safety procedures, the record keeping and the prioritisation, so that findings do not sit in a drawer until the next inspection. The fire safety management services Lancashire landlords and agents ask for most often are the scheduled annual review and the pre-inspection audit.
 
 This work sits alongside the assessment itself. Same team, same knowledge of the building, no handover where the detail gets lost.
 
@@ -282,4 +282,4 @@ One contact handles fire safety compliance Lancashire wide, and this matters whe
 
 Anyone looking for fire safety consultants Lancashire wide can keep one team across sites rather than briefing a different firm in each district.
 
-For the regional picture, see our [Fire Risk North](/) page. This sets out how the county work fits into the wider service. Local work in the centre of the county sits with [Fire Risk Services Preston](/fire-risk-assessments-preston), and the coast is covered by [Fire Risk Services Blackpool](/fire-risk-assessments-blackpool).
+For the regional picture, see our [Risk Assessment North](/) page. This sets out how the county work fits into the wider service. Local work in the centre of the county sits with [Fire Risk Assessment Preston](/fire-risk-assessments-preston), and the coast is covered by [Fire Risk Assessment Blackpool](/fire-risk-assessments-blackpool).

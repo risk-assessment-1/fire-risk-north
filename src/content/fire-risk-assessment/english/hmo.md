@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for HMOs"
-meta_title: "Fire Risk Assessment for Houses in Multiple Occupation - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Houses in Multiple Occupation - Risk Assessment North"
 description: "Professional fire risk assessment for HMOs. BS 5839-6 alarm compliance, fire door inspection, escape route evaluation. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/hmo.jpg"
 draft: false
@@ -132,7 +132,7 @@ Every HMO fire risk assessment includes a comprehensive package designed to meet
 
 ![Modern Shared Kitchen in HMO Property](../../../assets/images/fire-risk-assessment/hmo/hmo-hazard-kitchen.png "HMO Kitchen Assessment")
 
-## Why HMO Landlords Choose Fire Assessment North
+## Why HMO Landlords Choose Risk Assessment North
 
 HMO landlords and managing agents across the UK trust us for their properties because we understand the specific challenges of multi-occupied housing fire safety:
 

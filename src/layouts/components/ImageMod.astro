@@ -35,7 +35,9 @@ let imageSrc: ImageMetadata | Promise<{ default: ImageMetadata }>;
 if (typeof src === "string") {
   src = `/public${src}`;
 
-  const images = import.meta.glob("/public/images/**/*.{jpeg,jpg,png,gif}");
+  const images = import.meta.glob(
+    "/public/images/**/*.{jpeg,jpg,png,gif,webp}",
+  );
 
   const isValidPath = images[src] ? true : false;
 

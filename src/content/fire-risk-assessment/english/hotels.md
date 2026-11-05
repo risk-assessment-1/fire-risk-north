@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for Hotels"
-meta_title: "Fire Risk Assessment for Hotels - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Hotels - Risk Assessment North"
 description: "Professional fire risk assessment for hotels and guest houses. Sleeping guest protection, commercial kitchen safety, FD30 fire doors, multi-language evacuation. BAFE SP205 registered assessors."
 image: "../../../assets/images/fire-risk-assessment/hotels.jpg"
 draft: false
@@ -141,7 +141,7 @@ Every hotel fire risk assessment includes a comprehensive package designed to me
 
 ![Hotel Guest Bedroom Fire Safety](../../../assets/images/fire-risk-assessment/hotels/hotel-bedroom.png "Hotel Bedroom Assessment")
 
-## Why Hotel Operators Choose Fire Assessment North
+## Why Hotel Operators Choose Risk Assessment North
 
 Hotel operators across the UK trust us for their premises because we understand the specific challenges of hospitality fire safety:
 

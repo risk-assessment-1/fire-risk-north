@@ -57,7 +57,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Blackburn Businesses Choose Fire Assessment North
+  heading: Why Blackburn Businesses Choose Risk Assessment North
   subtitle: Deep local expertise combined with outstanding service
   cards:
     - title: BAFE SP205 Registered
@@ -242,4 +242,4 @@ Our fire risk assessments Blackburn businesses order usually follow a change of 
 
 If you need a fire risk assessor Blackburn landlords can book at short notice, send the details and we will confirm availability. The same team acts as a fire safety consultant Blackburn businesses use before a change of use, and as a fire risk assessment Blackburn managing agents can apply across several buildings.
 
-For the county side, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, while the [Fire Risk North](/) homepage sets out how it all fits together.
+For the county side, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, while the [Risk Assessment North](/) homepage sets out how it all fits together.

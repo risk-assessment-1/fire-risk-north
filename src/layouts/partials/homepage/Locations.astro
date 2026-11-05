@@ -34,6 +34,61 @@ const lang = getLangFromUrl(Astro.url);
   </div>
 
   <div class="container">
+    <div class="mb-10">
+      <h2 class="h4 mb-6">Areas We Cover Across the North West</h2>
+      <div class="content">
+        <p>
+          We assess premises across the whole region. In Greater Manchester, see
+          our{" "}
+          <a
+            href={slugSelector("/fire-risk-assessments-manchester", lang)}
+            class="text-primary dark:text-darkmode-primary hover:underline"
+          >
+            Fire Risk Assessment Manchester
+          </a>{" "}
+          page for city centre offices, Trafford Park warehouses and converted mills.
+          Across Merseyside, our{" "}
+          <a
+            href={slugSelector("/fire-risk-assessments-liverpool", lang)}
+            class="text-primary dark:text-darkmode-primary hover:underline"
+          >
+            Fire Safety Assessment Liverpool
+          </a>{" "}
+          page covers dockside conversions, student accommodation and the communal
+          areas of residential blocks.
+        </p>
+        <p>
+          Further north we cover Preston, Blackpool and the Fylde Coast,
+          Lancaster, Blackburn, Bolton, Burnley and the wider Lancashire mill
+          towns, along with Cheshire and Cumbria by arrangement.
+        </p>
+        {
+          otherLocations.length > 0 && (
+            <p>
+              We also cover{" "}
+              {otherLocations.map((loc, i) => {
+                const slug = loc.id.split("/").pop();
+                return (
+                  <>
+                    {i > 0 &&
+                      (i === otherLocations.length - 1 ? " and " : ", ")}
+                    <a
+                      href={slugSelector(locationPath(slug || ""), lang)}
+                      class="font-medium text-primary dark:text-darkmode-primary hover:underline"
+                    >
+                      {titleify(slug || "")}
+                    </a>
+                  </>
+                );
+              })}
+              <span> and surrounding areas.</span> Where a portfolio stretches
+              across several districts, one team keeps the reporting consistent.
+            </p>
+          )
+        }
+      </div>
+    </div>
+
     <div
       class="locations-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6"
     >
@@ -69,31 +124,6 @@ const lang = getLangFromUrl(Astro.url);
         })
       }
     </div>
-
-    {
-      otherLocations.length > 0 && (
-        <p class="mt-8 text-center text-text-dark/70 dark:text-darkmode-text-dark/70">
-          <span class="font-semibold text-text-dark dark:text-darkmode-text-dark">
-            We also cover
-          </span>{" "}
-          {otherLocations.map((loc, i) => {
-            const slug = loc.id.split("/").pop();
-            return (
-              <>
-                {i > 0 && (i === otherLocations.length - 1 ? " and " : ", ")}
-                <a
-                  href={slugSelector(locationPath(slug || ""), lang)}
-                  class="font-medium text-primary dark:text-darkmode-primary hover:underline"
-                >
-                  {titleify(slug || "")}
-                </a>
-              </>
-            );
-          })}
-          <span> and surrounding areas.</span>
-        </p>
-      )
-    }
   </div>
 </section>
 

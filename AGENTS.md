@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-Astro 6 static site (Bexer theme) for Fire Assessment North — a UK fire safety company. English-only content, React interactive islands, Tailwind CSS v4, Cloudflare Workers deployment. Content managed via MD/MDX with Zod-validated collections.
+Astro 6 static site (Bexer theme) for Risk Assessment North — a UK fire safety company. English-only content, React interactive islands, Tailwind CSS v4, Cloudflare Workers deployment. Content managed via MD/MDX with Zod-validated collections.
 
 ## Build & Development Commands
 

@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for High-Rise Buildings"
-meta_title: "Fire Risk Assessment for High-Rise Buildings - Fire Assessment North"
+meta_title: "Fire Risk Assessment for High-Rise Buildings - Risk Assessment North"
 description: "Professional fire risk assessment for high-rise buildings over 18 metres. Building Safety Act 2022 compliance, EWS1 support, post-Grenfell requirements. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/high-rise-buildings.jpg"
 draft: false
@@ -140,7 +140,7 @@ Every high-rise fire risk assessment includes a comprehensive package designed t
 
 ![Building Service Riser Shaft Showing Vertical Fire Pathways](../../../assets/images/fire-risk-assessment/high-rise-buildings/high-rise-hazard-riser.png "High-Rise Riser Assessment")
 
-## Why Building Owners Choose Fire Assessment North
+## Why Building Owners Choose Risk Assessment North
 
 Building owners and Accountable Persons across the UK trust us for their high-rise buildings because we understand the specific challenges of post-Grenfell fire safety:
 
