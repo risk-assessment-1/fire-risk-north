@@ -68,7 +68,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Blackpool Businesses Choose Fire Assessment North
+  heading: Why Blackpool Businesses Choose Risk Assessment North
   subtitle: Local knowledge of the Fylde Coast property market, backed by accredited assessors
   cards:
     - title: BAFE SP205 Registered
@@ -215,7 +215,7 @@ faq_section:
         HMOs and larger commercial buildings usually need a professional assessor.
 ---
 
-The path to safeguard a building, staff, guests and tenants starts with identifying the dangers within. Fire Risk North conducts fire risk assessments across Blackpool for business owners, landlords and property managers — a fire risk assessment inspection that identifies those dangers, who they affect and what has to change.
+The path to safeguard a building, staff, guests and tenants starts with identifying the dangers within. Risk Assessment North conducts fire risk assessments across Blackpool for business owners, landlords and property managers — a fire risk assessment inspection that identifies those dangers, who they affect and what has to change.
 
 Whether you manage a hotel near the Promenade, a guest house off Lytham Road, an HMO in South Shore, a shop in the centre or a commercial unit at the edge of Bispham, each building is unique in its combination of ignition sources, escape routes and occupants.
 
@@ -276,4 +276,4 @@ When comparing quotes for your assessment, be aware that the scope of the inspec
 
 If you are looking for a fire risk assessor Blackpool landlords can book without long lead times, send the property details and we will confirm availability. The same team acts as a fire risk company Blackpool businesses call on for a straight answer, and as a fire risk consultant Blackpool property managers use to review an existing report and confirm its continuing validity. For year-round fire safety compliance, fire risk services Blackpool wide run from the assessment through to the door, detection and lighting work it recommends.
 
-For the regional view, our [Fire Risk North](/) page covers the wider service, and [Fire Safety Management Lancashire](/fire-risk-assessments-lancashire) sets out how the county work fits alongside it.
+For the regional view, our [Risk Assessment North](/) page covers the wider service, and [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) sets out how the county work fits alongside it.

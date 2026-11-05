@@ -38,7 +38,7 @@ about_section:
     - Record the significant findings and prioritise the actions.
     - Review the assessment whenever the building, its use or its occupants change.
 
-    A building fire risk assessment focuses on the structure itself: construction, layout, compartmentation and the routes people would take to get out. A property fire risk assessment adds the way the premises are actually used, because a mill converted into flats behaves differently from the same mill still in industrial use. Every fire risk assessment survey we carry out starts with the building as it stands today, not as the plans say it should be.
+    A building fire risk assessment covers the structure itself — construction, layout, compartmentation and escape routes. A property assessment adds how the premises are actually used: a mill converted into flats behaves differently from one still in industrial use. Every survey we carry out starts with the building as it stands today, not as the plans say it should be.
   bg_image: "/images/backgrounds/about-us-bg.png"
   image: "/images/about/about-us.png"
   button:

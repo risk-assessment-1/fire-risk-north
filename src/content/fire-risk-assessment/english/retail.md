@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for Retail Premises"
-meta_title: "Fire Risk Assessment for Retail Shops - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Retail Shops - Risk Assessment North"
 description: "Professional fire risk assessment for retail shops and shopping centres. Black Friday crowd planning, seasonal display compliance, POS electrical safety. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/retail.jpg"
 draft: false
@@ -140,7 +140,7 @@ Every retail fire risk assessment includes a comprehensive package designed to m
 
 ![Retail Customer Congestion Peak Shopping Period Fire Risk](../../../assets/images/fire-risk-assessment/retail/retail-customer-congestion.png "Retail Customer Congestion Assessment")
 
-## Why Retail Operators Choose Fire Assessment North
+## Why Retail Operators Choose Risk Assessment North
 
 Retail operators and store managers across the UK trust us for their premises because we understand the specific challenges of retail fire safety:
 

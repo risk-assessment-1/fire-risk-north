@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for Offices"
-meta_title: "Fire Risk Assessment for Offices - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Offices - Risk Assessment North"
 description: "Professional fire risk assessment for office buildings and corporate workplaces. Compliant with Fire Safety Order 2005, October 2023 amendments. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/offices.jpg"
 draft: false
@@ -141,7 +141,7 @@ Every office fire risk assessment includes a comprehensive package designed to m
 
 ![Office Electrical Equipment Overload Fire Risk](../../../assets/images/fire-risk-assessment/offices/electrical_equipment_overload.png "Office Electrical Equipment Assessment")
 
-## Why Office Managers Choose Fire Assessment North
+## Why Office Managers Choose Risk Assessment North
 
 Facilities managers and corporate compliance officers across the UK trust us for their offices because we understand the specific challenges of modern workplace fire safety:
 

@@ -1,12 +1,12 @@
 ---
 title: "Privacy Policy"
 meta_title: ""
-description: "How Fire Risk North collects, uses and protects your personal data, and your rights under UK GDPR and the Data Protection Act 2018."
+description: "How Risk Assessment North collects, uses and protects your personal data, and your rights under UK GDPR and the Data Protection Act 2018."
 image: ""
 draft: false
 ---
 
-Fire Risk North ("we", "us") respects your privacy and is committed to protecting your personal data. This policy explains what data we collect, why we collect it, how long we keep it, and the rights you have under the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.
+Risk Assessment North ("we", "us") respects your privacy and is committed to protecting your personal data. This policy explains what data we collect, why we collect it, how long we keep it, and the rights you have under the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.
 
 ## Who We Are
 
@@ -71,4 +71,4 @@ We may update this policy from time to time. The current version is always publi
 
 ## Contact Us
 
-For any privacy questions or requests, contact enquiries@firerisknorth.com or write to Fire Risk North, Bartle House, Oxford Court, Manchester M2 3WQ.
+For any privacy questions or requests, contact enquiries@firerisknorth.com or write to Risk Assessment North, Bartle House, Oxford Court, Manchester M2 3WQ.

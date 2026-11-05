@@ -72,7 +72,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Manchester Businesses Choose Fire Assessment North
+  heading: Why Manchester Businesses Choose Risk Assessment North
   subtitle: City centre fit-outs and suburban portfolios, assessed by the same accredited team
   cards:
     - title: BAFE SP205 Registered
@@ -287,4 +287,4 @@ We start at £249 for smaller properties and quote the rest on the details. If y
 
 A fire risk assessor Manchester employers bring in before a fit-out will usually save more than the fee because the problems are designed out rather than discovered later, and fire safety compliance stays on track from day one.
 
-If you have been searching for a fire risk assessor near me or fire safety consultants near me in Greater Manchester, you have found us. If your interests extend across the region, our [Fire Safety Consultant Liverpool](/fire-risk-assessments-liverpool) page covers the other side of the North. For the full regional picture, [Fire Risk North](/) sets out the service end to end.
+If you have been searching for a fire risk assessor near me or fire safety consultants near me in Greater Manchester, you have found us. If your interests extend across the region, our [Fire Risk Assessment Liverpool](/fire-risk-assessments-liverpool) page covers the other side of the North. For the full regional picture, [Risk Assessment North](/) sets out the service end to end.

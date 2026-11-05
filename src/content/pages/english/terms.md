@@ -1,16 +1,16 @@
 ---
 title: "Terms and Conditions"
 meta_title: ""
-description: "Terms and conditions for fire risk assessment and fire safety services provided by Fire Risk North across the North of England."
+description: "Terms and conditions for fire risk assessment and fire safety services provided by Risk Assessment North across the North of England."
 image: ""
 draft: false
 ---
 
-These terms and conditions govern the provision of fire safety services by Fire Risk North ("we", "us", "our") to you ("the client"). By engaging our services you agree to these terms. If you have any questions, contact us at enquiries@firerisknorth.com or +44 161 987 1020.
+These terms and conditions govern the provision of fire safety services by Risk Assessment North ("we", "us", "our") to you ("the client"). By engaging our services you agree to these terms. If you have any questions, contact us at enquiries@firerisknorth.com or +44 161 987 1020.
 
 ## About Us
 
-Fire Risk North provides fire risk assessments, fire safety consultancy and related services to commercial and residential clients across the North of England. We are registered at Bartle House, Oxford Court, Manchester M2 3WQ. Telephone: +44 161 987 1020. Email: enquiries@firerisknorth.com.
+Risk Assessment North provides fire risk assessments, fire safety consultancy and related services to commercial and residential clients across the North of England. We are registered at Bartle House, Oxford Court, Manchester M2 3WQ. Telephone: +44 161 987 1020. Email: enquiries@firerisknorth.com.
 
 ## Quotations and Fees
 

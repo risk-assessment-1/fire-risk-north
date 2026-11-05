@@ -57,7 +57,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Rochdale Businesses Choose Fire Assessment North
+  heading: Why Rochdale Businesses Choose Risk Assessment North
   subtitle: Deep local expertise combined with outstanding service
   cards:
     - title: BAFE SP205 Registered
@@ -243,4 +243,4 @@ The fire risk assessments Rochdale owners commission usually follow a purchase, 
 
 If you need a fire risk assessor Rochdale landlords can book at short notice, send the property details and we will confirm availability. The same team works as a fire safety consultant Rochdale employers call on before a change of use, and as a fire risk assessment Rochdale agents can apply across several buildings.
 
-For the city side of Greater Manchester, our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers it, and the [Fire Risk North](/) homepage sets out the wider service.
+For the city side of Greater Manchester, our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers it, and the [Risk Assessment North](/) homepage sets out the wider service.

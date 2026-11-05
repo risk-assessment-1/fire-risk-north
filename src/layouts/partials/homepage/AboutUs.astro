@@ -41,7 +41,7 @@ const lang = getLangFromUrl(Astro.url);
                 set:html={markdownify(about.title)}
               />
               <div
-                class="mb-5 [&_p]:mb-5 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:mb-2"
+                class="mb-6 leading-relaxed [&_p]:mb-6 [&_p]:leading-relaxed [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:my-6 [&_li]:mb-2"
                 set:html={markdownify(about.content, true)}
               />
               {about.button.enable && (

@@ -76,7 +76,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Lancashire Businesses Choose Fire Assessment North
+  heading: Why Lancashire Businesses Choose Risk Assessment North
   subtitle: Mills, farms and coastal hospitality, each with their own fire risk profile
   cards:
     - title: BAFE SP205 Registered
@@ -218,7 +218,7 @@ faq_section:
 
 Lancashire is not one property market. Burnley's terraces, Lancaster's Georgian streets, the mill towns of the Calder and the Ribble valleys, the coastal strip from Blackpool up to Morecambe and the rural conversions scattered between them all present different fire safety problems. It is impossible to apply a single template, and any assessor who attempts will have failed to understand the county.
 
-Fire Risk North assesses premises across Lancashire for landlords, managing agents, employers and owner-managers. This includes town centre shops, mills converted into apartments, rural barn conversions, holiday lets, care homes, schools, warehouses and the ordinary high street businesses that make up most of the county's commercial floor space. Each commercial fire risk assessment is scoped to the premises in front of us.
+Risk Assessment North assesses premises across Lancashire for landlords, managing agents, employers and owner-managers. This includes town centre shops, mills converted into apartments, rural barn conversions, holiday lets, care homes, schools, warehouses and the ordinary high street businesses that make up most of the county's commercial floor space. Each commercial fire risk assessment is scoped to the premises in front of us.
 
 Our approach is systematic: every property fire risk assessment starts with understanding the building, finding the hazards, judging whether the existing measures would work and writing down what needs to change in an order that makes sense.
 
@@ -282,4 +282,4 @@ One contact handles fire safety compliance Lancashire wide, and this matters whe
 
 Anyone looking for fire safety consultants Lancashire wide can keep one team across sites rather than briefing a different firm in each district.
 
-For the regional picture, see our [Fire Risk North](/) page. This sets out how the county work fits into the wider service. Local work in the centre of the county sits with [Fire Risk Services Preston](/fire-risk-assessments-preston), and the coast is covered by [Fire Risk Services Blackpool](/fire-risk-assessments-blackpool).
+For the regional picture, see our [Risk Assessment North](/) page. This sets out how the county work fits into the wider service. Local work in the centre of the county sits with [Fire Risk Assessment Preston](/fire-risk-assessments-preston), and the coast is covered by [Fire Risk Assessment Blackpool](/fire-risk-assessments-blackpool).
