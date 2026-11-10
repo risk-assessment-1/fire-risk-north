@@ -44,6 +44,7 @@ const {
                   <ImageMod
                     width={170}
                     height={170}
+                    fit="cover"
                     class="w-21.25 h-21.25 object-cover"
                     src={post.data.image}
                     alt={post.data.title}
@@ -76,7 +77,7 @@ const {
     <p class="text-h5 mb-5">{Tcategories}</p>
     <ul class="list-styled style-circle space-y-4">
       {
-        categories.map((category) => {
+        categories.slice(0, 8).map((category) => {
           const count = allCategories.filter((c) => c === category).length;
           return (
             <li class="border-b border-border dark:border-darkmode-border pb-4">
@@ -94,7 +95,7 @@ const {
     <p class="text-h5 mb-5">{Ttags}</p>
     <ul class="flex flex-wrap gap-2">
       {
-        tags.map((tag: string) => {
+        tags.slice(0, 10).map((tag: string) => {
           return (
             <li class="inline-block">
               <span class="btn btn-primary bg-white dark:bg-darkmode-light text-text dark:text-darkmode-text font-normal border-none box-shadow duration-200 cursor-default btn-sm hover-ripple">
