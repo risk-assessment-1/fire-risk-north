@@ -8,6 +8,7 @@ const commonFields = {
   meta_title: z.string().optional(),
   date: z.coerce.date().optional(),
   image: z.string().optional(),
+  image_alt: z.string().optional(),
   draft: z.boolean().optional(),
 };
 

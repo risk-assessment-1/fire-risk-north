@@ -26,7 +26,7 @@ if (!lang) {
 const posts = await getSinglePage(COLLECTION_FOLDER, lang as string);
 const similarPosts = similarItems(post, posts);
 const { Content } = await render(post);
-const { title, description, author, image, date, tags } = post.data;
+const { title, description, author, image, image_alt, date, tags } = post.data;
 
 const langCollection: string = lang as string;
 const allCategoriesForCount = await getAllTaxonomy(
@@ -64,7 +64,7 @@ const {
                 src={image}
                 height={600}
                 width={1200}
-                alt={title}
+                alt={image_alt ?? title}
                 class="w-full rounded"
                 sizes="(max-width: 640px) 90vw, (max-width: 1024px) 60vw, 859px"
                 widths={[430, 859, 1280]}
@@ -123,7 +123,7 @@ const {
       <h2 class="h3 mb-12 text-center">{related_posts}</h2>
       <div class="row justify-center">
         {
-          similarPosts.map((post) => (
+          similarPosts.slice(0, 3).map((post) => (
             <div class="lg:col-4 md:col-6 mb-14">
               <BlogCard data={post} />
             </div>

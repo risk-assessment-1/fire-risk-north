@@ -9,7 +9,7 @@ import { humanize, markdownify, plainify } from "@/lib/utils/textConverter";
 import ImageMod from "./ImageMod.astro";
 
 const { data } = Astro.props;
-const { title, image, date, author, categories } = data.data;
+const { title, image, image_alt, date, author, categories } = data.data;
 
 const lang = getLangFromUrl(Astro.url);
 
@@ -29,7 +29,7 @@ const { by, on } = await getTranslations(lang as string);
       src={image}
       width={445}
       height={350}
-      alt="blog-thumb"
+      alt={image_alt ?? title}
       sizes="(max-width: 768px) 90vw, (max-width: 1024px) 45vw, 429px"
       widths={[215, 429, 644]}
     />
