@@ -83,6 +83,7 @@ export default defineConfig({
         "@/shortcodes/Tabs",
         "@/shortcodes/Tab",
         "@/shortcodes/BlogCTA",
+        "@/shortcodes/BlogCTAPair",
         "@/shortcodes/InsightBox",
         "@/shortcodes/RawHTML",
       ],
