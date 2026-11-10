@@ -15,7 +15,7 @@ const BlogCTAPair: React.FC<IBlogCTAPair> = ({
   callHref = "tel:+441619871020",
 }) => {
   return (
-    <div className="not-prose my-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+    <div className="not-prose my-8 flex flex-col justify-start gap-4 sm:flex-row sm:items-center">
       <a
         href={quoteHref}
         className="btn btn-primary text-white inline-flex w-full items-center justify-center gap-2 whitespace-nowrap no-underline sm:w-72"
