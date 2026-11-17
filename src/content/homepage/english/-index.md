@@ -3,8 +3,8 @@
 hero_slider:
   enable: true
   slider_item:
-    - title: "Fire Risk Assessments North West"
-      content: "Risk assessments landlords and employers can book with Risk Assessment North, using BAFE SP205 registered assessors. Written reports within 24 hours on request."
+    - title: "Fire Risk Assessments Across the North West"
+      content: "Risk Assessment North provides fire risk assessments for landlords and employers across North West England, using BAFE SP205 registered assessors. Written reports available within 24 hours on request."
       bg_image: "/images/slider/banner-1.webp"
       button:
         enable: true
@@ -53,7 +53,7 @@ banner_feature:
 
     - name: "24hr Turnaround"
       icon: "FaClock"
-      content: "Fire risk assessment North West reports within 24 hours on request (may incur an additional charge)."
+      content: "Risk Assessment North reports within 24 hours on request (may incur an additional charge)."
 
 ######### funfacts ########
 funfacts:
