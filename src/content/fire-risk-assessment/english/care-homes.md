@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for Care Homes"
-meta_title: "Fire Risk Assessment for Care Homes - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Care Homes - Risk Assessment North"
 description: "Professional fire risk assessment for care homes. CQC compliant with PEEPs, medical oxygen safety, horizontal evacuation planning. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/care-homes.jpg"
 draft: false
@@ -137,7 +137,7 @@ Every care home fire risk assessment includes a comprehensive package designed t
 
 ![Care Home Communal Lounge with Mobility Aids](../../../assets/images/fire-risk-assessment/care-homes/care-home-hazard-lounge.png "Care Home Resident Safety Assessment")
 
-## Why Care Home Managers Choose Fire Assessment North
+## Why Care Home Managers Choose Risk Assessment North
 
 Care home managers across the UK trust us for their facilities because we understand the specific challenges of vulnerable resident fire safety:
 

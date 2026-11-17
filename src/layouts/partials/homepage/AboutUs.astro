@@ -21,13 +21,14 @@ const lang = getLangFromUrl(Astro.url);
             >
               {/* about us image  */}
               <ImageMod
-                class="w-100 max-md:pb-20"
+                class="w-full max-w-2xl max-md:pb-20"
                 src={about.image}
                 alt="About Image"
-                width={518}
-                height={492}
+                width={576}
+                height={576}
+                fit="cover"
                 sizes="(max-width: 768px) 90vw, (max-width: 1024px) 38vw, 537px"
-                widths={[350, 537, 806]}
+                widths={[350, 576, 700]}
               />
             </div>
             <div class="md:col-6">
@@ -40,7 +41,7 @@ const lang = getLangFromUrl(Astro.url);
                 set:html={markdownify(about.title)}
               />
               <div
-                class="mb-5 [&_p]:mb-5"
+                class="mb-6 leading-relaxed [&_p]:mb-6 [&_p]:leading-relaxed [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:my-6 [&_li]:mb-2"
                 set:html={markdownify(about.content, true)}
               />
               {about.button.enable && (

@@ -73,7 +73,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Bolton Businesses Choose Fire Assessment North
+  heading: Why Bolton Businesses Choose Risk Assessment North
   subtitle: Deep local expertise combined with outstanding service
   cards:
     - title: BAFE SP205 Registered
@@ -265,4 +265,4 @@ We carry out fire risk assessments Bolton landlords, agents and employers can pu
 
 If you need a fire risk assessor Bolton landlords can book without a long lead time, send the property details and we will confirm availability. The same team works as a fire safety consultant Bolton employers call on before a change of use, and as a fire risk assessment Bolton managing agents can rely on across a portfolio.
 
-For the wider picture, the [Fire Risk North](/) homepage sets out the regional service, and our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers the city end of Greater Manchester.
+For the wider picture, the [Risk Assessment North](/) homepage sets out the regional service, and our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers the city end of Greater Manchester.

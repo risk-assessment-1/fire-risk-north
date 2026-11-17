@@ -273,12 +273,26 @@ const homepageCollection = defineCollection({
         }),
       ),
     }),
+    process: z
+      .object({
+        enable: z.boolean().default(true),
+        title: z.string(),
+        description: z.string().optional(),
+        steps: z.array(
+          z.object({
+            name: z.string(),
+            content: z.string(),
+          }),
+        ),
+      })
+      .optional(),
     latest_news: z.object({
       enable: z.boolean().default(true),
       show_item: z.number(),
       title: z.string(),
       sub_title: z.string().optional(),
     }),
+    faq_section: faqSectionSchema.optional(),
   }),
 });
 

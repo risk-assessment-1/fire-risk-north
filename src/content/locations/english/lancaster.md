@@ -57,7 +57,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Lancaster Businesses Choose Fire Assessment North
+  heading: Why Lancaster Businesses Choose Risk Assessment North
   subtitle: Deep local expertise combined with outstanding service
   cards:
     - title: BAFE SP205 Registered
@@ -239,4 +239,4 @@ The fire risk assessments Lancaster landlords and agents order most often cover 
 
 If you need a fire risk assessor Lancaster landlords can book without a long lead time, send the property details and we will confirm availability. The same team works as a fire safety consultant Lancaster employers call on before a change of use, and as a fire risk assessment Lancaster agents can rely on across a portfolio.
 
-For the county view, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, and the [Fire Risk North](/) homepage sets out how it fits together.
+For the county view, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, and the [Risk Assessment North](/) homepage sets out how it fits together.

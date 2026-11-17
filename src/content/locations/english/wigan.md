@@ -70,7 +70,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Wigan Businesses Choose Fire Assessment North
+  heading: Why Wigan Businesses Choose Risk Assessment North
   subtitle: Deep local expertise combined with outstanding service
   cards:
     - title: BAFE SP205 Registered
@@ -262,4 +262,4 @@ We produce fire risk assessments Wigan licensees and landlords can use for licen
 
 If you need a fire risk assessor Wigan landlords can book at short notice, send the property details and we will confirm availability. The same team works as a fire safety consultant Wigan employers call on before a change of use, and as a fire risk assessment Wigan agents can apply across several buildings.
 
-Our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers the city end of Greater Manchester, and the [Fire Risk North](/) homepage sets out the regional service.
+Our [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers the city end of Greater Manchester, and the [Risk Assessment North](/) homepage sets out the regional service.

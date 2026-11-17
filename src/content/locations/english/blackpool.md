@@ -68,7 +68,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Blackpool Businesses Choose Fire Assessment North
+  heading: Why Blackpool Businesses Choose Risk Assessment North
   subtitle: Local knowledge of the Fylde Coast property market, backed by accredited assessors
   cards:
     - title: BAFE SP205 Registered
@@ -215,7 +215,7 @@ faq_section:
         HMOs and larger commercial buildings usually need a professional assessor.
 ---
 
-The path to safeguard a building, staff, guests and tenants starts with identifying the dangers within. We conduct fire risk assessments across Blackpool for business owners, landlords and property managers, identifying those dangers, who they affect and what has to change.
+The path to safeguard a building, staff, guests and tenants starts with identifying the dangers within. Risk Assessment North conducts fire risk assessments across Blackpool for business owners, landlords and property managers — a fire risk assessment inspection that identifies those dangers, who they affect and what has to change.
 
 Whether you manage a hotel near the Promenade, a guest house off Lytham Road, an HMO in South Shore, a shop in the centre or a commercial unit at the edge of Bispham, each building is unique in its combination of ignition sources, escape routes and occupants.
 
@@ -223,41 +223,41 @@ And the same place has different characteristics one season to the next, several
 
 ## The Five Principles Behind a Fire Risk Assessment
 
-A fire risk assessment is a considered look at a building to identify fire hazards, the people it will affect and whether the precautions in place are adequate. It considers the potential for a fire to start, how that fire could spread and whether people will be able to escape safely.
+A fire risk assessment is a considered look at a building to identify fire hazards, the people it will affect and whether the precautions in place are adequate. It considers the potential for a fire to start, how that fire could spread and whether people will be able to escape safely along the fire escapes and emergency exits, guided by the fire evacuation plan.
 
 The assessment follows five steps:
 
 - Identify the hazards: ignition sources, fuels and oxygen, even the less obvious such as cardboard stored in a stairwell, lint in a dryer vent.
 - Identify people at risk: employees, guests, residents, contractors and anyone who would be in need of assistance upon evacuation.
-- Evaluate and reduce: assess the existing measures against the identified hazards and determine what needs to change.
+- Fire risk evaluation: assess the existing measures against the identified hazards and determine what needs to change.
 - Record the findings: document the hazards, people at risk, existing measures and what changes are required.
 - Review and update: reassess when the building, its use or occupant changes.
 
-An effective Fire Risk Assessment Blackpool service works from the specifics of your building. Two hotels on the same street can have very different reports.
+An effective commercial fire risk assessment works from the specifics of your building. Two hotels on the same street can have very different reports.
 
 ## Why Fire Risk Assessments Matter in Blackpool
 
-Under the Regulatory Reform (Fire Safety) Order 2005, the responsible person for premises within scope of the order, such as sleeping accommodation, premises with a high occupancy and other designated buildings, must ensure a suitable and sufficient fire risk assessment is in place. This may be an employer, landlord, managing agent, business owner or another person with control of the premises.
+Under the Regulatory Reform (Fire Safety) Order 2005 and the wider fire safety regulations, the responsible person for premises within scope of the order, such as sleeping accommodation, premises with a high occupancy and other designated buildings, must ensure a suitable and sufficient fire risk assessment is in place. This may be an employer, landlord, managing agent, business owner or another person with control of the premises.
 
-The assessment itself has several functions. It identifies the hazards before they result in an incident, determines the level of risk to various occupants of the building, evaluates whether alarms, lighting, doors and escape routes would be adequate, examines the evacuation plan and prioritises expenditure.
+The assessment itself has several functions. It identifies the hazards before they result in an incident, determines the level of risk to various occupants of the building, evaluates whether alarms, emergency lighting, fire doors and escape routes would be adequate, examines the fire evacuation plan, checks the fire safety equipment in place and prioritises expenditure.
 
-Blackpool has many premises where fire safety is more critical. This applies to sleeping accommodation, public venues with high occupancy, those with seasonal turnover of staff and longer-established buildings where the layout has been repeatedly changed. The report is a legal document, but the importance is in the action plan that comes with it.
+Blackpool has many premises where fire safety is more critical. This applies to sleeping accommodation, public venues with high occupancy, those with seasonal turnover of staff and longer-established buildings where the layout has been repeatedly changed. The report is a legal document, but the importance is in the action plan that comes with it, backed by the fire safety documentation and procedures the responsible person can evidence.
 
 ## Why Local Blackpool Knowledge Matters
 
 Blackpool presents a range of property with seafront hotels, converted guest houses, modern retail units, offices, restaurants and residential blocks. There is variation in the buildings, so there is variation in the issues.
 
-Older and converted properties bring a combination of layouts that may have been fragmented by change. Multi-storey premises, limited numbers of escape routes and the result of decades of alteration combine to create challenges. Occupancy in hospitality businesses varies through the year, affecting the performance factors of escape routes and staffing levels.
+Older and converted properties bring a combination of layouts that may have been fragmented by change. Multi-storey premises, restricted fire escapes and the result of decades of alteration combine to create challenges. Occupancy in hospitality businesses varies through the year, affecting the performance factors of escape routes and staffing levels.
 
-Local knowledge means the assessor can consider the unique aspects of the building. A guest house with a cellar bar and a single stairwell will have different recommendations than a town centre office with two protected escape routes.
+Local knowledge means the assessor can consider the unique aspects of the building. A building fire risk assessment for a guest house with a cellar bar and a single stairwell will have different recommendations than one for a town centre office with two protected escape routes.
 
 ## What You Receive in Your Fire Risk Assessment Report
 
-The report is more than the identification of your hazards. It is a perspective on the building, a perspective on the necessary changes.
+Every property fire risk assessment starts with a fire risk assessment survey and fire safety inspection covering the premises, the people in it and the precautions in place, and the resulting report is more than the identification of your hazards. It is a perspective on the building, a perspective on the necessary changes.
 
 A report will cover premises details and scope of the assessment, hazards and people at risk, the evaluation of the existing precautions, the significant findings, recommendations with priority where applicable and guidance on review.
 
-For landlords, business owners and property managers, the document is a reference, a record for insurers and a planning tool for meetings with licensing or enforcing authorities. It is the prioritised plan you can cost and schedule, rather than a list of warnings.
+For landlords, business owners and property managers, the document is a reference, a record for insurers and a planning tool for meetings with licensing or enforcing authorities, as well as for any future fire safety audit. It is the prioritised plan you can cost and schedule, rather than a list of warnings.
 
 ## Fire Risk Assessment Blackpool Cost
 
@@ -274,6 +274,6 @@ There are several factors that affect the price.
 
 When comparing quotes for your assessment, be aware that the scope of the inspection and the competence of the assessor will influence the cost. So will the quality of the report and the relevance of the recommendations. An assessment that fails to address your issues means rework, and that adds to the cost.
 
-If you are looking for a fire risk assessor Blackpool landlords can book without long lead times, send the property details and we will confirm availability. The same team acts as a fire risk company Blackpool businesses call on for a straight answer, and as a fire risk consultant Blackpool property managers use to review an existing report and confirm its continuing validity. Fire risk services Blackpool wide run from the assessment through to the door, detection and lighting work it recommends.
+If you are looking for a fire risk assessor Blackpool landlords can book without long lead times, send the property details and we will confirm availability. The same team acts as a fire risk company Blackpool businesses call on for a straight answer, and as a fire risk consultant Blackpool property managers use to review an existing report and confirm its continuing validity. For year-round fire safety compliance, fire risk services Blackpool wide run from the assessment through to the door, detection and lighting work it recommends.
 
-For the regional view, our [Fire Risk North](/) page covers the wider service, and [Fire Safety Management Lancashire](/fire-risk-assessments-lancashire) sets out how the county work fits alongside it.
+For the regional view, our [Risk Assessment North](/) page covers the wider service, and [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) sets out how the county work fits alongside it.

@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for Restaurants"
-meta_title: "Fire Risk Assessment for Restaurants & Cafes - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Restaurants & Cafes - Risk Assessment North"
 description: "Professional fire risk assessment for restaurants, cafes and takeaways. Commercial kitchen safety, TR19 extraction compliance, UL 300 fire suppression. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/restaurants.jpg"
 draft: false
@@ -140,7 +140,7 @@ Every restaurant fire risk assessment includes a comprehensive package designed 
 
 ![Commercial Kitchen Cooking Equipment - Fire Safety](../../../assets/images/fire-risk-assessment/restaurants/restaurant-hazard-kitchen-1.png "Restaurant Kitchen Assessment")
 
-## Why Restaurant Owners Choose Fire Assessment North
+## Why Restaurant Owners Choose Risk Assessment North
 
 Restaurant owners and chefs across the UK trust us for their premises because we understand the specific challenges of commercial kitchen fire safety:
 

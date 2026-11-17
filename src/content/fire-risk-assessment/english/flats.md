@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for Flats"
-meta_title: "Fire Risk Assessment for Flats - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Flats - Risk Assessment North"
 description: "Professional fire risk assessment for residential flats and apartment blocks. Compliant with Fire Safety Act 2021, Building Safety Act 2022, and BS 9792:2025. BAFE SP205 registered assessors."
 image: "../../../assets/images/fire-risk-assessment/flats.jpg"
 draft: false
@@ -147,7 +147,7 @@ Every flats fire risk assessment includes a comprehensive package designed to me
 
 ![Fire door inspection being carried out in a residential block](../../../assets/images/fire-risk-assessment/flats/flats-hazard-fire-doors.png "Flats Fire Door Inspection")
 
-## Why Property Managers Choose Fire Assessment North
+## Why Property Managers Choose Risk Assessment North
 
 Property managers and freeholders across the UK trust us for their blocks because we understand the specific challenges of residential fire safety:
 

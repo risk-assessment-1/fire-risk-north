@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for Schools"
-meta_title: "Fire Risk Assessment for Schools - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Schools - Risk Assessment North"
 description: "Professional fire risk assessment for schools and educational establishments. CLEAPSS science lab compliance, Building Bulletin 100, Ofsted-ready PEEPs. BAFE SP205 registered assessors."
 image: "../../../assets/images/fire-risk-assessment/schools.jpg"
 draft: false
@@ -136,7 +136,7 @@ Every school fire risk assessment includes a comprehensive package designed to m
 
 ![School Science Laboratory CLEAPSS Fire Safety](../../../assets/images/fire-risk-assessment/schools/school-science-lab-1.png "School Science Lab Assessment")
 
-## Why Schools Choose Fire Assessment North
+## Why Schools Choose Risk Assessment North
 
 Headteachers and governors across the UK trust us for their schools because we understand the specific challenges of educational fire safety:
 

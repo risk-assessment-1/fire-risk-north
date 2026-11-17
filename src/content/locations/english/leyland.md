@@ -70,7 +70,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Leyland Businesses Choose Fire Assessment North
+  heading: Why Leyland Businesses Choose Risk Assessment North
   subtitle: Deep local expertise combined with outstanding service
   cards:
     - title: BAFE SP205 Registered
@@ -264,4 +264,4 @@ We deliver fire risk assessments Leyland employers use as the basis for a mainte
 
 If you need a fire risk assessor Leyland landlords can book at short notice, send the property details and we will confirm availability. The same team works as a fire safety consultant Leyland employers call on before a change of use, and as a fire risk assessment Leyland agents can apply across several sites.
 
-For the county side, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, and the [Fire Risk North](/) homepage sets out how everything fits together.
+For the county side, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, and the [Risk Assessment North](/) homepage sets out how everything fits together.

@@ -71,7 +71,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Chorley Businesses Choose Fire Assessment North
+  heading: Why Chorley Businesses Choose Risk Assessment North
   subtitle: Deep local expertise combined with outstanding service
   cards:
     - title: BAFE SP205 Registered
@@ -263,4 +263,4 @@ Our fire risk assessments Chorley agents commission tend to cover several units 
 
 If you need a fire risk assessor Chorley landlords can book at short notice, send the property details and we will confirm availability. The same team works as a fire safety consultant Chorley employers call on before a change of use, and as a fire risk assessment Chorley agents can apply across several sites.
 
-For the county picture, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, and the [Fire Risk North](/) homepage explains how it fits together.
+For the county picture, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page covers the wider service, and the [Risk Assessment North](/) homepage explains how it fits together.

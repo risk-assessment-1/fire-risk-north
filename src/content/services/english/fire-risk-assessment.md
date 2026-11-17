@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment"
-meta_title: "Fire Risk Assessment Services - Fire Assessment North"
+meta_title: "Fire Risk Assessment Services - Risk Assessment North"
 description: "Professional fire risk assessments compliant with the Regulatory Reform (Fire Safety) Order 2005 and PAS 79 methodology."
 image: "../../../assets/images/services/fire-risk-assessment.jpg"
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Fire Door Inspection"
-meta_title: "Fire Door Inspection Services - Fire Assessment North"
+meta_title: "Fire Door Inspection Services - Risk Assessment North"
 description: "Professional fire door inspections by BM Trada Q-Mark certified surveyors in accordance with BS 8214 and Regulation 10 requirements."
 image: "../../../assets/images/services/fire-door-inspection.jpg"
 draft: false

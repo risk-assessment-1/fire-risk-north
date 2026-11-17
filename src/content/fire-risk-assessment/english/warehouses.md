@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for Warehouses"
-meta_title: "Fire Risk Assessment for Warehouses - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Warehouses - Risk Assessment North"
 description: "Professional fire risk assessment for warehouses and distribution centres. BS EN 12845 sprinkler compliance, lithium-ion battery safety, DSEAR chemical storage. BAFE SP205 registered assessors with 24-hour turnaround available on request."
 image: "../../../assets/images/fire-risk-assessment/warehouses.jpg"
 draft: false
@@ -141,7 +141,7 @@ Every warehouse fire risk assessment includes a comprehensive package designed t
 
 ![Warehouse High-Bay Racking System Fire Risk](../../../assets/images/fire-risk-assessment/warehouses/warehouse-high-bay-storage.png "Warehouse High-Bay Storage Assessment")
 
-## Why Warehouse Operators Choose Fire Assessment North
+## Why Warehouse Operators Choose Risk Assessment North
 
 Warehouse operators and logistics managers across the UK trust us for their facilities because we understand the specific challenges of warehouse fire safety:
 

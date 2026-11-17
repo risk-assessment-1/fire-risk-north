@@ -1,6 +1,6 @@
 ---
 title: "Testimonials"
-meta_title: "Client Testimonials - Fire Assessment North"
+meta_title: "Client Testimonials - Risk Assessment North"
 description: "Read what our clients say about our fire risk assessment services. Trusted by 500+ UK businesses with 4.9/5 verified reviews."
 image: "/images/og-image.jpg"
 draft: false
@@ -21,4 +21,4 @@ Our commitment to quality, speed and value has earned us a 4.9/5 rating from ove
 - **Competitive pricing** — Save up to 68% compared to national providers
 - **Expert assessors** — UKAS accredited with 25+ years of experience
 
-[Get a free quote](/contact) and experience the Fire Assessment North difference.
+[Get a free quote](/contact) and experience the Risk Assessment North difference.

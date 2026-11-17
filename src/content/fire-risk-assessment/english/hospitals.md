@@ -1,6 +1,6 @@
 ---
 title: "Fire Risk Assessment for Hospitals"
-meta_title: "Fire Risk Assessment for Hospitals - Fire Assessment North"
+meta_title: "Fire Risk Assessment for Hospitals - Risk Assessment North"
 description: "Professional fire risk assessment for hospitals and healthcare premises. HTM 05-02 compliant, progressive horizontal evacuation, medical gas safety, CQC documentation. BAFE SP205 registered assessors."
 image: "../../../assets/images/fire-risk-assessment/hospitals.jpg"
 draft: false
@@ -141,7 +141,7 @@ Every hospital fire risk assessment includes a comprehensive package designed to
 
 ![Medical Oxygen Cylinder Storage - Hospital Fire Safety](../../../assets/images/fire-risk-assessment/hospitals/oxygen-storage.png "Hospital Medical Oxygen Assessment")
 
-## Why NHS Trusts Choose Fire Assessment North
+## Why NHS Trusts Choose Risk Assessment North
 
 NHS trust managers and hospital compliance officers across the UK trust us for their facilities because we understand the specific challenges of healthcare fire safety:
 

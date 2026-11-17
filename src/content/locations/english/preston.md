@@ -68,7 +68,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Preston Landlords Choose Fire Assessment North
+  heading: Why Preston Landlords Choose Risk Assessment North
   subtitle: Terraces, HMOs and student lets assessed by people who know the local stock
   cards:
     - title: BAFE SP205 Registered
@@ -209,37 +209,37 @@ faq_section:
 
 Preston has a housing problem that shows up in its fire risk assessments. A large student population, a dense belt of Victorian terraces around the university and a rental market that has converted family homes into shared housing over several decades. Some of those conversions were done well. Plenty were not.
 
-We assess rented property, commercial premises and public buildings across Preston and central Lancashire. The work starts with the building as it exists, not as the plans say it should be.
+We assess rented property, commercial premises and public buildings across Preston and central Lancashire. Each property fire risk assessment starts with the building as it exists, not as the plans say it should be.
 
-That distinction matters here. Fire doors that were fitted in 2008 may have been replaced with ordinary doors since. A loft conversion may have eaten the headroom on a staircase. A kitchen may have moved. An assessment that works from the original drawings will miss all of it.
+That distinction matters here, and it is why an on-site fire safety inspection beats desk-based paperwork every time. Fire doors that were fitted in 2008 may have been replaced with ordinary doors since. A loft conversion may have eaten the headroom on a staircase. A kitchen may have moved. An assessment that works from the original drawings will miss all of it.
 
 ## Fire Risk Assessment Preston: What the Assessment Does
 
-A fire risk assessment records how a building would behave in a fire and whether the people inside could get out safely. It identifies hazards, evaluates the existing precautions and sets out what needs to change.
+A fire risk assessment records how a building would behave in a fire and whether the people inside could get out safely. The fire risk evaluation identifies hazards, weighs the existing precautions and the resulting fire risk assessment report sets out what needs to change.
 
-Fire Risk Assessments Preston landlords commission usually focus on the shared parts of a building. Stairs, landings, communal kitchens, hallways, bin areas and the doors that separate them. Those are the elements a tenant cannot control and a landlord is expected to manage.
+Fire risk assessment inspections Preston landlords commission usually focus on the shared parts of a building. Stairs, landings, communal kitchens, hallways, bin areas and the doors that separate them. Those are the elements a tenant cannot control and a landlord is expected to manage.
 
-For commercial premises the scope widens. Kitchens, storage, electrical installations, plant, workshops and the way staff are trained.
+For a commercial fire risk assessment the scope widens. Kitchens, storage, electrical installations, plant, fire safety equipment, workshops and the way staff are trained.
 
 ## Why It Matters
 
-The Fire Safety Order applies to the common parts of residential buildings and to all non-domestic premises. Lancashire Fire and Rescue Service enforces it locally, and Preston City Council's licensing team applies its own conditions to HMOs.
+The Fire Safety Order and the fire safety regulations under it apply to the common parts of residential buildings and to all non-domestic premises. Lancashire Fire and Rescue Service enforces it locally, and Preston City Council's licensing team applies its own conditions to HMOs.
 
-Those two regimes overlap in ways that catch landlords out. A property can satisfy the council's licensing inspection and still have a fire safety problem that the Fire Safety Order addresses. Licensing checks tend to be a snapshot. A fire risk assessment looks at how the building performs when it is full.
+Those two regimes overlap in ways that catch landlords out. A property can satisfy the council's licensing inspection and still fall short of the fire safety compliance the Fire Safety Order demands. Licensing checks tend to be a snapshot. A fire risk assessment looks at how the building performs when it is full.
 
-There is a practical benefit too. A clear action list lets you plan spending across the year rather than reacting to a tenant complaint or an enforcement letter. Fire safety risk assessments Preston landlords commission should draw that line clearly, because passing a licensing visit does not prove the building would perform in a fire.
+There is a practical benefit too. A clear action list lets you plan spending across the year rather than reacting to a tenant complaint, an enforcement letter or a fire safety audit. Fire safety risk assessments Preston landlords commission should draw that line clearly, because passing a licensing visit does not prove the building would perform in a fire.
 
 ## Common Problems in Preston Terraces
 
-Preston's Victorian stock produces the same problems again and again. A loft conversion that took the headroom out of a protected stair. A kitchen moved from the back of the house into the middle, with no thought about where smoke would travel. Cellar rooms turned into bedrooms with no alternative way out. Original panelled doors swapped for fire doors during a cosmetic refit, or the other way around.
+Preston's Victorian stock produces the same problems again and again. A loft conversion that took the headroom out of a protected stair. A kitchen moved from the back of the house into the middle, with no thought about where smoke would travel. Cellar rooms turned into bedrooms with no alternative fire escape or compliant emergency exit. Original panelled doors swapped for fire doors during a cosmetic refit, or the other way around.
 
-Some of that work passes a licensing inspection, because the inspection looks at the property on the day. It does not model how the building behaves with twelve people asleep inside it.
+Some of that work passes a licensing inspection, because the inspection looks at the property on the day. It does not model how the building behaves with twelve people asleep inside it, or whether the fire evacuation plan would actually work.
 
 An assessment records each finding with a priority attached. Immediate risks get dealt with first. Items needing a contractor get quoted. Cosmetic improvements go on a rolling programme so the spend is spread across the year.
 
 ## Working With Letting Agents and Portfolio Landlords
 
-Letting agents often hold the assessment history for a dozen addresses and no clear picture of which ones are overdue. We can start from your list and work through it property by property, producing reports on a consistent template.
+Letting agents often hold the assessment history for a dozen addresses and no clear picture of which ones are overdue. We can start from your list and work through it property by property — a fire risk assessment survey on each address, producing reports on a consistent template.
 
 That consistency pays off at renewal time. A fire safety management Preston wide programme, run on one format, makes it obvious which buildings need money this year and which can wait.
 
@@ -249,14 +249,14 @@ If you would rather test the water first, a fire safety consultant Preston landl
 
 Most Preston premises sit under the Regulatory Reform (Fire Safety) Order 2005. HMOs also fall under the Housing Act 2004 and the local licensing regime, which brings the Housing Health and Safety Rating System into play. Newer residential buildings above the height threshold come under the Building Safety Act 2022.
 
-We also work to PAS 79 methodology, which gives the assessment a consistent structure and makes the report easier for an enforcing officer to follow.
+We also work to PAS 79 methodology, which gives every building fire risk assessment a consistent structure and makes the report easier for an enforcing officer to follow.
 
 ## Cost and What Shapes It
 
-Fire Risk Assessment Preston pricing starts at £249. The variables are predictable. Floor area and the number of storeys. The number of lettable rooms in an HMO. Occupancy. The type and condition of the existing fire precautions. How much documentation exists and how much needs to be created.
+Fire Risk Assessment Preston pricing starts at £249. The variables are predictable. Floor area and the number of storeys. The number of lettable rooms in an HMO. Occupancy. The type and condition of the existing fire precautions. How much fire safety documentation exists and how much needs to be created.
 
-A six-bedroom terrace with a compliant alarm system is a quick job. A fourteen-bedroom HMO with a mixed alarm system and doors of three different vintages is not. We quote on the details because the details are the job. Our fire risk services Preston wide run from the assessment through to the door and detection work that follows.
+A six-bedroom terrace with a compliant alarm system and documented fire safety procedures is a quick job. A fourteen-bedroom HMO with a mixed alarm system and doors of three different vintages is not. We quote on the details because the details are the job. Our fire risk services Preston wide run from the assessment through to the door and detection work that follows.
 
 A fire risk assessor Preston landlords can book through us will usually see several addresses on the same round, which keeps the advice consistent between them. Fire risk consultants Preston landlords compare on price usually find the differences come down to scope rather than a daily rate.
 
-If you need a Fire Risk Assessor Lancashire landlords can call on for a property in Preston, get in touch. For the wider county picture, our [Fire Safety Management Lancashire](/fire-risk-assessments-lancashire) page sets out how the work fits together, and [Fire Risk North](/) covers the regional service.
+If you need a Fire Risk Assessor Lancashire landlords can call on for a property in Preston, get in touch. For the wider county picture, our [Fire Risk Assessment Lancashire](/fire-risk-assessments-lancashire) page sets out how the work fits together, and [Risk Assessment North](/) covers the regional service.

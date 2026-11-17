@@ -72,7 +72,7 @@ five_steps_fra:
       icon: refresh-cw
 features:
   enable: true
-  heading: Why Salford Businesses Choose Fire Assessment North
+  heading: Why Salford Businesses Choose Risk Assessment North
   subtitle: Deep local expertise combined with outstanding service
   cards:
     - title: BAFE SP205 Registered
@@ -262,4 +262,4 @@ Our fire risk assessments Salford managing agents order for higher-risk building
 
 If you need a fire risk assessor Salford landlords can book without a long lead time, send the property details and we will confirm availability. The same team works as a fire safety consultant Salford managing agents call on for higher-risk buildings, and as a fire risk assessment Salford owners can rely on across a portfolio.
 
-The [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers the city side of Greater Manchester, and the [Fire Risk North](/) homepage sets out the wider service.
+The [Fire Risk Assessment Manchester](/fire-risk-assessments-manchester) page covers the city side of Greater Manchester, and the [Risk Assessment North](/) homepage sets out the wider service.

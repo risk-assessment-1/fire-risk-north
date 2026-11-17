@@ -1,8 +1,11 @@
 ---
 import Base from "@/layouts/Base.astro";
 import { getListPage, getSinglePage } from "@/lib/contentParser.astro";
-import { supportedLang } from "@/lib/utils/languageParser";
-import CallToActionLG from "@/partials/CallToActionLG.astro";
+import {
+  getLangFromUrl,
+  slugSelector,
+  supportedLang,
+} from "@/lib/utils/languageParser";
 import Testimonial from "@/partials/Testimonial.astro";
 import AboutUs from "@/partials/homepage/AboutUs.astro";
 import BannerFeature from "@/partials/homepage/BannerFeature.astro";
@@ -11,7 +14,9 @@ import Locations from "@/partials/homepage/Locations.astro";
 import FunFacts from "@/partials/homepage/FunFacts.astro";
 import HeroSlider from "@/partials/homepage/HeroSlider.astro";
 import LatestNews from "@/partials/homepage/LatestNews.astro";
+import FiveStepsFRA from "@/layouts/components/FiveStepsFRA.astro";
 import ServiceSection from "@/partials/homepage/ServiceSection.astro";
+import FAQSection from "@/components/FAQSection.astro";
 // import Team from "@/partials/homepage/Team.astro";
 
 export function getStaticPaths() {
@@ -24,8 +29,15 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 const homepage = await getListPage("homepage", lang as string);
 
-const { hero_slider, banner_feature, funfacts, feature, latest_news } =
-  homepage[0].data;
+const {
+  hero_slider,
+  banner_feature,
+  funfacts,
+  feature,
+  latest_news,
+  faq_section,
+  process,
+} = homepage[0].data;
 
 const aboutIndex = await getListPage("about", lang as string);
 const serviceIndex = await getListPage("services", lang as string);
@@ -54,17 +66,11 @@ const testimonial = await getSinglePage(
   lang as string,
   "testimonial",
 );
-
-const callToAction = await getSinglePage(
-  "callToAction",
-  lang as string,
-  "call-to-action",
-);
 ---
 
 <Base
-  title="Fire Risk North | Fire Safety Management Company"
-  description="Our comprehensive fire risk assessments across the North identify potential fire hazards, helping businesses & property landlords maintain compliance."
+  title="Fire Risk Assessments North West | Fire Safety Management Company"
+  description="Our comprehensive fire risk assessments across the North West identify potential fire hazards, helping businesses & property landlords maintain compliance."
 >
   <HeroSlider heroSlider={hero_slider} />
   <BannerFeature bannerFeature={banner_feature} />
@@ -78,6 +84,56 @@ const callToAction = await getSinglePage(
   />
   <Locations locations={locations} otherLocations={otherLocations} />
   <Testimonial testimonial={testimonial[0].data} />
-  <CallToActionLG callToAction={callToAction[0].data} />
+  {
+    process && process.enable && (
+      <FiveStepsFRA
+        data={{
+          heading: process.title,
+          description: process.description,
+          steps: process.steps.map((s, i) => ({
+            number: i + 1,
+            title: s.name,
+            description: s.content,
+            icon: "",
+          })),
+        }}
+      />
+    )
+  }
+  <section
+    class="section overlay-secondary bg-[url('/images/backgrounds/cta-lg.jpg')]"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="lg:col-7 md:col-10 col-11 text-center mx-auto">
+          <h2 class="h1 text-white relative mb-8">
+            Book Your Fire Risk Assessment Today
+          </h2>
+          <p class="text-white/80 relative mb-4">
+            If you need a fire risk assessment company in the North West, send
+            us the property basics and we will confirm the earliest slot and
+            reporting timescale.
+          </p>
+          <p class="text-white/80 relative mb-4">
+            Urgent requests, enforcement notices and licence deadlines
+            included, get moved up the queue where we can. 24-hour report
+            delivery on request.
+          </p>
+          <p class="text-white/80 relative mb-12">
+            One call keeps the whole picture covered. The assessment, any
+            remedial work it flags, and the annual review that keeps you
+            compliant year after year, all handled by one team.
+          </p>
+          <a
+            href={slugSelector("/contact", getLangFromUrl(Astro.url))}
+            class="btn btn-primary hover-ripple relative"
+          >
+            Get a Quote
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {faq_section && faq_section.enable && <FAQSection data={faq_section} />}
   <LatestNews posts={posts} latest_news={latest_news} />
 </Base>
